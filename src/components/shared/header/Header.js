@@ -10,7 +10,7 @@ import EkomiVektor from "/public/assets/img/ekomi-vektor.png";
 import Logo from "/public/assets/img/logo.png";
 import ProvenExpert from "/public/assets/img/proven-expert.png";
 import TrustedShops from "/public/assets/img/trusted-shops.png";
-import BankingCheck49 from "public/assets/img/banking_check4-9.png";
+import NTV from "/public/assets/img/ntv.png";
 
 const Header = () => {
   const router = useRouter();
@@ -95,6 +95,13 @@ const Header = () => {
           </div>
           <div className="col-md-5 col-lg-3 col-4 d-flex align-items-center gap-md-3 header-imgs header_seal_column">
             <Image
+              className="Image-fluid header_fourth_img me-1"
+              src={NTV}
+              alt=""
+              width="87"
+              height="68"
+            />
+            <Image
               className="Image-fluid m-icon me-1"
               src={EkomiVektor}
               alt=""
@@ -115,67 +122,58 @@ const Header = () => {
               width="87"
               height="68"
             />
-            <Image
-              className="Image-fluid header_fourth_img me-1"
-              src={BankingCheck49}
-              alt=""
-              width="87"
-              height="68"
-            />
           </div>
 
-          <div className="col-md-6 col-lg-5 text-end d-none d-lg-flex">
-            <div className="nav_support_text">
-              <p className="mb-0">
-                SUPPORT :<span className="fnt-bld"> MO - DO (10 - 17 UHR)</span>
-              </p>
-              <p className="fnt-bld mb-0">FR (10 - 15 UHR)</p>
-            </div>
-            <div className="nav_phone_btn">
-              <a
-                href="tel:040 76118501"
-                className="call-btn text-white position-relative"
-              >
-                <PhoneSvg />
-                <span className="fnt-bld">040 64539254</span>
-              </a>
-            </div>
-          </div>
-          <div className="col-2 col-md-3 d-block d-lg-none text-md-end">
-            <button
-              className={`navbar_btn navbar-toggler ${
-                isMenuOpen ? "active" : "inactive"
-              }`}
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasWithBackdrop"
-              aria-controls="offcanvasWithBackdrop"
-              aria-expanded={isMenuOpen}
-              aria-label="Toggle navigation"
-              onClick={toggleMenu}
+          <div className="col-md-6 col-lg-4 text-end d-none d-lg-block ">
+            <a
+              href="tel:040 76118501"
+              className="call-btn text-white position-relative"
             >
-              <span className="navbar-toggler-icon">
-                <div className="menu_text">Menü</div>
-                <div className="navbar-toggler-icon-bar">
-                  <span
-                    className={`toggler-icon top-bar ${
-                      isMenuOpen ? "top-bar-open" : "top-bar-close"
-                    }`}
-                  ></span>
-                  <span
-                    className={`toggler-icon middle-bar ${
-                      isMenuOpen ? "middle-bar-open" : "middle-bar-close"
-                    }`}
-                  ></span>
-                  <span
-                    className={`toggler-icon bottom-bar ${
-                      isMenuOpen ? "bottom-bar-open" : "bottom-bar-close"
-                    }`}
-                  ></span>
-                </div>
-              </span>
-            </button>
+              <PhoneSvg />
+              <span className="fnt-bld">{`040  76116444`}</span>
+            </a>
+            <p className="mb-0 mo-fr">
+              <span className="fnt-bld "> MO - FR:</span> 10 - 15 UHR
+            </p>
           </div>
+        </div>
+      </div>
+      <div className="green-line"></div>
+      <div className="container">
+        <div className="col-2 col-md-3 d-block d-lg-none text-md-end">
+          <button
+            className={`navbar_btn navbar-toggler ${
+              isMenuOpen ? "active" : "inactive"
+            }`}
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBackdrop"
+            aria-controls="offcanvasWithBackdrop"
+            aria-expanded={isMenuOpen}
+            aria-label="Toggle navigation"
+            onClick={toggleMenu}
+          >
+            <span className="navbar-toggler-icon">
+              <div className="menu_text">Menü</div>
+              <div className="navbar-toggler-icon-bar">
+                <span
+                  className={`toggler-icon top-bar ${
+                    isMenuOpen ? "top-bar-open" : "top-bar-close"
+                  }`}
+                ></span>
+                <span
+                  className={`toggler-icon middle-bar ${
+                    isMenuOpen ? "middle-bar-open" : "middle-bar-close"
+                  }`}
+                ></span>
+                <span
+                  className={`toggler-icon bottom-bar ${
+                    isMenuOpen ? "bottom-bar-open" : "bottom-bar-close"
+                  }`}
+                ></span>
+              </div>
+            </span>
+          </button>
         </div>
       </div>
       <div className={`d-lg-none mob-navigation `}>

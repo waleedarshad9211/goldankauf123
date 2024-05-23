@@ -1,19 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 @import "./_reset.css";
 @font-face {
-  font-family: "Brighter-DEMO";
-  src: url("/assets/fonts/Fonts-Amithen-and-Brighter/Brighter-DEMO.ttf")
-    format("truetype");
-}
-@font-face {
-  font-family: "Amithen";
-  src: url("/assets/fonts/Fonts-Amithen-and-Brighter/Amithen.ttf")
-    format("truetype");
+  font-family: "GT America";
+  font-weight: 400;
+  src: url("/assets/fonts/GT-America-Extended-Regular.ttf") format("truetype");
 }
 
-img {
-  object-fit: contain !important;
+@font-face {
+  font-family: "GT America";
+  font-weight: 500;
+  src: url("/assets/fonts/GT-America-Extended-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "GT America";
+  font-weight: 700;
+  src: url("/assets/fonts/GT-America-Extended-Bold.ttf") format("truetype");
 }
 
 * {
@@ -22,8 +23,24 @@ img {
   box-sizing: border-box;
 }
 body {
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "GT America", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #121212;
 }
+.extended-regular {
+  font-weight: 400;
+}
+.extended-medium {
+  font-weight: 500;
+}
+
+.extended-bold {
+  font-weight: 700;
+}
+
 :focus {
   outline: none;
   border: none;
@@ -31,6 +48,10 @@ body {
 .container {
   max-width: 1140px !important;
   position: relative;
+}
+
+img {
+  object-fit: contain !important;
 }
 
 a {
@@ -51,12 +72,12 @@ ul {
 }
 h1 {
   font-size: 43px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 700;
 }
 h2 {
   font-size: 30px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
 }
 .menu_text {
@@ -92,10 +113,9 @@ h2 {
   background-color: #ffffff;
 }
 .navbar {
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 .fnt-bld {
-  font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 .nav_phone_btn {
@@ -106,17 +126,29 @@ h2 {
   flex: 1;
 }
 .call-btn {
-  background: #019ba5;
-  padding: 5px 15px;
+  background: #36a18b;
+  padding: 3px 10px;
   text-decoration: none;
-  border-radius: 45px;
-  font-weight: bold;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 700;
   margin-top: 5px;
+  letter-spacing: 1px;
   height: 35px;
+  margin-bottom: 20px;
 }
 .call-btn svg {
-  margin-bottom: 2px;
-  margin-right: 14px;
+  margin-bottom: 1px;
+  padding-bottom: 3px;
+  margin-right: 2px;
+}
+.mo-fr {
+  font-size: 22px;
+}
+.green-line {
+  width: 100%;
+  background-color: #36a18b;
+  height: 2px;
 }
 .line {
   width: 2px;
@@ -130,19 +162,24 @@ h2 {
 }
 
 .active {
-  color: #4a4a4a !important;
-  border-bottom: 4px solid #019ba5 !important;
-  font-family: "Open Sans", sans-serif;
+  background-color: #e8f3ed !important;
+  color: #36a18b !important;
+  padding: 1px 10px;
+  border-radius: 10px;
 }
 .nav-item a {
-  color: #4a4a4a;
+  color: #36a18b;
   text-decoration: none;
 }
+ul.navbar-nav {
+  align-items: center;
+}
+
 .navbar-nav .nav-link.active,
 .nav-link:hover,
 .nav-link:focus,
 .dropdown-item:hover {
-  color: #4a4a4a !important;
+  color: #36a18b !important;
 }
 header .dropdown-item.active,
 .dropdown-item:active {
@@ -160,7 +197,7 @@ header .dropdown-menu.show li a:hover {
 }
 header nav .collapse ul li a {
   color: #4a4a4a;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
 }
 header .dropdown-menu.show li a.active {
@@ -177,7 +214,7 @@ header .dropdown-menu.show li a.active {
   background-color: #616065;
 }
 .nav_subheader_main_div {
-  background-color: #019ba5;
+  background-color: #36a18b;
 }
 .nav_subheader_main {
   display: flex;
@@ -203,27 +240,14 @@ header .dropdown-menu.show li a.active {
 .nav_subheader_left .div1,
 .nav_subheader_right .div1 {
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  font-weight: 500;
 }
-.nav_subheader_left .div2 {
-  background-color: #65c2c9;
+.div2 {
+  background-color: #c8e6e0;
+  border-radius: 10px;
   border: 1px solid #ffffff;
-  border-radius: 100px;
-  padding: 1px 20px;
-  color: #ffffff;
-  font-weight: bold;
-  margin-right: 10px;
-  cursor: pointer;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.nav_subheader_right .div2 {
-  background-color: #65c2c9;
-  border-radius: 100px;
-  border: 1px solid #ffffff;
-  padding: 1px 20px;
-  color: #ffffff;
-  font-weight: bold;
+  padding: 1px 10px;
+  font-weight: 500;
   margin-right: 10px;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -279,7 +303,7 @@ header .dropdown-menu.show li a.active {
   .nav_subheader_mob_top .div1,
   .nav_subheader_mob_bottom .div1 {
     color: #ffffff;
-    font-family: "Open Sans", sans-serif;
+
     font-weight: bold;
     font-size: 12px;
   }
@@ -399,7 +423,7 @@ header .dropdown-menu.show li a.active {
 
 .value-calculate h2 {
   font-size: 30px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 700;
   margin-bottom: 25px;
 }
@@ -531,7 +555,7 @@ header .dropdown-menu.show li a.active {
 
 .current-metal-values h2 {
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
   font-size: 26px;
   color: #3a3a3c;
@@ -541,7 +565,6 @@ header .dropdown-menu.show li a.active {
   font-size: 44px;
   font-weight: bold;
   color: rgb(57, 57, 60);
-  font-family: "Open Sans", sans-serif;
 }
 
 .current-metal-values .btn-values {
@@ -574,7 +597,7 @@ header .dropdown-menu.show li a.active {
 }
 .pricing h3 {
   font-size: 30px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
   color: #2f2f2f;
 }
@@ -588,7 +611,7 @@ header .dropdown-menu.show li a.active {
   background-color: #ffffff;
   padding: 10px;
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 300;
   text-align: center;
 }
@@ -599,7 +622,7 @@ header .dropdown-menu.show li a.active {
 }
 .pricing .gold-prices {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
+
   color: rgb(61, 61, 62);
   font-weight: 500;
 }
@@ -608,7 +631,7 @@ header .dropdown-menu.show li a.active {
   .current-metal-values .value {
     font-size: 30px;
     line-height: 36px;
-    font-family: "Open Sans", sans-serif;
+
     font-weight: 800;
   }
   .current-metal-values .btn-values {
@@ -642,7 +665,7 @@ header .dropdown-menu.show li a.active {
   }
   .pricing .gold-prices {
     font-size: 14px;
-    font-family: "Open Sans", sans-serif;
+
     font-weight: 700;
     line-height: 1.181;
     text-align: left;
@@ -936,7 +959,7 @@ header .dropdown-menu.show li a.active {
   background-color: #019ba5;
   padding: unset;
   font-size: 13px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 800;
   -webkit-transform: rotate(40deg);
   transform: rotate(40deg);
@@ -959,7 +982,7 @@ header .dropdown-menu.show li a.active {
   border: none;
   margin-top: 8px;
   font-size: 14.14px;
-  font-family: "Open Sans", sans-serif;
+
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
 .kostenlos input::placeholder {
@@ -1073,13 +1096,13 @@ header .dropdown-menu.show li a.active {
 .current-value h2 {
   font-size: 30px;
   line-height: 39px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 700;
 }
 .current-value .current-price {
   font-size: 46px;
   line-height: 58px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 700;
   margin-bottom: 10px;
   color: rgb(57, 57, 60);
@@ -1140,7 +1163,7 @@ header .dropdown-menu.show li a.active {
   .current-value .current-price {
     font-size: 30px;
     line-height: 36px;
-    font-family: "Open Sans", sans-serif;
+
     font-weight: 800;
   }
   .current-value .calc-table {
@@ -1338,11 +1361,13 @@ header .dropdown-menu.show li a.active {
     color: #ffffff;
     padding: 10px 15px;
     display: block;
-    font-family: "Open Sans", sans-serif;
+
     font-weight: bold;
   }
   .nav-item {
     height: 100%;
+    display: flex;
+    align-items: center;
   }
   .navbar-expand-lg .navbar-collapse li.nav-item a.nav-link.active {
     background-color: #d9c26c !important;
@@ -5358,7 +5383,7 @@ header .dropdown-menu.show li a.active {
   background-color: #019ba5;
   padding: unset;
   font-size: 13px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 800;
   transform: rotate(40deg);
   width: 200px;
@@ -5374,7 +5399,7 @@ header .dropdown-menu.show li a.active {
   border-radius: 10px;
   height: 41px;
   font-size: 14.14px;
-  font-family: "Open Sans", sans-serif;
+
   border: none;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
@@ -5451,7 +5476,7 @@ header .dropdown-menu.show li a.active {
   background-color: #ffffff !important;
   border-radius: 10px;
   font-size: 14.14px;
-  font-family: "Open Sans", sans-serif;
+
   border: none;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
@@ -5657,7 +5682,7 @@ header .dropdown-menu.show li a.active {
   border-radius: 10px !important;
   height: 41px;
   font-size: 14.14px !important;
-  font-family: "Open Sans", sans-serif;
+
   border: none !important;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
@@ -6511,7 +6536,7 @@ header .dropdown-menu.show li a.active {
   background-color: #019ba5;
   padding: unset;
   font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 800;
   transform: rotate(40deg);
   width: 330px;
@@ -6532,7 +6557,7 @@ header .dropdown-menu.show li a.active {
   background-color: #019ba5;
   padding: unset;
   font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: 800;
   transform: rotate(40deg);
   width: 330px;

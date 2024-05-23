@@ -2134,7 +2134,7 @@ export const routes = [
   },
   {
     path: "#",
-    pathName: "Für Zahnärzte",
+    pathName: "FÜR ZAHNÄRZTE",
     submenu: [
       {
         path: "/stadteankauf",
