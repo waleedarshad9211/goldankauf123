@@ -105,15 +105,15 @@ const Header = () => {
               className="Image-fluid m-icon me-1"
               src={EkomiVektor}
               alt=""
-              width="66"
-              height="66"
+              width="87"
+              height="68"
             />
             <Image
               className="Image-fluid m-icon me-1"
               src={TrustedShops}
               alt=""
-              width="66"
-              height="66"
+              width="87"
+              height="68"
             />
             <Image
               className="Image-fluid d-none d-md-block me-1 proven-expert-Image"

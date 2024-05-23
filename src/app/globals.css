@@ -934,16 +934,14 @@ header .dropdown-menu.show li a.active {
 }
 
 .kostenlos {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: #f7f7f7;
+  background-color: rgb(54, 161, 139);
+  box-shadow: -0.052px 3px 10px 0px rgba(6, 0, 14, 0.51);
   border-radius: 20px;
   padding: 10px 15px 15px 15px;
   margin-bottom: 14px;
-  max-width: 353px;
-  width: 349.98px;
-  border: 1px solid #36a5ac;
-  border-bottom: 2px solid #36a5ac;
-  border-right: 2px solid #36a5ac;
+  max-width: 351px;
+  width: 347px;
+  border: 2px solid #ffffff;
 }
 
 .Kostenlos-heading {
@@ -959,7 +957,6 @@ header .dropdown-menu.show li a.active {
   background-color: #019ba5;
   padding: unset;
   font-size: 13px;
-
   font-weight: 800;
   -webkit-transform: rotate(40deg);
   transform: rotate(40deg);
