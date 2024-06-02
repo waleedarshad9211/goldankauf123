@@ -6,42 +6,43 @@ import Ntv from "/public/assets/img/homepage/100_ gurantee.png";
 const ValueCalc = () => {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-12 col-md-12 col-lg-8 ">
-          <div className="zahngold_valuecalc">
-            <h2 className="zahngold_valuecalc_heading">
-              Berechnen Sie den Wert Ihrer Edelmetalle
-            </h2>
-            <form action="">
-              <div className="zahngold_valuecalc_form">
-                <div className="d-flex align-items-center value-calculate-input">
-                  <label className="lbl">Gramm</label>
-                  <input className="form-control" name="gramm" type="text" />
-                </div>
-                <div className="d-flex align-items-center justify-content-center position-relative value-calculate-select">
-                  <label className="lbl">Karat</label>
-                  <select className="form-select mb-0">
-                    <option selected="">Bitte auswählen</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </div>
-                <div className="zahngold_valuecalc_btn">
-                  <Button
-                    btnText="Jetzt Wert berechnen"
-                    height="33px"
-                    width="180px"
-                    fontSize="14px"
-                    margin="10px 0px"
-                    backgroundColor="#F6B535"
-                    borderRadius="20px"
-                  />
-                </div>
-              </div>
-            </form>
+      <div className="zahngold_valuecalc">
+        <h2 className="zahngold_valuecalc_heading">
+          Berechnen Sie den Wert Ihrer Edelmetalle
+        </h2>
+        <form action="">
+          <div className="zahngold_valuecalc_form">
+            <div className="d-flex align-items-center value-calculate-input">
+              <label className="lbl">Gramm</label>
+              <input className="form-control" name="gramm" type="text" />
+            </div>
+            <div className="d-flex align-items-center justify-content-center position-relative value-calculate-select">
+              <label className="lbl">Karat</label>
+              <select className="form-select mb-0">
+                <option selected="">Bitte auswählen</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div className="zahngold_valuecalc_btn">
+              <Button
+                btnText="Jetzt Wert berechnen"
+                height="42px"
+                width="252px"
+                fontSize="17px"
+                fontWeight="500"
+                margin="10px 0px"
+                backgroundColor="#C8E6E0"
+                color="#121212"
+                borderRadius="10px"
+              />
+            </div>
           </div>
-
+        </form>
+      </div>
+      <div className="row">
+        <div className="col-12 col-md-12 col-lg-8">
           <h2 className="text-left GoldankaufKotenloser-heading">
             Goldankauf - kostenloser &amp; versicherter Versand
           </h2>
@@ -77,17 +78,16 @@ const ValueCalc = () => {
             Eingang der Sendung. Sollten Ihnen unsere Goldankauf Preise nicht
             zusagen, gilt selbstverständlich unsere Gold-zurück-Garantie!
           </p>
-        </div>
-        <div className="col-12 col-md-12 col-lg-4">
-          <KitcoGoldTab marginTop="15px" />
-        </div>
-        <div className="col-12 ">
+
           <p className="mt-1 Goldankauf_para2_">
             Senden Sie uns ihre Wertgegenstände kostenlos zu und erhalten
             umgehend eine unverbindliche Bewertung innerhalb von 48 Stunden nach
             Eingang der Sendung. Sollten Ihnen unsere Goldankauf Preise nicht
             zusagen, gilt selbstverständlich unsere Gold-zurück-Garantie!
           </p>
+        </div>
+        <div className="col-12 col-md-12 col-lg-4">
+          <KitcoGoldTab marginTop="15px" />
         </div>
       </div>
     </div>

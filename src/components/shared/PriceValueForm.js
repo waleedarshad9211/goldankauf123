@@ -1,13 +1,28 @@
 import Image from "next/image";
-import EkomiVektor from "/public/assets/img/ekomi-vektor.png";
+import HeroTrustami from "/public/assets/img/homepage/hero-trustami.png";
 import TrustedShops from "/public/assets/img/trusted-shops.png";
-const PriceValueForm = ({ btnText = "Versandtasche bestellen" }) => {
+import insurance from "/public/assets/img/insurance.png";
+import NTV from "/public/assets/img/ntv.png";
+import ProvenExpert from "/public/assets/img/proven-expert.png";
+
+const PriceValueForm = ({
+  btnText = "Versandtasche bestellen",
+  home = false,
+}) => {
   return (
     <div className="price_value_form_wrapepr">
-      <div className="position-relative overflow-hidden form-column kostenlos">
-        <a className="sold_out" href="#">
-          <div className="sold_out_text">Kostenlos</div>
-        </a>
+      <div
+        className="position-relative overflow-hidden form-column kostenlos"
+        style={{
+          border: home ? "2px solid #ffffff" : "",
+          boxShadow: home ? "-0.052px 3px 10px 0px rgba(6, 0, 14, 0.51)" : "",
+        }}
+      >
+        <div className="sold_out_wrapper">
+          <a className="sold_out" href="#">
+            <div className="sold_out_text">Kostenlos</div>
+          </a>
+        </div>
         <h5 className="Kostenlos-heading">
           Versandtasche anfordern <br />
           <strong className="text-gold">Kostenlos &amp; Unverbindlich</strong>
@@ -16,7 +31,7 @@ const PriceValueForm = ({ btnText = "Versandtasche bestellen" }) => {
           <div className="d-flex ">
             <input
               type="text"
-              className="form-control w-50 me-1"
+              className="form-control w-50 me-2"
               id="Vorname"
               placeholder="Vorname"
             />
@@ -30,7 +45,7 @@ const PriceValueForm = ({ btnText = "Versandtasche bestellen" }) => {
           <div className="d-flex ">
             <input
               type="text"
-              className="form-control w-75 me-1"
+              className="form-control w-75 me-2"
               id="Straße"
               placeholder="Straße"
             />
@@ -44,7 +59,7 @@ const PriceValueForm = ({ btnText = "Versandtasche bestellen" }) => {
           <div className="d-flex ">
             <input
               type="text"
-              className="form-control w-25 me-1"
+              className="form-control w-25 me-2"
               id="PLZ"
               placeholder="PLZ"
             />
@@ -67,69 +82,26 @@ const PriceValueForm = ({ btnText = "Versandtasche bestellen" }) => {
             id="E-Mail"
             placeholder="E-Mail"
           />
-
-          <div className="trusted-shops price_value_trusted_shops_card">
-            <div className="price_value_form_inner_card">
-              <div className="price_value_form_inner_card_content">
-                <Image
-                  className="trusted"
-                  src={EkomiVektor}
-                  alt=""
-                  width="65"
-                  height="65"
-                />
-                <p className="price_value_form_inner_card_content_para">
-                  Bewertungen
-                </p>
-                <div className="text-center price_value_rating">
-                  <div className="ratings star-clr">
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                  </div>
-                </div>
-                <div className="price_value_form_inner_card_content_last_para">
-                  <h6 className="font-normal text-white ">SEHR GUT</h6>
-                </div>
-              </div>
-            </div>
-            <div className="price_value_form_inner_card price_value_form_inner_card2">
-              <div className="price_value_form_inner_card_content">
-                <Image
-                  className="trusted trusted_shops"
-                  src={TrustedShops}
-                  alt=""
-                  width="63"
-                  height="61"
-                />
-                <p className="price_value_form_inner_card_content_para">
-                  Bewertungen
-                </p>
-                <div className="text-center price_value_rating">
-                  <div className="ratings star-clr">
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                  </div>
-                </div>
-                <div className="price_value_form_inner_card_content_last_para">
-                  <h6 className="text-white ">SEHR GUT</h6>
-                </div>
-              </div>
-            </div>
-          </div>
-          <button type="submit" className="btn-bg w-100 rounded-pill fw-bold">
+          <button type="submit" className="btn-bg w-100  fw-bold">
             {btnText}
           </button>
-          <p className="text-center price_value_form_last_para">
-            Mit Klick auf "Versandtasche kostenlos anfordern" stimme ich den{" "}
-            <u>AGB</u> zu und habe die
-            <u> Datenschutzerklärung</u> zur Kenntnis genommen.
-          </p>
+          <div className="line-text">
+            <div className="white-line1 me-2"></div>
+            <div className=" me-2 text-white">Garantierte Sicherheit</div>
+            <div className="white-line2"></div>
+          </div>
+          <div className="d-flex flex-wrap gap-2 justify-content-between price-value-form-images my-2">
+            <Image src={NTV} width={65} height={65} />
+            <Image src={TrustedShops} width={65} height={65} />
+            <Image src={HeroTrustami} width={65} height={65} />
+            <Image src={ProvenExpert} width={82} height={65} />
+          </div>
+          <div className="d-flex">
+            <Image src={insurance} className="me-1" />
+            <p className="text-center price_value_form_last_para">
+              Die Versandtasche (DHL) ist bis 1.500 € versichert.
+            </p>
+          </div>
         </form>
       </div>
     </div>

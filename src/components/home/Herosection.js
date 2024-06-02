@@ -87,7 +87,7 @@ const Herosection = () => {
                 </div>
               </div>
               <div className="col-lg-4 hero_slider1 kostenlos-wrapper">
-                <PriceValueForm />
+                <PriceValueForm home />
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ const Herosection = () => {
                 </div>
               </div>
               <div className="col-lg-4 hero_slider1 kostenlos-wrapper">
-                <PriceValueForm />
+                <PriceValueForm home />
               </div>
             </div>
           </div>
@@ -149,7 +149,7 @@ const Herosection = () => {
                 </div>
               </div>
               <div className="col-lg-4 hero_slider1 kostenlos-wrapper">
-                <PriceValueForm />
+                <PriceValueForm home />
               </div>
             </div>
           </div>
@@ -202,7 +202,7 @@ const Herosection = () => {
                 </div>
               </div>
               <div className="col-lg-4 hero_slider1 kostenlos-wrapper">
-                <PriceValueForm />
+                <PriceValueForm home />
               </div>
             </div>
           </div>
@@ -277,7 +277,7 @@ const Herosection = () => {
                 </div>
               </div>
               <div className="col-lg-4 hero_slider1 kostenlos-wrapper">
-                <PriceValueForm />
+                <PriceValueForm home />
               </div>
             </div>
           </div>

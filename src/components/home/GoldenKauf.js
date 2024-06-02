@@ -26,21 +26,13 @@ const GoldenKauf = () => {
         <div className=" row">
           <div className="col-6 col-lg-3 golden_fauf_card_col">
             <div className="golden_fauf_card">
+              <div>1</div>
               <div className="golden_fauf_card_body">
-                <div>
-                  <Image
-                    src={GoldanNum1}
-                    alt=""
-                    className="golden_fauf_num_img"
-                  />
-                </div>
                 <div className="golden_fauf_card_inner">
                   <Image src={GoldenKauf1} alt="" />
                 </div>
                 <div className="goldenkauf_arrow_home_wrapper">
-                  <div className="goldenkauf_arrow_home">
-                    <Image src={GoldankaufArrow} alt="" />
-                  </div>
+                  <div className="goldenkauf_arrow_home"></div>
                 </div>
               </div>
               <div className="golden_fauf_card_text">

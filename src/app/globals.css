@@ -1,18 +1,18 @@
 @import "./_reset.css";
 @font-face {
-  font-family: "GT America";
+  font-family: "GTAmerica";
   font-weight: 400;
   src: url("/assets/fonts/GT-America-Extended-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "GT America";
+  font-family: "GTAmerica";
   font-weight: 500;
   src: url("/assets/fonts/GT-America-Extended-Medium.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "GT America";
+  font-family: "GTAmerica";
   font-weight: 700;
   src: url("/assets/fonts/GT-America-Extended-Bold.ttf") format("truetype");
 }
@@ -23,7 +23,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "GT America", sans-serif;
+  font-family: "GTAmerica", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -355,18 +355,37 @@ header .dropdown-menu.show li a.active {
 }
 
 /* css for footer */
+.footer-line1 {
+  width: 15%;
+  height: 2px;
+  border: 2px solid #36a08a;
+}
+.footer-line2 {
+  width: 15%;
+  height: 2px;
+  border: 2px solid #36a08a;
+}
 .footer_left_txt {
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 10px !important;
+  font-size: 20px;
+  font-weight: 500;
+  border: 3px solid #36a08a;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+.footer-bewertungen {
+  font-size: 13px;
+}
+.footer-sehr-gut {
+  font-size: 14px;
+  font-weight: 500;
 }
 .footer_images {
   gap: 15px;
   margin-top: 15px !important;
 }
 .footer_images img {
-  width: 76px;
-  height: 76px;
+  width: 70px;
+  height: 70px;
 }
 .footer_second_last_img {
   width: 95px !important;
@@ -380,7 +399,7 @@ header .dropdown-menu.show li a.active {
   margin-right: 3px;
 }
 .footer_brdr_bottom {
-  border: 2px solid #65c2c9;
+  border: 2px solid #36a08a;
   margin-top: 2px;
 }
 
@@ -392,12 +411,9 @@ header .dropdown-menu.show li a.active {
 
 .silver .li1,
 .silver .li1:last-child {
-  background-color: #cbeff2;
+  background-color: #d2f0ea;
 }
-.silver .li1:first-child {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
+
 .silver .li1:last-child {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -433,7 +449,7 @@ header .dropdown-menu.show li a.active {
   color: rgb(58, 58, 60);
   line-height: 1.439;
   text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
+
   width: fit-content;
   margin-right: 28px;
 }
@@ -530,7 +546,6 @@ header .dropdown-menu.show li a.active {
   .current-metal-values h2 {
     font-size: 30px;
     line-height: 38px;
-    font-family: "OpenSans-Regular", sans-serif;
   }
 }
 
@@ -547,34 +562,35 @@ header .dropdown-menu.show li a.active {
 }
 
 .current-metal-values {
-  background-color: #d1f6f9;
+  background-color: #cee9e3;
   padding: 25px 10px;
-  margin-top: 15px;
-  border-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
+.current-metal-values-wrapper {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 122px;
+}
 .current-metal-values h2 {
   margin-bottom: 10px;
-
-  font-weight: bold;
-  font-size: 26px;
-  color: #3a3a3c;
+  font-weight: 400;
+  font-size: 25px;
 }
 
 .current-metal-values .value {
-  font-size: 44px;
+  font-size: 35px;
   font-weight: bold;
-  color: rgb(57, 57, 60);
+  color: #36a18b;
 }
 
 .current-metal-values .btn-values {
-  background-color: #019ba5;
+  background-color: #36a18b;
   border: none;
-  border-radius: 100px;
+  border-radius: 10px;
   font-size: 25px;
   text-align: center;
-  font-family: "Open Sans", sans-serif !important;
-  font-weight: bold;
+  font-weight: 500;
   padding: 1px 20px;
   width: fit-content;
   color: #ffffff;
@@ -582,10 +598,10 @@ header .dropdown-menu.show li a.active {
   margin: 15px 0px 25px 0px;
 }
 
-.current-metal-values p {
+.current-metal-values-para {
   font-size: 18px;
   line-height: 26px;
-  width: 435px;
+  width: 501px;
 }
 
 .border-radius {
@@ -597,9 +613,7 @@ header .dropdown-menu.show li a.active {
 }
 .pricing h3 {
   font-size: 30px;
-
-  font-weight: bold;
-  color: #2f2f2f;
+  font-weight: 500;
 }
 
 .pricing .pricing-gramm {
@@ -700,51 +714,85 @@ header .dropdown-menu.show li a.active {
 }
 
 .pricing .gold-gradiant {
-  background-color: #d0b865;
-  border-radius: 10px;
+  background-color: #a18236;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 24px;
-  padding: 20px 5px 5px;
+  padding: 1px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .gold-gradiant h4,
 .zahngold-gradiant h4,
 .silber-gradiant h4,
 .platin-gradiant h4 {
-  font-weight: bold;
+  font-weight: 500;
   color: #ffffff;
-  margin-bottom: 15px;
 }
 .sie {
   font-size: 20px;
 }
+.gold-gradiant-body,
+.zahngold-gradiant-body,
+.silber-gradiant-body,
+.platin-gradiant-body,
+.palladium-gradiant-body,
+.rhodium-gradiant-body {
+  border-top: none;
+  border: 1px solid #d2f0ea;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
 
 .pricing .zahngold-gradiant {
-  background-color: #c8974b;
-  border-radius: 10px;
+  background-color: #c89353;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 24px;
-  padding: 20px 5px 5px;
+  padding: 1px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pricing .silber-gradiant {
-  background-color: #c1c2c4;
-  border-radius: 10px;
+  background-color: #c4b1ae;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 24px;
-  padding: 20px 5px 5px;
+  padding: 1px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pricing .platin-gradiant {
-  background-color: #b0b1b3;
-  border-radius: 10px;
+  background-color: #c8c1c1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 24px;
-  padding: 20px 5px 5px;
-  margin-bottom: 10px;
+  padding: 1px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pricing .palladium-gradiant {
-  background-color: #b2a59b;
-  border-radius: 10px;
+  background-color: #c7bcb5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 24px;
-  padding: 7px 5px 5px;
-  margin-bottom: 10px;
+  padding: 1px;
+  margin-top: 11px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pricing .palladium-gradiant h4,
 .rhodium-gradiant h4 {
@@ -757,10 +805,16 @@ header .dropdown-menu.show li a.active {
   height: 58px;
 }
 .rhodium-gradiant {
-  background-color: #a2a2a2;
-  border-radius: 10px;
+  background-color: #c5cbcb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   font-size: 24px;
-  padding: 7px 5px 5px;
+  padding: 1px;
+  margin-top: 12px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 992px) {
   .kitco_wrapper,
@@ -855,21 +909,33 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 30px;
 }
 .current-value-left {
-  background-color: #d1f6f9;
-  border-radius: 20px;
-  padding: 65px 10px 0px 10px;
+  background-color: #cbe8e2;
+  border-radius: 10px;
+  padding: 15px 15px 0px 15px;
   margin-top: 1px;
-  height: 590px;
+  height: 98%;
   position: relative;
 }
+.calculator-right-side {
+  height: 100%;
+}
+.current-value-left .current-metal-values-wrapper span {
+  font-size: 25px;
+}
+.current-value-left .value {
+  font-size: 35px;
+  font-weight: bold;
+  color: #36a18b;
+}
 .cal_table_para {
-  position: absolute;
-  bottom: 25px;
-  left: 18%;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cal_table_para p {
   text-align: center;
-  width: 435px;
+  max-width: 500px;
 }
 .goldrechner_currentvalues {
   height: 862px;
@@ -927,64 +993,66 @@ header .dropdown-menu.show li a.active {
 .golden_fauf_wrapper_pricing {
   display: none;
 }
-.kostenlos-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .kostenlos {
   background-color: rgb(54, 161, 139);
-  box-shadow: -0.052px 3px 10px 0px rgba(6, 0, 14, 0.51);
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 10px 15px 15px 15px;
   margin-bottom: 14px;
   max-width: 351px;
   width: 347px;
-  border: 2px solid #ffffff;
 }
 
 .Kostenlos-heading {
-  font-size: 18.92px;
-  line-height: 26.17px;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
 }
+.kostenlos .sold_out_wrapper {
+  padding: 2px;
+}
+
 .kostenlos .sold_out {
   color: #fff;
   display: block;
   text-align: center;
   text-decoration: none;
   letter-spacing: inherit;
-  background-color: #019ba5;
+  border-top: 2px solid #ffffff;
+  background-color: #3fbca2;
+  border-bottom: 2px solid #ffffff;
+  box-shadow: rgba(63, 188, 162, 0.35) 0px 5px 15px;
   padding: unset;
-  font-size: 13px;
-  font-weight: 800;
-  -webkit-transform: rotate(40deg);
-  transform: rotate(40deg);
+  margin: 10px 0px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
   width: 200px;
-  height: 60px;
+  height: 28px;
   position: absolute;
-  right: -100px;
+  right: -64px;
   top: 6px;
   text-transform: uppercase;
 }
 .sold_out_text {
   position: absolute;
-  top: 40px;
-  left: 30px;
+  top: 5px;
+  left: 64px;
+  font-size: 11px;
+  font-weight: 700;
 }
 .kostenlos input {
   background-color: #ffffff !important;
-  border-radius: 100px;
-  height: 41px;
+  border-radius: 10px;
+  height: 38px;
   border: none;
-  margin-top: 8px;
-  font-size: 14.14px;
-
+  margin-top: 10px;
+  font-size: 15px;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
 .kostenlos input::placeholder {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
+  color: #121212;
 }
 .price_value_trusted_shops_card {
   display: flex;
@@ -1040,14 +1108,35 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 0px !important;
 }
 .kostenlos .btn-bg {
-  background-color: #019ba5;
-  color: #ffffff;
+  background-color: #c8e6e0;
+  color: #333333;
   height: 40px;
   padding-left: 5px;
   padding-right: 5px;
   border: none;
-  font-size: 16.21px;
-  line-height: 20.27px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.line-text {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.white-line1 {
+  width: 15%;
+  height: 1px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.white-line2 {
+  width: 18%;
+  height: 1px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .kostenlos .garantierte {
@@ -1080,15 +1169,14 @@ header .dropdown-menu.show li a.active {
   margin-right: 3px;
 }
 .kostenlos p {
-  font-size: 14.14px;
-  font-family: "OpenSans-Regular", sans-serif;
+  font-size: 14px;
   max-width: 290px;
   margin: 7px auto;
 }
 .price_value_form_last_para {
-  font-size: 10.1px !important;
+  font-size: 10px !important;
   line-height: 13.13px;
-  font-weight: 600;
+  color: #ffffff;
 }
 .current-value h2 {
   font-size: 30px;
@@ -1099,18 +1187,12 @@ header .dropdown-menu.show li a.active {
 .current-value .current-price {
   font-size: 46px;
   line-height: 58px;
-
   font-weight: 700;
   margin-bottom: 10px;
-  color: rgb(57, 57, 60);
 }
 
 .current-value .calc-table {
-  max-width: 615px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border: 1px solid #1d1d1d;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1123,6 +1205,7 @@ header .dropdown-menu.show li a.active {
 .current-value .calc-table h5 {
   background-color: #019ba5;
   color: #ffffff;
+  border-radius: 10px;
 }
 
 .current-value .calc-table table {
@@ -1176,20 +1259,26 @@ header .dropdown-menu.show li a.active {
   }
 }
 
-.current-value .calc-table tbody tr td {
-  border-bottom: 1px solid #39393c;
+.current-value .calc-table table tbody tr td {
+  background-color: #f7f7f7;
+  border-bottom: none;
+  height: 45px;
 }
 
-.current-value .calc-table tbody tr:last-child td {
-  border-bottom: none;
-  color: rgb(57, 57, 60);
+.current-value .calc-table tbody tr td:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.current-value .calc-table tbody tr td:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .triangle-right {
   width: 0;
   height: 0;
   border-top: 25px solid transparent;
-  border-left: 25px solid #eecd56;
+  border-left: 25px solid #dba25d;
   border-bottom: 25px solid transparent;
   margin-left: 25px;
   display: block;
@@ -1203,7 +1292,7 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 15px;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 25px solid #eecd56;
+  border-top: 25px solid #dba25d;
 }
 
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -1807,9 +1896,9 @@ header .dropdown-menu.show li a.active {
 
 .golden-fauf h2 {
   color: #2b2b2b;
-  font-size: 37.2px;
-  line-height: 40.92px;
-  font-weight: 700;
+  font-size: 35px;
+  line-height: 53px;
+  font-weight: 500;
   margin-bottom: 17px;
 }
 .golden-fauf .para span {
@@ -2087,12 +2176,10 @@ header .dropdown-menu.show li a.active {
 }
 .professional_section p {
   font-size: 16px;
-  font-family: "OpenSans-Regular", sans-serif;
 }
 .professional_section p:first-child {
   margin-bottom: 30px;
   font-size: 16px;
-  font-family: "OpenSans-Regular", sans-serif;
 }
 .professional_section p:last-child {
   margin-top: 23px;
@@ -5928,6 +6015,10 @@ header .dropdown-menu.show li a.active {
   margin-top: 12px;
   margin-bottom: 10px;
 }
+.pricing-form-heading {
+  font-weight: 500;
+  font-size: 30px;
+}
 .goldrechner_wrapper .pricing {
   padding: 20px 0px 30px 0px;
 }
@@ -7388,54 +7479,53 @@ header .dropdown-menu.show li a.active {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.zahngold_valuecalc .value-calculate {
-  border-radius: 10px;
-  margin-top: 10px;
+.goldankauf_valuecalc {
+  background-color: #36a18b;
+  padding: 10px 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 15px;
 }
-.zahngold_valuecalc .value-calculate {
+.goldankauf_valuecalc .value-calculate {
   border-radius: 10px;
 }
-.zahngold_valuecalc .value-calculate .lbl {
+.goldankauf_valuecalc .value-calculate .lbl {
   margin-right: 5px;
 }
-.zahngold_valuecalc .value-calculate input {
+.goldankauf_valuecalc .value-calculate input {
   width: 149px;
 }
-.zahngold_valuecalc .value-calculate select {
+.goldankauf_valuecalc .value-calculate select {
   width: 207px;
 }
-.zahngold_valuecalc .select-line {
+.goldankauf_valuecalc .select-line {
   right: 15%;
 }
-.zahngold_valuecalc .value-calculate button {
+.goldankauf_valuecalc .value-calculate button {
   width: 164px;
   font-size: 14px;
 }
-.zahngold_valuecalc {
-  background-color: #4a4a4a;
-  padding: 10px 20px;
-  border-radius: 20px;
-  margin-top: 15px;
-}
-.zahngold_valuecalc_heading {
-  font-size: 25px;
+
+.goldankauf_valuecalc_heading {
+  font-size: 35px;
+  font-weight: 500;
   line-height: 40px;
   text-align: center;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.zahngold_valuecalc_form {
+.goldankauf_valuecalc_form {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.zahngold_valuecalc_form .lbl {
+.goldankauf_valuecalc_form .lbl {
   color: #ffffff;
 }
-.zahngold_valuecalc_form .value-calculate-input label {
+.goldankauf_valuecalc_form .value-calculate-input label {
   margin-right: 10px;
 }
-.zahngold_valuecalc_form .value-calculate-input input {
+.goldankauf_valuecalc_form .value-calculate-input input {
   width: 149px;
   height: 33px;
   border-radius: 10px;
@@ -7443,16 +7533,16 @@ header .dropdown-menu.show li a.active {
   padding: 0px 10px;
   border: none;
 }
-.zahngold_valuecalc_form .value-calculate-input input:focuse {
+.goldankauf_valuecalc_form .value-calculate-input input:focuse {
   width: 149px;
   height: 33px;
   border-radius: 10px;
   box-shadow: -0.035px 2px 3px 0px rgba(6, 0, 14, 0.2);
   padding: 0px 10px;
 }
-.zahngold_valuecalc_form .value-calculate-select select {
+.goldankauf_valuecalc_form .value-calculate-select select {
   border-radius: 10px;
-  width: 200px;
+  width: 390px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -7988,10 +8078,10 @@ table.hamburg_table {
   .price_value_form2_submit_btn .review2_heading2_line {
     width: 6%;
   }
-  .zahngold_valuecalc_form {
+  .goldankauf_valuecalc_form {
     justify-content: center;
   }
-  .zahngold_valuecalc_form .value-calculate-select {
+  .goldankauf_valuecalc_form .value-calculate-select {
     margin-left: 20px;
   }
   .verkaufsanleitung_card button {
@@ -8831,20 +8921,20 @@ table.hamburg_table {
     width: 100%;
     height: auto;
   }
-  .zahngold_valuecalc_form {
+  .goldankauf_valuecalc_form {
     justify-content: flex-start;
     flex-direction: column;
   }
-  .zahngold_valuecalc_form .value-calculate-input label {
+  .goldankauf_valuecalc_form .value-calculate-input label {
     width: 70px;
   }
-  .zahngold_valuecalc_form .value-calculate-input input {
+  .goldankauf_valuecalc_form .value-calculate-input input {
     width: 100%;
   }
-  .zahngold_valuecalc_form .value-calculate-select label {
+  .goldankauf_valuecalc_form .value-calculate-select label {
     width: 83px;
   }
-  .zahngold_valuecalc_form .value-calculate-select select {
+  .goldankauf_valuecalc_form .value-calculate-select select {
     width: 100%;
     margin-top: 10px;
     margin-left: 0px;
@@ -9586,9 +9676,10 @@ table.hamburg_table {
 }
 .zahngold_varsandarten_heading {
   text-align: center;
-  color: #39393c;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .zahngold_varsandtasche_body {
   border: 1px solid #d2d2d9;
@@ -9610,10 +9701,17 @@ table.hamburg_table {
   margin-top: 15px;
 }
 .zahngold_varsandarten_body {
-  border: 2px solid #019ba5;
+  background-color: #d2f0ea;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #d2d2d2;
+}
+.zahngold_varsandarten_body ul {
+  background-color: #ffffff;
   border-radius: 10px;
   padding: 10px;
 }
+
 .zahngold_varsandarten_body ul li {
   display: flex;
   align-items: center;

@@ -1,8 +1,8 @@
 import Image from "next/image";
-import FooterLogo from "/public/assets/img/footer-logo.png";
+import FooterLogo from "/public/assets/img/logo.png";
 import TrustedShops from "/public/assets/img/trusted-shops.png";
 import EkomiVektor from "/public/assets/img/ekomi-vektor.png";
-import SSL from "/public/assets/img/homepage/ssl.png";
+import SSL from "/public/assets/img/homepage/ntv_vektor.png";
 import Trustami from "/public/assets/img/homepage/hero-trustami.png";
 import Img49 from "/public/assets/img/homepage/4-9.png";
 import ProvenExpert from "/public/assets/img/proven-expert.png";
@@ -16,12 +16,22 @@ const Footer = () => {
     <footer className="footer_section">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6 col-lg-5 ">
+          <div className="col-12 col-md-6 col-lg-4">
             <div className="row">
               <div className="col-12">
-                <Image className="mb-2" src={FooterLogo} alt="footer-logo" />
+                <Image
+                  className="mb-2"
+                  src={FooterLogo}
+                  alt="footer-logo"
+                  width={350}
+                  height={35}
+                />
               </div>
-              <p className="footer_left_txt">Sicher verkaufen ____________</p>
+              <div className="d-flex align-items-center mt-2">
+                <div className="footer-line1"></div>
+                <p className="footer_left_txt">Sicher verkaufen</p>
+                <div className="footer-line2"></div>
+              </div>
               <div className="d-flex mt-3">
                 <div className="d-flex footer_leftside_second_img footer_leftside_second_img1">
                   <div className="me-1">
@@ -34,7 +44,7 @@ const Footer = () => {
                     />
                   </div>
                   <div className="footer_leftside_seal">
-                    <p className="fw-bold">Bewertungen</p>
+                    <p className="footer-bewertungen">Bewertungen</p>
                     <div className="footer_rating">
                       <div className="ratings footer_star_color">
                         <i className="fa fa-star rating-color"></i>
@@ -44,8 +54,8 @@ const Footer = () => {
                         <i className="fa fa-star rating-color"></i>
                       </div>
                     </div>
-                    <div className="">
-                      <p className="fw-bold">SEHR GUT</p>
+                    <div className="footer-sehr-gut">
+                      <p className="">SEHR GUT</p>
                     </div>
                   </div>
                 </div>
@@ -60,7 +70,7 @@ const Footer = () => {
                     />
                   </div>
                   <div className="footer_leftside_seal">
-                    <p className="fw-bold">Bewertungen</p>
+                    <p className="footer-bewertungen">Bewertungen</p>
                     <div className="footer_rating">
                       <div className="ratings footer_star_color">
                         <i className="fa fa-star rating-color"></i>
@@ -70,8 +80,8 @@ const Footer = () => {
                         <i className="fa fa-star rating-color"></i>
                       </div>
                     </div>
-                    <div className="">
-                      <p className="fw-bold">SEHR GUT</p>
+                    <div className="footer-sehr-gut">
+                      <p className="">SEHR GUT</p>
                     </div>
                   </div>
                 </div>
@@ -104,23 +114,24 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-6 col-lg-7 ">
+          <div className="col-12 col-md-6 col-lg-8">
             <div className="footer_rightside">
               <div className="row">
-                <div className="col-6 col-md-6 col-lg-4">
+                <div className="col-6 col-md-6 col-lg-3">
                   <div>
-                    <p className="fw-bold">Städteankauf</p>
+                    <p className="fw-bold">SERVICE</p>
                     <div className="footer_brdr_bottom"></div>
                   </div>
                   <div className="mt-2">
-                    <p className="mb-1">Hamburg</p>
-                    <p className="mb-1">Berlin</p>
-                    <p className="mb-1">München</p>
-                    <p className="mb-1">Köln</p>
-                    <p className="mb-1">Bremen</p>
+                    <p className="mb-1">Goldwissen</p>
+                    <p className="mb-1">Städteankauf</p>
+                    <p className="mb-1">Edelmetall Charts</p>
+                    <p className="mb-1">Händler</p>
+                    <p className="mb-1">Gold als Geldanlage</p>
+                    <p className="mb-1">Blog</p>
                   </div>
                 </div>
-                <div className="col-6 col-md-6 col-lg-4">
+                <div className="col-6 col-md-6 col-lg-3">
                   <div>
                     <p className="fw-bold">Goldlegierungen</p>
                     <div className="footer_brdr_bottom"></div>
@@ -133,7 +144,7 @@ const Footer = () => {
                     <p className="mb-1">999 Gold</p>
                   </div>
                 </div>
-                <div className="d-none d-md-none d-lg-block col-lg-4">
+                <div className="d-none d-md-none d-lg-block col-lg-3">
                   <div>
                     <p className="fw-bold">Über Zahngold123.de</p>
                     <div className="footer_brdr_bottom"></div>
@@ -148,7 +159,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-6 col-md-6 col-lg-4 mt-2">
+                <div className="col-6 col-md-6 col-lg-3 mt-2">
                   <div>
                     <p className="fw-bold">Service</p>
                     <div className="footer_brdr_bottom"></div>
@@ -161,7 +172,7 @@ const Footer = () => {
                     <p className="mb-1">Goldankauf Preise</p>
                   </div>
                 </div>
-                <div className="col-6 col-md-6 col-lg-4 mt-2">
+                <div className="col-6 col-md-6 col-lg-3 mt-2">
                   <div>
                     <p className="fw-bold">Sicherheit</p>
                     <div className="footer_brdr_bottom"></div>
