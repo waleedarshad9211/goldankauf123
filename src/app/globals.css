@@ -402,7 +402,13 @@ header .dropdown-menu.show li a.active {
   border: 2px solid #36a08a;
   margin-top: 2px;
 }
-
+.footer-last-paras p {
+  font-size: 14px;
+}
+.footer-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
 /* Css For Calculator Page */
 
 .color-gold {
@@ -625,13 +631,12 @@ header .dropdown-menu.show li a.active {
   background-color: #ffffff;
   padding: 10px;
   font-size: 18px;
-
   font-weight: 300;
   text-align: center;
 }
 .pricing .pricing-gramm::placeholder {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: #b0b0b0;
 }
 .pricing .gold-prices {
@@ -937,8 +942,12 @@ header .dropdown-menu.show li a.active {
   text-align: center;
   max-width: 500px;
 }
-.goldrechner_currentvalues {
-  height: 862px;
+.goldrechner_currentvalues .cal_table_para {
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 50%;
 }
 .hero_slider .swiper-button-prev::after {
   width: 27px;
@@ -1274,7 +1283,7 @@ header .dropdown-menu.show li a.active {
   border-bottom-right-radius: 10px;
 }
 
-.triangle-right {
+/* .triangle-right {
   width: 0;
   height: 0;
   border-top: 25px solid transparent;
@@ -1282,6 +1291,14 @@ header .dropdown-menu.show li a.active {
   border-bottom: 25px solid transparent;
   margin-left: 25px;
   display: block;
+} */
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 25px solid transparent;
+  border-left: 25px solid #dba25d;
+  border-bottom: 25px solid transparent;
+  border-radius: 0 0 0 10;
 }
 
 .triangle-down {
@@ -1985,8 +2002,8 @@ header .dropdown-menu.show li a.active {
   border-radius: 30px;
 }
 .pricing-btn {
-  background-color: #018790;
-  border-radius: 30px !important;
+  background-color: #36a18b;
+  border-radius: 10px !important;
   border: none;
   height: 45px;
   font-size: 25px;
@@ -1995,7 +2012,7 @@ header .dropdown-menu.show li a.active {
   margin-top: 20px;
   line-height: 32px;
   width: auto;
-  padding: 1px 20px;
+  padding: 1px 30px;
 }
 .goldankauf-onine-wrapper {
   background-image: url("/assets/img/homepage/goldankauf_online_bg.png");
@@ -5912,10 +5929,13 @@ header .dropdown-menu.show li a.active {
 .goldrechner_clock {
   position: relative;
   margin-top: 30px;
+  background-color: #36a18b;
+  border-radius: 10px;
+  padding: 5px;
 }
 .goldrechner_clock_analog {
   position: absolute;
-  left: 35%;
+  left: 27%;
   top: -30px;
   display: flex;
   align-items: center;
@@ -5924,10 +5944,10 @@ header .dropdown-menu.show li a.active {
 }
 .goldrechner_clock_analog p {
   margin-left: 20px;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 10px;
-  font-size: 18px;
-  line-height: 28.26px;
+  font-size: 13px;
+  line-height: 28px;
 }
 .goldrechner_clock_analog .clock-container {
   margin-left: 20px;
@@ -5939,27 +5959,23 @@ header .dropdown-menu.show li a.active {
   height: 145px;
   border: 2px solid #2e2e2e;
 }
-.goldrechner_clock_upper_div {
-  background-color: #4a4a44;
-  padding: 10px 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
 .goldrechner_clock_upper_div_wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 3px 0px 10px;
 }
 .goldrechner_clock_upper_div_para1,
 .goldrechner_clock_upper_div_para2 {
   color: #ffffff;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .goldrechner_clock_upper_div_para2 {
   text-align: right;
 }
 .goldrechner_clock_lower_div {
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   padding: 10px 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -5972,6 +5988,7 @@ header .dropdown-menu.show li a.active {
 .goldrechner_clock_lower_div_para1,
 .goldrechner_clock_lower_div_para2 {
   text-transform: uppercase;
+  font-size: 14px;
 }
 .goldrechner_clock_lower_div_para2 {
   text-align: right;
@@ -5982,38 +5999,28 @@ header .dropdown-menu.show li a.active {
   margin-top: 0px;
   margin-bottom: 10px;
 }
+.goldrechner_heading_1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  max-width: 605px;
+}
 .goldrechner_heading_paras_1 {
-  font-size: 18px;
-  line-height: 26px;
-  margin-bottom: 20px;
-}
-.goldrechner_heading_paras .goldrechner_heading_para1 {
-  font-size: 18px;
-  line-height: 26px;
-  margin-bottom: 15px;
-}
-.goldrechner_heading_paras .goldrechner_heading_para2 {
-  font-size: 18px;
-  line-height: 26px;
-  margin-bottom: 35px;
-}
-.goldrechner_heading_paras .goldrechner_heading_para3 {
-  font-size: 18px;
-  line-height: 26px;
-  margin-bottom: 10px;
-}
-.goldrechner_heading_paras_link {
-  color: #0087f6;
-  font-size: 18px;
-  text-decoration: underline;
-  margin-bottom: 20px;
-  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 7px;
 }
 .goldrechner_last_para {
-  font-size: 15px;
-  line-height: 18px;
-  margin-top: 12px;
+  font-size: 16px;
+  line-height: 24px;
   margin-bottom: 10px;
+}
+.goldrechner_last_para_heading {
+  font-size: 24px;
+  font-weight: 500;
 }
 .pricing-form-heading {
   font-weight: 500;
@@ -7956,7 +7963,7 @@ table.hamburg_table {
 @media screen and (min-width: 2000px) and (max-width: 2600px) {
   .goldrechner_clock_analog {
     position: absolute;
-    left: 40%;
+    left: 27%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -7966,7 +7973,7 @@ table.hamburg_table {
 @media screen and (min-width: 1801px) and (max-width: 2000px) {
   .goldrechner_clock_analog {
     position: absolute;
-    left: 36%;
+    left: 27%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -7976,7 +7983,7 @@ table.hamburg_table {
 @media screen and (min-width: 1701px) and (max-width: 1800px) {
   .goldrechner_clock_analog {
     position: absolute;
-    left: 35%;
+    left: 27%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -7986,7 +7993,7 @@ table.hamburg_table {
 @media screen and (min-width: 1441px) and (max-width: 1700px) {
   .goldrechner_clock_analog {
     position: absolute;
-    left: 34%;
+    left: 27%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -7996,7 +8003,7 @@ table.hamburg_table {
 @media screen and (min-width: 1301px) and (max-width: 1440px) {
   .goldrechner_clock_analog {
     position: absolute;
-    left: 32%;
+    left: 27%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -8006,7 +8013,7 @@ table.hamburg_table {
 @media screen and (min-width: 1101px) and (max-width: 1300px) {
   .goldrechner_clock_analog {
     position: absolute;
-    left: 29%;
+    left: 26%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -8541,15 +8548,9 @@ table.hamburg_table {
   .goldrechner_heading_paras .goldrechner_heading_para1 {
     margin-bottom: 10px;
   }
-  .goldrechner_heading_paras_link {
-    margin-bottom: 15px;
-  }
   .goldrechner_wrapper .kostenlos {
     max-width: inherit;
     width: auto;
-  }
-  .goldrechner_heading_paras .goldrechner_heading_para2 {
-    margin-bottom: 15px;
   }
   .e_trusted_shops_card,
   .e_trusted_shops_card_subcard {
@@ -9329,13 +9330,14 @@ table.hamburg_table {
 
 .clock-container {
   position: relative;
-  width: 140px;
+  width: 110px;
+  height: 110px;
   overflow: hidden;
-  background: #ffffff;
+  background: #f7f7f7;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  border: 1px solid #c5c1c1;
+  border: 3px solid #36a18b;
 }
 .clock-container:before {
   content: "";
@@ -9361,8 +9363,8 @@ table.hamburg_table {
 }
 .clock-content .background-numbers {
   position: absolute;
-  width: 125px;
-  height: 125px;
+  width: 95px;
+  height: 95px;
   top: 5%;
   left: 5%;
   z-index: 1;
@@ -9707,7 +9709,7 @@ table.hamburg_table {
   border: 1px solid #d2d2d2;
 }
 .zahngold_varsandarten_body ul {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   border-radius: 10px;
   padding: 10px;
 }

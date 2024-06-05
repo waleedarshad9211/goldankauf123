@@ -22,7 +22,7 @@ const MainPage = () => {
     <div className="site_home_page">
       <Herosection />
       <GoldenKauf />
-      <ValueCalc />
+      <ValueCalc home />
       <Umweltschutz />
       <CustomerReviewsSection />
       <section>

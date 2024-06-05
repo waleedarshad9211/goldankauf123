@@ -19,6 +19,7 @@ function Clock({ timeZone }) {
     London: 0,
     FRANKFURT: 1,
     "New York": -4,
+    "Hong Kong": 8,
   };
 
   const hoursDegrees =

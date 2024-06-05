@@ -119,10 +119,10 @@ const Footer = () => {
               <div className="row">
                 <div className="col-6 col-md-6 col-lg-3">
                   <div>
-                    <p className="fw-bold">SERVICE</p>
+                    <p className="footer-heading">SERVICE</p>
                     <div className="footer_brdr_bottom"></div>
                   </div>
-                  <div className="mt-2">
+                  <div className="mt-2 footer-last-paras">
                     <p className="mb-1">Goldwissen</p>
                     <p className="mb-1">Städteankauf</p>
                     <p className="mb-1">Edelmetall Charts</p>
@@ -133,55 +133,91 @@ const Footer = () => {
                 </div>
                 <div className="col-6 col-md-6 col-lg-3">
                   <div>
-                    <p className="fw-bold">Goldlegierungen</p>
+                    <p className="footer-heading">SICHERHEIT</p>
                     <div className="footer_brdr_bottom"></div>
                   </div>
-                  <div className="mt-2">
-                    <p className="mb-1">333 Gold</p>
-                    <p className="mb-1">585 Gold</p>
-                    <p className="mb-1">750 Gold</p>
-                    <p className="mb-1">916 Gold</p>
-                    <p className="mb-1">999 Gold</p>
+                  <div className="mt-2 footer-last-paras">
+                    <p className="mb-1">Auszeichnungen </p>
+                    <p className="mb-1">Videos über Goldankauf123.de</p>
+                    <p className="mb-1">Gold zurück Garantie</p>
+                    <p className="mb-1">Verkaufsanleitung</p>
+                    <p className="mb-1">Häufige Fragen</p>
                   </div>
                 </div>
                 <div className="d-none d-md-none d-lg-block col-lg-3">
                   <div>
-                    <p className="fw-bold">Über Zahngold123.de</p>
+                    <p className="footer-heading">GOLDANKAUF</p>
                     <div className="footer_brdr_bottom"></div>
                   </div>
-                  <div className="mt-2">
+                  <div className="mt-2 footer-last-paras">
+                    <p className="mb-1">Goldankauf Berlin</p>
+                    <p className="mb-1">Goldankauf Hamburg</p>
+                    <p className="mb-1">Goldankauf München</p>
+                    <p className="mb-1">Goldankauf Frankfurt</p>
+                    <p className="mb-1">Goldankauf Köln</p>
+                    <p className="mb-1">Goldankauf Stuttgart</p>
+                  </div>
+                </div>
+                <div className="d-none d-md-none d-lg-block col-lg-3">
+                  <div>
+                    <p className="footer-heading">ÜBER UNS</p>
+                    <div className="footer_brdr_bottom"></div>
+                  </div>
+                  <div className="mt-2 footer-last-paras">
                     <p className="mb-1">Kontakt</p>
                     <p className="mb-1">Impressum</p>
                     <p className="mb-1">AGB</p>
                     <p className="mb-1">Datenschutz</p>
-                    <p className="mb-1">Blog</p>
                   </div>
                 </div>
               </div>
               <div className="row">
-                <div className="col-6 col-md-6 col-lg-3 mt-2">
+                <div className="col-12 col-md-12 col-lg-12 mt-2">
                   <div>
-                    <p className="fw-bold">Service</p>
+                    <p className="footer-heading">WEITERE WICHTIGE INHALTE</p>
                     <div className="footer_brdr_bottom"></div>
                   </div>
-                  <div className="mt-2">
-                    <p className="mb-1">Goldankauf Lexikon</p>
-                    <p className="mb-1">Städteankauf</p>
-                    <p className="mb-1">Edelmetall Charts</p>
-                    <p className="mb-1">Goldpreis pro Gramm</p>
-                    <p className="mb-1">Goldankauf Preise</p>
-                  </div>
-                </div>
-                <div className="col-6 col-md-6 col-lg-3 mt-2">
-                  <div>
-                    <p className="fw-bold">Sicherheit</p>
-                    <div className="footer_brdr_bottom"></div>
-                  </div>
-                  <div className="mt-2">
-                    <p className="mb-1">Videos über Zahngold</p>
-                    <p className="mb-1">Gold zurück Garantie</p>
-                    <p className="mb-1">Verkaufsanleitungen</p>
-                    <p className="mb-1">Häufige Fragen</p>
+                  <div className="row">
+                    <div className="col-6 col-md-6 col-lg-3 mt-2">
+                      <div className="mt-2 footer-last-paras">
+                        <p className="mb-1">Goldwissen</p>
+                        <p className="mb-1">Städteankauf</p>
+                        <p className="mb-1">Edelmetall Charts</p>
+                        <p className="mb-1">Händler</p>
+                        <p className="mb-1">Gold als Geldanlage</p>
+                        <p className="mb-1">Blog</p>
+                      </div>
+                    </div>
+                    <div className="col-6 col-md-6 col-lg-3 mt-2">
+                      <div className="mt-2 footer-last-paras">
+                        <p className="mb-1">Goldlegierungen </p>
+                        <p className="mb-1">Silberlegierungen</p>
+                        <p className="mb-1">Platinlegierungen</p>
+                        <p className="mb-1">Palladiumlegierungen</p>
+                        <p className="mb-1">Krügerrand Ankauf</p>
+                        <p className="mb-1">Feingold Ankauf</p>
+                      </div>
+                    </div>
+                    <div className="col-6 col-md-6 col-lg-3 mt-2">
+                      <div className="mt-2 footer-last-paras">
+                        <p className="mb-1">Schmuckbuch</p>
+                        <p className="mb-1">Edelsteine</p>
+                        <p className="mb-1">Zahngold Ankauf</p>
+                        <p className="mb-1">Bruchgold Ankauf</p>
+                        <p className="mb-1">Punzen & Stempel</p>
+                        <p className="mb-1">Fälschungen</p>
+                      </div>
+                    </div>
+                    <div className="col-6 col-md-6 col-lg-3 mt-2">
+                      <div className="mt-2 footer-last-paras">
+                        <p className="mb-1">Gold</p>
+                        <p className="mb-1">Silber</p>
+                        <p className="mb-1">Platin</p>
+                        <p className="mb-1">Palladium</p>
+                        <p className="mb-1">Münzarchiv</p>
+                        <p className="mb-1">Karatzahl</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
