@@ -26,7 +26,7 @@ const MainPage = () => {
         <ValueCalc home={true} notValuecalc={true} />
       </section>
       <Umweltschutz />
-      <CustomerReviewsSection />
+
       <section>
         <div className="text-center wir_ankaufun_section">
           <h2 className="wir_ankaufun_h2">
@@ -39,26 +39,29 @@ const MainPage = () => {
         </div>
         <WirAnkafun />
       </section>
-      <HomeVideoSection />
+
       <CustomerReview2 />
-      <Ubersection />
-      <Professionalsection />
-      <Unseresection />
+
       <section className="pricing container">
         <Pricing />
         <div className="d-flex justify-content-center align-items-center">
           <Button
             className=" text-white pricing-btn"
             btnText="JETZT wert berechnen"
-            backgroundColor="#017880"
+            backgroundColor="#36A18B"
             width="auto"
-            padding="7px 40px"
+            fontSize="25px"
+            padding="7px 60px"
             height="auto"
           />
         </div>
       </section>
+      <Unseresection />
+      <HomeVideoSection />
       <Versandarten heading="Unsere Versandarten" />
-      <InfoSection />
+      <CustomerReviewsSection />
+      <Professionalsection />
+      <Ubersection />
       <MeltingFacilities />
     </div>
   );

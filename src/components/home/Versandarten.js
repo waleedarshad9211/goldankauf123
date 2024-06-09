@@ -59,15 +59,22 @@ const Versandarten = ({ heading }) => {
                     borderRadius="10px"
                     margin="0px"
                     width="251px"
-                    padding="8px 10px"
+                    padding="4px 10px"
                     backgroundColor="#36A08A"
                     fontWeight="400"
+                    rightSide
+                    iconDetails={{
+                      allowIcon: true,
+                      icon: buttonArrow,
+                    }}
                   />
                 </div>
               </div>
-              <p className="versadarten-last-para">
-                Einfach, schnell und unkompliziert
-              </p>
+              <div className="d-flex justify-content-center">
+                <p className="versadarten-last-para">
+                  Einfach, schnell und unkompliziert
+                </p>
+              </div>
               <div className="d-flex align-items-center bg-white p-2 rounded-3">
                 <div>
                   <Image src={Insurance} alt="" className="me-3" />
@@ -150,15 +157,22 @@ const Versandarten = ({ heading }) => {
                     borderRadius="10px"
                     margin="0px"
                     width="251px"
-                    padding="8px 10px"
+                    padding="4px 10px"
                     backgroundColor="#36A08A"
                     fontWeight="400"
+                    rightSide
+                    iconDetails={{
+                      allowIcon: true,
+                      icon: buttonArrow,
+                    }}
                   />
                 </div>
               </div>
-              <p className="versadarten-last-para">
-                Seriöse Abwicklung In 3-4 Tagen
-              </p>
+              <div className="d-flex justify-content-center">
+                <p className="versadarten-last-para">
+                  Seriöse Abwicklung In 3-4 Tagen
+                </p>
+              </div>
               <div className="d-flex align-items-center bg-white p-2 rounded-3">
                 <div>
                   <Image src={Insurance} alt="" className="me-3" />
@@ -224,20 +238,22 @@ const Versandarten = ({ heading }) => {
                     borderRadius="10px"
                     margin="0px"
                     width="251px"
-                    padding="8px 10px"
+                    padding="4px 10px"
                     backgroundColor="#36A08A"
                     fontWeight="400"
                     rightSide
                     iconDetails={{
                       allowIcon: true,
-                      iconName: buttonArrow,
+                      icon: buttonArrow,
                     }}
                   />
                 </div>
               </div>
-              <p className="versadarten-last-para">
-                Ab einem Warenwert von 1.500 €
-              </p>
+              <div className="d-flex justify-content-center">
+                <p className="versadarten-last-para">
+                  Ab einem Warenwert von 1.500 €
+                </p>
+              </div>
               <div className="d-flex align-items-center bg-white p-2 rounded-3">
                 <div>
                   <Image src={Insurance} alt="" className="me-3" />

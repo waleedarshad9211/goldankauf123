@@ -4,8 +4,8 @@ const Button = ({
   btnText = "",
   height = "auto",
   width = "auto",
-  borderRadius = "30px",
-  backgroundColor = "#4E4E4E",
+  borderRadius = "10px",
+  backgroundColor = "#36A18B",
   boxShadow = "",
   color = "#ffffff",
   margin = "",
@@ -16,6 +16,9 @@ const Button = ({
   className = "",
   type = "",
   textTransform = "",
+  display = "flex",
+  justifyContent = "space-between",
+  alignItems = "center",
   rightSide = false,
   style = {},
   iconDetails = { allowIcon: false, icon: null },
@@ -37,19 +40,28 @@ const Button = ({
         padding: padding,
         width: width,
         textTransform: textTransform,
+        display: allowIcon ? display : "",
+        justifyContent: allowIcon ? justifyContent : "",
+        alignItems: allowIcon ? alignItems : "",
         ...style,
       }}
       type={type}
     >
       {btnText}
-      {rightSide && allowIcon ? (
-        <Image
-          src={icon}
-          style={{ padding: "0px 5px 0px 5px", height: "28px", width: "28px" }}
-        />
-      ) : (
-        ""
-      )}
+      <span>
+        {rightSide && allowIcon ? (
+          <Image
+            src={icon}
+            style={{
+              padding: "0px 5px 0px 5px",
+              height: "28px",
+              width: "28px",
+            }}
+          />
+        ) : (
+          ""
+        )}
+      </span>
     </button>
   );
 };

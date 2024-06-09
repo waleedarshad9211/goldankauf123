@@ -5,30 +5,21 @@ const HomeVideoSection = () => {
     <section className="video_section_wrapper">
       <div className="container">
         <div className="d-flex justify-content-between align-items-center flex-column">
-          <h2 className="text-center">Echte Video Bewertungen</h2>
+          <h2 className="text-center video_section_heading">
+            Mehr Als 150.000 zufriedene Kunden
+          </h2>
           <p className="video_section_p1">
-            Wir kaufen Ihr Altgold, Bruchgold, Zahngold, Silber, Platin, Münzen,
-            Feingold, Goldbarren und Legierungen jeder Art über den Postweg an.
-            Machen Sie Ihr Altgold oder Zahngold zu Bargeld! Egal ob
-            Zahngoldreste aus dem Dentallabor oder Gusskegel aus der
-            Zahnarztpraxis. Wir kaufen jede Art von Edelmetallen an. Gerne
-            kaufen wir Ihr Zahngold auch mit Verbindungsstücken, Zahn-,
-            Keramikresten etc. an. Wenn Sie Zahngold von Ihrer letzten
-            Zahnersatzbehandlung zu Hause haben, Zahngold bei einer
-            Wohnungsauflösung vorgefunden oder Zahngold von Ihren Großeltern
-            geerbt haben, so sind Sie bei uns genau richtig!
+            “Mehr als 150.000 Kunden” haben bereits unseren Goldankauf in
+            Anspruch genommen. Viele dieser zufriedenen Kunden haben auf der
+            bekannen Bewertungsplattform eKomi Ihre positiven Erfahrungen mit
+            Goldakauf123 geteilt.
           </p>
           <p className="video_section_p1">
-            Wir bieten Ihnen im Vergleich zu Ihrem Juwelier und anderen
-            Goldankäufern einen enorm hohen Goldpreis für Ihr Zahngold an. Zudem
-            sind unsere Zahngold-Ankaufspreise beständig auf einem hohen Niveau.
-            Daher machen Sie jetzt Ihren alten Goldzahn zu barem Geld! Sie
-            werden sich wundern, welch hohen Preis Sie für Ihr altes Zahngold
-            erhalten werden. Sehr viele unserer Kunden sind darüber erstaunt,
-            wie hoch die Ankaufspreise selbst für kleine Mengen Zahngold sein
-            können. Wir empfehlen immer uns das Zahngold einzusenden und den
-            Zahngoldwert analysieren zu lassen und sich dann vom attraktiven
-            Zahngold Preis überraschen zu lassen.
+            Lassen auch Sie sich von den zahlreichen Bewertungen überzeugen und
+            verkaufen uns Ihr Gold zu sehr hohen Goldpreisen. Bestellen auch Sie
+            jetzt ganz unverbindlich eine kostenlose Versandtasche für den
+            Goldankauf.Wir freuen uns darauf, auch Sie als neuen Kunden gewinnen
+            zu können.
           </p>
           <div className="row video-row">
             <div className="col-12 col-md-6 col-lg-6 mb-4">
@@ -67,10 +58,10 @@ const HomeVideoSection = () => {
           <div>
             <Button
               className=" text-white video-btn"
-              btnText="Videos über Zahngold123.de"
-              backgroundColor="#2F2F2F"
-              width="auto"
-              padding="1px 30px"
+              btnText="Videos über Goldankauf123.de"
+              padding="5px 30px"
+              fontSize="25px"
+              fontWeight="700"
             />
           </div>
         </div>

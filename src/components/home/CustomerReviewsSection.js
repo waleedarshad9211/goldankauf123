@@ -17,20 +17,7 @@ const CustomerReviewsSection = () => {
     <div className="container">
       <section className="customer_review_section_wrapper">
         <div className="customer_review_section_wrapper_heading">
-          <h2>
-            100% Sicherheit durch echte <br />
-            Kundenbewertungen
-          </h2>
-          <div className="pwered_by d-none d-md-flex d-lg-flex">
-            <p className="">Powered by</p>
-            <Image
-              src={PowerBy}
-              alt=""
-              width={139}
-              height={37}
-              className="pwered_by_img "
-            />
-          </div>
+          <h2>100% Sicherheit durch echte Kundenbewertungen</h2>
         </div>
         <div className="row mt-2">
           <div className="col-12 col-md-5">

@@ -2048,34 +2048,41 @@ header .dropdown-menu.show li a.active {
   line-height: 24px;
 }
 .video_section_wrapper {
-  background-color: #f7f7f7;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .video_section_wrapper h2 {
   margin-bottom: 20px;
   font-size: 30px;
-  line-height: 30.94px;
-  font-weight: 700;
-  color: #1d1d1d;
+  line-height: 45px;
+  font-weight: 500;
 }
 .video_section_p1,
 .video_section_p2 {
-  font-size: 18px;
-  margin-bottom: 25px;
+  font-size: 16px;
+
+  text-align: center;
+}
+.video_section_p1 {
+  max-width: 910px;
+  margin-bottom: 10px;
+}
+.video_section_p2 {
+  max-width: 895px;
+  margin-bottom: 35px;
 }
 .vedio_card,
 .vedio_card iframe {
   border-radius: 10px;
 }
-.video-btn {
-  border-radius: 30px !important;
-  border: none;
-  font-size: 25px;
-  font-weight: bold;
+.vedio_card iframe {
+  border: 8px solid #e8f2ee;
 }
 .video-row {
   width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 .vedio_card {
   position: relative;
@@ -2083,33 +2090,33 @@ header .dropdown-menu.show li a.active {
 }
 .black-corner-top {
   position: absolute;
-  background-color: #2f2f2f;
+  background-color: #36a18b;
   width: 80px;
   height: 80px;
   border-top-left-radius: 10px;
 }
 .black-corner-bottom {
   position: absolute;
-  background-color: #2f2f2f;
+  background-color: #36a18b;
   width: 80px;
   height: 80px;
   border-bottom-right-radius: 10px;
 }
 
 .top-left {
-  top: -10px;
-  left: -10px;
+  top: -14px;
+  left: -14px;
   z-index: -1;
 }
 
 .bottom-right {
-  bottom: -3px;
-  right: 45px;
+  bottom: -8px;
+  right: 40px;
   z-index: -1;
 }
 
 .uber_section_wrapper {
-  background-color: #f7f7f7;
+  background-color: #f5f5f5f5;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -2174,15 +2181,14 @@ header .dropdown-menu.show li a.active {
   font-size: 16px;
 }
 .professional_section_wrapper {
-  padding-top: 30px;
+  padding-top: 25px;
   padding-bottom: 25px;
 }
 .professional_section_wrapper h2 {
   font-size: 30px;
   line-height: 40.92px;
-  font-weight: 700;
-  margin-bottom: 25px;
-  color: #1d1d1d;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 .professional_section_img {
   margin-right: 22px;
@@ -2201,9 +2207,9 @@ header .dropdown-menu.show li a.active {
   margin-top: 23px;
 }
 .unsere_section_wrapper {
-  background-color: #f7f7f7;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  background-color: #f2ece1;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .unsere_section_wrapper h2 {
   font-size: 30px;
@@ -2263,13 +2269,9 @@ header .dropdown-menu.show li a.active {
 }
 
 .customer_review_section_wrapper {
-  background-image: url("/assets/img/homepage/customer_review_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 30px;
-  padding: 30px;
-  border-radius: 30px;
+  background: #36a18b;
+  padding: 10px 10px 10px 35px;
+  border-radius: 10px;
 }
 .customer_review_section_wrapper h2 {
   font-size: 30px;
@@ -2317,6 +2319,11 @@ header .dropdown-menu.show li a.active {
   display: flex;
   justify-content: space-between;
 }
+.customer_review_section_wrapper_heading h2 {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 45px;
+}
 .pwered_by {
   display: flex;
   flex-direction: column;
@@ -2332,10 +2339,7 @@ header .dropdown-menu.show li a.active {
   flex: 1;
   margin-bottom: -50px;
 }
-.pwered_by img {
-  flex: 1;
-  margin-top: -50px;
-}
+
 .review_card {
   border-radius: 20px;
   background-color: #018790;
@@ -3279,6 +3283,7 @@ header .dropdown-menu.show li a.active {
   font-weight: 500;
   text-align: center;
   margin: 20px 0px;
+  max-width: 245px;
 }
 .versand_last_section_step {
   display: flex;
@@ -3301,7 +3306,7 @@ header .dropdown-menu.show li a.active {
 .versand_last_section_dashed_line {
   border: 1px solid #36a08a;
   position: absolute;
-  height: 89%;
+  height: 91%;
   top: 35px;
   bottom: 100%;
   left: 11px;
@@ -4007,9 +4012,6 @@ header .dropdown-menu.show li a.active {
 }
 
 @media screen and (min-width: 901px) and (max-width: 992px) {
-  .pwered_by img {
-    width: 111px;
-  }
   .ekomi_powered_by ul li {
     font-size: 16px;
   }
@@ -4059,9 +4061,6 @@ header .dropdown-menu.show li a.active {
   }
 }
 @media screen and (min-width: 800px) and (max-width: 900px) {
-  .pwered_by img {
-    width: 92px;
-  }
   .pricing-btn {
     margin-top: 20px;
   }
@@ -4477,12 +4476,6 @@ header .dropdown-menu.show li a.active {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-  }
-  .pwered_by img {
-    width: 166px;
-    height: 45px;
-    margin-top: -10px;
-    margin-bottom: 10px;
   }
   .pwered_by p {
     font-size: 10.38px;
@@ -5237,10 +5230,6 @@ header .dropdown-menu.show li a.active {
   }
   .review_slider2_column .review2_heading2 p {
     font-size: 14px;
-  }
-  .pwered_by img {
-    width: 50px;
-    height: auto;
   }
   .pwered_by p {
     font-size: 11px;
