@@ -4,7 +4,10 @@ import ValueCalc from "@/components/shared/ValueCalc";
 import WeitereVersandartenCard from "@/components/shared/WeitereVersandartenCard";
 import Breadcrumbs from "@/components/shared/breadcrumb/BreadcrumbsComponent";
 import Clock from "@/components/shared/clock/Clock";
+import GarantedPrice from "@/components/shared/garantedPrice/GarantedPrice";
 import Pricing from "@/components/shared/pricing/Pricing";
+import RightTriangle from "/public/assets/img/right-triangle.png";
+import Image from "next/image";
 
 const page = () => {
   const pricingParagraph = `
@@ -92,44 +95,46 @@ const page = () => {
           </div>
         </div>
         <section className="values-form">
-          <div className="container current-value">
+          <div className="current-value">
             <div className="row">
               <div className="col-lg-7 col-md-12">
-                <div className="current-value-left goldrechner_currentvalues">
-                  <div className="d-flex flex-column justify-content-center align-items-center">
-                    <h2 className="text-center mb-2">
-                      Aktueller Wert Ihrer Edelmetalle
-                    </h2>
-                    <div className="current-price">2.656,00 €</div>
-                  </div>
-                  <div className="d-flex justify-content-center align-items-center flex-lg-row flex-column">
-                    <div className="calc-table flex-fill">
-                      <h5 className="text-center p-2">
-                        Ihre Berechnung im Detail:
-                      </h5>
-                      <table className="table">
-                        <tbody>
-                          <tr className="">
-                            <td>20 Gramm</td>
-                            <td className="text-center">999er Feingold</td>
-                            <td className="text-end">zu 1.158,40 €</td>
-                          </tr>
-                          <tr className="">
-                            <td>40 Gramm</td>
-                            <td className="text-center">986er Gold</td>
-                            <td className="text-end">zu 2.280,40 €</td>
-                          </tr>
-                          <tr className="brdr-btm">
-                            <td colSpan="2" className="fw-bold">
-                              Ihr Auszahlungsbetrag
-                            </td>
-                            <td className="fw-bold text-end">3.438,40 €</td>
-                          </tr>
-                        </tbody>
-                      </table>
+                <div className="current-value-left goldrechner-valu-left">
+                  <div>
+                    <div className="d-flex flex-column justify-content-center align-items-center current-metal-values-wrapper">
+                      <span className="text-center">
+                        Aktueller Wert lhrer Edelmetalle:
+                      </span>
+                      <div className="value">2.656,00 €</div>
+                    </div>
+                    <div className="d-flex justify-content-center align-items-center flex-lg-row flex-column">
+                      <div className="calc-table flex-fill">
+                        <h5 className="text-center p-2">
+                          Ihre Berechnung im Detail:
+                        </h5>
+                        <table className="table">
+                          <tbody>
+                            <tr className="">
+                              <td>20 Gramm</td>
+                              <td className="text-center">999er Feingold</td>
+                              <td className="text-end">zu 1.158,40 €</td>
+                            </tr>
+                            <tr className="">
+                              <td>40 Gramm</td>
+                              <td className="text-center">986er Gold</td>
+                              <td className="text-end">zu 2.280,40 €</td>
+                            </tr>
+                            <tr className="brdr-btm">
+                              <td colSpan="2" className="fw-bold">
+                                Ihr Auszahlungsbetrag
+                              </td>
+                              <td className="fw-bold text-end">2.656,000 €</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
-                  <div className="cal_table_para">
+                  <div className="cal_table_para goldrechner-tabl-para">
                     <p>
                       Der endgültige Auszahlungsbetrag wird anhand der
                       Ankaufskurse bei Sendungseingang ermittelt.
@@ -137,18 +142,22 @@ const page = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-1 col-md-12 d-flex align-items-center flex-column justify-content-center">
-                <div className="triangle-right d-none d-lg-block"></div>
+              <div className="col-lg-1 d-flex align-items-center flex-column justify-content-center triangle-container">
+                <div className="d-none d-lg-block">
+                  <Image src={RightTriangle} alt="" />
+                </div>
                 <div className="triangle-down d-block d-lg-none"></div>
               </div>
-              <div className="col-md-12 col-lg-4 ">
-                <PriceValueForm />
-                <WeitereVersandartenCard />
+              <div className="col-md-12 col-lg-4 kostenlos-wrapper">
+                <div className="calculator-right-side">
+                  <PriceValueForm />
+                  <WeitereVersandartenCard />
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section className="container">
+        <section className="">
           <div className="row goldrechner_heading_paras_row">
             <div className="col-12 col-md-12 col-lg-12">
               <div className="d-flex align-items-center mb-1">
@@ -160,7 +169,8 @@ const page = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    marginRight: "10px",
+                    marginRight: "4px",
+                    fontSize: "24px",
                     width: "35px",
                     height: "35px",
                   }}
@@ -188,7 +198,8 @@ const page = () => {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    marginRight: "10px",
+                    marginRight: "4px",
+                    fontSize: "24px",
                     width: "35px",
                     height: "35px",
                   }}
@@ -254,7 +265,10 @@ const page = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className=" garantie_price_container">
+          <GarantedPrice />
+        </section>
+        <section className="mb-2 goldrechner-last-section">
           <ValueCalc />
         </section>
       </div>

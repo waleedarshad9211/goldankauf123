@@ -19,10 +19,12 @@ import InfoSection from "./InfoSection";
 
 const MainPage = () => {
   return (
-    <div className="site_home_page">
+    <div className="site_home_page ">
       <Herosection />
       <GoldenKauf />
-      <ValueCalc home />
+      <section className="container">
+        <ValueCalc home={true} notValuecalc={true} />
+      </section>
       <Umweltschutz />
       <CustomerReviewsSection />
       <section>
@@ -42,7 +44,7 @@ const MainPage = () => {
       <Ubersection />
       <Professionalsection />
       <Unseresection />
-      <section className="pricing">
+      <section className="pricing container">
         <Pricing />
         <div className="d-flex justify-content-center align-items-center">
           <Button

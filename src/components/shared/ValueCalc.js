@@ -5,8 +5,16 @@ import Ntv from "/public/assets/img/homepage/100_ gurantee.png";
 
 const ValueCalc = ({ home = false }) => {
   return (
-    <div className="container">
-      <div className="goldankauf_valuecalc">
+    <div className="">
+      <div
+        className="goldankauf_valuecalc"
+        style={{
+          backgroundColor: "#36a18b",
+          padding: "10px 20px",
+          borderRadius: "10px",
+          marginTop: "15px",
+        }}
+      >
         <h2 className="goldankauf_valuecalc_heading">
           Berechnen Sie den Wert Ihrer Edelmetalle
         </h2>

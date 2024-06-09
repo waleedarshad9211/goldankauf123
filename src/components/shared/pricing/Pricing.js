@@ -5,7 +5,7 @@ const Pricing = ({
   goldrechner,
 }) => {
   return (
-    <div className="container pricing-form">
+    <div className="pricing-form">
       <h3
         className={
           goldrechner

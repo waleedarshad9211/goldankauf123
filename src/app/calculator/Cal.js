@@ -3,13 +3,15 @@ import WeitereVersandartenCard from "@/components/shared/WeitereVersandartenCard
 import Breadcrumbs from "@/components/shared/breadcrumb/BreadcrumbsComponent";
 import Button from "@/components/shared/button/Button";
 import Pricing from "@/components/shared/pricing/Pricing";
+import RightTriangle from "/public/assets/img/right-triangle.png";
+import Image from "next/image";
 
 const Cal = () => {
   return (
-    <div>
-      <div className="container">
+    <div className="container">
+      <div>
         <Breadcrumbs />
-        <div className="goldankauf_valuecalc mt-4">
+        <div className="goldankauf_valuecalculator mt-4">
           <h2 className="goldankauf_valuecalc_heading">
             Berechnen Sie den Wert Ihrer Edelmetalle
           </h2>
@@ -64,7 +66,7 @@ const Cal = () => {
         <Pricing />
       </section>
       <section className="values-form">
-        <div className="container current-value">
+        <div className="current-value">
           <div className="row">
             <div className="col-lg-7 col-md-12">
               <div className="current-value-left">
@@ -110,7 +112,9 @@ const Cal = () => {
               </div>
             </div>
             <div className="col-lg-1 d-flex align-items-center flex-column justify-content-center triangle-container">
-              <div className="triangle-right d-none d-lg-block"></div>
+              <div className="d-none d-lg-block">
+                <Image src={RightTriangle} alt="" />
+              </div>
               <div className="triangle-down d-block d-lg-none"></div>
             </div>
             <div className="col-md-12 col-lg-4 kostenlos-wrapper">

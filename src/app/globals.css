@@ -915,7 +915,7 @@ header .dropdown-menu.show li a.active {
 }
 .current-value-left {
   background-color: #cbe8e2;
-  border-radius: 10px;
+  border-radius: 15px;
   padding: 15px 15px 0px 15px;
   margin-top: 1px;
   height: 98%;
@@ -1009,7 +1009,7 @@ header .dropdown-menu.show li a.active {
   padding: 10px 15px 15px 15px;
   margin-bottom: 14px;
   max-width: 351px;
-  width: 347px;
+  width: 351px;
 }
 
 .Kostenlos-heading {
@@ -1211,10 +1211,20 @@ header .dropdown-menu.show li a.active {
   }
 }
 
+.goldrechner-valu-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.goldrechner-tabl-para {
+  margin-bottom: 40px;
+}
 .current-value .calc-table h5 {
-  background-color: #019ba5;
+  background-color: #36a18b;
   color: #ffffff;
   border-radius: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .current-value .calc-table table {
@@ -1281,24 +1291,6 @@ header .dropdown-menu.show li a.active {
 .current-value .calc-table tbody tr td:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-/* .triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 25px solid transparent;
-  border-left: 25px solid #dba25d;
-  border-bottom: 25px solid transparent;
-  margin-left: 25px;
-  display: block;
-} */
-.triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 25px solid transparent;
-  border-left: 25px solid #dba25d;
-  border-bottom: 25px solid transparent;
-  border-radius: 0 0 0 10;
 }
 
 .triangle-down {
@@ -1552,6 +1544,7 @@ header .dropdown-menu.show li a.active {
   }
 }
 .footer_section {
+  margin-top: 10px;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #f7f7f7;
@@ -6004,7 +5997,7 @@ header .dropdown-menu.show li a.active {
   line-height: 38px;
   font-weight: 500;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
   max-width: 605px;
 }
@@ -7486,13 +7479,47 @@ header .dropdown-menu.show li a.active {
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.goldankauf_valuecalc {
+.garantie_price_container {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.granted-price-card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 155px;
+  padding: 10px;
+}
+.granted-price-card img {
+  margin-top: -70px;
+}
+.granted-price-card .head {
+  font-size: 18px;
+  font-weight: 500;
+  color: #36a18b;
+  margin-top: 20px;
+}
+.granted-price-card .para {
+  font-size: 18px;
+  font-weight: 400;
+  font-weight: 500;
+}
+.goldrechner-last-section {
+  margin-bottom: 15px;
+}
+
+.goldankauf_valuecalculator {
   background-color: #36a18b;
   padding: 10px 20px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   margin-top: 15px;
 }
+
 .goldankauf_valuecalc .value-calculate {
   border-radius: 10px;
 }
@@ -9492,7 +9519,7 @@ table.hamburg_table {
   margin-bottom: 0px;
 }
 .breadcrumb-item_home {
-  color: #019ba5;
+  color: #36a18b;
 }
 .breadcrumb-item {
   cursor: pointer;

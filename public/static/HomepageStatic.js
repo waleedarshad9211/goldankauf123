@@ -151,6 +151,9 @@ import StepCard3 from "/public/assets/img/stepcard_3.png";
 import StepCard4 from "/public/assets/img/stepcard_4.png";
 import tickIcon from "/public/assets/img/bestelen_tick.png";
 import Image from "next/image";
+import GoldrecnerGoldZuruck from "/public/assets/img/homepage/goldrecner-gold-zuruck.png";
+import SchnelleAuszahlung from "/public/assets/img/homepage/schnelle-auszahlung.png";
+import KeineGubuhren from "/public/assets/img/homepage/keine-gubuhren.png";
 
 export const navItemsArray = [
   {
@@ -2028,6 +2031,24 @@ export const goldankaufLexikonUhrenAnkaufArray = [
   {
     src: SilberuhrenAnkauf,
     text: "Silberuhren Ankauf",
+  },
+];
+
+export const goldrechnerArray = [
+  {
+    imageSrc: GoldrecnerGoldZuruck,
+    heading: "100%",
+    para: "100% Gold-zurück-Garantie",
+  },
+  {
+    imageSrc: SchnelleAuszahlung,
+    heading: "Schnelle Auszahlung",
+    para: "innerhalb von 48 h",
+  },
+  {
+    imageSrc: KeineGubuhren,
+    heading: "Keine Gebühren &",
+    para: "keine Abzüge",
   },
 ];
 export const goldankaufLexikonArrayMobile = [

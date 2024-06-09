@@ -34,7 +34,7 @@ const Breadcrumbs = () => {
               router.push(item);
             }}
           >
-            {">> "}
+            {"/ "}
             {item?.charAt(0).toUpperCase() + item?.slice(1)}
           </li>
         ))}
