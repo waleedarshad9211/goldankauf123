@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Button = ({
   btnText = "",
   height = "auto",
@@ -14,7 +16,11 @@ const Button = ({
   className = "",
   type = "",
   textTransform = "",
+  rightSide = false,
+  style = {},
+  iconDetails = { allowIcon: false, icon: null },
 }) => {
+  let { allowIcon, icon } = iconDetails;
   return (
     <button
       className={`gold_btn ${className}`}
@@ -31,10 +37,19 @@ const Button = ({
         padding: padding,
         width: width,
         textTransform: textTransform,
+        ...style,
       }}
       type={type}
     >
       {btnText}
+      {rightSide && allowIcon ? (
+        <Image
+          src={icon}
+          style={{ padding: "0px 5px 0px 5px", height: "28px", width: "28px" }}
+        />
+      ) : (
+        ""
+      )}
     </button>
   );
 };

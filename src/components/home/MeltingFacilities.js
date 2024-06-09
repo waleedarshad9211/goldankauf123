@@ -8,8 +8,13 @@ const MeltingFacilities = () => {
   return (
     <section className="melting-facilities-wrapper">
       <div className="container">
-        <div className="text-center">
-          <h2>Wir verfügen über modernste Labor- und Schmelzanlagen</h2>
+        <div className="text-center ">
+          <div className="melting-facilities-heading">
+            <h2>
+              Wir verfügen über modernste analytische Verfahren und
+              Schmelzeinrichtungen
+            </h2>
+          </div>
           <div className="row">
             <div className="col-6 col-md-6 col-lg-3">
               <div className="melting-facilities-img">

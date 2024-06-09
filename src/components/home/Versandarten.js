@@ -5,6 +5,8 @@ import VersandartenImg2 from "/public/assets/img/versandarten_card_img2.png";
 import VersandartenImg3 from "/public/assets/img/versandarten_card_img3.png";
 import DHL from "/public/assets/img/dhl.png";
 import UPSBlack from "/public/assets/img/UPS_black.png";
+import Insurance from "/public/assets/img/insurance-copy.png";
+import buttonArrow from "/public/assets/img/homepage/btn-arrow-unsere.png";
 
 const Versandarten = ({ heading }) => {
   return (
@@ -15,50 +17,24 @@ const Versandarten = ({ heading }) => {
         </div>
         <div className="row align-items-end mt-md-5">
           <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
-            <div className="versandarten_card d-none d-lg-block">
-              <div className="versandarten_card_header1">
-                <div>
-                  <p>
-                    Eigenes<br></br> Versandmaterial
+            <div className="versandarten_card">
+              <div className="versand_last_section">
+                <div className="versandarten_card_header1">
+                  <p className="versandarten_header-heading">SELBSTVERSAND</p>
+                  <p className="versandarten_header-subheading">
+                    Sie verschicken Ihr Gold selbst
                   </p>
                 </div>
                 <div className="versandarten_card_img">
                   <Image src={VersandartenImg1} alt="" />
                 </div>
-              </div>
-              <div className="versandarten_card_body">
-                <p className="versandarten_card_body_para1">
-                  Möchten Sie Ihr eigenes Versandmaterial nutzen, dann drucken
-                  Sie notwendigen Unterlagen direkt online aus und senden uns
-                  die Edelmetalle zu
-                </p>
-                <p className="versandarten_card_body_para2">
-                  Abwicklungsdauer: 2-4 Tage
-                </p>
-                <p className="text-center mb-2">Versandpartner</p>
-                <div className="d-flex justify-content-center versandarten_card_img1">
-                  <Image src={DHL} alt="dhl" className="text-center " />
-                </div>
-              </div>
-              <div className="d-flex justify-content-center align-items-center">
-                <Button
-                  btnText="Versandart auswählen"
-                  borderRadius="30px"
-                  margin="0px"
-                  width="275px"
-                  padding="8px 20px"
-                  backgroundColor="#4E4E4E"
-                  fontWeight="bold"
-                />
-              </div>
-              <div className="versand_last_section">
                 <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">
                     1<div className="versand_last_section_dashed_line"></div>
                   </div>
                   <div className="versand_last_section_text">
-                    Einfach auf der Folgeseite Ihre persönlichen Daten eingeben
-                    und den Paketschein sowie das Begleitschreiben ausdrucken.
+                    Sie erhalten ein kostenloses Versandlabel sowie
+                    Begleitschreiben zum Ausdrucken.
                   </div>
                 </div>
                 <div className="versand_last_section_step">
@@ -66,222 +42,90 @@ const Versandarten = ({ heading }) => {
                     2<div className="versand_last_section_dashed_line"></div>
                   </div>
                   <div className="versand_last_section_text">
-                    Befüllen Sie nun Ihr Versandmaterial mit den zu verkaufenden
-                    Gegenständen und geben diesen kostenlos bei jeder Filiale
-                    der Deutschen Post ab.
+                    Wertgegenstände samt ausgefülltem Begleitschreiben gut
+                    verpacken.
                   </div>
                 </div>
                 <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">3</div>
                   <div className="versand_last_section_text">
-                    Sobald Ihre Sendung bei uns eingeht, nehmen wir die
-                    Bewertung vor und senden Ihnen innerhalb von 48 Stunden ein
-                    Ankaufsangebot. Bei Bestätigung erfolgt umgehend die
-                    Auszahlung.
+                    Versandlabel auf das Paket kleben & bei der DHL kostenlos
+                    abgeben.
                   </div>
                 </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Button
+                    btnText="Weitere Informationen"
+                    borderRadius="10px"
+                    margin="0px"
+                    width="251px"
+                    padding="8px 10px"
+                    backgroundColor="#36A08A"
+                    fontWeight="400"
+                  />
+                </div>
+              </div>
+              <p className="versadarten-last-para">
+                Einfach, schnell und unkompliziert
+              </p>
+              <div className="d-flex align-items-center bg-white p-2 rounded-3">
+                <div>
+                  <Image src={Insurance} alt="" className="me-3" />
+                </div>
+                <div style={{ fontSize: "17px" }}>
+                  Die Versandtasche (DHL) ist bis 1.500 € versichert.
+                </div>
+              </div>
+              <div className="d-flex justify-content-center align-items-center mt-4">
+                <Button
+                  btnText="Ankauf starten"
+                  borderRadius="10px"
+                  margin="0px"
+                  width="100%"
+                  padding="5px 10px"
+                  backgroundColor="#36A08A"
+                  fontSize="22px"
+                  fontWeight="400"
+                />
               </div>
             </div>
-            <div className="versandarten2_card d-sm-block d-lg-none">
-              <div className="versandarten_card_header2">
-                <div>
+          </div>
+          <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
+            <div className="versandarten2_card">
+              <div className="versand_last_section">
+                <div className="versandarten2_card_upper_btn">
                   <Button
                     btnText="Beliebteste Option"
-                    fontSize="20px"
-                    fontWeight="bold"
-                    className="versandarten_card_header_btn"
-                    borderRadius="30px"
-                    backgroundColor="#F6B535"
-                    color="#4E4E4E"
-                    margin="10px 0px 15px 0px"
-                    width="267px"
-                    height="30px"
+                    backgroundColor="#ffffff"
+                    border="1px solid #36a08a"
+                    borderRadius="10px"
+                    width="213px"
+                    height="65px"
+                    color="#36a08a"
                     textTransform="uppercase"
+                    fontSize="18px"
+                    fontWeight="700"
+                    className="versandarten2_card2_btn"
                   />
-                  <p className="versandarten_card_para2">
-                    Versandtasche<br></br> bestellen
+                </div>
+                <div className="versandarten_card_header1">
+                  <p className="versandarten_header-heading">VERSANDTASCHE</p>
+                  <p className="versandarten_header-subheading">
+                    Kostenlose Versandtasche
                   </p>
                 </div>
                 <div className="versandarten_card_img">
                   <Image src={VersandartenImg2} alt="" />
                 </div>
-              </div>
-              <div className="versandarten_card_body">
-                <p className="versandarten_card2_body_para1 text-center">
-                  Jetzt kostenlos eine persönliche Versandtasche bestellen. Alle
-                  notwendigen Unterlagen gehen Ihnen in wenigen Tagen per Post
-                  zu.
-                </p>
-                <p className="versandarten_card2_body_para2 text-center">
-                  Abwicklungsdauer: 4-5 Tage
-                </p>
-                <p className="text-center mb-2">Versandpartner</p>
-                <div className="d-flex justify-content-center versandarten_card_img2">
-                  <Image src={DHL} alt="dhl" className="text-center" />
-                </div>
-              </div>
-              <div className="d-flex justify-content-center align-items-center">
-                <Button
-                  btnText="Versandart auswählen"
-                  borderRadius="30px"
-                  margin="0px"
-                  width="275px"
-                  padding="6px 10px"
-                  backgroundColor="#4E4E4E"
-                  fontWeight="bold"
-                />
-              </div>
-              <div className="versand_last_section">
-                <div className="versand_last_section2_step">
-                  <div className="versand_last_section_circle ">
-                    1<div className="versand_last_section_dashed_line"></div>
-                  </div>
-                  <div className="versand_last_section_text">
-                    Einfach das Bestellformular ausfüllen und in wenigen Tagen
-                    Ihre persönlichen Versandunterlagen zugeschickt bekommen.
-                  </div>
-                </div>
-                <div className="versand_last_section2_step">
-                  <div className="versand_last_section_circle ">
-                    2<div className="versand_last_section_dashed_line"></div>
-                  </div>
-                  <div className="versand_last_section_text">
-                    Befüllen Sie nun Ihr Versandmaterial mit den zu verkaufenden
-                    Gegenständen und geben dieses kostenlos bei jeder Filiale
-                    der Deutschen Post ab.
-                  </div>
-                </div>
-                <div className="versand_last_section2_step">
-                  <div className="versand_last_section_circle ">3</div>
-                  <div className="versand_last_section_text">
-                    Sobald Ihre Sendung bei uns eingeht, nehmen wir die
-                    Bewertung vor und senden Ihnen innerhalb von 48 Stunden ein
-                    Ankaufsangebot. Bei Bestätigung erfolgt umgehend die
-                    Auszahlung.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
-            <div className="versandarten2_card d-none d-lg-block">
-              <div className="versandarten_card_header2">
-                <Button
-                  btnText="Beliebteste Option"
-                  fontSize="20px"
-                  fontWeight="bold"
-                  className="versandarten_card_header_btn"
-                  borderRadius="30px"
-                  backgroundColor="#F6B535"
-                  color="#4E4E4E"
-                  margin="10px 0px 15px 0px"
-                  width="267px"
-                  height="30px"
-                  textTransform="uppercase"
-                />
-                <p className="versandarten_card_para2">
-                  Versandtasche <br></br>bestellen
-                </p>
-                <Image src={VersandartenImg2} alt="" />
-              </div>
-              <div className="versandarten_card_img versandarten_card_img_middle"></div>
-              <div className="versandarten_card_body">
-                <p className="versandarten_card2_body_para1 text-center">
-                  Jetzt kostenlos eine persönliche Versandtasche bestellen. Alle
-                  notwendigen Unterlagen gehen Ihnen in wenigen Tagen per Post
-                  zu.
-                </p>
-                <p className="versandarten_card2_body_para2 text-center">
-                  Abwicklungsdauer: 4-5 Tage
-                </p>
-                <p className="text-center mb-2">Versandpartner</p>
-                <div className="d-flex justify-content-center versandarten_card_img2">
-                  <Image src={DHL} alt="dhl" className="text-center" />
-                </div>
-              </div>
-              <div className="d-flex justify-content-center align-items-center">
-                <Button
-                  btnText="Versandart auswählen"
-                  borderRadius="30px"
-                  margin="0px"
-                  width="275px"
-                  padding="8px 20px"
-                  backgroundColor="#4E4E4E"
-                  fontWeight="bold"
-                />
-              </div>
-              <div className="versand_last_section">
-                <div className="versand_last_section2_step">
-                  <div className="versand_last_section_circle ">
-                    1<div className="versand_last_section_dashed_line"></div>
-                  </div>
-                  <div className="versand_last_section_text">
-                    Einfach das Bestellformular ausfüllen und in wenigen Tagen
-                    Ihre persönlichen Versandunterlagen zugeschickt bekommen.
-                  </div>
-                </div>
-                <div className="versand_last_section2_step">
-                  <div className="versand_last_section_circle ">
-                    2<div className="versand_last_section_dashed_line"></div>
-                  </div>
-                  <div className="versand_last_section_text">
-                    Befüllen Sie nun Ihr Versandmaterial mit den zu verkaufenden
-                    Gegenständen und geben dieses kostenlos bei jeder Filiale
-                    der Deutschen Post ab.
-                  </div>
-                </div>
-                <div className="versand_last_section2_step">
-                  <div className="versand_last_section_circle ">3</div>
-                  <div className="versand_last_section_text">
-                    Sobald Ihre Sendung bei uns eingeht, nehmen wir die
-                    Bewertung vor und senden Ihnen innerhalb von 48 Stunden ein
-                    Ankaufsangebot. Bei Bestätigung erfolgt umgehend die
-                    Auszahlung.
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="versandarten_card d-sm-block d-lg-none">
-              <div className="versandarten_card_header1">
-                <p>
-                  Eigenes<br></br> Versandmaterial
-                </p>
-                <Image src={VersandartenImg1} alt="" />
-              </div>
-              <div className="versandarten_card_img"></div>
-              <div className="versandarten_card_body">
-                <p className="versandarten_card_body_para1 text-center">
-                  Möchten Sie Ihr eigenes Versandmaterial nutzen, dann drucken
-                  Sie notwendigen Unterlagen direkt online aus und senden uns
-                  die Edelmetalle zu
-                </p>
-                <p className="versandarten_card_body_para2">
-                  Abwicklungsdauer: 2-4 Tage
-                </p>
-                <p className="text-center mb-2">Versandpartner</p>
-                <div className="d-flex justify-content-center versandarten_card_img1">
-                  <Image src={DHL} alt="dhl" className="text-center" />
-                </div>
-              </div>
-              <div className="d-flex justify-content-center align-items-center">
-                <Button
-                  btnText="Versandart auswählen"
-                  borderRadius="30px"
-                  margin="0px"
-                  width="275px"
-                  padding="6px 10px"
-                  backgroundColor="#4E4E4E"
-                  fontWeight="bold"
-                />
-              </div>
-              <div className="versand_last_section">
                 <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">
                     1<div className="versand_last_section_dashed_line"></div>
                   </div>
                   <div className="versand_last_section_text">
-                    Einfach auf der Folgeseite Ihre persönlichen Daten eingeben
-                    und den Paketschein sowie das Begleitschreiben ausdrucken.
+                    Versandtasche bestellen.
+                    <p style={{ visibility: "hidden" }}>
+                      Versandlabel sowie Begleitschreiben zum
+                    </p>
                   </div>
                 </div>
                 <div className="versand_last_section_step">
@@ -289,91 +133,130 @@ const Versandarten = ({ heading }) => {
                     2<div className="versand_last_section_dashed_line"></div>
                   </div>
                   <div className="versand_last_section_text">
-                    Befüllen Sie nun Ihr Versandmaterial mit den zu verkaufenden
-                    Gegenständen und geben diesen kostenlos bei jeder Filiale
-                    der Deutschen Post ab.
+                    Begleitschreiben ausfüllen, Wertgegenstände in die
+                    Versandtasche legen & verschließen.
                   </div>
                 </div>
                 <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">3</div>
                   <div className="versand_last_section_text">
-                    Sobald Ihre Sendung bei uns eingeht, nehmen wir die
-                    Bewertung vor und senden Ihnen innerhalb von 48 Stunden ein
-                    Ankaufsangebot. Bei Bestätigung erfolgt umgehend die
-                    Auszahlung.
+                    Versandtasche kostenlos bei der DHL abgeben.
+                    <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
                   </div>
                 </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Button
+                    btnText="Weitere Informationen"
+                    borderRadius="10px"
+                    margin="0px"
+                    width="251px"
+                    padding="8px 10px"
+                    backgroundColor="#36A08A"
+                    fontWeight="400"
+                  />
+                </div>
               </div>
-            </div>
-          </div>
-          <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
-            <div className="versandarten3_card ">
-              <div className="versandarten_card_header3">
+              <p className="versadarten-last-para">
+                Seriöse Abwicklung In 3-4 Tagen
+              </p>
+              <div className="d-flex align-items-center bg-white p-2 rounded-3">
                 <div>
-                  <p>
-                    Wertsendung ab<br></br> 1000 €
+                  <Image src={Insurance} alt="" className="me-3" />
+                </div>
+                <div style={{ fontSize: "17px" }}>
+                  Die Versandtasche (DHL) ist bis 1.500 € versichert.
+                </div>
+              </div>
+              <div className="d-flex justify-content-center align-items-center mt-4">
+                <Button
+                  btnText="Ankauf starten"
+                  borderRadius="10px"
+                  margin="0px"
+                  width="100%"
+                  padding="5px 10px"
+                  backgroundColor="#36A08A"
+                  fontSize="22px"
+                  fontWeight="400"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
+            <div className="versandarten3_card">
+              <div className="versand_last_section">
+                <div className="versandarten_card_header1">
+                  <p className="versandarten_header-heading">WERTTRANSPORT</p>
+                  <p className="versandarten_header-subheading">
+                    Abholung via Kurier
                   </p>
                 </div>
-                <div className="versandarten_card_img3">
+                <div className="versandarten_card_img">
                   <Image src={VersandartenImg3} alt="" />
                 </div>
-              </div>
-
-              <div className="versandarten_card_body">
-                <p className="versandarten_card3_body_para1 text-center">
-                  Ab 1000 Euro steht Ihnen die kostenlose Abholung via
-                  Sicherheitskurier zur Verfügung. Die Versicherung liegt bei
-                  dieser Versandart bei max. 250.000 Euro.
-                </p>
-                <p className="versandarten_card3_body_para2">
-                  Abwicklungsdauer: 3-4 Tage
-                </p>
-                <p className="text-center mb-2">Versandpartner</p>
-                <div className="d-flex justify-content-center versandarten_card3_body_img">
-                  <Image src={UPSBlack} alt="dhl" className="text-center" />
-                </div>
-              </div>
-              <div className="d-flex justify-content-center align-items-center">
-                <Button
-                  btnText="Versandart auswählen"
-                  borderRadius="30px"
-                  margin="0px"
-                  width="275px"
-                  padding="8px 20px"
-                  backgroundColor="#4E4E4E"
-                  fontWeight="bold"
-                />
-              </div>
-              <div className="versand_last_section">
-                <div className="versand_last_section3_step">
+                <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">
                     1<div className="versand_last_section_dashed_line"></div>
                   </div>
                   <div className="versand_last_section_text">
-                    Bestimmen Sie auf der Folgeseite den Versicherungswert und
-                    drucken das Begleitschreiben aus. Den Abholtermin können Sie
-                    frei bestimmen.
+                    Wertabholung online buchen.
+                    <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
                   </div>
                 </div>
-                <div className="versand_last_section3_step">
+                <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">
                     2<div className="versand_last_section_dashed_line"></div>
                   </div>
                   <div className="versand_last_section_text">
-                    Befüllen Sie das Versandmaterial mit zu den verkaufenden
-                    Gegenständen und übergeben diesen dann dem
-                    Sicherheitskurier.
+                    Begleitschreiben, dass Sie per E-Mail erhalten, ausdrucken &
+                    samt Ihren Wertgegenständen gut verpacken.
                   </div>
                 </div>
-                <div className="versand_last_section3_step">
+                <div className="versand_last_section_step">
                   <div className="versand_last_section_circle ">3</div>
                   <div className="versand_last_section_text">
-                    Sobald Ihre Sendung bei uns eingeht, nehmen wir die
-                    Bewertung vor und senden Ihnen innerhalb von 48 Stunden ein
-                    Ankaufsangebot. Bei Bestätigung erfolgt umgehend die
-                    Auszahlung.
+                    Übergeben Sie die Sendung an den Kurier.
+                    <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
                   </div>
                 </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Button
+                    btnText="Weitere Informationen"
+                    borderRadius="10px"
+                    margin="0px"
+                    width="251px"
+                    padding="8px 10px"
+                    backgroundColor="#36A08A"
+                    fontWeight="400"
+                    rightSide
+                    iconDetails={{
+                      allowIcon: true,
+                      iconName: buttonArrow,
+                    }}
+                  />
+                </div>
+              </div>
+              <p className="versadarten-last-para">
+                Ab einem Warenwert von 1.500 €
+              </p>
+              <div className="d-flex align-items-center bg-white p-2 rounded-3">
+                <div>
+                  <Image src={Insurance} alt="" className="me-3" />
+                </div>
+                <div style={{ fontSize: "17px" }}>
+                  Bis zu 250.000 versichert
+                </div>
+              </div>
+              <div className="d-flex justify-content-center align-items-center mt-4">
+                <Button
+                  btnText="Ankauf starten"
+                  borderRadius="10px"
+                  margin="0px"
+                  width="100%"
+                  padding="5px 10px"
+                  backgroundColor="#36A08A"
+                  fontSize="22px"
+                  fontWeight="400"
+                />
               </div>
             </div>
           </div>

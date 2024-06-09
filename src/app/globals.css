@@ -1981,10 +1981,16 @@ header .dropdown-menu.show li a.active {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.melting-facilities-heading {
+  display: flex;
+  justify-content: center;
+}
 .melting-facilities-wrapper h2 {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
   font-size: 30px;
-  font-weight: 700;
+  line-height: 45px;
+  font-weight: 500;
+  max-width: 858px;
 }
 .melting-facilities-img {
   display: flex;
@@ -1992,7 +1998,7 @@ header .dropdown-menu.show li a.active {
   align-items: center;
 }
 .melting-facilities-img img {
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .pricing-btn {
   background-color: #36a18b;
@@ -3127,91 +3133,66 @@ header .dropdown-menu.show li a.active {
   font-weight: bold;
 }
 .versandarten_card {
-  padding: 10px;
+  padding: 20px;
+  border: 1px solid #d2d2d2;
   border-radius: 10px;
-  background-color: #f7f7f7;
-  min-height: 1096px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #eee4e3;
 }
 .versandarten2_card {
-  padding: 10px;
+  padding: 20px;
+  border: 1px solid #36a08a;
   border-radius: 10px;
-  background-color: #f7f7f7;
-  min-height: 1096px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #f2f2f2;
   height: auto;
 }
+.versandarten2_card_upper_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.versandarten2_card2_btn {
+  position: absolute;
+}
+.versandarten2_card .versandarten_header-heading {
+  margin-top: 80px;
+}
 .versandarten3_card {
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
-  background-color: #f7f7f7;
-  min-height: 1096px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid #d2d2d2;
+  background-color: #e9eef2;
 }
 .versandarten_card_header1 {
-  background-color: #64c3c9;
-  color: #ffffff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: column;
-  padding-top: 18px;
-  margin-top: -56px;
-  height: 215px;
 }
-.versandarten_card_header2 {
-  background-color: #179da5;
-  color: #ffffff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-top: 18px;
-  margin-top: -85px;
-  height: 244px;
-}
-.versandarten_card_header3 {
-  background-color: #64c3c9;
-  color: #ffffff;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-top: 18px;
-  margin-top: -57px;
-  height: 215px;
+.versandarten_header-subheading {
+  color: #36a08a;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  max-width: 185px;
+  text-align: center;
 }
 
 .versandarten_card_img {
-  margin-top: 0px;
+  margin-top: 20px;
 }
-.versandarten_card_header3 p {
-  font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-}
+
 .versandarten_card_img3 {
   margin-top: 50px;
 }
-.versandarten_card_header1 p {
+.versandarten_header-heading {
   margin-top: 10px;
   font-size: 22px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 35px;
-}
-.versandarten_card_header2 p {
-  margin-top: 10px;
-  font-size: 22px;
-  font-weight: bold;
+  line-height: 44px;
+  font-weight: 500;
   text-align: center;
 }
+
 .versandarten_card_body_card {
   border: 1px solid #3a3a3c;
   border-radius: 20px;
@@ -3224,14 +3205,19 @@ header .dropdown-menu.show li a.active {
 }
 .versand_last_section {
   background-color: #ffffff;
-  margin: 15px 0px 0px;
   border-radius: 10px;
   min-height: 500px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-bottom: 25px;
+}
+.versandarten_card_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .versandarten_card_img img {
   object-fit: cover !important;
-  width: 100%;
+  width: 137px;
+  height: 137px;
 }
 .versandarten_card_body_para1 {
   font-size: 16px;
@@ -3277,7 +3263,7 @@ header .dropdown-menu.show li a.active {
 .versand_last_section_circle {
   width: 27px;
   height: 23px;
-  background-color: #139ca4;
+  background-color: #36a08a;
   color: #ffffff;
   border-radius: 100%;
   display: flex;
@@ -3287,10 +3273,17 @@ header .dropdown-menu.show li a.active {
   font-size: 12px;
   margin-right: 0px;
 }
+.versadarten-last-para {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px 0px;
+}
 .versand_last_section_step {
   display: flex;
   align-items: baseline;
-  margin: 1px 35px;
+  margin: 10px 25px;
   position: relative;
 }
 .versand_last_section2_step {
@@ -3306,9 +3299,9 @@ header .dropdown-menu.show li a.active {
   position: relative;
 }
 .versand_last_section_dashed_line {
-  border: 1px solid #179da5;
+  border: 1px solid #36a08a;
   position: absolute;
-  height: 87%;
+  height: 89%;
   top: 35px;
   bottom: 100%;
   left: 11px;
@@ -6946,7 +6939,7 @@ header .dropdown-menu.show li a.active {
 }
 
 .versandarten_wrapper_main .versandarten_wrapper {
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   padding-top: 0px;
 }
 .versandarten_wrapper_main_para1 {
