@@ -24,20 +24,8 @@ const Ubersection = () => {
                         height={item.height}
                       />
                     </div>
-                    <div className="text-white uberText">{item.uberText}</div>
-                    <div className="uber_btn_line_section">
-                      <Button
-                        btnText={item.h2}
-                        backgroundColor="#F5B435"
-                        borderRadius="100px"
-                        width="100%"
-                        className="uber_btn"
-                        height="45px"
-                        fontSize="26px"
-                        fontWeight="bold"
-                        textTransform="uppercase"
-                      />
-                    </div>
+                    <div className="uberText">{item.uberText}</div>
+                    <p className="uber_mio">{item.h2}</p>
                   </div>
                   <div className="uber_section_card_bottom_half">
                     <div className="uber_line"></div>

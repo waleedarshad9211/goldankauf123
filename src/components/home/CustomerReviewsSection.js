@@ -20,31 +20,19 @@ const CustomerReviewsSection = () => {
           <h2>100% Sicherheit durch echte Kundenbewertungen</h2>
         </div>
         <div className="row mt-2">
-          <div className="col-12 col-md-5">
+          <div className="col-12 col-md-4">
             <div>
               <div className="d-flex align-items-center customer_review_text">
-                <div>
-                  <Image src={reviewArrow} alt="" />
-                </div>
-                <p>Bereits über 150.000 Kunden </p>
+                <p>» Bereits über 150.000 Kunden </p>
               </div>
               <div className="d-flex align-items-center customer_review_text">
-                <div>
-                  <Image src={reviewArrow} alt="" />
-                </div>
-                <p>Über 8.000 eKomi Bewertungen</p>
+                <p>» Über 8.000 eKomi Bewertungen</p>
               </div>
               <div className="d-flex align-items-center customer_review_text">
-                <div>
-                  <Image src={reviewArrow} alt="" />
-                </div>
-                <p>Keine Gebühren und Abzüge</p>
+                <p>» Keine Gebühren und Abzüge</p>
               </div>
               <div className="d-flex align-items-center customer_review_text">
-                <div>
-                  <Image src={reviewArrow} alt="" />
-                </div>
-                <p>Keine Versandkosten</p>
+                <p>» Keine Versandkosten</p>
               </div>
             </div>
             <div className="pwered_by">
@@ -58,7 +46,7 @@ const CustomerReviewsSection = () => {
               />
             </div>
           </div>
-          <div className="col-12 col-md-7">
+          <div className="col-12 col-md-8">
             <div className="d-flex align-items-center customer_review_ekomi_powered_by">
               <Image
                 src={EkomiVector}
@@ -69,17 +57,13 @@ const CustomerReviewsSection = () => {
               />
               <div className="ekomi_powered_by">
                 <ul>
-                  <li className="d-flex">
-                    {" "}
-                    <Image src={reviewArrow2} className="me-2 mb-1" /> eKomi
-                    Siegel Gold
-                  </li>
-                  <li className="d-flex ">
-                    {" "}
-                    <Image src={reviewArrow2} className="me-2 mt-1" />{" "}
-                    Unabhängig & transparent
-                  </li>
+                  <li className="d-flex"> • eKomi Siegel Gold</li>
+                  <li className="d-flex "> • Unabhängig & transparent</li>
                 </ul>
+                <div className="ekomi_powered_by_inner_image">
+                  <div>Powered By</div>
+                  <Image src={PowerBy} alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -91,17 +75,17 @@ const CustomerReviewsSection = () => {
               <div className=" Bewertung">
                 <h2>4.9</h2>
                 <div className="review">
-                  <i className="fa fa-star" style={{ fontSize: "30px" }}></i>
-                  <i className="fa fa-star" style={{ fontSize: "30px" }}></i>
-                  <i className="fa fa-star" style={{ fontSize: "30px" }}></i>
-                  <i className="fa fa-star" style={{ fontSize: "30px" }}></i>
-                  <i className="fa fa-star" style={{ fontSize: "30px" }}></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
+                  <i className="fa fa-star"></i>
                 </div>
               </div>
+              <div className="p2">
+                <p>Basierend auf über 8.000 Bewertungen</p>
+              </div>
               <div className="review_bottom_wrapper">
-                <div className="p2">
-                  <p>Basierend aus über 8.000 Bewertungen</p>
-                </div>
                 <div className="d-flex align-items-center justify-content-between">
                   <div className="positive">Positiv</div>
                   <div className="positive_icon">
