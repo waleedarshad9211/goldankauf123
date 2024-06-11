@@ -1893,7 +1893,7 @@ header .dropdown-menu.show li a.active {
 }
 
 .golden-fauf-wrapper {
-  background-color: #f7f7f7;
+  background-color: #e8f1ed;
   padding-bottom: 30px;
 }
 .golden-fauf {
@@ -1921,25 +1921,27 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 17px;
 }
 .golden_fauf_card {
-  border-radius: 30px;
+  border-radius: 10px;
   background-color: #ffffff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 42px 10px 20px 10px;
-  width: auto;
-  min-height: 190px;
+  padding: 10px;
+  width: 268px;
+  min-height: 194px;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 .golden_fauf_card_body {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  position: relative;
 }
 .golden_fauf_card_body_epmty {
   width: 35px;
 }
 .golden_fauf_card_inner {
   margin-right: 20px;
+  margin-top: 10px;
 }
 .golden_fauf_card_innerlast_child {
   margin-right: 8px;
@@ -1969,9 +1971,8 @@ header .dropdown-menu.show li a.active {
   align-items: center;
 }
 .golden_fauf_card p {
-  color: #000000;
   font-size: 18px;
-  line-height: 16.51px;
+  line-height: 20px;
   font-weight: 500;
   margin-top: 13px;
   text-align: center;
@@ -2740,15 +2741,15 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 30px;
 }
 .GoldankaufKotenloser-heading {
-  font-size: 30px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: 500;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 .GoldankaufKotenloser-heading2 {
-  margin-top: 0px;
-  font-size: 30px;
-  font-weight: bold;
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 500;
   display: block;
 }
 .GoldankaufKotenloser-heading2-mobile {
@@ -2761,24 +2762,21 @@ header .dropdown-menu.show li a.active {
   padding: 20px;
   object-fit: contain;
 }
-.Goldankauf_para1_,
-.Goldankauf_para2_ {
-  color: #000000;
+.Goldankauf_para1_ {
   font-size: 16px;
   line-height: 24px;
-}
-.Goldankauf_para2_ {
-  margin-top: 10px;
 }
 
 /* umweltschutz section css */
 .umweltschutz_wrapper {
-  border-radius: 30px;
-  background-color: #f7f7f7;
-  margin-top: 22px;
-  margin-bottom: 30px;
+  background-image: url("/assets/img/homepage/3rd-section-forest.png");
+  object-fit: cover !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
 }
 .umweltschutz_wrapper_left {
+  margin-top: 10px;
   padding: 25px 0px 30px 30px;
 }
 .umweltschutz_heading {
@@ -2803,10 +2801,9 @@ header .dropdown-menu.show li a.active {
   object-fit: cover !important;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
+  width: 50%;
   height: 100%;
   object-position: left;
-  border-radius: 30px;
 }
 
 /*Goldankauf Kotenloser tabs css */
@@ -2817,16 +2814,18 @@ header .dropdown-menu.show li a.active {
   border-radius: 10px;
   width: 349.98px;
   background-color: #f7f7f7;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .Kitco_gold_tab_wrapper_inner {
   padding: 10px;
 }
 .Kitco_gold_tab_wrapper .headline {
-  font-size: 23px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
 }
 .Kitco_gold_tab_wrapper .paragraph {
-  font-size: 12px;
+  font-size: 10px;
+  line-height: 18px;
 }
 .Kitco_gold_tab_wrapper .updated {
   margin-bottom: 10px;
@@ -2858,20 +2857,20 @@ header .dropdown-menu.show li a.active {
 .tab_pill0 {
   flex-basis: 68px !important;
   border-top-left-radius: 10px !important;
-  background-color: #d0b865;
+  background-color: #a18236;
 }
 .tab_pill1 {
   flex-basis: 94px !important;
-  background-color: #c8974b;
+  background-color: #c89353;
 }
 .tab_pill2 {
   flex-basis: 70px !important;
-  background-color: #c1c2c4;
+  background-color: #c4b1ae;
 }
 .tab_pill3 {
   flex-basis: 100px !important;
   border-top-right-radius: 10px !important;
-  background-color: #b2a59b;
+  background-color: #c8c1c1;
 }
 .Kitco_gold_tab_wrapper .tab_pill.react-tabs__tab--selected:last-child {
   border-right: 0;
@@ -2882,7 +2881,6 @@ header .dropdown-menu.show li a.active {
   margin-left: 2px;
 }
 .Kitco_gold_tab_wrapper .tab_pill.react-tabs__tab--selected {
-  background-color: #d9c26c;
   border-radius: 0;
   color: #ffffff;
   border-right: 2px solid #fff;
@@ -2902,20 +2900,19 @@ header .dropdown-menu.show li a.active {
 }
 .Kitco_gold_tab_wrapper .para2 {
   font-size: 12px;
-  background-color: #f5f5f5;
+  background-color: #f7f7f7;
   text-align: center;
   line-height: 18px;
   padding-top: 12px;
   padding-bottom: 12px;
-  color: #3a3936;
-  max-width: 220px;
+  max-width: 300px;
 }
 .Kitco_gold_tab_wrapper .para3 {
-  font-size: 12px;
+  font-size: 14px;
 }
 .Kitco_gold_tab_wrapper .tabpanel_lastdiv {
-  padding: 13px;
-  background-color: #019ba5;
+  padding: 10px;
+  background-color: #36a18b;
   color: #ffffff;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -2947,6 +2944,7 @@ header .dropdown-menu.show li a.active {
 /* Info section css here */
 .hier_sehen_wrapper {
   background-color: #e8f2ee;
+  padding-top: 5px;
 }
 .info_section_heading {
   font-size: 31px;
@@ -2958,7 +2956,7 @@ header .dropdown-menu.show li a.active {
   font-size: 18px;
 }
 .wir_ankaufun_section {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .wir_ankaufun_wrapper {
   padding-top: 20px;
@@ -2985,7 +2983,7 @@ header .dropdown-menu.show li a.active {
   font-weight: bold;
 }
 .wir_ankaufun_card {
-  background-color: #f1f0f0;
+  background-color: #f7f7f7;
   border-radius: 25px;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -4393,10 +4391,6 @@ header .dropdown-menu.show li a.active {
   }
   .Goldankauf_para1_ {
     margin-top: 5px;
-    font-size: 15px;
-  }
-  .Goldankauf_para2_ {
-    margin-top: 0px;
     font-size: 15px;
   }
   .Kitco_gold_tab_wrapper .headline {
@@ -7271,11 +7265,9 @@ header .dropdown-menu.show li a.active {
 .wirkaufen_page_wrapper .wir_ankaufun_card_img img {
   height: 274px;
 }
-.wirkaufen_container .Goldankauf_para1_,
-.Goldankauf_para2_ {
-  color: #000000;
-  font-size: 18px;
-  line-height: 26px;
+.wirkaufen_container .Goldankauf_para1_ {
+  font-size: 16px;
+  line-height: 24px;
 }
 .wirkaufen_container .GoldankaufKotenloser-img {
   display: flex !important;
@@ -8405,9 +8397,9 @@ table.hamburg_table {
     max-width: 160px;
   }
   .golden_fauf_card {
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: #ffffff;
-    padding: 42px 10px 20px 10px;
+    padding: 10px;
     width: 160px;
     min-height: 180px;
     margin-right: 0px;

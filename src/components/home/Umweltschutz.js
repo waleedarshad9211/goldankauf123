@@ -5,51 +5,43 @@ import ForestMobile from "/public/assets/img/homepage/forest_mobile.png";
 
 const Umweltschutz = () => {
   return (
-    <div className="container">
-      <section className="umweltschutz_wrapper">
+    <section className="umweltschutz_wrapper">
+      <div className="container">
         <div className="row">
-          <div className="col-12 col-md-5 lg-4">
+          <div className="col-12 col-md-6 lg-6">
             <div className="umweltschutz_wrapper_left">
               <h2 className="umweltschutz_heading">
-                UMWELTSCHUTZ & NACHHALTIGEIT
+                Nachhaltigkeit unterstützen
               </h2>
               <p className="umweltschutz_wrapper_left_p1">
-                Wir recyclen Ihre Edelmetalle und diese gelangen zu 100% wieder
-                in den Kreislauf der Schmuckindustrie, Investments (Barren),
-                Industrie, Medizin etc.
+                Der Verkauf von Gold unterstützt die Nachhaltigkeit. Die von
+                Goldankauf123.de angekauften Edelmetalle werden recycelt und
+                wieder verarbeitet, sodass beispielsweise Goldschmuck,
+                Goldbarren, medizinische Produkte oder Zahngold daraus entstehen
+                können.
               </p>
               <div className="d-flex justify-content-between align-items-center position-relative">
                 <div className="forest_text_heading">
                   <h3 className="umweltschutz_wrapper_left_heading2">
-                    Dadurch gibt es weniger:
+                    Recycling von Edelmetallen hilft:
                   </h3>
                   <p className="umweltschutz_wrapper_left_p1">
-                    » Goldminenabbau in der Welt
+                    » Schadstoffe zu reduzieren
                   </p>
                   <p className="umweltschutz_wrapper_left_p1">
                     {" "}
-                    » Schadstoffe in der Umwelt
+                    » Wasserverschmutzung einzudämmen
                   </p>{" "}
                   <p className="umweltschutz_wrapper_left_p1">
-                    » Wasserverschmutzung
+                    » CO₂ Emissionen zu mindern
                   </p>
                   <p className="umweltschutz_wrapper_left_p1">
                     {" "}
-                    » CO2 Emissionen
+                    » Regenwälder zu schützen
                   </p>{" "}
                   <p className="umweltschutz_wrapper_left_p1">
-                    » Abholzung von Regenwäldern
+                    » Neue Minen zu vermeiden
                   </p>{" "}
-                  <p className="umweltschutz_wrapper_left_p1">
-                    » Menschenrechtsverletzungen
-                  </p>
-                </div>
-                <div className="d-block d-md-none d-lg-none">
-                  <Image
-                    src={ForestMobile}
-                    alt=""
-                    className="umweltschutz_mobile_img"
-                  />
                 </div>
               </div>
               <Button
@@ -57,23 +49,15 @@ const Umweltschutz = () => {
                 fontSize="18px"
                 color="#ffffff"
                 width="auto"
-                backgroundColor="#2F2F2F"
-                borderRadius="100px"
-                height="29px"
-                margin="10px 0px 0px 0px"
+                height="50px"
+                margin="20px 0px 0px 0px"
               />
             </div>
           </div>
-          <div className="col-12 col-md-7 lg-8 d-none d-md-block d-lg-block">
-            <Image
-              src={ForestSection}
-              alt=""
-              className="umweltschutz_main_img"
-            />
-          </div>
+          <div className="col-12 col-md-6 lg-6 d-none d-md-block d-lg-block"></div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
