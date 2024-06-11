@@ -1,6 +1,5 @@
 import { UberSectionArray } from "@/public/static/HomepageStatic";
 import Image from "next/image";
-import Button from "../shared/button/Button";
 
 const Ubersection = () => {
   return (

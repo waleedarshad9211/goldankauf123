@@ -26,8 +26,8 @@ const MainPage = () => {
         <ValueCalc home={true} notValuecalc={true} />
       </section>
       <Umweltschutz />
-
-      <section>
+      <CustomerReview2 />
+      <section className="hier_sehen_wrapper">
         <div className="text-center wir_ankaufun_section">
           <h2 className="wir_ankaufun_h2">
             Hier sehen Sie eine Übersicht der Edelmetalle, die wir ankaufen
@@ -39,9 +39,6 @@ const MainPage = () => {
         </div>
         <WirAnkafun />
       </section>
-
-      <CustomerReview2 />
-
       <section className="pricing container">
         <Pricing />
         <div className="d-flex justify-content-center align-items-center">

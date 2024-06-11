@@ -258,8 +258,9 @@ const Versandarten = ({ heading }) => {
                 <div>
                   <Image src={Insurance} alt="" className="me-3" />
                 </div>
-                <div style={{ fontSize: "17px" }}>
-                  Bis zu 250.000 versichert
+                <div style={{ fontSize: "18px" }}>
+                  Bis zu 250.000 <br />
+                  versichert
                 </div>
               </div>
               <div className="d-flex justify-content-center align-items-center mt-4">
