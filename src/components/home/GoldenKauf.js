@@ -63,9 +63,9 @@ const GoldenKauf = () => {
                   alt=""
                   style={{
                     position: "absolute",
-                    left: "0px",
+                    left: "-4px",
                     top: "50%",
-                    transform: "translate(-48%, 10%)",
+                    transform: "translate(-49%, -1%)",
                     width: "73px",
                     height: "73px",
                   }}
@@ -101,9 +101,9 @@ const GoldenKauf = () => {
                   alt=""
                   style={{
                     position: "absolute",
-                    left: "0px",
+                    left: "-4px",
                     top: "50%",
-                    transform: "translate(-48%, 10%)",
+                    transform: "translate(-49%, -1%)",
                     width: "73px",
                     height: "73px",
                   }}
@@ -140,9 +140,9 @@ const GoldenKauf = () => {
                   alt=""
                   style={{
                     position: "absolute",
-                    left: "0px",
+                    left: "-4px",
                     top: "50%",
-                    transform: "translate(-48%, 10%)",
+                    transform: "translate(-49%, -1%)",
                     width: "73px",
                     height: "73px",
                   }}
