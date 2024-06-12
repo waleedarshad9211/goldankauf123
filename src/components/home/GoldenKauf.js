@@ -63,9 +63,11 @@ const GoldenKauf = () => {
                   alt=""
                   style={{
                     position: "absolute",
-                    left: "-2px",
+                    left: "0px",
                     top: "50%",
-                    transform: "translate(-50%, 10%)",
+                    transform: "translate(-48%, 10%)",
+                    width: "73px",
+                    height: "73px",
                   }}
                 />
                 <div className="golden_fauf_card_inner">
@@ -99,9 +101,11 @@ const GoldenKauf = () => {
                   alt=""
                   style={{
                     position: "absolute",
-                    left: "-2px",
+                    left: "0px",
                     top: "50%",
-                    transform: "translate(-50%, 10%)",
+                    transform: "translate(-48%, 10%)",
+                    width: "73px",
+                    height: "73px",
                   }}
                 />
                 <div className="golden_fauf_card_inner">
@@ -130,16 +134,20 @@ const GoldenKauf = () => {
                 >
                   4
                 </span>
+
                 <Image
                   src={GoldanfaufTriangle}
                   alt=""
                   style={{
                     position: "absolute",
-                    left: "-2px",
+                    left: "0px",
                     top: "50%",
-                    transform: "translate(-50%, 10%)",
+                    transform: "translate(-48%, 10%)",
+                    width: "73px",
+                    height: "73px",
                   }}
                 />
+
                 <div className="golden_fauf_card_inner golden_fauf_card_innerlast_child">
                   <Image src={GoldenKauf4} alt="" />
                 </div>

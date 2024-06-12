@@ -46,49 +46,82 @@ const Unseresection = () => {
         >
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image src={EkomiVector} alt="" width={159} height={159} />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image src={EkomiVector} alt="" width={143} height={143} />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image src={TrustedShops} alt="" width={159} height={159} />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image src={TrustedShops} alt="" width={143} height={143} />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image
-                src={ProvenExperts}
-                alt=""
-                width={208}
-                height={159}
-                className="unsere_proven_expert"
-              />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image
+                    src={ProvenExperts}
+                    alt=""
+                    width={173}
+                    height={143}
+                    className="unsere_proven_expert"
+                  />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image src={TopDienstleiester} alt="" width={159} height={159} />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image
+                    src={TopDienstleiester}
+                    alt=""
+                    width={143}
+                    height={143}
+                  />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image src={TopEmpfehlung} alt="" width={159} height={159} />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image src={TopEmpfehlung} alt="" width={143} height={143} />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image src={Trustami} alt="" width={159} height={159} />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image src={Trustami} alt="" width={143} height={143} />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="d-flex align-items-center justify-content-center unsere_section_slide1_img">
-              <Image
-                src={BankingCheck}
-                alt=""
-                width={159}
-                height={159}
-                className="unsere_proven_expert"
-              />
+              <div className="unsere_section_slide2_img">
+                <div>
+                  <Image
+                    src={BankingCheck}
+                    alt=""
+                    width={143}
+                    height={143}
+                    className="unsere_proven_expert"
+                  />
+                </div>
+              </div>
             </div>
           </SwiperSlide>
         </Swiper>
