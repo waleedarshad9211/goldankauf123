@@ -8,7 +8,7 @@ import tick from "/public/assets/img/bestelen_tick.png";
 const page = () => {
   return (
     <>
-      <section className="eigenes_versandmaterial_wrapper">
+      {/* <section className="eigenes_versandmaterial_wrapper">
         <div className="container">
           <Breadcrumbs />
           <div className="row">
@@ -62,7 +62,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 };
