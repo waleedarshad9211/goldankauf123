@@ -8,8 +8,8 @@ import "./globals.css";
 import Footer from "@/components/shared/footer/Footer";
 
 const metadata = {
-  title: "Zahngold",
-  description: "Zahngold",
+  title: "Goldankauf123",
+  description: "Goldankauf123",
 };
 
 export default function RootLayout({ children }) {
