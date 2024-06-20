@@ -967,15 +967,6 @@ header .dropdown-menu.show li a.active {
     margin-top: 10px;
     justify-content: center;
   }
-  /* .herobg1,
-  .herobg2,
-  .herobg3,
-  .herobg5,
-  .herobg6,
-  .herobg4 {
-    height: 580px !important;
-  } */
-
   .slide1-text {
     align-items: flex-start !important;
   }
@@ -1557,6 +1548,37 @@ header .dropdown-menu.show li a.active {
 .herobgsmall1 {
   background-image: url("/assets/img/homepage/hero-bg-smaal-1.png");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  height: 520px;
+  position: relative;
+}
+.small-slider-column {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.herobgsmall1_para1 {
+  font-size: 16px;
+  line-height: 23px;
+  color: #121212;
+}
+.herobgsmall1 .slide1-h2 {
+  margin-bottom: 10px;
+}
+.herobgsmall1_btn {
+  position: absolute;
+  bottom: 45px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  left: 0px;
+}
+.herobgsmall2 {
+  background-image: url("/assets/img/homepage/hero-bg-smaal-2.png");
+  background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
   border: 2px solid #ffffff;
@@ -1565,19 +1587,10 @@ header .dropdown-menu.show li a.active {
   height: 520px;
   position: relative;
 }
-.herobgsmall1_para1 {
-  font-size: 16px;
-  line-height: 23px;
-}
-.herobgsmall1 .slide1-h2 {
-  margin-bottom: 10px;
-}
-.herobgsmall1_btn {
-  position: absolute;
-  bottom: 41px;
-  display: flex;
-  justify-content: center;
-  width: 90%;
+.smallslide2-h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 3px;
 }
 .herobg5 {
   background-image: url("/assets/img/homepage/hero_slider_5.png");
@@ -1586,7 +1599,6 @@ header .dropdown-menu.show li a.active {
   background-size: cover;
   height: 520px;
 }
-
 .slide1-h2 {
   font-size: 30px;
   line-height: 38px;
@@ -1597,40 +1609,37 @@ header .dropdown-menu.show li a.active {
   font-size: 30px;
   line-height: 38px;
   font-weight: 500;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-  padding-top: 25px;
+  color: #36a18b;
 }
 .slide2-heading2 {
-  font-size: 80px;
+  font-size: 30px;
   line-height: 65px;
-  font-weight: 800 !important;
-  color: #4a4a4a;
+  font-weight: 500 !important;
   text-transform: uppercase;
   margin-bottom: 50px;
   margin-left: -5px;
 }
+.slide2-p1 {
+  display: flex;
+}
+.slide2-p1 img {
+  margin-right: 5px;
+  margin-top: 5px;
+}
 .slide2-p1 p {
-  font-size: 32px;
-  max-width: 452px;
-  font-weight: bold;
-  color: #4a4a4a;
-  margin-bottom: 150px;
-  line-height: 37px;
+  line-height: 25px;
 }
 .slide3-h2 {
-  font-size: 70px;
+  font-size: 30px;
   line-height: 65px;
-  font-weight: 800 !important;
-  color: #4a4a4a;
+  font-weight: 500 !important;
   text-transform: uppercase;
   padding-top: 25px;
 }
 .slide3-heading2 {
-  font-size: 80px;
+  font-size: 30px;
   line-height: 65px;
-  font-weight: 800 !important;
-  color: #4a4a4a;
+  font-weight: 500 !important;
   text-transform: uppercase;
   margin-bottom: 50px;
   margin-left: -5px;
@@ -1759,62 +1768,67 @@ header .dropdown-menu.show li a.active {
 .hero-proven {
   width: 106px !important;
 }
-
 .herobg2 {
   background-image: url("/assets/img/homepage/hero-bg2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
   height: 520px;
+  position: relative;
 }
-
+.slider2-btn {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+}
 .hero_slide2 .slide2_ankauf {
-  font-size: 70px;
-  color: #4a4a4a;
-  font-weight: 800;
-  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
   line-height: normal !important;
 }
 .hero_slide2 .slide2_h2_mehr {
-  font-size: 41px;
-  font-weight: bold;
-  color: #4a4a4a;
+  font-size: 17px;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 .hero_slide2 .card_img {
-  max-width: 745px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .hero_slide2 .card_img img {
-  width: 180px;
-  height: 120px;
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
-
 .herobg3 {
   background-image: url("/assets/img/homepage/hero-bg3.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 20px;
   height: 520px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  position: relative;
 }
 .slide3_ankauf {
-  font-size: 50px;
+  font-size: 30px;
   color: #ffffff;
-  padding-top: 50px;
-  font-weight: 800;
-  text-transform: uppercase;
-  line-height: 50px;
+  font-weight: 500;
+  line-height: normal;
 }
 .slide3_h2_mehr {
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 17px;
+  line-height: normal;
   color: #ffffff;
-  font-weight: 800;
+  font-weight: 500;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 .slide3_tick_img {
   margin-right: 10px;
@@ -1982,8 +1996,8 @@ header .dropdown-menu.show li a.active {
   text-transform: uppercase;
 }
 .melting-facilities-wrapper {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .melting-facilities-heading {
   display: flex;
@@ -2142,11 +2156,15 @@ header .dropdown-menu.show li a.active {
   color: #36a08a;
   font-size: 25px;
   font-weight: 500;
+  line-height: normal;
+  margin-bottom: 10px;
 }
 .uber_section_card_bottom_half {
-  background-color: #36a08a;
+  background-image: url("/assets/img/homepage/unser-elfog.png");
+  background-repeat: no-repeat;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -2166,7 +2184,6 @@ header .dropdown-menu.show li a.active {
 }
 .uberText {
   font-size: 15px;
-  margin-bottom: 10px;
   margin-top: 10px;
 }
 .paidOut {
@@ -3725,20 +3742,6 @@ header .dropdown-menu.show li a.active {
     width: 100%;
     margin-right: 0px;
   }
-  /* .herobg1,
-  .herobg2,
-  .herobg3,
-  .herobg5,
-  .herobg6,
-  .herobg4 {
-    height: 580px !important;
-  } */
-  .herobg5 {
-    background-position: 30% 75%;
-  }
-  .slide2-p1 p {
-    margin-bottom: 100px;
-  }
   .herobg5 .slider1-garanty {
     height: auto;
     width: 100%;
@@ -3754,15 +3757,6 @@ header .dropdown-menu.show li a.active {
   }
   .hero-arrowimg5 img {
     width: 120px;
-  }
-
-  .slide2-h2 {
-    font-size: 52px;
-    padding-top: 10px;
-  }
-  .slide2-heading2 {
-    font-size: 62px;
-    margin-bottom: 35px;
   }
   .hero-arrowimg {
     right: 115px;
@@ -3826,12 +3820,7 @@ header .dropdown-menu.show li a.active {
   .hero_slide2 .card_img img {
     flex: 1;
   }
-  .hero_slide2 .slide2_ankauf {
-    font-size: 52px;
-    padding-top: 10px;
-    padding-left: 0px;
-    line-height: 54px;
-  }
+  
   .hero_slide2 .slide2_h2_mehr {
     font-size: 32px;
     margin-bottom: 5px;
@@ -4309,26 +4298,6 @@ header .dropdown-menu.show li a.active {
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 1px;
-  }
-  .slide2-h2,
-  .slide3-h2 {
-    font-size: 40px;
-    padding-top: 10px;
-    line-height: 42px;
-  }
-  .slide2-heading2,
-  .slide3-heading2 {
-    font-size: 43px;
-    margin-bottom: 28px;
-    line-height: 45px;
-  }
-  .slide2-p1 p {
-    margin-bottom: 70px;
-  }
-  .slide3-p1 p {
-    font-size: 28px;
-    line-height: 30px;
-    margin-bottom: 70px;
   }
   .herobg1 .hero_slide2 .gold_btn {
     font-size: 20px !important;

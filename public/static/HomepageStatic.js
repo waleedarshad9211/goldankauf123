@@ -154,6 +154,14 @@ import Image from "next/image";
 import GoldrecnerGoldZuruck from "/public/assets/img/homepage/goldrecner-gold-zuruck.png";
 import SchnelleAuszahlung from "/public/assets/img/homepage/schnelle-auszahlung.png";
 import KeineGubuhren from "/public/assets/img/homepage/keine-gubuhren.png";
+import smallTick from "/public/assets/img/homepage/small-tick.png";
+
+export const slider2Arr = [
+  { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
+  { src: smallTick, para: "Dental - sowie Gusslegierungen" },
+  { src: smallTick, para: "Zahngold auch mit Zahnresten" },
+  { src: smallTick, para: "Kronen, Inlays, Brücken und Prothesen" },
+];
 
 export const navItemsArray = [
   {
@@ -303,8 +311,6 @@ export const UberSectionArray = [
     alt: "",
     uberText: "Über",
     h2: "150.000",
-    // width: "104",
-    // height: "93",
     width: "105",
     height: "101",
     paidOut: "zufriedene Kunden",
@@ -315,8 +321,6 @@ export const UberSectionArray = [
     alt: "",
     uberText: "Über",
     h2: "5.000 kg gold",
-    // width: "106",
-    // height: "89",
     width: "105",
     height: "101",
     paidOut: "angekauft",
@@ -327,8 +331,6 @@ export const UberSectionArray = [
     alt: "",
     uberText: "Über",
     h2: "12 Jahre",
-    // width: "70",
-    // height: "100",
     width: "105",
     height: "101",
     paidOut: "online",
