@@ -30,16 +30,6 @@ body {
   font-size: 16px;
   color: #121212;
 }
-.extended-regular {
-  font-weight: 400;
-}
-.extended-medium {
-  font-weight: 500;
-}
-
-.extended-bold {
-  font-weight: 700;
-}
 
 :focus {
   outline: none;
@@ -884,11 +874,11 @@ header .dropdown-menu.show li a.active {
     height: 53px;
   }
   .wir_ankaufun_swiper_wrapper .swiper-button-prev {
-    color: #2f2f2f;
+    color: #121212;
     left: 0px !important;
   }
   .wir_ankaufun_swiper_wrapper .swiper-button-next {
-    color: #2f2f2f;
+    color: #121212;
     right: 0px !important;
   }
   .unsere_section_wrapper .swiper-slide {
@@ -1909,14 +1899,14 @@ header .dropdown-menu.show li a.active {
 
 .golden-fauf-wrapper {
   background-color: #e8f1ed;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .golden-fauf {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .golden-fauf h2 {
@@ -1924,7 +1914,6 @@ header .dropdown-menu.show li a.active {
   font-size: 35px;
   line-height: 53px;
   font-weight: 500;
-  margin-bottom: 17px;
 }
 .golden-fauf .para span {
   text-decoration: underline;
@@ -2170,10 +2159,10 @@ header .dropdown-menu.show li a.active {
   align-items: center;
 }
 .uber_section_wrapper h2 {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 15px;
-  font-weight: bold;
+  font-weight: 500;
 }
 .uberText {
   font-size: 15px;
@@ -2217,7 +2206,7 @@ header .dropdown-menu.show li a.active {
 .unsere_section_wrapper {
   background-color: #f2ece1;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 16px;
 }
 .unsere_section_wrapper h2 {
   font-size: 30px;
@@ -2279,14 +2268,14 @@ header .dropdown-menu.show li a.active {
 
 .customer_review_section_wrapper {
   background: #36a18b;
-  margin-top: 20px;
+  margin-top: 25px;
   padding: 10px 10px 10px 35px;
   border-radius: 10px;
 }
 .customer_review_section_wrapper h2 {
   font-size: 30px;
-  line-height: 37.72px;
-  font-weight: 700;
+  line-height: 37px;
+  font-weight: 500;
   color: #ffffff;
 }
 
@@ -2514,6 +2503,7 @@ header .dropdown-menu.show li a.active {
   margin-top: 20px;
   border-radius: 10px;
   margin-bottom: 30px;
+  padding-top: 10px;
 }
 .customer_review_section2_wrapper .container {
   padding: 0px 20px;
@@ -2803,11 +2793,9 @@ header .dropdown-menu.show li a.active {
 
 /* umweltschutz section css */
 .umweltschutz_wrapper {
-  background-image: url("/assets/img/homepage/3rd-section-forest.png");
-  object-fit: cover !important;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: #f2ece1;
   height: 100%;
+  margin-top: 20px;
 }
 .umweltschutz_wrapper_left {
   margin-top: 10px;
@@ -2830,23 +2818,24 @@ header .dropdown-menu.show li a.active {
   line-height: 26px;
   margin-top: 10px;
 }
-
-.umweltschutz_main_img {
+.umweltschutz_wrapper_img img {
   object-fit: cover !important;
   background-repeat: no-repeat;
   background-position: center;
-  width: 50%;
-  height: 100%;
-  object-position: left;
+  width: 100%;
+  height: 525px;
 }
-
+.umweltschutz_wrapper_right_side {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
 /*Goldankauf Kotenloser tabs css */
 .Kitco_gold_tab_wrapper {
   border-style: solid;
   border-width: 1px;
   border-color: rgb(227, 227, 227);
-  border-radius: 10px;
-  width: 349.98px;
+  border-radius: 15px;
+  width: 351px;
   background-color: #f7f7f7;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -2924,6 +2913,8 @@ header .dropdown-menu.show li a.active {
 }
 .Kitco_gold_tab_wrapper .tabpanel_ul p {
   color: #3a3936;
+  min-width: 130px;
+  max-width: 130px;
 }
 .Kitco_gold_tab_wrapper .react-tabs__tab-panel ul li {
   border-radius: 0px;
@@ -2998,21 +2989,18 @@ header .dropdown-menu.show li a.active {
 }
 .wir_ankaufun_section .wir_ankaufun_h2 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
   text-align: center;
-  color: #2f2f2f;
 }
 .wir_ankaufun_section .wir_ankaufun_h3 {
-  font-size: 27.21px;
+  font-size: 22px;
+  font-weight: 400;
   text-align: center;
-  margin-bottom: 20px;
   margin-top: 10px;
-  color: #2f2f2f;
 }
 .wir_ankaufun_link {
-  font-size: 27.21px;
+  font-size: 22px;
   cursor: pointer;
-  color: #2f2f2f;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -3047,7 +3035,7 @@ header .dropdown-menu.show li a.active {
   justify-content: space-between;
   padding: 10px;
   background-color: #ebebeb;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 281px;
   height: 62px;
 }
@@ -3070,18 +3058,16 @@ header .dropdown-menu.show li a.active {
   align-items: center;
   border-radius: 100px;
   background-color: #e6e7e8;
-  width: 52px;
-  height: 52px;
-  margin-top: -5px;
+  width: 42px;
+  height: 42px;
 }
 .wir_verkaufer_text {
-  font-size: 16.91px;
-  font-weight: 600;
+  font-size: 16px;
   margin-left: 6px;
 }
 .wir_verkaufer_name {
   font-size: 18px;
-  color: #000000;
+  font-weight: 500s;
   margin-top: -4px;
   margin-left: 6px;
 }
@@ -3096,30 +3082,70 @@ header .dropdown-menu.show li a.active {
   background-color: #dba25d;
 }
 .wir_ankaufun_swiper_wrapper .swiper-button-prev {
-  color: #2f2f2f;
+  color: #121212;
   left: 55px;
 }
 .wir_ankaufun_swiper_wrapper .swiper-button-next {
-  color: #2f2f2f;
+  color: #121212;
   right: 65px;
 }
-@media screen and (min-width: 1440px) and (max-width: 1700px) {
+@media screen and (min-width: 1921px) {
   .wir_ankaufun_swiper_wrapper .swiper-button-prev {
-    color: #2f2f2f;
+    color: #121212;
+    left: 310px;
+  }
+  .wir_ankaufun_swiper_wrapper .swiper-button-next {
+    color: #121212;
+    right: 310px;
+  }
+}
+@media screen and (min-width: 1801px) and (max-width: 1920px) {
+  .wir_ankaufun_swiper_wrapper .swiper-button-prev {
+    color: #121212;
+    left: 305px;
+  }
+  .wir_ankaufun_swiper_wrapper .swiper-button-next {
+    color: #121212;
+    right: 305px;
+  }
+}
+@media screen and (min-width: 1701px) and (max-width: 1800px) {
+  .wir_ankaufun_swiper_wrapper .swiper-button-prev {
+    color: #121212;
+    left: 245px;
+  }
+  .wir_ankaufun_swiper_wrapper .swiper-button-next {
+    color: #121212;
+    right: 245px;
+  }
+}
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+  .wir_ankaufun_swiper_wrapper .swiper-button-prev {
+    color: #121212;
+    left: 170px;
+  }
+  .wir_ankaufun_swiper_wrapper .swiper-button-next {
+    color: #121212;
+    right: 170px;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .wir_ankaufun_swiper_wrapper .swiper-button-prev {
+    color: #121212;
     left: 115px;
   }
   .wir_ankaufun_swiper_wrapper .swiper-button-next {
-    color: #2f2f2f;
+    color: #121212;
     right: 115px;
   }
 }
 @media screen and (min-width: 1180px) and (max-width: 1299px) {
   .wir_ankaufun_swiper_wrapper .swiper-button-prev {
-    color: #2f2f2f;
+    color: #121212;
     left: 0px;
   }
   .wir_ankaufun_swiper_wrapper .swiper-button-next {
-    color: #2f2f2f;
+    color: #121212;
     right: 0px;
   }
 }
@@ -3181,13 +3207,9 @@ header .dropdown-menu.show li a.active {
   margin-top: 0px;
   width: 100%;
 }
-.versandarten_h2 {
-  margin-bottom: 90px;
-}
 .versandarten_h2 h2 {
-  font-size: 30px;
-  color: #3a3a3c;
-  font-weight: bold;
+  font-size: 35px;
+  font-weight: 500;
 }
 .versandarten_card {
   padding: 20px;
@@ -3542,21 +3564,6 @@ header .dropdown-menu.show li a.active {
     margin-left: 50px !important;
     margin-right: 50px !important;
   }
-  .versandarten2_card {
-    min-height: 1110px;
-    max-height: 1130px;
-    height: 1130px;
-  }
-  .versandarten3_card {
-    min-height: 1030px;
-    max-height: 1100px;
-    height: 1100px;
-  }
-  .versandarten_card {
-    min-height: 1030px;
-    max-height: 1100px;
-    height: 1100px;
-  }
   .stepcard_wrapper_main {
     flex-wrap: nowrap !important;
   }
@@ -3578,10 +3585,6 @@ header .dropdown-menu.show li a.active {
   }
   .sind_unterwegs_main_img img {
     width: 100%;
-  }
-  .versandarten_card_img,
-  .versandarten_card_img img {
-    height: 200px;
   }
   .versandarten_card_img_middle,
   .versandarten_card_img_middle img {
@@ -3876,12 +3879,6 @@ header .dropdown-menu.show li a.active {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .uber_section_wrapper h2 {
-    font-size: 30px;
-    line-height: 31px;
-    font-weight: bold;
-    text-align: center;
   }
   .paidOut {
     font-size: 18px;
@@ -4363,14 +4360,7 @@ header .dropdown-menu.show li a.active {
     line-height: 18px;
     margin-bottom: 1px;
   }
-  /* .herobg1,
-  .herobg2,
-  .herobg3,
-  .herobg4,
-  .herobg5,
-  .herobg6 {
-    height: 465px !important;
-  } */
+
   .review_heading2_line,
   .review2_heading2_line {
     display: none;
@@ -4397,7 +4387,6 @@ header .dropdown-menu.show li a.active {
     font-size: 26px;
     line-height: 30px;
     width: 260px;
-    margin-bottom: 10px;
   }
   .golden-fauf .para {
     font-size: 16px;
@@ -5488,7 +5477,7 @@ header .dropdown-menu.show li a.active {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  color: #2f2f2f;
+  color: #121212;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 13px;
@@ -5637,7 +5626,7 @@ header .dropdown-menu.show li a.active {
 .info_card_img_para {
   color: #ffffff;
   font-size: 16px;
-  color: #2f2f2f;
+  color: #121212;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -6087,7 +6076,7 @@ header .dropdown-menu.show li a.active {
   font-size: 18px;
   line-height: 26px;
   margin-top: 10px;
-  color: #2f2f2f;
+  color: #121212;
 }
 .haufig_fragen_wrapper .accordion-item {
   margin-bottom: 5px !important;
@@ -6146,24 +6135,24 @@ header .dropdown-menu.show li a.active {
   font-size: 18px;
   margin-top: 10px;
   line-height: 26px;
-  color: #2f2f2f;
+  color: #121212;
 }
 .videos_uber_zahngold_wrapper_para2 {
   font-size: 18px;
   margin-top: 20px;
   line-height: 26px;
-  color: #2f2f2f;
+  color: #121212;
 }
 .videos_uber_zahngold_wrapper_para3 {
   font-size: 18px;
   line-height: 26px;
-  color: #2f2f2f;
+  color: #121212;
 }
 .videos_uber_zahngold_wrapper_para4 {
   font-size: 18px;
   margin-top: 20px;
   line-height: 26px;
-  color: #2f2f2f;
+  color: #121212;
 }
 .videos_uber_zahngold_wrapper_video {
   margin-top: 30px;
@@ -6360,7 +6349,7 @@ header .dropdown-menu.show li a.active {
   height: 20px;
 }
 .gold_zuruck_garantie_row2_col1_li_para {
-  color: #2f2f2f;
+  color: #121212;
   padding-left: 10px;
 }
 .gold_zuruck_garantie_row2_col1_para2 {
@@ -6944,7 +6933,7 @@ header .dropdown-menu.show li a.active {
   border-radius: 30px;
   background-color: #f7f7f7;
   height: 25px;
-  color: #2f2f2f;
+  color: #121212;
   font-size: 15px;
   padding-left: 10px;
   margin-bottom: 5px;
@@ -7597,15 +7586,16 @@ header .dropdown-menu.show li a.active {
 }
 .goldankauf_valuecalc_form .lbl {
   color: #ffffff;
+  font-weight: 700;
 }
 .goldankauf_valuecalc_form .value-calculate-input label {
   margin-right: 10px;
+  font-weight: 700;
 }
 .goldankauf_valuecalc_form .value-calculate-input input {
   width: 149px;
   height: 33px;
   border-radius: 10px;
-  box-shadow: -0.035px 2px 3px 0px rgba(6, 0, 14, 0.2);
   padding: 0px 10px;
   border: none;
 }
@@ -7783,7 +7773,7 @@ table.hamburg_table {
 }
 .price_value_form3 .golden_fauf_card p {
   font-size: 15.33px;
-  color: #2f2f2f;
+  color: #121212;
   line-height: 16.36px;
   font-weight: 600;
 }
@@ -7808,7 +7798,7 @@ table.hamburg_table {
   font-size: 22px;
   line-height: 26px;
   font-weight: bold;
-  color: #2f2f2f;
+  color: #121212;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;

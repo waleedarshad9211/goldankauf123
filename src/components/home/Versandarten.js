@@ -15,7 +15,7 @@ const Versandarten = ({ heading }) => {
         <div className="d-flex justify-content-center align-items-center versandarten_h2">
           <h2>{heading}</h2>
         </div>
-        <div className="row align-items-end mt-md-5">
+        <div className="row align-items-end mt-md-4">
           <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
             <div className="versandarten_card">
               <div className="versand_last_section">

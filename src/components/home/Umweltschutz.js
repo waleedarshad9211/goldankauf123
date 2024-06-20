@@ -1,7 +1,7 @@
 import Image from "next/image";
-import ForestSection from "/public/assets/img/homepage/3rd-section-forest.png";
+import ForestSection from "public/assets/img/homepage/forestDesktop.png";
 import Button from "../shared/button/Button";
-import ForestMobile from "/public/assets/img/homepage/forest_mobile.png";
+import ForestMobile from "public/assets/img/homepage/forest_mobile.png";
 
 const Umweltschutz = () => {
   return (
@@ -47,6 +47,7 @@ const Umweltschutz = () => {
               <Button
                 btnText="Weitere Informationen finden Sie hier"
                 fontSize="18px"
+                fontWeight="700"
                 color="#ffffff"
                 width="auto"
                 height="50px"
@@ -54,7 +55,16 @@ const Umweltschutz = () => {
               />
             </div>
           </div>
-          <div className="col-12 col-md-6 lg-6 d-none d-md-block d-lg-block"></div>
+          <div className="col-12 col-md-6 lg-6 d-none d-md-block d-lg-block umweltschutz_wrapper_right_side">
+            <div className="umweltschutz_wrapper_img">
+              <Image src={ForestSection} alt="" />
+            </div>
+          </div>
+          <div className="col-12  d-block d-md-none d-lg-none umweltschutz_wrapper_right_side">
+            <div className="umweltschutz_wrapper_mobile_img">
+              <Image src={ForestMobile} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </section>
