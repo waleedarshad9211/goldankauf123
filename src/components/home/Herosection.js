@@ -23,13 +23,15 @@ import Industries from "/public/assets/img/homepage/slider2_industries.png";
 import Platin from "/public/assets/img/homepage/slider2_platin.png";
 import Pladium from "/public/assets/img/homepage/slider2_pladium.png";
 import Rhodium from "/public/assets/img/homepage/slider2_rhodium.png";
+import Slider3Tick from "/public/assets/img/homepage/small-tick.png";
+import slider5Ntv from "/public/assets/img/homepage/slider-5-ntv.png";
 
 const Herosection = () => {
   return (
     <section className="hero_section_wrapper">
       <div className="container">
         <div className="row hero_section_row">
-          <div className="col-12 col-md-8 col-lg-5 col-xl-5">
+          <div className="col-12 col-md-7 col-lg-5 col-xl-5">
             <Swiper
               className="hero_slider"
               modules={[Pagination, Navigation]}
@@ -184,6 +186,7 @@ const Herosection = () => {
                         fontSize="18px"
                         fontWeight="400"
                         padding="8px 10px"
+                        margin="0px 0px 0px 12px"
                         width="60%"
                         boxShadow="rgba(0, 0, 0, 0.15) 0px 3px 3px 0px"
                       />
@@ -191,35 +194,13 @@ const Herosection = () => {
                   </div>
                 </div>
               </SwiperSlide>
-              {/* <SwiperSlide>
-                <div className="herobg3">
-                  <div className="hero_slide2">
-                    <div className="slider1-left">
-                      <h2 className="slide3-h2">Ankauf von</h2>
-                      <h2 className="slide3-heading2">Diamanten</h2>
-                      <div className="slide3-p1">
-                        <p>
-                          Wir kaufen lhre Diamanten ab einer Größe von
-                          <br></br> 0,25 ct. pro Stein an.
-                        </p>
-                      </div>
-                      <Button
-                        btnText="Jetzt Angebot einholen"
-                        backgroundColor="#4A4A4A"
-                        padding="3px 25px"
-                        fontSize="28px"
-                        fontWeight="bold"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </SwiperSlide>
-             <SwiperSlide>
-                <div className="herobg5">
+              <SwiperSlide>
+                <div className="herobg4">
                   <div className="hero_slide3">
-                    <h2 className="slide3_ankauf">Ankauf von</h2>
-                    <h2 className="slide3_h2_mehr">
-                      Zahngold und<br></br> Dentalgold
+                    <h2 className="slide5_ankauf">
+                      Edelmetalle <br></br> verkaufen ist
+                      <br />
+                      Vertrauenssache
                     </h2>
                     <div className="d-flex align-items-center">
                       <div>
@@ -229,8 +210,8 @@ const Herosection = () => {
                           className="slide3_tick_img"
                         />
                       </div>
-                      <div className="slider3_text">
-                        Zahngold gelb-und silberfarbig
+                      <div className="slider5_text">
+                        Kostenloser & versicherter Versand
                       </div>
                     </div>
                     <div className="d-flex align-items-center">
@@ -241,8 +222,8 @@ const Herosection = () => {
                           className="slide3_tick_img"
                         />
                       </div>
-                      <div className="slider3_text">
-                        Dental - sowie Gusslegierungen
+                      <div className="slider5_text">
+                        KKostenlos & unverbindlich
                       </div>
                     </div>
                     <div className="d-flex align-items-center">
@@ -253,8 +234,8 @@ const Herosection = () => {
                           className="slide3_tick_img"
                         />
                       </div>
-                      <div className="slider3_text">
-                        Zahngold auch mit Zahn - und Zementresten
+                      <div className="slider5_text">
+                        Keine Verkaufsverpflichtung
                       </div>
                     </div>
                     <div className="d-flex align-items-center">
@@ -265,26 +246,134 @@ const Herosection = () => {
                           className="slide3_tick_img"
                         />
                       </div>
-                      <div className="slider3_text">
-                        Zahnkronen, Inlays, Brücken und Prothesen
+                      <div className="slider5_text">Gold-zurück-Garantie</div>
+                    </div>
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Image
+                          src={Slider3Tick}
+                          alt=""
+                          className="slide3_tick_img"
+                        />
+                      </div>
+                      <div className="slider5_text">
+                        Sehr hohe Ankaufspreise
                       </div>
                     </div>
-                    <Button
-                      className="slide5_btn"
-                      btnText="Jetzt Verkauf starten"
-                      fontSize="28px"
-                      fontWeight="bold"
-                      padding="1px 20px"
-                      margin="172px 0px 0px 0px"
-                    />
+                    <div className="slider_5_sicherheit">
+                      <div className="slider_5_line_1"></div>
+                      <div className="slider_5_btn1">BEKANNT AUS DEM TV</div>
+                      <div className="slider_5_line_1"></div>
+                    </div>
+                    <div className="slider1-garanty">
+                      <div className="d-flex garanty-img">
+                        <Image src={NTV} alt="" />
+                        <Image src={TrustedShops} alt="" />
+                        <Image src={TrustAmi} alt="" />
+                        <Image
+                          src={ProvenExpert}
+                          alt=""
+                          className="hero-proven"
+                        />
+                        <Image src={TopDienstleister} alt="" />
+                        <Image src={TopEmpfehlung} alt="" />
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </SwiperSlide> */}
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="herobg5">
+                  <div className="hero_slide3">
+                    <h2 className="slide5_ankauf">
+                      lhr altes Gold zu <br></br> Geld machen
+                    </h2>
+                    <h2 className="slide5_h2_mehr">Warum Goldankauf123.de?</h2>
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Image
+                          src={Slider3Tick}
+                          alt=""
+                          className="slide3_tick_img"
+                        />
+                      </div>
+                      <div className="slider5_text">
+                        Schnelle Online-Abwicklung
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Image
+                          src={Slider3Tick}
+                          alt=""
+                          className="slide3_tick_img"
+                        />
+                      </div>
+                      <div className="slider5_text">
+                        Kostenloser & versicherter Versand
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Image
+                          src={Slider3Tick}
+                          alt=""
+                          className="slide3_tick_img"
+                        />
+                      </div>
+                      <div className="slider5_text">
+                        Sehr hohe Ankaufspreise
+                      </div>
+                    </div>
+                    <div className="d-flex align-items-center">
+                      <div>
+                        <Image
+                          src={Slider3Tick}
+                          alt=""
+                          className="slide3_tick_img"
+                        />
+                      </div>
+                      <div className="slider5_text">Gold-zurück-Garantie</div>
+                    </div>
+                    <div className="slider-5-ntv">
+                      <div className="slider-5-para">
+                        <p className="p1">Verkaufen Sie Ihre</p>
+                        <p className="p2">Edelmetalle</p>
+                        <p className="p3">beim Testsieger</p>
+                      </div>
+                      <div>
+                        <Image src={slider5Ntv} alt="" />
+                      </div>
+                    </div>
+                    <div className="slider_5_sicherheit">
+                      <div className="slider_5_line_1"></div>
+                      <div className="slider_5_btn1">
+                        Garantierte Sicherheit:
+                      </div>
+                      <div className="slider_5_line_1"></div>
+                    </div>
+                    <div className="slider1-garanty">
+                      <div className="d-flex garanty-img">
+                        <Image src={NTV} alt="" />
+                        <Image src={TrustedShops} alt="" />
+                        <Image src={TrustAmi} alt="" />
+                        <Image
+                          src={ProvenExpert}
+                          alt=""
+                          className="hero-proven"
+                        />
+                        <Image src={TopDienstleister} alt="" />
+                        <Image src={TopEmpfehlung} alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
           <div className="col-12 col-md-4 col-lg-3 col-xl-3 small-slider-column">
             <Swiper
-              className="hero_slider"
+              className="hero_slider hero_small_slider"
               modules={[Pagination, Navigation]}
               navigation
               slidesPerView={1}
@@ -346,12 +435,12 @@ const Herosection = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="herobgsmall2">
+                <div className="herobgsmall3">
                   <div className="slider1-left">
-                    <h2 className="smallslide2-h2">
+                    <h2 className="smallslide3-h2">
                       Ankauf von <br /> Markenschmuck
                     </h2>
-                    <p className="herobgsmall1_para1">
+                    <p className="herobgsmall3_para1">
                       Schmuck der Marken Cartier,
                       <br /> Bulgari, Wellendorff, Chopard,
                       <br />
@@ -370,9 +459,63 @@ const Herosection = () => {
                   </div>
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <div className="herobgsmall3-b">
+                  <div className="slider1-left">
+                    <h2 className="smallslide3-h2">
+                      Ankauf von <br /> Markenschmuck
+                    </h2>
+                    <p className="herobgsmall3_para1">
+                      Schmuck der Marken Cartier,
+                      <br /> Bulgari, Wellendorff, Chopard,
+                      <br />
+                      Pomellato, Fope, Niessing, ...
+                    </p>
+                    <div className="herobgsmall1_btn">
+                      <Button
+                        btnText="Jetzt Angebot einholen"
+                        fontSize="17px"
+                        fontWeight="400"
+                        padding="8px 10px"
+                        width="90%"
+                        boxShadow="rgba(0, 0, 0, 0.15) 0px 3px 3px 0px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="herobgsmall4">
+                  <div className="slider1-left">
+                    <h2 className="smallslide4-h2">
+                      Ankauf von <br /> Diamantschmuck
+                    </h2>
+                    <p className="herobgsmall4_para1">
+                      Wir vergüten neben Edelmetallen
+                      <br /> auch Diamanten mit einer
+                      <br />
+                      Mindestgröße von <br />
+                      0.25 CT je Stein.
+                    </p>
+                    <div className="herobgsmall1_btn">
+                      <Button
+                        btnText="Jetzt Angebot einholen"
+                        fontSize="17px"
+                        fontWeight="400"
+                        padding="8px 10px"
+                        width="90%"
+                        boxShadow="rgba(0, 0, 0, 0.15) 0px 3px 3px 0px"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="herobgsmall5"></div>
+              </SwiperSlide>
             </Swiper>
           </div>
-          <div className="col-3 col-md-4 col-lg-4 heome_pricevalue kostenlos-wrapper">
+          <div className="col-3 col-md-12 col-lg-4 heome_pricevalue kostenlos-wrapper">
             <PriceValueForm home />
           </div>
         </div>

@@ -17,7 +17,7 @@ const GoldenKauf = () => {
           </p>
         </div>
         <div className=" row">
-          <div className="col-6 col-lg-3 golden_fauf_card_col">
+          <div className="col-6 col-md-6 col-lg-3 golden_fauf_card_col">
             <div className="golden_fauf_card">
               <div className="golden_fauf_card_body">
                 <span
@@ -42,7 +42,7 @@ const GoldenKauf = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-lg-3 golden_fauf_card_col">
+          <div className="col-6 col-md-6 col-lg-3 golden_fauf_card_col">
             <div className="golden_fauf_card">
               <div className="golden_fauf_card_body">
                 <span
@@ -80,7 +80,7 @@ const GoldenKauf = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-lg-3 golden_fauf_card_col">
+          <div className="col-6 col-md-6 col-lg-3 golden_fauf_card_col">
             <div className="golden_fauf_card">
               <div className="golden_fauf_card_body">
                 <span
@@ -118,7 +118,7 @@ const GoldenKauf = () => {
               </div>
             </div>
           </div>
-          <div className="col-6 col-lg-3 golden_fauf_card_col">
+          <div className="col-6 col-md-6 col-lg-3 golden_fauf_card_col">
             <div className="golden_fauf_card">
               <div className="golden_fauf_card_body">
                 <span
