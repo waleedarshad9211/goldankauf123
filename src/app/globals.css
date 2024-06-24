@@ -258,7 +258,6 @@ header .dropdown-menu.show li a.active {
   border: 1px solid #ffffff;
   padding: 1px 10px;
   font-weight: 500;
-  margin-right: 10px;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -2308,6 +2307,7 @@ header .dropdown-menu.show li a.active {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-position: center;
   align-items: center;
   padding: 15px 0px 20px 0px;
 }
@@ -3651,12 +3651,6 @@ header .dropdown-menu.show li a.active {
     width: 230px;
     height: 160px;
   }
-  .customer_review_text p {
-    font-size: 24px;
-  }
-  .customer_review_ekomi_powered_by {
-    margin-top: 40px;
-  }
   .customer_review_ekomi_powered_by .customer_review_ekomi_powered_by_img {
     width: 130px;
     left: 32px;
@@ -4036,8 +4030,11 @@ header .dropdown-menu.show li a.active {
     line-height: 40px;
   }
   .customer_review_text p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
+  }
+  .review2_slider2_row{
+    margin-top: 25px;
   }
   .customer_review_ekomi_powered_by .customer_review_ekomi_powered_by_img {
     width: 100px;
@@ -4104,7 +4101,13 @@ header .dropdown-menu.show li a.active {
   }
   .uber_section_card {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
+
   .professional_section {
     flex-direction: column;
   }
@@ -4244,6 +4247,16 @@ header .dropdown-menu.show li a.active {
   .bieten_sie_form_label_input label {
     font-size: 14px;
   }
+  .uber_section_card_upper_half {
+    max-width: 256px;
+    width: 100%;
+  }
+  .uber_section_card_bottom_half {
+    width: 100%;
+  }
+  .customer_review_section2_wrapper h2{
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 800px) {
   .goldrechner_clock_upper_div_para1,
@@ -4351,9 +4364,9 @@ header .dropdown-menu.show li a.active {
     flex: 1;
   }
   .garanty-img img {
-    width: 53px;
-    height: 53px;
-    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
   }
   .hero-proven {
     width: 62px !important;
@@ -4363,6 +4376,12 @@ header .dropdown-menu.show li a.active {
     margin-bottom: 20px;
     font-size: 30px;
     line-height: 40px;
+  }
+  .herobgsmall1 .slide1-h2 {
+    text-align: center;
+  }
+  .herobgsmall1_para1 {
+    text-align: center;
   }
   .slide1-Warum {
     margin-bottom: 10px;
@@ -4574,6 +4593,7 @@ header .dropdown-menu.show li a.active {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
+    margin-right: -20px;
   }
   .pwered_by p {
     font-size: 10.38px;
@@ -4693,6 +4713,17 @@ header .dropdown-menu.show li a.active {
   .review2_uber {
     padding-left: 5px;
     padding-right: 5px;
+    margin-bottom: 5px;
+  }
+  .umweltschutz_wrapper {
+    padding-bottom: 10px;
+  }
+  .umweltschutz_wrapper_mobile_img {
+    display: flex;
+    justify-content: center;
+  }
+  .umweltschutz_wrapper_mobile_img img {
+    width: 95%;
   }
   .review2_card {
     border-radius: 5px;
@@ -4750,8 +4781,12 @@ header .dropdown-menu.show li a.active {
     line-height: 31.78px;
     font-weight: 500;
   }
+  .review2_slider2_card .review2_para p {
+    font-size: 10px;
+    line-height: 17px;
+  }
   .customer_review_section2_wrapper h2 {
-    font-size: 25px;
+    font-size: 27px;
     line-height: 33px;
     font-weight: 500;
     text-align: left !important;
@@ -4777,7 +4812,8 @@ header .dropdown-menu.show li a.active {
     padding-left: 6px !important;
   }
   .uber_section_wrapper h2 {
-    margin-top: 20px;
+    margin-top: 0px;
+    font-size: 30px;
   }
   .uber_section_card {
     margin-bottom: 12px;
@@ -4932,7 +4968,7 @@ header .dropdown-menu.show li a.active {
     line-height: 20px;
   }
   .review2_card .Bewertung2 p {
-    font-size: 13px;
+    font-size: 10px;
     line-height: 13px;
   }
   .review2_card .review2_date {
@@ -5109,6 +5145,8 @@ header .dropdown-menu.show li a.active {
   }
   .site_home_page .pricing-btn {
     margin-top: -10px;
+    height: 50px !important;
+    font-size: 20px !important;
   }
   .versandarten_wrapper {
     padding-top: 15px;
@@ -5177,52 +5215,42 @@ header .dropdown-menu.show li a.active {
 }
 @media screen and (min-width: 701px) and (max-width: 767px) {
   .hero_slider .swiper-button-prev {
-    top: 96%;
     left: 36%;
   }
   .hero_slider .swiper-button-next {
-    top: 96%;
     left: 60%;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 700px) {
   .hero_slider .swiper-button-prev {
-    top: 96%;
     left: 34%;
   }
   .hero_slider .swiper-button-next {
-    top: 96%;
     left: 61.5%;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 600px) {
   .hero_slider .swiper-button-prev {
-    top: 96%;
     left: 31%;
   }
   .hero_slider .swiper-button-next {
-    top: 96%;
     left: 64%;
   }
 }
 @media screen and (min-width: 461px) and (max-width: 500px) {
   .hero_slider .swiper-button-prev {
-    top: 96%;
     left: 29%;
   }
   .hero_slider .swiper-button-next {
-    top: 96%;
     left: 65%;
   }
 }
 @media screen and (min-width: 400px) and (max-width: 460px) {
   .hero_slider .swiper-button-prev {
-    top: 96%;
     left: 26%;
   }
   .hero_slider .swiper-button-next {
-    top: 96%;
-    left: 67%;
+    left: 70%;
   }
   .goldenkauf_arrow_home_wrapper {
     margin-right: -40px;
@@ -9210,11 +9238,9 @@ table.hamburg_table {
     margin-top: 30px 0px 0px 0px;
   }
   .hero_slider .swiper-button-next {
-    top: 96%;
     left: 70%;
   }
   .hero_slider .swiper-button-prev {
-    top: 96%;
     left: 23%;
   }
 

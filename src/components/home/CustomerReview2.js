@@ -41,7 +41,7 @@ const CustomerReview2 = () => {
                 alt=""
                 width={139}
                 height={37}
-                className="pwered_by_img d-md-none d-sm-block"
+                className="pwered_by_img d-none d-md-none d-sm-block"
               />
             </div>
           </div>
@@ -59,7 +59,7 @@ const CustomerReview2 = () => {
                   <li className="d-flex"> • Note: SEHR GUT</li>
                   <li className="d-flex "> • Unabhängig & transparent</li>
                 </ul>
-                <div className="review2_trusted_shops d-none d-lg-block">
+                <div className="review2_trusted_shops d-none d-md-block d-lg-block">
                   <Image src={PowerBy} alt="" />
                 </div>
               </div>
