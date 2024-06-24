@@ -87,7 +87,7 @@ const CustomerReviewsSection = () => {
                 <p>Basierend auf über 8.000 Bewertungen</p>
               </div>
               <div className="review_bottom_wrapper">
-                <div className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center justify-content-between review_positiv">
                   <div className="positive">Positiv</div>
                   <div className="positive_icon">
                     <Image src={Positive} alt="" />
@@ -98,7 +98,7 @@ const CustomerReviewsSection = () => {
 
                   <div className="review_percentage">99.2%</div>
                 </div>
-                <div className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center justify-content-between review_positiv">
                   <div className="positive">Neutral</div>
                   <div className="positive_icon">
                     <Image src={Neutral} alt="" />
@@ -108,7 +108,7 @@ const CustomerReviewsSection = () => {
                   </div>
                   <div className="review_percentage">0.35%</div>
                 </div>
-                <div className="d-flex align-items-center justify-content-between">
+                <div className="d-flex align-items-center justify-content-between review_positiv">
                   <div className="positive">Negativ</div>
                   <div className="positive_icon">
                     <Image src={Negative} alt="" />

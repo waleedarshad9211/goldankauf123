@@ -2111,10 +2111,6 @@ header .dropdown-menu.show li a.active {
   display: flex;
   justify-content: center;
 }
-.golden_fauf_card_text p {
-  font-size: 18px;
-  font-weight: 600;
-}
 .goldenkauf_arrow_home_wrapper {
   border-radius: 100%;
   background: linear-gradient(90deg, #e8e8e8 50%, rgba(247, 247, 247, 0.1) 50%);
@@ -4031,7 +4027,7 @@ header .dropdown-menu.show li a.active {
   }
 
   .customer_review_section2_wrapper {
-    margin-top: 5px;
+    margin-top: 15px;
     padding: 20px;
   }
   .customer_review_section_wrapper h2 {
@@ -4523,13 +4519,17 @@ header .dropdown-menu.show li a.active {
     height: 100%;
     width: 100%;
   }
+  .top-left {
+    top: -12px;
+    left: -12px;
+  }
   .bottom-right {
-    right: -14px;
-    bottom: -14px;
+    right: -12px;
+    bottom: -12px;
   }
   .video-btn {
     font-size: 19px !important;
-    margin-top: 30px;
+    margin-top: 40px;
     height: 50px !important;
   }
   .review_slider_slides {
@@ -4555,14 +4555,17 @@ header .dropdown-menu.show li a.active {
     font-size: 10px;
     line-height: 17px;
     font-weight: 500;
-    padding: 12px 5px 0px 8px;
+    padding: 8px 5px 0px 5px;
   }
-  .ekomi_powered_by ul{
+  .ekomi_powered_by ul {
     margin-left: 85px;
   }
   .review_card {
     width: auto;
-    margin-top: 15px;
+    border-radius: 5px;
+  }
+  .review_positiv {
+    margin-top: 8px;
   }
   .pwered_by {
     padding-left: 15px;
@@ -4594,7 +4597,7 @@ header .dropdown-menu.show li a.active {
     padding: 0px 5px 10px;
   }
   .review_card .Bewertung h2 {
-    font-size: 27px;
+    font-size: 30px;
   }
   .review i {
     margin-right: 4px;
@@ -4602,6 +4605,7 @@ header .dropdown-menu.show li a.active {
   }
   .Bewertung {
     padding: 5px;
+    padding-top: 0px;
   }
   .review_card .p2 p {
     font-size: 12px;
@@ -4624,8 +4628,8 @@ header .dropdown-menu.show li a.active {
     width: 160px;
   }
   .review_slider_card {
-    padding: 20px 10px 20px 10px;
-    height: 165px;
+    padding: 10px 10px 5px 10px;
+    height: auto;
   }
   .review_slider_card i {
     font-size: 10px;
@@ -4691,7 +4695,7 @@ header .dropdown-menu.show li a.active {
     padding-right: 5px;
   }
   .review2_card {
-    border-radius: 15px;
+    border-radius: 5px;
   }
   .review2_percenage {
     width: auto;
@@ -4707,7 +4711,7 @@ header .dropdown-menu.show li a.active {
   .review2_slider2_card {
     width: auto;
     padding: 10px 5px;
-    border-radius: 15px;
+    border-radius: 5px;
   }
   .review2_card_rating {
     padding: 0px;
@@ -4721,7 +4725,7 @@ header .dropdown-menu.show li a.active {
   .customer_review_section2_wrapper {
     padding: 10px;
     border-radius: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
   }
   .review2 {
     display: flex;
@@ -4744,12 +4748,12 @@ header .dropdown-menu.show li a.active {
   .customer_review2_logo_img p {
     font-size: 16px;
     line-height: 31.78px;
-    font-weight: bold;
+    font-weight: 500;
   }
   .customer_review_section2_wrapper h2 {
-    font-size: 26px;
-    line-height: 37.72px;
-    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    font-weight: 500;
     text-align: left !important;
   }
   .tab_pill0,
@@ -5045,11 +5049,9 @@ header .dropdown-menu.show li a.active {
     padding-bottom: 15px;
   }
   .video_section_wrapper h2 {
-    margin-bottom: 20px;
-    font-size: 18px;
-    line-height: 22px;
-    max-width: max-content;
-    color: #222222;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 35px;
   }
   .video-row {
     height: 147px;
@@ -5094,6 +5096,7 @@ header .dropdown-menu.show li a.active {
   .professional_section_wrapper h2 {
     font-size: 30px;
     line-height: 32px;
+    margin-top: 10px;
   }
   .professional_section p:first-child {
     margin-bottom: 20px;
@@ -5116,7 +5119,9 @@ header .dropdown-menu.show li a.active {
   }
   .melting-facilities-wrapper h2 {
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
+    line-height: 36px;
+    margin-top: 20px;
   }
   .eigenes_versandmaterial_goldcard_etrusted {
     margin-top: 20px;
@@ -5128,6 +5133,7 @@ header .dropdown-menu.show li a.active {
   }
   .melting-facilities-wrapper {
     padding-top: 0px;
+    padding-bottom: 0px;
   }
   .risiko_card {
     margin-top: 10px;
@@ -5258,7 +5264,7 @@ header .dropdown-menu.show li a.active {
     height: 83px;
   }
   .review_card .Bewertung h2 {
-    font-size: 24px;
+    font-size: 27px;
   }
   .review i {
     color: #f4b700;
@@ -6232,6 +6238,20 @@ header .dropdown-menu.show li a.active {
   .videos_uber_zahngold_wrapper_video .bottom-right {
     right: -8px;
     bottom: -5px;
+  }
+  .customer_review2_heading p {
+    width: 161px;
+    font-size: 13px;
+    padding: 4px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-transform: capitalize;
+  }
+  .customer_review2_kundenbewertungen {
+    border-radius: 5px;
+  }
+  .customer_review2_heading {
+    margin-bottom: 8px;
   }
 }
 
@@ -10030,6 +10050,12 @@ table.hamburg_table {
   .navbar-toggler {
     top: 10%;
     right: 3%;
+  }
+  .golden_fauf_card {
+    width: 165px;
+  }
+  .golden_fauf_card p {
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 350px) and (max-width: 370px) {
