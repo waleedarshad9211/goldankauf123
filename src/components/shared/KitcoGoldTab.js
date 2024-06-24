@@ -76,6 +76,7 @@ const KitcoGoldTab = ({ marginTop = "" }) => {
                 title="Kitco"
                 width={80}
                 height={25}
+                className="kitco_img"
               />
             </p>
           </div>

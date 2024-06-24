@@ -17,7 +17,7 @@ const Versandarten = ({ heading }) => {
         </div>
         <div className="row align-items-end mt-md-4">
           <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
-            <div className="versandarten_card">
+            <div className="versandarten_card d-none d-md-none d-lg-block">
               <div className="versand_last_section">
                 <div className="versandarten_card_header1">
                   <p className="versandarten_header-heading">SELBSTVERSAND</p>
@@ -96,9 +96,7 @@ const Versandarten = ({ heading }) => {
                 />
               </div>
             </div>
-          </div>
-          <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
-            <div className="versandarten2_card">
+            <div className="versandarten2_card d-block d-md-block d-lg-none">
               <div className="versand_last_section">
                 <div className="versandarten2_card_upper_btn">
                   <Button
@@ -171,6 +169,183 @@ const Versandarten = ({ heading }) => {
               <div className="d-flex justify-content-center">
                 <p className="versadarten-last-para">
                   Seriöse Abwicklung In 3-4 Tagen
+                </p>
+              </div>
+              <div className="d-flex align-items-center bg-white p-2 rounded-3">
+                <div>
+                  <Image src={Insurance} alt="" className="me-3" />
+                </div>
+                <div style={{ fontSize: "17px" }}>
+                  Die Versandtasche (DHL) ist bis 1.500 € versichert.
+                </div>
+              </div>
+              <div className="d-flex justify-content-center align-items-center mt-4">
+                <Button
+                  btnText="Ankauf starten"
+                  borderRadius="10px"
+                  margin="0px"
+                  width="100%"
+                  padding="5px 10px"
+                  backgroundColor="#36A08A"
+                  fontSize="22px"
+                  fontWeight="400"
+                />
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
+            <div className="versandarten2_card d-none d-md-none d-lg-block">
+              <div className="versand_last_section">
+                <div className="versandarten2_card_upper_btn">
+                  <Button
+                    btnText="Beliebteste Option"
+                    backgroundColor="#ffffff"
+                    border="1px solid #36a08a"
+                    borderRadius="10px"
+                    width="213px"
+                    height="65px"
+                    color="#36a08a"
+                    textTransform="uppercase"
+                    fontSize="18px"
+                    fontWeight="700"
+                    className="versandarten2_card2_btn"
+                  />
+                </div>
+                <div className="versandarten_card_header1">
+                  <p className="versandarten_header-heading">VERSANDTASCHE</p>
+                  <p className="versandarten_header-subheading">
+                    Kostenlose Versandtasche
+                  </p>
+                </div>
+                <div className="versandarten_card_img">
+                  <Image src={VersandartenImg2} alt="" />
+                </div>
+                <div className="versand_last_section_step">
+                  <div className="versand_last_section_circle ">
+                    1<div className="versand_last_section_dashed_line"></div>
+                  </div>
+                  <div className="versand_last_section_text">
+                    Versandtasche bestellen.
+                    <p style={{ visibility: "hidden" }}>
+                      Versandlabel sowie Begleitschreiben zum
+                    </p>
+                  </div>
+                </div>
+                <div className="versand_last_section_step">
+                  <div className="versand_last_section_circle ">
+                    2<div className="versand_last_section_dashed_line"></div>
+                  </div>
+                  <div className="versand_last_section_text">
+                    Begleitschreiben ausfüllen, Wertgegenstände in die
+                    Versandtasche legen & verschließen.
+                  </div>
+                </div>
+                <div className="versand_last_section_step">
+                  <div className="versand_last_section_circle ">3</div>
+                  <div className="versand_last_section_text">
+                    Versandtasche kostenlos bei der DHL abgeben.
+                    <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
+                  </div>
+                </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Button
+                    btnText="Weitere Informationen"
+                    borderRadius="10px"
+                    margin="0px"
+                    width="251px"
+                    padding="4px 10px"
+                    backgroundColor="#36A08A"
+                    fontWeight="400"
+                    rightSide
+                    iconDetails={{
+                      allowIcon: true,
+                      icon: buttonArrow,
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="d-flex justify-content-center">
+                <p className="versadarten-last-para">
+                  Seriöse Abwicklung In 3-4 Tagen
+                </p>
+              </div>
+              <div className="d-flex align-items-center bg-white p-2 rounded-3">
+                <div>
+                  <Image src={Insurance} alt="" className="me-3" />
+                </div>
+                <div style={{ fontSize: "17px" }}>
+                  Die Versandtasche (DHL) ist bis 1.500 € versichert.
+                </div>
+              </div>
+              <div className="d-flex justify-content-center align-items-center mt-4">
+                <Button
+                  btnText="Ankauf starten"
+                  borderRadius="10px"
+                  margin="0px"
+                  width="100%"
+                  padding="5px 10px"
+                  backgroundColor="#36A08A"
+                  fontSize="22px"
+                  fontWeight="400"
+                />
+              </div>
+            </div>
+            <div className="versandarten_card  d-block d-md-block d-lg-none">
+              <div className="versand_last_section">
+                <div className="versandarten_card_header1">
+                  <p className="versandarten_header-heading">SELBSTVERSAND</p>
+                  <p className="versandarten_header-subheading">
+                    Sie verschicken Ihr Gold selbst
+                  </p>
+                </div>
+                <div className="versandarten_card_img">
+                  <Image src={VersandartenImg1} alt="" />
+                </div>
+                <div className="versand_last_section_step">
+                  <div className="versand_last_section_circle ">
+                    1<div className="versand_last_section_dashed_line"></div>
+                  </div>
+                  <div className="versand_last_section_text">
+                    Sie erhalten ein kostenloses Versandlabel sowie
+                    Begleitschreiben zum Ausdrucken.
+                  </div>
+                </div>
+                <div className="versand_last_section_step">
+                  <div className="versand_last_section_circle ">
+                    2<div className="versand_last_section_dashed_line"></div>
+                  </div>
+                  <div className="versand_last_section_text">
+                    Wertgegenstände samt ausgefülltem Begleitschreiben gut
+                    verpacken.
+                  </div>
+                </div>
+                <div className="versand_last_section_step">
+                  <div className="versand_last_section_circle ">3</div>
+                  <div className="versand_last_section_text">
+                    Versandlabel auf das Paket kleben & bei der DHL kostenlos
+                    abgeben.
+                  </div>
+                </div>
+                <div className="d-flex justify-content-center align-items-center">
+                  <Button
+                    btnText="Weitere Informationen"
+                    borderRadius="10px"
+                    margin="0px"
+                    width="251px"
+                    padding="4px 10px"
+                    backgroundColor="#36A08A"
+                    fontWeight="400"
+                    rightSide
+                    iconDetails={{
+                      allowIcon: true,
+                      icon: buttonArrow,
+                    }}
+                  />
+                </div>
+              </div>
+              <div className="d-flex justify-content-center">
+                <p className="versadarten-last-para">
+                  Einfach, schnell und unkompliziert
                 </p>
               </div>
               <div className="d-flex align-items-center bg-white p-2 rounded-3">

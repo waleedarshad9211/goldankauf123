@@ -53,13 +53,16 @@ const ValueCalc = ({ home = false }) => {
         <div className="row">
           <div className="col-12 col-md-12 col-lg-8">
             <div className="d-flex flex-sm-column flex-lg-row GoldankaufKotenloser-img align-items-center">
+              <h2 className="text-left GoldankaufKotenloser-heading d-block d-md-block d-lg-none">
+                Goldankauf online mit Gold-zurück-Garantie
+              </h2>
               <Image
                 src={Ntv}
                 alt="Goldankauf bei moneyGold.de"
                 title="Goldankauf bei moneyGold.de"
               />
               <div>
-                <h2 className="text-left GoldankaufKotenloser-heading">
+                <h2 className="text-left GoldankaufKotenloser-heading d-none d-lg-block">
                   Goldankauf online mit Gold-zurück-Garantie
                 </h2>
                 <p className="text-left Goldankauf_para1_">

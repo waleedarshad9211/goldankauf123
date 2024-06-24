@@ -6,6 +6,7 @@ import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import EkomiVector from "/public/assets/img/ekomi-vektor.png";
 import PowerBy from "/public/assets/img/homepage/ekomi_feedback_logo.png";
+import PowerByMobile from "/public/assets/img/homepage/ekomi-white.png";
 import Negative from "/public/assets/img/homepage/review_negative_icon.png";
 import Neutral from "/public/assets/img/homepage/review_neutral_icon.png";
 import Positive from "/public/assets/img/homepage/review_positive_icon.png";
@@ -38,7 +39,7 @@ const CustomerReviewsSection = () => {
             <div className="pwered_by">
               <p className="d-md-none d-sm-block">Powered by</p>
               <Image
-                src={PowerBy}
+                src={PowerByMobile}
                 alt=""
                 width={139}
                 height={37}
@@ -60,7 +61,7 @@ const CustomerReviewsSection = () => {
                   <li className="d-flex"> • eKomi Siegel Gold</li>
                   <li className="d-flex "> • Unabhängig & transparent</li>
                 </ul>
-                <div className="ekomi_powered_by_inner_image">
+                <div className="ekomi_powered_by_inner_image d-none d-lg-block">
                   <div>Powered By</div>
                   <Image src={PowerBy} alt="" />
                 </div>

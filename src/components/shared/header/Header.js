@@ -83,13 +83,47 @@ const Header = () => {
   return (
     <header className="gold-header">
       <div className="container">
-        <div className="row py-2 align-items-center header-top-wrapper">
-          <div className="col-md-4 col-lg-4 col-5 d-flex align-items-center">
+        <div className="row py-1 align-items-center header-top-wrapper">
+          <div className="col-2 col-md-3 d-block d-lg-none text-md-end">
+            <button
+              className={`navbar_btn navbar-toggler ${
+                isMenuOpen ? "active" : "inactive"
+              }`}
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBackdrop"
+              aria-controls="offcanvasWithBackdrop"
+              aria-expanded={isMenuOpen}
+              aria-label="Toggle navigation"
+              onClick={toggleMenu}
+            >
+              <span className="navbar-toggler-icon">
+                <div className="navbar-toggler-icon-bar">
+                  <span
+                    className={`toggler-icon top-bar ${
+                      isMenuOpen ? "top-bar-open" : "top-bar-close"
+                    }`}
+                  ></span>
+                  <span
+                    className={`toggler-icon middle-bar ${
+                      isMenuOpen ? "middle-bar-open" : "middle-bar-close"
+                    }`}
+                  ></span>
+                  <span
+                    className={`toggler-icon bottom-bar ${
+                      isMenuOpen ? "bottom-bar-open" : "bottom-bar-close"
+                    }`}
+                  ></span>
+                </div>
+              </span>
+            </button>
+          </div>
+          <div className="col-md-4 col-lg-4 col-5 d-flex align-items-center navbar-logo">
             <Link className={`navbar-brand `} href="/" passHref>
               <Image
                 className="Image-fluid main_logo"
                 src={Logo}
-                alt="Zahn Gold Logo"
+                alt="Goldankauf Logo"
               />
             </Link>
           </div>
@@ -109,7 +143,7 @@ const Header = () => {
               height="68"
             />
             <Image
-              className="Image-fluid m-icon me-1"
+              className="Image-fluid m-icon me-1 d-none d-md-block"
               src={TrustedShops}
               alt=""
               width="87"
@@ -139,43 +173,7 @@ const Header = () => {
         </div>
       </div>
       <div className="green-line"></div>
-      <div className="container">
-        <div className="col-2 col-md-3 d-block d-lg-none text-md-end">
-          <button
-            className={`navbar_btn navbar-toggler ${
-              isMenuOpen ? "active" : "inactive"
-            }`}
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBackdrop"
-            aria-controls="offcanvasWithBackdrop"
-            aria-expanded={isMenuOpen}
-            aria-label="Toggle navigation"
-            onClick={toggleMenu}
-          >
-            <span className="navbar-toggler-icon">
-              <div className="menu_text">Menü</div>
-              <div className="navbar-toggler-icon-bar">
-                <span
-                  className={`toggler-icon top-bar ${
-                    isMenuOpen ? "top-bar-open" : "top-bar-close"
-                  }`}
-                ></span>
-                <span
-                  className={`toggler-icon middle-bar ${
-                    isMenuOpen ? "middle-bar-open" : "middle-bar-close"
-                  }`}
-                ></span>
-                <span
-                  className={`toggler-icon bottom-bar ${
-                    isMenuOpen ? "bottom-bar-open" : "bottom-bar-close"
-                  }`}
-                ></span>
-              </div>
-            </span>
-          </button>
-        </div>
-      </div>
+
       <div className={`d-lg-none mob-navigation `}>
         <ul className="container d-flex justify-content-around mb-2 mb-lg-0 w-100">
           <li

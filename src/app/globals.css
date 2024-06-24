@@ -61,14 +61,12 @@ ul {
   margin-bottom: 0px;
 }
 h1 {
-  font-size: 43px;
-
+  font-size: 32px;
   font-weight: 700;
 }
 h2 {
   font-size: 30px;
-
-  font-weight: bold;
+  font-weight: 500;
 }
 .menu_text {
   color: #222222 !important;
@@ -82,13 +80,17 @@ h2 {
     max-width: 425px !important;
     position: relative;
   }
-  .header-top-wrapper {
-    padding-right: 15px;
+  .navbar-logo {
+    flex: 1;
   }
   .navbar-brand img {
     max-width: unset !important;
-    width: 130px;
-    height: 22px;
+    width: 210px;
+    margin-left: -25px;
+  }
+  .header_seal_column {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
   .header-top-wrapper .header-imgs img {
     width: 50px;
@@ -96,6 +98,24 @@ h2 {
   }
   .GoldankaufKotenloser_ .Kitco_gold .Kitco_gold_tab_wrapper {
     margin-top: 15px;
+  }
+  .hero_slider .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+  .herobg1,
+  .herobg2,
+  .herobg3,
+  .herobg4,
+  .herobg5,
+  .herobg6,
+  .herobgsmall1,
+  .herobgsmall2,
+  .herobgsmall3,
+  .herobgsmall3-b,
+  .herobgsmall4,
+  .herobgsmall5 {
+    max-width: 375px;
   }
 }
 /* header css */
@@ -1463,13 +1483,6 @@ header .dropdown-menu.show li a.active {
     padding-top: 5px;
     padding-bottom: 5px;
   }
-  .navbar-toggler {
-    display: block;
-    position: absolute;
-    top: 30%;
-    right: 3%;
-    z-index: 1000;
-  }
   .dropdown-menu.sh {
     display: block !important;
   }
@@ -1657,17 +1670,19 @@ header .dropdown-menu.show li a.active {
   height: 520px;
 }
 .herobg4 {
-  background-image: url("/assets/img/homepage/Slider-4-Big.png");
+  background-image: url("/assets/img/homepage/Slider-4-Big-1.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left;
   background-size: cover;
   border: 2px solid #ffffff;
   border-radius: 10px;
   height: 520px;
 }
-.herobg4 img {
-  width: 100%;
+.slider4_img {
+  max-width: 446px;
+  background-position: left;
   border-radius: 10px;
+  max-height: 517px;
 }
 .herobg5 {
   background-image: url("/assets/img/homepage/Slider-5-Big.png");
@@ -3861,12 +3876,12 @@ header .dropdown-menu.show li a.active {
     padding-right: 1px;
   }
   .garanty-img img {
-    width: 50px;
-    height: 50px;
+    width: 53px;
+    height: 53px;
   }
   .herobg5 .garanty-img img {
-    width: 50px;
-    height: 50px;
+    width: 53px;
+    height: 53px;
   }
   .slider1-garanty p {
     font-size: 20px;
@@ -3915,10 +3930,10 @@ header .dropdown-menu.show li a.active {
     flex-direction: column;
   }
   .versandarten2_card {
-    margin-top: 25px;
+    margin-top: 30px;
   }
   .versandarten3_card {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   .melting-facilities-img {
     display: flex;
@@ -3964,7 +3979,6 @@ header .dropdown-menu.show li a.active {
     padding: 0px;
   }
   .GoldankaufKotenloser-heading {
-    text-align: center;
     font-size: 30px;
     line-height: 40px;
   }
@@ -3978,6 +3992,9 @@ header .dropdown-menu.show li a.active {
   }
   .Goldankauf_para1_ {
     margin-top: 20px;
+  }
+  .Goldankauf_para2_ {
+    margin-top: 10px;
   }
   .Kitco_gold_tab_wrapper {
     margin-top: 15px;
@@ -4027,17 +4044,18 @@ header .dropdown-menu.show li a.active {
     line-height: 24px;
   }
   .customer_review_ekomi_powered_by .customer_review_ekomi_powered_by_img {
-    width: 92px;
-    height: 92px;
+    width: 100px;
+    height: 100px;
   }
   .ekomi_powered_by {
-    background-color: #01c3cc;
-    height: 100%;
-    width: 100%;
-    padding: 20px 0px;
+    height: 96px;
+  }
+  .ekomi_powered_by ul {
+    margin-left: 66px;
   }
   .ekomi_powered_by ul li {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 24px;
     align-items: center;
   }
   .ekomi_powered_by ul li img {
@@ -4288,25 +4306,16 @@ header .dropdown-menu.show li a.active {
 }
 
 @media screen and (max-width: 767px) {
+  .kostenlos {
+    max-width: 375px;
+    width: 375px;
+  }
+  .goldankauf_valuecalc_heading {
+    font-size: 24px !important;
+    line-height: 33px !important;
+  }
   .video-row .col-6:last-child {
     display: none;
-  }
-
-  .herobg5 .slide1-h2,
-  .herobg5 .slide1-Warum {
-    font-size: 22px;
-    line-height: 28px;
-  }
-  .herobg5 .slider1-garanty {
-    width: 100%;
-    padding: 5px 12px;
-  }
-  .herobg5 .garanty-img img {
-    width: 40px;
-    height: 40px;
-  }
-  .hero-arrowimg5 {
-    top: 100px;
   }
   .slider1-garanty {
     width: 100%;
@@ -4346,9 +4355,9 @@ header .dropdown-menu.show li a.active {
     flex: 1;
   }
   .garanty-img img {
-    width: 50px;
-    height: 50px;
-    margin-right: 0px;
+    width: 53px;
+    height: 53px;
+    margin-right: 10px;
   }
   .hero-proven {
     width: 62px !important;
@@ -4356,8 +4365,8 @@ header .dropdown-menu.show li a.active {
   }
   .slide1-h2 {
     margin-bottom: 20px;
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 40px;
   }
   .slide1-Warum {
     margin-bottom: 10px;
@@ -4375,12 +4384,7 @@ header .dropdown-menu.show li a.active {
   }
   .slider1-left button {
     font-size: 18px !important;
-    padding: 3px 15px !important;
-  }
-  .hero_slide2 button {
-    font-size: 24px !important;
-    margin: 15px 0px 0px 0px !important;
-    padding: 3px 20px !important;
+    width: 70% !important;
   }
   .hero_slide2 .card_img {
     margin-top: 0px;
@@ -4444,37 +4448,27 @@ header .dropdown-menu.show li a.active {
   .golden_fauf_card {
     margin-right: 0px !important;
   }
-  .GoldankaufKotenloser-heading {
-    font-size: 24px;
-    line-height: 30px;
-  }
   .GoldankaufKotenloser-heading2 {
     font-size: 30px;
-    line-height: 30px;
+    line-height: 40px;
+    font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
-    display: none;
-  }
-  .GoldankaufKotenloser-heading2-mobile {
-    display: block;
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    text-align: left;
   }
   .Goldankauf_para1_ {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 16px;
   }
   .Kitco_gold_tab_wrapper .headline {
     font-size: 21px;
-    color: #000000;
   }
   .Kitco_gold_tab_wrapper .paragraph {
-    font-size: 14px;
-    color: #000000;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  .kitco_img {
+    margin-top: 2px;
   }
   .Kitco_gold_tab_wrapper .para2 {
     font-size: 12px;
@@ -4487,7 +4481,9 @@ header .dropdown-menu.show li a.active {
     font-weight: 600;
   }
   .umweltschutz_wrapper .gold_btn {
-    font-size: 14px !important;
+    font-size: 16px !important;
+    padding: 1px 10px !important;
+    width: 96% !important;
   }
   .umweltschutz_wrapper_left_p1 {
     font-size: 14px;
@@ -4500,8 +4496,8 @@ header .dropdown-menu.show li a.active {
     padding: 10px;
   }
   .customer_review_section_wrapper h2 {
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 25px;
     line-height: 34px;
   }
   .melting-facilities-img img {
@@ -4515,11 +4511,11 @@ header .dropdown-menu.show li a.active {
     margin-bottom: 15px;
   }
   .unsere_section_slide1_img img {
-    width: 85px;
-    height: 85px;
+    width: 82px;
+    height: 82px;
   }
   .unsere_section_slide1_img .unsere_proven_expert {
-    width: 107px;
+    width: 95px;
     height: 86px;
   }
   .vedio_card,
@@ -4528,13 +4524,13 @@ header .dropdown-menu.show li a.active {
     width: 100%;
   }
   .bottom-right {
-    right: -8px;
-    bottom: -8px;
+    right: -14px;
+    bottom: -14px;
   }
   .video-btn {
-    font-size: 18px;
-    height: 30px !important;
-    margin-top: 25px;
+    font-size: 19px !important;
+    margin-top: 30px;
+    height: 50px !important;
   }
   .review_slider_slides {
     border-top: none;
@@ -4548,12 +4544,21 @@ header .dropdown-menu.show li a.active {
     margin-bottom: -20px;
   }
   .review_slider_column .review_heading2 p {
-    background: transparent;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 12px;
     width: auto;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .review_card_heading {
+    font-size: 10px;
+    line-height: 17px;
+    font-weight: 500;
+    padding: 12px 5px 0px 8px;
+  }
+  .ekomi_powered_by ul{
+    margin-left: 85px;
   }
   .review_card {
     width: auto;
@@ -4573,12 +4578,8 @@ header .dropdown-menu.show li a.active {
     text-align: center;
     margin-bottom: 10px;
   }
-  .ekomi_powered_by ul li {
-    font-size: 13px;
-  }
-
   .review_slider_column {
-    margin-top: 20px;
+    border-radius: 5px;
   }
   .reviewNum {
     font-size: 11.36px;
@@ -4593,10 +4594,14 @@ header .dropdown-menu.show li a.active {
     padding: 0px 5px 10px;
   }
   .review_card .Bewertung h2 {
-    font-size: 26px;
+    font-size: 27px;
   }
   .review i {
-    font-size: 25px;
+    margin-right: 4px;
+    font-size: 16px !important;
+  }
+  .Bewertung {
+    padding: 5px;
   }
   .review_card .p2 p {
     font-size: 12px;
@@ -4754,7 +4759,7 @@ header .dropdown-menu.show li a.active {
     flex-basis: 100% !important;
   }
   .versandarten_card {
-    margin-top: 65px;
+    margin-top: 15px;
   }
   .versandarten3_card {
     margin-top: 20px;
@@ -4937,8 +4942,8 @@ header .dropdown-menu.show li a.active {
     margin-right: 0px;
   }
   .customer_review_ekomi_powered_by .customer_review_ekomi_powered_by_img {
-    width: 82px;
-    height: 82px;
+    width: 100px;
+    height: 100px;
   }
   .review_slider2_column .swiper-button-next {
     right: -5px !important;
@@ -5129,7 +5134,7 @@ header .dropdown-menu.show li a.active {
     margin-bottom: 20px;
   }
   .versandarten3_card {
-    margin-top: 65px;
+    margin-top: 20px;
   }
   .info_section_wrapper {
     padding: 20px 0px;
@@ -5271,7 +5276,7 @@ header .dropdown-menu.show li a.active {
     height: 165px;
   }
   .review_card_heading {
-    padding: 5px 15px 5px 15px;
+    padding: 5px;
   }
   .review_card {
     margin-top: 0px;
@@ -9009,23 +9014,23 @@ table.hamburg_table {
   .goldankauf_valuecalc_form {
     justify-content: flex-start;
     flex-direction: column;
+    flex-wrap: nowrap;
   }
   .goldankauf_valuecalc_form .value-calculate-input label {
     width: 70px;
   }
-  .goldankauf_valuecalc_form .value-calculate-input input {
-    width: 100%;
-  }
   .goldankauf_valuecalc_form .value-calculate-select label {
-    width: 83px;
+    width: 80px;
+  }
+  .goldankauf_valuecalc_form .value-calculate-input input,
+  .goldankauf_valuecalc_form .value-calculate-select select {
+    height: 42px;
+    flex: 1;
   }
   .goldankauf_valuecalc_form .value-calculate-select select {
-    width: 100%;
-    margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 0px 15px;
-    height: 33px;
+    margin-top: 10px;
   }
   .zahngold_list_wrapper li {
     height: 59.86px;
@@ -9035,10 +9040,14 @@ table.hamburg_table {
   }
   .zahngold_valuecalc_btn {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
-
+  .zahngold_valuecalc_btn button {
+    font-size: 17px !important;
+    padding: 1px 10px !important;
+    flex-basis: 78%;
+  }
   .zahn_moneygold_logo_section {
     margin-bottom: 10px;
   }
@@ -9160,6 +9169,14 @@ table.hamburg_table {
   .bieten_sie_form_logos img:last-child {
     width: 68px;
     height: 72px;
+  }
+  .unsere_section_slide2_img {
+    width: 102px;
+    height: 102px;
+  }
+  .unsere_section_slide2_img div {
+    width: 82px;
+    height: 82px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -9848,10 +9865,6 @@ table.hamburg_table {
 @media screen and (max-width: 767px) {
   .navbar-brand {
     margin-left: 0px;
-  }
-  .navbar-toggler {
-    top: 22%;
-    right: 3%;
   }
   .GoldCard2 .gold_card2 {
     margin-top: 15px !important;

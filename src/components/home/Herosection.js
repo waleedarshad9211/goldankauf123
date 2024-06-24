@@ -25,6 +25,7 @@ import Pladium from "/public/assets/img/homepage/slider2_pladium.png";
 import Rhodium from "/public/assets/img/homepage/slider2_rhodium.png";
 import Slider3Tick from "/public/assets/img/homepage/small-tick.png";
 import slider5Ntv from "/public/assets/img/homepage/slider-5-ntv.png";
+import slider4 from "/public/assets/img/homepage/herobg4.png";
 
 const Herosection = () => {
   return (
@@ -196,7 +197,8 @@ const Herosection = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="herobg4">
-                  <div className="hero_slide3">
+                  <Image src={slider4} alt="" className="slider4_img" />
+                  {/* <div className="hero_slide3">
                     <h2 className="slide5_ankauf">
                       Edelmetalle <br></br> verkaufen ist
                       <br />
@@ -279,7 +281,7 @@ const Herosection = () => {
                         <Image src={TopEmpfehlung} alt="" />
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -515,7 +517,7 @@ const Herosection = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="col-3 col-md-12 col-lg-4 heome_pricevalue kostenlos-wrapper">
+          <div className="col-12 col-md-12 col-lg-4 heome_pricevalue kostenlos-wrapper">
             <PriceValueForm home />
           </div>
         </div>
