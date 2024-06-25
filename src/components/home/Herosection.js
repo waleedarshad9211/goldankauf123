@@ -32,7 +32,7 @@ const Herosection = () => {
     <section className="hero_section_wrapper">
       <div className="container">
         <div className="row hero_section_row">
-          <div className="col-12 col-md-7 col-lg-5 col-xl-5">
+          <div className="col-12 col-md-7 col-lg-7 col-xl-5">
             <Swiper
               className="hero_slider"
               modules={[Pagination, Navigation]}
@@ -373,7 +373,7 @@ const Herosection = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="col-12 col-md-4 col-lg-3 col-xl-3 small-slider-column">
+          <div className="col-12 col-md-4 col-lg-4 col-xl-3 small-slider-column">
             <Swiper
               className="hero_slider hero_small_slider"
               modules={[Pagination, Navigation]}
@@ -517,7 +517,7 @@ const Herosection = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="col-12 col-md-12 col-lg-4 heome_pricevalue kostenlos-wrapper">
+          <div className="col-12 col-md-12 col-lg-12 col-xl-4 heome_pricevalue kostenlos-wrapper">
             <PriceValueForm home />
           </div>
         </div>

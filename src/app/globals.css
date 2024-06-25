@@ -3906,6 +3906,9 @@ header .dropdown-menu.show li a.active {
   .golden-kauf-img {
     justify-content: center;
   }
+  .versandarten_card {
+    margin-top: 15px;
+  }
   .versandarten_card,
   .versandarten2_card,
   .versandarten3_card {
@@ -4033,7 +4036,7 @@ header .dropdown-menu.show li a.active {
     font-size: 16px;
     line-height: 24px;
   }
-  .review2_slider2_row{
+  .review2_slider2_row {
     margin-top: 25px;
   }
   .customer_review_ekomi_powered_by .customer_review_ekomi_powered_by_img {
@@ -4254,7 +4257,7 @@ header .dropdown-menu.show li a.active {
   .uber_section_card_bottom_half {
     width: 100%;
   }
-  .customer_review_section2_wrapper h2{
+  .customer_review_section2_wrapper h2 {
     margin-bottom: 10px;
   }
 }
@@ -4600,6 +4603,10 @@ header .dropdown-menu.show li a.active {
     line-height: normal;
     text-align: center;
     margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .pwered_by img {
+    margin-right: 10px;
   }
   .review_slider_column {
     border-radius: 5px;
@@ -5212,7 +5219,11 @@ header .dropdown-menu.show li a.active {
   .header_fourth_img {
     display: none;
   }
+  .golden_fauf_card {
+    width: 225px;
+  }
 }
+
 @media screen and (min-width: 701px) and (max-width: 767px) {
   .hero_slider .swiper-button-prev {
     left: 36%;
@@ -8512,16 +8523,21 @@ table.hamburg_table {
   .gold_zuruck_garantie_kitco_gold_tab .e_trusted_shops_card {
     width: 350px;
   }
+  .goldankauf_valuecalc_form .value-calculate-select select {
+    width: 195px;
+  }
+  .zahngold_valuecalc_btn button {
+    padding: 1px 10px;
+    width: 235px;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 992px) {
-  .golden_fauf_card {
-    max-width: 160px;
-  }
   .golden_fauf_card {
     border-radius: 10px;
     background-color: #ffffff;
     padding: 10px;
-    width: 160px;
+    width: 100%;
+    max-width: 100%;
     min-height: 180px;
     margin-right: 0px;
     margin-bottom: 0px;
