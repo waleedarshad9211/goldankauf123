@@ -7303,10 +7303,19 @@ header .dropdown-menu.show li a.active {
   max-width: 732px;
 }
 .versandarten_subheading_funktionierts {
-  font-size: 20px;
+  font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  text-align: left;
   color: #36a08a;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.versandarten_subheading_border {
+  border-bottom: 3px solid #36a08a;
+  width: 50%;
+  height: 3px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
 .funktionierts_wrapper .kostenlos {
   margin-top: 0px;
@@ -10161,7 +10170,7 @@ table.hamburg_table {
 .zahngold_varsandarten1 img {
   width: 350px;
 }
-@media screen and (min-width: 994px) and (max-width: 1180px) {
+@media screen and (min-width: 993px) and (max-width: 1180px) {
   .zahngold_wrapper .gold_card,
   .zahngold_wrapper .gold_card2,
   .zahngold_wrapper .e_trusted_shops_card3,
@@ -10184,6 +10193,9 @@ table.hamburg_table {
   .zahngold_varsandarten2,
   .zahngold_varsandarten1 {
     margin-top: 0px;
+  }
+  .versandarten_subheading_funktionierts{
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 767px) {

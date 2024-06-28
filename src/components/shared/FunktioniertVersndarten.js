@@ -24,13 +24,14 @@ const FunktioniertVersndarten = () => {
                 Sie erhalten per E-Mail ein kostenloses Versandlabel sowie das
                 Begleitschreiben zum Ausdrucken.
               </p>
+              <p style={{ visibility: "hidden" }}>zum Ausdrucken</p>
+              <div className="versandarten_subheading_border"></div>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Sie erhalten ein kostenloses Versandlabel sowie
-                  Begleitschreiben zum Ausdrucken.
+                  Begleitschreiben ausfüllen.
                 </div>
               </div>
               <div className="versand_last_section_step">
@@ -38,15 +39,34 @@ const FunktioniertVersndarten = () => {
                   2<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Wertgegenstände samt ausgefülltem Begleitschreiben gut
-                  verpacken.
+                  Wertgegenstände samt ausgefüllten Begleitschreiben gut in
+                  einem Karton verpacken.
                 </div>
               </div>
               <div className="versand_last_section_step">
-                <div className="versand_last_section_circle ">3</div>
+                <div className="versand_last_section_circle ">
+                  3<div className="versand_last_section_dashed_line"></div>
+                </div>
                 <div className="versand_last_section_text">
-                  Versandlabel auf das Paket kleben & bei der DHL kostenlos
-                  abgeben.
+                  Versandlabel anbringen und bei der DHL kostenlos abgeben.
+                  <p style={{ visibility: "hidden" }}>abgeben</p>
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">
+                  4<div className="versand_last_section_dashed_line"></div>
+                </div>
+                <div className="versand_last_section_text">
+                  Nach Erhalt Ihrer Sendung erhalten Sie innerhalb von 48
+                  Stunden ein unverbindliches Angebot per E-Mail.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">5</div>
+                <div className="versand_last_section_text">
+                  Nach Bestätigung des Angebots Ihrerseits, folgt die Auszahlung
+                  innerhalb von 48 Stunden. Sollte Ihnen unser Angebot nicht
+                  zusagen, erhalten Sie ihre Wertgegestände kostenlos zurück.
                 </div>
               </div>
               <div className="d-flex justify-content-center align-items-center">
@@ -118,19 +138,19 @@ const FunktioniertVersndarten = () => {
               <div className="versandarten_card_img">
                 <Image src={VersandartenImg2} alt="" />
               </div>
+
               <p className=" versandarten_subheading_funktionierts">
                 Sie erhalten in wenigen Tagen Ihre kostenlose Versandtasche samt
                 Begleitschreiben
               </p>
+              <p style={{ visibility: "hidden" }}>zum Ausdrucken</p>
+              <div className="versandarten_subheading_border"></div>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Versandtasche bestellen.
-                  <p style={{ visibility: "hidden" }}>
-                    Versandlabel sowie Begleitschreiben zum
-                  </p>
+                  Begleitschreiben ausfüllen.
                 </div>
               </div>
               <div className="versand_last_section_step">
@@ -138,15 +158,34 @@ const FunktioniertVersndarten = () => {
                   2<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Begleitschreiben ausfüllen, Wertgegenstände in die
-                  Versandtasche legen & verschließen.
+                  Wertgegenstände samt ausgefüllten Begleitschreiben gut in
+                  einem Karton verpacken.
                 </div>
               </div>
               <div className="versand_last_section_step">
-                <div className="versand_last_section_circle ">3</div>
+                <div className="versand_last_section_circle ">
+                  3<div className="versand_last_section_dashed_line"></div>
+                </div>
                 <div className="versand_last_section_text">
-                  Versandtasche kostenlos bei der DHL abgeben.
-                  <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
+                  Versandtasche kostenlos bei einer DHL Filiale oder einem
+                  Paketshop abgeben.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">
+                  4<div className="versand_last_section_dashed_line"></div>
+                </div>
+                <div className="versand_last_section_text">
+                  Nach Erhalt Ihrer Sendung erhalten Sie innerhalb von 48
+                  Stunden ein unverbindliches Angebot per E-Mail.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">5</div>
+                <div className="versand_last_section_text">
+                  Nach Bestätigung des Angebots Ihrerseits, folgt die Auszahlung
+                  innerhalb von 48 Stunden. Sollte Ihnen unser Angebot nicht
+                  zusagen, erhalten Sie Ihre Wertgegestände kostenlos zurück.
                 </div>
               </div>
               <div className="d-flex justify-content-center align-items-center">
@@ -221,15 +260,14 @@ const FunktioniertVersndarten = () => {
                 Sie erhalten in wenigen Tagen Ihre kostenlose Versandtasche samt
                 Begleitschreiben
               </p>
+              <p style={{ visibility: "hidden" }}>zum Ausdrucken</p>
+              <div className="versandarten_subheading_border"></div>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Versandtasche bestellen.
-                  <p style={{ visibility: "hidden" }}>
-                    Versandlabel sowie Begleitschreiben zum
-                  </p>
+                  Begleitschreiben ausfüllen.
                 </div>
               </div>
               <div className="versand_last_section_step">
@@ -237,15 +275,34 @@ const FunktioniertVersndarten = () => {
                   2<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Begleitschreiben ausfüllen, Wertgegenstände in die
-                  Versandtasche legen & verschließen.
+                  Wertgegenstände samt ausgefüllten Begleitschreiben gut in
+                  einem Karton verpacken.
                 </div>
               </div>
               <div className="versand_last_section_step">
-                <div className="versand_last_section_circle ">3</div>
+                <div className="versand_last_section_circle ">
+                  3<div className="versand_last_section_dashed_line"></div>
+                </div>
                 <div className="versand_last_section_text">
-                  Versandtasche kostenlos bei der DHL abgeben.
-                  <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
+                  Versandtasche kostenlos bei einer DHL Filiale oder einem
+                  Paketshop abgeben.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">
+                  4<div className="versand_last_section_dashed_line"></div>
+                </div>
+                <div className="versand_last_section_text">
+                  Nach Erhalt Ihrer Sendung erhalten Sie innerhalb von 48
+                  Stunden ein unverbindliches Angebot per E-Mail.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">5</div>
+                <div className="versand_last_section_text">
+                  Nach Bestätigung des Angebots Ihrerseits, folgt die Auszahlung
+                  innerhalb von 48 Stunden. Sollte Ihnen unser Angebot nicht
+                  zusagen, erhalten Sie Ihre Wertgegestände kostenlos zurück.
                 </div>
               </div>
               <div className="d-flex justify-content-center align-items-center">
@@ -306,13 +363,14 @@ const FunktioniertVersndarten = () => {
                 Sie erhalten per E-Mail ein kostenloses Versandlabel sowie das
                 Begleitschreiben zum Ausdrucken.
               </p>
+              <p style={{ visibility: "hidden" }}>zum Ausdrucken.</p>
+              <div className="versandarten_subheading_border"></div>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Sie erhalten ein kostenloses Versandlabel sowie
-                  Begleitschreiben zum Ausdrucken.
+                  Begleitschreiben ausfüllen.
                 </div>
               </div>
               <div className="versand_last_section_step">
@@ -320,15 +378,33 @@ const FunktioniertVersndarten = () => {
                   2<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Wertgegenstände samt ausgefülltem Begleitschreiben gut
-                  verpacken.
+                  Wertgegenstände samt ausgefüllten Begleitschreiben gut in
+                  einem Karton verpacken.
                 </div>
               </div>
               <div className="versand_last_section_step">
-                <div className="versand_last_section_circle ">3</div>
+                <div className="versand_last_section_circle ">
+                  3<div className="versand_last_section_dashed_line"></div>
+                </div>
                 <div className="versand_last_section_text">
-                  Versandlabel auf das Paket kleben & bei der DHL kostenlos
-                  abgeben.
+                  Versandlabel anbringen und bei der DHL kostenlos abgeben.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">
+                  4<div className="versand_last_section_dashed_line"></div>
+                </div>
+                <div className="versand_last_section_text">
+                  Nach Erhalt Ihrer Sendung erhalten Sie innerhalb von 48
+                  Stunden ein unverbindliches Angebot per E-Mail.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">5</div>
+                <div className="versand_last_section_text">
+                  Nach Bestätigung des Angebots Ihrerseits, folgt die Auszahlung
+                  innerhalb von 48 Stunden. Sollte Ihnen unser Angebot nicht
+                  zusagen, erhalten Sie ihre Wertgegestände kostenlos zurück.
                 </div>
               </div>
               <div className="d-flex justify-content-center align-items-center">
@@ -388,13 +464,13 @@ const FunktioniertVersndarten = () => {
                 Ab einem Warenwert von 1500€ holen wir ihre Wertgegenstände
                 mittels Kurier an dem von Ihnen gewünschten Tag ab.
               </p>
+              <div className="versandarten_subheading_border"></div>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Wertabholung online buchen.
-                  <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
+                  Begleitschreiben ausfüllen.
                 </div>
               </div>
               <div className="versand_last_section_step">
@@ -402,15 +478,34 @@ const FunktioniertVersndarten = () => {
                   2<div className="versand_last_section_dashed_line"></div>
                 </div>
                 <div className="versand_last_section_text">
-                  Begleitschreiben, dass Sie per E-Mail erhalten, ausdrucken &
-                  samt Ihren Wertgegenständen gut verpacken.
+                  Wertgegenstände samt ausgefüllten Begleitschreiben gut in
+                  einem Karton verpacken.
                 </div>
               </div>
               <div className="versand_last_section_step">
-                <div className="versand_last_section_circle ">3</div>
+                <div className="versand_last_section_circle ">
+                  3<div className="versand_last_section_dashed_line"></div>
+                </div>
                 <div className="versand_last_section_text">
-                  Übergeben Sie die Sendung an den Kurier.
-                  <p style={{ visibility: "hidden" }}>Versandlabel sowie</p>
+                  Versandlabel anbringen und die Sendung dem Kurier übergeben.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">
+                  4<div className="versand_last_section_dashed_line"></div>
+                </div>
+                <div className="versand_last_section_text">
+                  Nach Erhalt Ihrer Sendung erhalten Sie innerhalb von 48
+                  Stunden ein unverbindliches Angebot per E-Mail.
+                </div>
+              </div>
+              <div className="versand_last_section_step">
+                <div className="versand_last_section_circle ">5</div>
+                <div className="versand_last_section_text">
+                  Nach Bestätigung des Angebots Ihrerseits, folgt die Auszahlung
+                  innerhalb von 48 Stunden. Sollte Ihnen unser Angebot nicht
+                  zusagen sagen, erhalten Sie Ihre Wertgegestände kostenlos
+                  zurück.
                 </div>
               </div>
               <div className="d-flex justify-content-center align-items-center">

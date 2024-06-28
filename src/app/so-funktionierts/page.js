@@ -3,7 +3,7 @@ import GarantedPrice from "@/components/shared/garantedPrice/GarantedPrice";
 import ValueCalc from "@/components/shared/ValueCalc";
 import Image from "next/image";
 import garanteeImg from "/public/assets/img/homepage/100_ gurantee.png";
-import FunktioniertVersndarten from "@/components/shared/funktioniertVersndarten";
+import FunktioniertVersndarten from "@/components/shared/FunktioniertVersndarten";
 
 const page = () => {
   return (
