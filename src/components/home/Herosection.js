@@ -117,7 +117,6 @@ const Herosection = () => {
                   </div>
                 </div>
               </SwiperSlide>
-
               <SwiperSlide>
                 <div className="herobg2">
                   <div className="slider1-left">
@@ -148,7 +147,6 @@ const Herosection = () => {
                   </div>
                 </div>
               </SwiperSlide>
-
               <SwiperSlide>
                 <div className="herobg3">
                   <div className="hero_slide2">
@@ -157,29 +155,33 @@ const Herosection = () => {
                       Gold, Silber, Platin, Zahngold etc.
                     </h2>
                     <div className="card_img ">
-                      <Image src={GoldShmchk} alt="" />
+                      <div>
+                        <Image src={GoldShmchk} alt="" />
 
-                      <Image src={Silber} alt="" />
+                        <Image src={Silber} alt="" />
 
-                      {/* <Image src={TafelSilber} alt="" /> */}
+                        {/* <Image src={TafelSilber} alt="" /> */}
 
-                      <Image src={Zahngold} alt="" />
+                        <Image src={Zahngold} alt="" />
+                      </div>
 
                       {/* <Image src={Diamond} alt="" /> */}
 
                       {/* <Image src={Luxury} alt="" /> */}
+                      <div>
+                        <Image src={GoldBar} alt="" className="" />
 
-                      <Image src={GoldBar} alt="" className="" />
+                        <Image src={Goldmunzen} alt="" className="" />
 
-                      <Image src={Goldmunzen} alt="" className="" />
+                        <Image src={Industries} alt="" className="" />
+                      </div>
+                      <div>
+                        <Image src={Platin} alt="" className="" />
 
-                      <Image src={Industries} alt="" className="" />
+                        <Image src={Pladium} alt="" className="" />
 
-                      <Image src={Platin} alt="" className="" />
-
-                      <Image src={Pladium} alt="" className="" />
-
-                      <Image src={Rhodium} alt="" className="" />
+                        <Image src={Rhodium} alt="" className="" />
+                      </div>
                     </div>
                     <div className="slider2-btn">
                       <Button

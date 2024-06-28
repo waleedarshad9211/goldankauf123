@@ -39,8 +39,10 @@ const MainPage = () => {
         </div>
         <WirAnkafun />
       </section>
-      <section className="pricing container">
-        <Pricing />
+      <section className="pricing ">
+        <div className="container">
+          <Pricing />
+        </div>
         <div className="d-flex justify-content-center align-items-center">
           <Button
             className=" text-white pricing-btn"
@@ -55,7 +57,9 @@ const MainPage = () => {
       </section>
       <Unseresection />
       <HomeVideoSection />
-      <Versandarten heading="Unsere Versandarten" />
+      <section className="versandarten_wrapper">
+        <Versandarten heading="Unsere Versandarten" />
+      </section>
       <CustomerReviewsSection />
       <Professionalsection />
       <Ubersection />

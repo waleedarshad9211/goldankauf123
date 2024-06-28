@@ -61,7 +61,7 @@ const CustomerReviewsSection = () => {
                   <li className="d-flex"> • eKomi Siegel Gold</li>
                   <li className="d-flex "> • Unabhängig & transparent</li>
                 </ul>
-                <div className="ekomi_powered_by_inner_image d-none d-lg-block">
+                <div className="ekomi_powered_by_inner_image d-none d-md-flex d-lg-flex">
                   <div>Powered By</div>
                   <Image src={PowerBy} alt="" />
                 </div>
@@ -70,7 +70,7 @@ const CustomerReviewsSection = () => {
           </div>
         </div>
         <div className="row review_slider_row">
-          <div className="col-6 col-md-4 col-lg-3 ">
+          <div className="col-6 col-md-4 col-lg-3 review_slider_columnnn">
             <div className="review_card">
               <p className="review_card_heading">Durchschnittliche Bewertung</p>
               <div className=" Bewertung">

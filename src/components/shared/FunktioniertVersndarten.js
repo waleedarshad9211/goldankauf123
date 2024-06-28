@@ -1,32 +1,29 @@
-import Image from "next/image";
-import Button from "../shared/button/Button";
+import React from "react";
 import VersandartenImg1 from "/public/assets/img/versandarten_card_img1.png";
 import VersandartenImg2 from "/public/assets/img/versandarten_card_img2.png";
 import VersandartenImg3 from "/public/assets/img/versandarten_card_img3.png";
-import DHL from "/public/assets/img/dhl.png";
-import UPSBlack from "/public/assets/img/UPS_black.png";
 import Insurance from "/public/assets/img/insurance-copy.png";
 import buttonArrow from "/public/assets/img/homepage/btn-arrow-unsere.png";
+import Image from "next/image";
+import Button from "./button/Button";
 
-const Versandarten = ({ heading }) => {
+const FunktioniertVersndarten = () => {
   return (
-    <div className="container">
-      <div className="d-flex justify-content-center align-items-center versandarten_h2">
-        <h2>{heading}</h2>
-      </div>
+    <div className="">
       <div className="row align-items-end mt-md-4">
         <div className="col-12 col-md-12 col-lg-4 versandarten_card_colun ">
           <div className="versandarten_card d-none d-md-none d-lg-block">
             <div className="versand_last_section">
               <div className="versandarten_card_header1">
                 <p className="versandarten_header-heading">SELBSTVERSAND</p>
-                <p className="versandarten_header-subheading">
-                  Sie verschicken Ihr Gold selbst
-                </p>
               </div>
               <div className="versandarten_card_img">
                 <Image src={VersandartenImg1} alt="" />
               </div>
+              <p className=" versandarten_subheading_funktionierts">
+                Sie erhalten per E-Mail ein kostenloses Versandlabel sowie das
+                Begleitschreiben zum Ausdrucken.
+              </p>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
@@ -117,13 +114,14 @@ const Versandarten = ({ heading }) => {
               </div>
               <div className="versandarten_card_header1">
                 <p className="versandarten_header-heading">VERSANDTASCHE</p>
-                <p className="versandarten_header-subheading">
-                  Kostenlose Versandtasche
-                </p>
               </div>
               <div className="versandarten_card_img">
                 <Image src={VersandartenImg2} alt="" />
               </div>
+              <p className=" versandarten_subheading_funktionierts">
+                Sie erhalten in wenigen Tagen Ihre kostenlose Versandtasche samt
+                Begleitschreiben
+              </p>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
@@ -215,13 +213,14 @@ const Versandarten = ({ heading }) => {
               </div>
               <div className="versandarten_card_header1">
                 <p className="versandarten_header-heading">VERSANDTASCHE</p>
-                <p className="versandarten_header-subheading">
-                  Kostenlose Versandtasche
-                </p>
               </div>
               <div className="versandarten_card_img">
                 <Image src={VersandartenImg2} alt="" />
               </div>
+              <p className=" versandarten_subheading_funktionierts">
+                Sie erhalten in wenigen Tagen Ihre kostenlose Versandtasche samt
+                Begleitschreiben
+              </p>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
@@ -299,13 +298,14 @@ const Versandarten = ({ heading }) => {
             <div className="versand_last_section">
               <div className="versandarten_card_header1">
                 <p className="versandarten_header-heading">SELBSTVERSAND</p>
-                <p className="versandarten_header-subheading">
-                  Sie verschicken Ihr Gold selbst
-                </p>
               </div>
               <div className="versandarten_card_img">
                 <Image src={VersandartenImg1} alt="" />
               </div>
+              <p className=" versandarten_subheading_funktionierts">
+                Sie erhalten per E-Mail ein kostenloses Versandlabel sowie das
+                Begleitschreiben zum Ausdrucken.
+              </p>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
@@ -380,13 +380,14 @@ const Versandarten = ({ heading }) => {
             <div className="versand_last_section">
               <div className="versandarten_card_header1">
                 <p className="versandarten_header-heading">WERTTRANSPORT</p>
-                <p className="versandarten_header-subheading">
-                  Abholung via Kurier
-                </p>
               </div>
               <div className="versandarten_card_img">
                 <Image src={VersandartenImg3} alt="" />
               </div>
+              <p className=" versandarten_subheading_funktionierts">
+                Ab einem Warenwert von 1500€ holen wir ihre Wertgegenstände
+                mittels Kurier an dem von Ihnen gewünschten Tag ab.
+              </p>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">
                   1<div className="versand_last_section_dashed_line"></div>
@@ -465,4 +466,4 @@ const Versandarten = ({ heading }) => {
   );
 };
 
-export default Versandarten;
+export default FunktioniertVersndarten;

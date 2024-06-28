@@ -20,8 +20,8 @@ const CustomerReview2 = () => {
           <h2>100% echte und vertrauenswürdige Kundenbewertungen</h2>
         </div>
         <div className="row mt-2">
-          <div className="col-12 col-md-4">
-            <div>
+          <div className="col-12 col-md-5 col-lg-4">
+            <div className="customer_review2_text_section">
               <div className="d-flex align-items-center customer_review_text">
                 <p>» Bereits über 150.000 Kunden </p>
               </div>
@@ -45,7 +45,7 @@ const CustomerReview2 = () => {
               />
             </div>
           </div>
-          <div className="col-12 col-md-8">
+          <div className="col-12 col-md-7 col-lg-8">
             <div className="d-flex align-items-center customer_review_ekomi_powered_by">
               <Image
                 src={TrustedShop}

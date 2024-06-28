@@ -45,6 +45,7 @@ const Umweltschutz = () => {
                 </div>
               </div>
               <Button
+                className="umwelts_btn"
                 btnText="Weitere Informationen finden Sie hier"
                 fontSize="18px"
                 fontWeight="700"

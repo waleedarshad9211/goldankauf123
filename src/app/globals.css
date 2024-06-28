@@ -282,13 +282,16 @@ header .dropdown-menu.show li a.active {
   .nav_subheader_right {
     padding: 5px 0px 5px 20px;
   }
+  .golden_fauf_card p {
+    font-size: 16px !important;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 800px) {
   .nav_subheader_right {
     padding: 5px 0px 5px 20px;
   }
   .nav_subheader_left .div1 {
-    margin-left: 15px;
+    margin-left: 0px;
   }
   .nav_subheader_left .div1,
   .nav_subheader_right .div1 {
@@ -298,6 +301,9 @@ header .dropdown-menu.show li a.active {
   .nav_subheader_right .div2 {
     font-size: 12px;
     padding: 1px 10px;
+  }
+  .golden_fauf_card p {
+    font-size: 16px !important;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -344,12 +350,12 @@ header .dropdown-menu.show li a.active {
     padding-left: 0px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 390px) {
+@media only screen and (min-width: 320px) and (max-width: 399px) {
   .nav_subheader_mob_top .div1,
   .nav_subheader_mob_bottom .div1,
   .nav_subheader_mob_top .div2,
   .nav_subheader_mob_bottom .div2 {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
@@ -846,9 +852,6 @@ header .dropdown-menu.show li a.active {
   .row-cols-1 {
     align-items: flex-end;
   }
-  .pricing .platin-gradiant {
-    margin-bottom: 12px;
-  }
   .eigenes_versandmaterial_goldcard_etrusted {
     margin-top: 0px !important;
   }
@@ -1305,9 +1308,9 @@ header .dropdown-menu.show li a.active {
     margin-right: 5px !important;
   }
   .navbar-brand img {
-    max-width: unset !important;
-    width: 115px;
-    height: 28px;
+    max-width: 100% !important;
+    width: 137px;
+    height: auto;
   }
   .header-top-wrapper {
     padding-right: 25px;
@@ -1322,7 +1325,7 @@ header .dropdown-menu.show li a.active {
   }
   .mob-navigation ul li .nav-link {
     padding: 5px 1px !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
   .current-metal-values .btn-values {
     text-align: center;
@@ -1353,11 +1356,6 @@ header .dropdown-menu.show li a.active {
   .current-value .calc-table tbody tr td {
     font-size: 14px;
   }
-
-  /* .footer_leftside_second_img img {
-    width: 60px;
-    height: 60px;
-  } */
   .footer_leftside_seal p {
     font-size: 14px;
   }
@@ -1509,11 +1507,15 @@ header .dropdown-menu.show li a.active {
   .footer_rightside {
     margin-top: 15px;
   }
+  .unsere_section_wrapper .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
   .unsere_section_wrapper .swiper-button-prev {
-    left: -7px !important;
+    left: 0px !important;
   }
   .unsere_section_wrapper .swiper-button-next {
-    right: -7px !important;
+    right: 0px !important;
   }
   .unsere_section_wrapper .swiper-button-next:after,
   .unsere_section_wrapper .swiper-button-prev:after {
@@ -1950,13 +1952,17 @@ header .dropdown-menu.show li a.active {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 10px;
+  margin-left: 10px;
 }
 .hero_slide2 .card_img img {
   width: auto;
-  height: 100px;
+  height: 105px;
   margin-right: 0px;
   margin-bottom: 15px;
   flex: 1;
+}
+.hero_slide2 .card_img div {
+  margin-right: 10px;
 }
 .herobg3 {
   background-image: url("/assets/img/homepage/hero-bg3.png");
@@ -2717,8 +2723,8 @@ header .dropdown-menu.show li a.active {
   flex: 1;
 }
 .review2_trusted_shops img {
-  width: 148px;
-  height: 61px;
+  width: auto;
+  height: auto;
 }
 .review2_trusted_shops p {
   font-size: 11px;
@@ -2955,8 +2961,7 @@ header .dropdown-menu.show li a.active {
   margin-top: 20px;
 }
 .umweltschutz_wrapper_left {
-  margin-top: 10px;
-  padding: 25px 0px 30px 30px;
+  padding: 22px 0px 30px 0px;
 }
 .umweltschutz_heading {
   font-size: 26px;
@@ -2979,8 +2984,8 @@ header .dropdown-menu.show li a.active {
   object-fit: cover !important;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: 525px;
+  width: 97.4%;
+  height: 485px;
 }
 .umweltschutz_wrapper_right_side {
   padding-left: 0px !important;
@@ -3391,7 +3396,7 @@ header .dropdown-menu.show li a.active {
   position: absolute;
 }
 .versandarten2_card .versandarten_header-heading {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .versandarten3_card {
   padding: 20px;
@@ -3520,7 +3525,7 @@ header .dropdown-menu.show li a.active {
 .versand_last_section_step {
   display: flex;
   align-items: baseline;
-  margin: 10px 25px;
+  margin: 10px 20px;
   position: relative;
 }
 .versand_last_section2_step {
@@ -3546,7 +3551,7 @@ header .dropdown-menu.show li a.active {
 }
 .versand_last_section_text {
   padding: 10px;
-  width: 300px;
+  width: 260px;
 }
 .versandarten_card_para2 {
   margin-bottom: 10px;
@@ -3683,11 +3688,29 @@ header .dropdown-menu.show li a.active {
     font-size: 16px;
   }
   .review2_trusted_shops {
-    height: 90px;
+    height: 60px;
+  }
+  .review2_percenage > div {
+    margin-top: 3px;
+  }
+  .ekomi_powered_by ul {
+    margin-left: 135px;
+  }
+  .customer_review_text p {
+    font-size: 17px;
+  }
+  .versadarten-dhl-para {
+    font-size: 15px !important;
+  }
+  .customer_review2_text_section {
+    margin-bottom: 15px;
   }
   .review2_slider2_card {
     width: auto;
     padding: 20px 13px 40px 13px;
+  }
+  .review2_uber {
+    line-height: 18px;
   }
   .review_slider2_column .swiper-button-next {
     right: -2px;
@@ -3773,12 +3796,6 @@ header .dropdown-menu.show li a.active {
   padding-bottom: 25px;
 }
 @media screen and (max-width: 992px) {
-  .hero_slider .swiper-button-prev {
-    left: 37%;
-  }
-  .hero_slider .swiper-button-next {
-    left: 60%;
-  }
   .diamanten_uberblick_heading {
     margin-top: 15px;
   }
@@ -3816,14 +3833,19 @@ header .dropdown-menu.show li a.active {
   .sind_unterwegs_wrapper .gold_card {
     width: 388px;
   }
-  .slide1-h2,
-  .slide1-Warum {
-    line-height: 50px;
-  }
   .slider1-garanty {
     height: auto;
     width: 100%;
     margin-right: 0px;
+  }
+  .herobgsmall1_btn button {
+    font-size: 16px !important;
+  }
+  .hero_small_slider .swiper-button-next {
+    left: 81%;
+  }
+  .hero_small_slider .swiper-button-prev {
+    left: 9%;
   }
   .herobg5 .slider1-garanty {
     height: auto;
@@ -3868,6 +3890,7 @@ header .dropdown-menu.show li a.active {
   .garanty-img img {
     width: 53px;
     height: 53px;
+    margin-right: 10px;
   }
   .herobg5 .garanty-img img {
     width: 53px;
@@ -3902,6 +3925,11 @@ header .dropdown-menu.show li a.active {
   }
   .hero_slide2 .card_img img {
     flex: 1;
+    margin-bottom: 10px;
+    height: 101px;
+  }
+  .slider2-btn button {
+    padding: 6px 10px !important;
   }
   .golden-kauf-img {
     justify-content: center;
@@ -3933,7 +3961,7 @@ header .dropdown-menu.show li a.active {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .melting-facilities-img img {
     width: 100%;
@@ -4028,13 +4056,22 @@ header .dropdown-menu.show li a.active {
     padding: 20px;
   }
   .customer_review_section_wrapper h2 {
-    text-align: center;
+    text-align: left;
     font-size: 29px;
     line-height: 40px;
   }
   .customer_review_text p {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
+    margin-left: 0px;
+  }
+  .ekomi_powered_by_inner_image {
+    margin-right: 10px;
+  }
+  .ekomi_powered_by img {
+    width: 115px;
+    height: 40px;
+    margin-top: 10px;
   }
   .review2_slider2_row {
     margin-top: 25px;
@@ -4043,20 +4080,26 @@ header .dropdown-menu.show li a.active {
     width: 100px;
     height: 100px;
   }
+  .customer_review_section_wrapper {
+    padding: 10px;
+  }
   .ekomi_powered_by {
     height: 96px;
   }
   .ekomi_powered_by ul {
-    margin-left: 66px;
+    margin-left: 75px;
   }
   .ekomi_powered_by ul li {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 24px;
     align-items: center;
   }
   .ekomi_powered_by ul li img {
     width: 20px;
     height: 20px;
+  }
+  .ekomi_powered_by_inner_image > div {
+    font-size: 12px;
   }
   .review_slider_column .swiper-button-prev {
     left: -2px !important;
@@ -4094,6 +4137,9 @@ header .dropdown-menu.show li a.active {
   }
   .review2_trusted_shops {
     height: 65px;
+  }
+  .review i {
+    margin-right: 5px;
   }
   .review2_trusted_shops .trusted_img_logo {
     width: 96px;
@@ -4136,14 +4182,14 @@ header .dropdown-menu.show li a.active {
     line-height: 26px;
   }
   .uber_section_wrapper {
-    padding-top: 0px;
+    padding-top: 15px;
     padding-bottom: 15px;
   }
   .step_card_body {
     min-height: 150px;
   }
   .professional_section_wrapper {
-    padding-top: 0px;
+    padding-top: 15px;
   }
   .versand_last_section {
     min-height: 435px;
@@ -4166,11 +4212,17 @@ header .dropdown-menu.show li a.active {
     justify-content: center;
     align-items: center;
   }
+  .nav_subheader_left .div2,
+  .nav_subheader_right .div2,
+  .nav_subheader_left .div1,
+  .nav_subheader_right .div1 {
+    font-size: 11px;
+  }
 }
 
 @media screen and (min-width: 901px) and (max-width: 992px) {
   .ekomi_powered_by ul li {
-    font-size: 16px;
+    font-size: 15px;
   }
   .pwered_by {
     margin-left: 20px;
@@ -4196,13 +4248,29 @@ header .dropdown-menu.show li a.active {
   span.navbar-toggler-icon {
     margin-right: 40px;
   }
-
+  .hero_slide2 .card_img img {
+    height: 106px;
+  }
+  .slider2-btn {
+    bottom: 34px;
+  }
+  .hero_slider
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+    top: 93%;
+  }
+  .hero_slider .swiper-button-prev,
+  .hero_slider .swiper-button-next {
+    top: 96%;
+  }
   .select-line {
     right: 13%;
   }
   .lbl {
-    width: 70px !important;
+    width: 65px !important;
     margin-right: 5px !important;
+  }
+  .value-calculate-select .lbl {
+    width: 50px !important;
   }
   .value-calculate input {
     width: 200px;
@@ -4227,6 +4295,9 @@ header .dropdown-menu.show li a.active {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .unsere_section_wrapper .swiper-slide-next {
+    margin-right: 0px !important;
+  }
   .stepcard_wrapper_main .col-md-6:nth-child(2n + 1) .stepcard_wrapper {
     justify-content: flex-end;
   }
@@ -4260,8 +4331,42 @@ header .dropdown-menu.show li a.active {
   .customer_review_section2_wrapper h2 {
     margin-bottom: 10px;
   }
+  .umweltschutz_wrapper_left_p1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .umweltschutz_heading {
+    font-size: 22px;
+  }
+  .umwelts_btn {
+    font-size: 14px !important;
+    margin-top: 10px !important;
+  }
+  .umweltschutz_wrapper_left {
+    padding: 22px 0px 15px 0px;
+  }
+  .umweltschutz_wrapper_img img {
+    height: 490px;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 800px) {
+@media screen and (min-width: 768px) and (max-width: 820px) {
+  .umweltschutz_wrapper_img img {
+    height: 512px;
+  }
+  .review_card .p2 p {
+    font-size: 10px;
+  }
+  .reviewNum,
+  .reviewStar2Text {
+    font-size: 11px;
+  }
+  .reviewStar,
+  .reviewStar2 {
+    font-size: 12px !important;
+  }
+  .review_card_heading {
+    font-size: 12px;
+  }
   .goldrechner_clock_upper_div_para1,
   .goldrechner_clock_upper_div_para2 {
     font-size: 13px;
@@ -4314,6 +4419,56 @@ header .dropdown-menu.show li a.active {
   .bieten_sie_form_label_input input,
   .bieten_sie_form_bilder_input input {
     width: 210px !important;
+  }
+  .goldankauf_valuecalc_form {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .goldankauf_valuecalc_form .value-calculate-input input {
+    margin-bottom: 10px;
+    width: 300px !important;
+  }
+  .goldankauf_valuecalc_form .value-calculate-select select {
+    width: 300px !important;
+  }
+  .zahngold_valuecalc_btn button {
+    width: 300px !important;
+    margin-left: 68px !important;
+  }
+  .review2_trusted_shops img {
+    width: 90px;
+    height: 60px;
+    margin-top: 0px;
+  }
+  .ekomi_powered_by ul {
+    margin-left: 83px;
+  }
+  .ekomi_powered_by ul li {
+    font-size: 12px;
+    line-height: 24px;
+    align-items: center;
+  }
+  .review2 i {
+    width: 23px;
+  }
+  .customer_review_section2_wrapper h2 {
+    font-size: 30px;
+  }
+  .review2_card_rating {
+    align-items: baseline;
+  }
+  .review2_card .Bewertung2 p {
+    font-size: 12px;
+  }
+  .review2_uber {
+    font-size: 9px;
+    line-height: 18px;
+  }
+  .review2_slider2_row {
+    margin-top: 15px;
   }
 }
 
@@ -4596,17 +4751,16 @@ header .dropdown-menu.show li a.active {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-right: -20px;
   }
   .pwered_by p {
     font-size: 10.38px;
     line-height: normal;
     text-align: center;
     margin-bottom: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .pwered_by img {
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .review_slider_column {
     border-radius: 5px;
@@ -4827,6 +4981,10 @@ header .dropdown-menu.show li a.active {
   }
   .uber_section_card_upper_half {
     padding: 0px;
+    width: 100%;
+  }
+  .uber_section_card_bottom_half {
+    width: 100%;
   }
   .uber_sec_img {
     margin-top: 15px;
@@ -5222,8 +5380,28 @@ header .dropdown-menu.show li a.active {
   .golden_fauf_card {
     width: 225px;
   }
+  .umweltschutz_wrapper_img img {
+    height: 530px;
+  }
+  .umweltschutz_wrapper_left {
+    padding: 35px 0px 10px 0px;
+  }
+  .price_value_form_wrapepr {
+    display: flex;
+    justify-content: center;
+  }
+  .nav_subheader_left .div1,
+  .nav_subheader_right .div1 {
+    font-size: 13px;
+  }
+  .goldankauf_valuecalc_form .value-calculate-select select {
+    width: 310px;
+  }
+  .review2_trusted_shops img {
+    width: auto;
+    height: auto;
+  }
 }
-
 @media screen and (min-width: 701px) and (max-width: 767px) {
   .hero_slider .swiper-button-prev {
     left: 36%;
@@ -5303,22 +5481,33 @@ header .dropdown-menu.show li a.active {
     height: 83px;
   }
   .review_card .Bewertung h2 {
-    font-size: 27px;
+    font-size: 25px;
+    line-height: normal;
   }
   .review i {
     color: #f4b700;
-    font-size: 20px !important;
+    font-size: 14px !important;
+  }
+  .review_card .p2 p {
+    font-size: 10px;
   }
   .Bewertung {
     justify-content: space-between !important;
+    margin-bottom: 0px !important;
+  }
+  .review_card .review_date {
+    font-size: 9px;
+    margin-top: 6px;
   }
   .review_slider_card .review_para p {
-    font-size: 12px;
+    font-size: 10px;
     width: auto;
   }
   .review_slider_card {
     padding: 10px 10px;
     height: 165px;
+    margin-top: 10px;
+    border-radius: 5px;
   }
   .review_card_heading {
     padding: 5px;
@@ -5331,7 +5520,11 @@ header .dropdown-menu.show li a.active {
     margin-left: 2px;
   }
   .review_card .positive {
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 16px;
+  }
+  .review_slider_columnnn {
+    padding-right: 8px;
   }
   .review_slider_column .swiper-button-next {
     right: -9px;
@@ -5343,10 +5536,11 @@ header .dropdown-menu.show li a.active {
     margin-right: 3px;
   }
   .review_slider_column .review_heading2 p {
-    font-size: 14px;
+    font-size: 10px;
   }
   .reviewDate {
     font-size: 9px;
+    margin-top: 0px !important;
   }
   .reviewNum {
     font-size: 10px;
@@ -5363,9 +5557,16 @@ header .dropdown-menu.show li a.active {
   .review_slider2_column .review2_heading2 p {
     font-size: 14px;
   }
+  .ekomi_powered_by {
+    height: 90px;
+  }
   .pwered_by p {
     font-size: 11px;
     line-height: 15px;
+    margin-right: 5px;
+  }
+  .pwered_by img {
+    margin-right: 5px !important;
   }
   .review_slider_slides {
     padding-top: 5px !important;
@@ -7085,6 +7286,28 @@ header .dropdown-menu.show li a.active {
 .funktionierts_wrapper {
   margin-bottom: 25px;
 }
+.funktionierts_wrapper_heading {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.funktionierts_wrapper_sub_head {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.funktionierts_wrapper_paras {
+  font-size: 18px;
+  line-height: 26px;
+  max-width: 732px;
+}
+.versandarten_subheading_funktionierts {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #36a08a;
+}
 .funktionierts_wrapper .kostenlos {
   margin-top: 0px;
   width: auto;
@@ -7606,8 +7829,8 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 25px;
 }
 .garantie_price_container {
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 75px;
+  margin-bottom: 20px;
 }
 .granted-price-card {
   background-color: #f2f2f2;
@@ -8180,15 +8403,10 @@ table.hamburg_table {
     justify-content: center;
   }
 }
+
 @media screen and (min-width: 993px) and (max-width: 1100px) {
   .navbar-expand-lg .navbar-nav {
     flex-wrap: wrap;
-  }
-  .hero_slide2 .slide2_h2_mehr {
-    font-size: 50px;
-  }
-  .hero_slide2 {
-    padding-top: 30px;
   }
   .hero_slide2 .card_img img {
     width: 160px;
@@ -8527,8 +8745,9 @@ table.hamburg_table {
     width: 195px;
   }
   .zahngold_valuecalc_btn button {
-    padding: 1px 10px;
-    width: 235px;
+    font-size: 15px !important;
+    padding: 1px 10px !important;
+    width: 215px !important;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 992px) {
@@ -9235,15 +9454,58 @@ table.hamburg_table {
     height: 72px;
   }
   .unsere_section_slide2_img {
-    width: 102px;
-    height: 102px;
+    width: 106px;
+    height: 106px;
+    margin-right: -31px;
   }
   .unsere_section_slide2_img div {
-    width: 82px;
-    height: 82px;
+    width: 85px;
+    height: 85px;
+    border-radius: 3px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
+  .herobg1,
+  .herobg2,
+  .herobg3,
+  .herobg4,
+  .herobg5,
+  .herobg6,
+  .herobgsmall1,
+  .herobgsmall2,
+  .herobgsmall3,
+  .herobgsmall3-b,
+  .herobgsmall4,
+  .herobgsmall5 {
+    height: 460px;
+    max-width: 333px;
+    padding: 10px;
+  }
+  .slide1-h2 {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .garanty-img img,
+  .herobg5 .garanty-img img {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+  }
+  .slider-5-ntv img {
+    margin-right: 0px;
+    width: 90px;
+    height: 90px;
+  }
+  .slider5_text {
+    font-size: 14px;
+  }
+  .slider-5-para .p1 {
+    margin-top: 10px;
+  }
+  .kostenlos {
+    max-width: 333px;
+    width: 333px;
+  }
   .wir_ankaufun_swiper_wrapper .swiper-button-next:after,
   .wir_ankaufun_swiper_wrapper .swiper-button-prev:after {
     font-size: 25px;
