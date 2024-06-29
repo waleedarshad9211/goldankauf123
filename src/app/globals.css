@@ -308,36 +308,33 @@ header .dropdown-menu.show li a.active {
 }
 @media only screen and (max-width: 767px) {
   .nav_subheader_mob_top {
-    background-color: #019ba5;
+    background-color: #00a28b;
     padding: 5px 0px;
   }
   .nav_subheader_mob_bottom {
-    background-color: #00c3ca;
+    background-color: #01bfa5;
     padding: 5px 0px;
   }
   .nav_subheader_mob_top .div1,
   .nav_subheader_mob_bottom .div1 {
     color: #ffffff;
-
     font-weight: bold;
     font-size: 12px;
   }
   .nav_subheader_mob_top .div2 {
-    background-color: #019ba5;
+    background-color: #c8e6e0;
     border: 1px solid #f7f7f7;
-    border-radius: 100px;
+    border-radius: 5px;
     padding: 1px 10px;
-    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     font-size: 12px;
   }
   .nav_subheader_mob_bottom .div2 {
-    background-color: #65c2c9;
+    background-color: #c8e6e0;
     border: 1px solid #f7f7f7;
-    border-radius: 100px;
+    border-radius: 5px;
     padding: 1px 10px;
-    color: #ffffff;
     font-weight: bold;
     cursor: pointer;
     font-size: 12px;
@@ -856,7 +853,8 @@ header .dropdown-menu.show li a.active {
     margin-top: 0px !important;
   }
   .info_card {
-    margin-top: 5px !important;
+    margin-top: 20px !important;
+    max-width: 350px;
   }
   .eigenes_versandmaterial_goldcard_etrusted .info_card {
     margin-top: 20px !important;
@@ -1326,6 +1324,7 @@ header .dropdown-menu.show li a.active {
   .mob-navigation ul li .nav-link {
     padding: 5px 1px !important;
     font-size: 10px !important;
+    font-size: 10px;
   }
   .current-metal-values .btn-values {
     text-align: center;
@@ -1500,7 +1499,7 @@ header .dropdown-menu.show li a.active {
   }
   .mob-navigation ul li .nav-link {
     padding: 5px 1px !important;
-    font-size: 13px;
+    font-size: 12px;
     color: #4a4a4a;
     margin-bottom: 10px;
   }
@@ -2082,10 +2081,6 @@ header .dropdown-menu.show li a.active {
   text-decoration: underline;
   font-weight: 700;
   color: #2b2b2b;
-}
-.para {
-  color: #2b2b2b;
-  margin-bottom: 17px;
 }
 .golden_fauf_card {
   border-radius: 10px;
@@ -5756,13 +5751,8 @@ header .dropdown-menu.show li a.active {
   justify-content: center;
 }
 .info_card_bestsellen_heading2 {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  color: #121212;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-top: 13px;
+  font-size: 18px;
+  font-weight: 500;
 }
 .price_value_form2 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -5876,16 +5866,13 @@ header .dropdown-menu.show li a.active {
   font-size: 16.52px;
   line-height: 19.09px;
 }
-
 .price_value_form2 .star-clr {
   color: #f2b724;
 }
-
 .price_value2_textarea textarea {
   background-color: #ffffff !important;
   border-radius: 10px;
   font-size: 14.14px;
-
   border: none;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
@@ -5895,9 +5882,8 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 30px;
 }
 .info_card {
-  background: #fff;
-  width: 349.98px;
-  height: 354px;
+  background-color: #f2ece1;
+  padding: 10px;
 }
 .info_card_img {
   background-repeat: no-repeat;
@@ -5906,68 +5892,67 @@ header .dropdown-menu.show li a.active {
   border-radius: 10px;
 }
 .info_card_img_para {
-  color: #ffffff;
-  font-size: 16px;
-  color: #121212;
-  padding-left: 15px;
-  padding-right: 15px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 .e_trusted_shops_card {
-  background-image: url("/assets/img/homepage/customer2_review_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 15px 0px;
-  border-radius: 20px;
+  background-color: #cfdce2;
+  padding: 15px;
+  border-radius: 10px;
   width: 349.98px;
-  height: 445px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .etrustedlogo2 {
   display: flex;
-  justify-content: flex-end;
-  margin-left: 10px;
 }
 .e_trusted_shops_card_img {
   z-index: 10;
+  width: 75px;
+  height: 75px;
 }
 .e_trusted_shops_card_list {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
-  height: 98px;
-  width: 336px;
+  background-color: #e9eef2;
+  height: 80px;
+  width: 320px;
+  border-radius: 10px;
   border-top-left-radius: 100px;
   border-bottom-left-radius: 100px;
-}
-.e_trusted_shops_card_list img {
-  margin-left: 5px;
 }
 .e_trusted_shops_card3 .e_trusted_shops_card_list {
   display: flex;
   align-items: center;
-  background-color: #00c3cb;
-  height: 98px;
-  width: 336px;
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
+  background-color: #e8f2ee;
+  height: 75px;
+  border-radius: 100px;
 }
 .e_trusted_shops2_rating {
-  background-color: #ffffff;
-  height: 40px;
-  width: 290px;
-  margin-top: 20px;
+  background-color: #3c6779;
+  height: 52px;
+  width: 100%;
+  margin-top: 8px;
+  padding-right: 10px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  border-top-left-radius: 100px;
-  border-bottom-left-radius: 100px;
+  border-radius: 10px;
 }
-.e_trusted_shops_card3 .e_trusted_shops_card_list ul li {
-  color: #ffffff;
+.e_trusted_shops2_rating_ekomi {
+  background-color: #2d8573;
+  height: 52px;
+  width: 100%;
+  margin-top: 8px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
 }
 .e_trusted_shops_card_list ul li {
-  margin-left: 10px;
-  color: #2b2b2b;
+  margin-left: 20px;
+  font-size: 13px;
 }
 .e_trusted_shops_card_subcard {
   background-color: #a68c1f;
@@ -5987,12 +5972,10 @@ header .dropdown-menu.show li a.active {
 }
 .e_trusted_shops_card_subcard_innercard {
   background-color: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
-  width: 95%;
+  width: 100%;
   height: 110px;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .price_value_form2_rating i {
@@ -6006,24 +5989,31 @@ header .dropdown-menu.show li a.active {
   margin-right: 20px;
 }
 .e_trusted_shops_card_subcard_innercard_para2 {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 500;
   line-height: 18px;
   max-width: 275px;
 }
 .e_trusted_shop_value {
-  font-size: 30.15px;
+  font-size: 40px;
   line-height: 49.69px;
-  color: #2b2b2b;
+  color: #efba0b;
   font-weight: bold;
-  margin-left: 5px;
+  margin-left: 15px;
   flex: 1;
 }
 .e_trusted_shop_text {
-  font-size: 17.49px;
-  line-height: 21.22px;
-  font-weight: 600;
+  font-size: 19px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.e_trusted_shop_text_ekomi {
+  font-size: 19px;
   color: #ffffff;
+  line-height: 20px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 .e_trusted_shops_card_subcard_innercard_star2 {
   flex: 3;
@@ -6571,6 +6561,17 @@ header .dropdown-menu.show li a.active {
   margin-left: 10px;
 }
 @media screen and (max-width: 992px) {
+  .granted-price-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .granted-price-card {
+    height: 180px;
+    padding-bottom: 20px;
+    width: 350px;
+  }
   .zahngolg_blog_wrapper_upper {
     flex-wrap: wrap;
   }
@@ -7383,25 +7384,46 @@ header .dropdown-menu.show li a.active {
   height: auto;
 }
 .e_trusted_shops2_main_heading {
-  margin-top: -5px;
   margin-bottom: 5px;
   display: flex;
-  align-items: flex-end;
-  margin-left: 10px;
 }
 .e_trusted_shops_card2 .e_trusted_shop_value {
   line-height: inherit;
 }
 .etrusted_shop2_heading2 {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin: 9px 0px;
+  margin: 6px 0px;
+  background-color: #e9eef2;
+  border-radius: 5px;
+  padding: 0 7px 7px;
 }
-.etrusted_shop2_heading2 p {
-  color: #ffffff;
+.etrusted_shop2_heading2 > p {
   margin: 0px 5px;
-  font-size: 17px;
-  font-weight: bold;
+  background-color: #3d6878;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.etrusted_shop2_heading2_ekomi > p {
+  margin: 0px 5px;
+  background-color: #2d8573;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .e_trusted_shops_card_subcard.e_trusted_shops2_card_subcard {
   height: auto;
@@ -7409,11 +7431,6 @@ header .dropdown-menu.show li a.active {
 .e_trusted_shops2_card_subcard .e_trusted_shops_card_subcard_innercard {
   width: auto;
   height: auto;
-}
-.etrusted_heading2_line {
-  width: 100%;
-  border: 1px solid #ffffff;
-  height: 1px;
 }
 .etrusted_shop2_percentages .positive {
   margin-right: 10px;
@@ -7443,6 +7460,9 @@ header .dropdown-menu.show li a.active {
 }
 .e_trusted_shop_last_logo {
   margin-top: 8px;
+}
+.e_trusted_shop_last_logo img {
+  filter: invert(1);
 }
 .funktionierts_wrapper_form .value-calculate {
   border-radius: 20px;
@@ -7657,8 +7677,8 @@ header .dropdown-menu.show li a.active {
   margin-top: 10px;
 }
 .wirkaufen_page_wrapper_para2 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -7686,7 +7706,7 @@ header .dropdown-menu.show li a.active {
 }
 /* Ekomi component  */
 .e_trusted_shops_card.e_trusted_shops_card2.e_trusted_shops_card3 {
-  background-image: url("/assets/img/ekomi_component_bg.png") !important;
+  background-color: #36a18b;
 }
 .e_trusted_shops_card3 .e_trusted_shops_card_heading1 {
   color: #ffffff;
@@ -7716,8 +7736,7 @@ header .dropdown-menu.show li a.active {
 }
 .ekomi_power_by_logo_last_section p {
   color: #ffffff;
-  font-size: 11.33px;
-  margin-top: 7px;
+  font-size: 10px;
 }
 .ekomi_power_by_logo_last_section img {
   height: 36px;
@@ -7841,6 +7860,7 @@ header .dropdown-menu.show li a.active {
   margin-top: 75px;
   margin-bottom: 20px;
 }
+
 .granted-price-card {
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -7862,7 +7882,6 @@ header .dropdown-menu.show li a.active {
 }
 .granted-price-card .para {
   font-size: 18px;
-  font-weight: 400;
   font-weight: 500;
 }
 .goldrechner-last-section {
@@ -10194,7 +10213,7 @@ table.hamburg_table {
   .zahngold_varsandarten1 {
     margin-top: 0px;
   }
-  .versandarten_subheading_funktionierts{
+  .versandarten_subheading_funktionierts {
     font-size: 16px;
   }
 }

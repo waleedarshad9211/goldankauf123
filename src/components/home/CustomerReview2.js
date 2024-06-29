@@ -8,7 +8,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import TrustedShopsLogo from "/public/assets/img/homepage/trusted-shops-logo.png";
 import TrustedShop from "/public/assets/img/trusted-shops.png";
 import PowerBy from "/public/assets/img/homepage/powered_by_trusted_logo.png";
 

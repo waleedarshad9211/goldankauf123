@@ -143,7 +143,7 @@ const Header = () => {
               height="68"
             />
             <Image
-              className="Image-fluid m-icon me-1"
+              className="Image-fluid m-icon me-1 d-none d-md-block d-lg-block"
               src={TrustedShops}
               alt=""
               width="87"
