@@ -155,6 +155,8 @@ import GoldrecnerGoldZuruck from "/public/assets/img/homepage/goldrecner-gold-zu
 import SchnelleAuszahlung from "/public/assets/img/homepage/schnelle-auszahlung.png";
 import KeineGubuhren from "/public/assets/img/homepage/keine-gubuhren.png";
 import smallTick from "/public/assets/img/homepage/small-tick.png";
+import Markenschmuck from "/public/assets/img/homepage/Markenschmuck.png";
+import Diamantschmuck from "/public/assets/img/homepage/Diamantschmuck.png";
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
@@ -814,6 +816,16 @@ export const WirAnkafunPageArray = [
   {
     src: Rhodium,
     name: "Rhodium",
+    text: "verkaufen",
+  },
+  {
+    src: Diamantschmuck,
+    name: "Diamantschmuck",
+    text: "verkaufen",
+  },
+  {
+    src: Markenschmuck,
+    name: "Markenschmuck",
     text: "verkaufen",
   },
 ];

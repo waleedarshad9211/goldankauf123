@@ -103,7 +103,7 @@ const page = () => {
             </div>
           </div>
         </div>
-        <section className=" garantie_price_container ">
+        <section className="wirkaufen_granted_price">
           <GarantedPrice />
         </section>
         <section className="mb-2 goldrechner-last-section">

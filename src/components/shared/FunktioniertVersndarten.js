@@ -261,6 +261,7 @@ const FunktioniertVersndarten = () => {
                 Begleitschreiben
               </p>
               <p style={{ visibility: "hidden" }}>zum Ausdrucken</p>
+              <p style={{ visibility: "hidden" }}>zum Ausdrucken</p>
               <div className="versandarten_subheading_border"></div>
               <div className="versand_last_section_step">
                 <div className="versand_last_section_circle ">

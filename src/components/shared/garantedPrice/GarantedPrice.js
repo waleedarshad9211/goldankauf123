@@ -1,9 +1,21 @@
 "use client";
 import { goldrechnerArray } from "@/public/static/HomepageStatic";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const GarantedPrice = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 992);
+    };
+
+    handleResize(); // Check on initial render
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <div className="row">
       {goldrechnerArray.map((item, index) => {
@@ -14,11 +26,11 @@ const GarantedPrice = () => {
                 className="granted-price-card"
                 style={{
                   marginBottom:
-                    index !== 2 && window.innerWidth <= 992
+                    index !== 2 && isMobile
                       ? "75px"
-                      : index === 2 && window.innerWidth <= 992
+                      : index === 2 && isMobile
                       ? "20px"
-                      : "",
+                      : "5px",
                 }}
               >
                 <Image src={item.imageSrc} alt="" />

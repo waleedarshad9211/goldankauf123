@@ -17,7 +17,9 @@ export const PriceValueForm2 = ({
         </a>
         <h5 className="Kostenlos-heading">
           {topHeading} <br />
-          <strong className="text-gold">Kostenlos &amp; Unverbindlich</strong>
+          <span className="" style={{ fontSize: "18px", fontWeight: "500" }}>
+            Kostenlos &amp; Unverbindlich
+          </span>
         </h5>
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6">
