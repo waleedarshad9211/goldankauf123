@@ -1,6 +1,9 @@
 import Image from "next/image";
-import EkomiVektor from "/public/assets/img/ekomi-vektor.png";
+import Ntv from "/public/assets/img/ntv.png";
 import TrustedShops from "/public/assets/img/trusted-shops.png";
+import Trustami from "/public/assets/img/hero-trustami.png";
+import provenExpert from "/public/assets/img/proven-expert.png";
+import insuranceDHL from "/public/assets/img/insurance_bestellen.png";
 
 export const PriceValueForm2 = ({
   bestellen = false,
@@ -24,7 +27,7 @@ export const PriceValueForm2 = ({
         <div className="row">
           <div className="col-12 col-md-6 col-lg-6">
             <form className="price_value_form2_form_left">
-              <div className={abThousand ? "d-flex mb-2" : "d-flex mb-3"}>
+              <div className={abThousand ? "d-flex ab_f1" : "d-flex f1"}>
                 <input
                   type="text"
                   className="form-control w-50 me-2"
@@ -38,7 +41,7 @@ export const PriceValueForm2 = ({
                   placeholder="Nachname*"
                 />
               </div>
-              <div className={abThousand ? "d-flex mb-2" : "d-flex mb-3"}>
+              <div className={abThousand ? "d-flex ab_f1" : "d-flex f1"}>
                 <input
                   type="text"
                   className="form-control w-75 me-2"
@@ -52,7 +55,7 @@ export const PriceValueForm2 = ({
                   placeholder="Nr.*"
                 />
               </div>
-              <div className={abThousand ? "d-flex mb-2" : "d-flex mb-3"}>
+              <div className={abThousand ? "d-flex ab_f1" : "d-flex f1"}>
                 <input
                   type="text"
                   className="form-control w-25 me-2"
@@ -69,7 +72,7 @@ export const PriceValueForm2 = ({
               <input
                 type="text"
                 className={
-                  abThousand ? "form-control my-2" : "form-control my-3"
+                  abThousand ? "form-control ab_f1" : "form-control f1"
                 }
                 id="Telefon"
                 placeholder="Telefon*"
@@ -77,7 +80,7 @@ export const PriceValueForm2 = ({
               <input
                 type="text"
                 className={
-                  abThousand ? "form-control my-2" : "form-control my-3"
+                  abThousand ? "form-control ab_f1" : "form-control f1"
                 }
                 id="E-Mail"
                 placeholder="E-Mail*"
@@ -87,8 +90,8 @@ export const PriceValueForm2 = ({
                   <select
                     className={
                       abThousand
-                        ? "bestellen_select form-select my-2"
-                        : "bestellen_select form-select my-3"
+                        ? "bestellen_select form-select ab_f1"
+                        : "bestellen_select form-select f1"
                     }
                     aria-label="Default select"
                     defaultValue={
@@ -111,8 +114,8 @@ export const PriceValueForm2 = ({
                 <select
                   className={
                     abThousand
-                      ? "bestellen_select form-select my-2"
-                      : "bestellen_select form-select my-3"
+                      ? "bestellen_select form-select ab_f1"
+                      : "bestellen_select form-select f1"
                   }
                   aria-label="Default select"
                   defaultValue={"Versandtaschen"}
@@ -128,8 +131,8 @@ export const PriceValueForm2 = ({
                   <select
                     className={
                       abThousand
-                        ? "bestellen_select form-select mb-2"
-                        : "bestellen_select form-select mb-3"
+                        ? "bestellen_select form-select ab_f1"
+                        : "bestellen_select form-select f1"
                     }
                     aria-label="Default select"
                     defaultValue={"Versandtaschen"}
@@ -151,51 +154,22 @@ export const PriceValueForm2 = ({
                 <textarea
                   className="form-control "
                   id="comment"
-                  rows={eigenes ? "6" : abThousand ? "3" : "4"}
+                  rows={eigenes ? "6" : abThousand ? "3" : "8"}
                   placeholder={
                     "Hier können Sie unter anderem Beschreibungen über Ihre Sendung angeben."
                   }
                 ></textarea>
               </div>
             </form>
-            <div className="position-relative pt-2 pb-1">
-              <div className="d-flex justify-content-evenly align-items-center gap-1 trusted-shops">
-                <Image
-                  className="trusted"
-                  src={EkomiVektor}
-                  alt=""
-                  width={abThousand ? "75" : "90"}
-                  height={abThousand ? "75" : "90"}
-                />
-                <Image
-                  className="trusted"
-                  src={TrustedShops}
-                  alt=""
-                  width={abThousand ? "75" : "85"}
-                  height={abThousand ? "75" : "85"}
-                />
-                <div className="text-center ">
-                  <p className="px-2 text-center">Bewertungen</p>
-                  <div className="ratings star-clr price_value_form2_rating">
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                    <i className="fa fa-star rating-color"></i>
-                  </div>
-                  <p className="price_value_form2_text">Sehr Gut</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div
           className={
             bestellen
-              ? "price_value_form_bestellen_submit_btn"
+              ? "price_value_form_bestellen_submit_btn d-flex d-md-none d-lg-none"
               : eigenes
-              ? "price_value_form_eigenes"
-              : "price_value_form2_submit_btn"
+              ? "price_value_form_eigenes d-flex d-md-none d-lg-none"
+              : "price_value_form2_submit_btn d-flex d-md-none d-lg-none"
           }
         >
           <button type="submit" className="btn-bg">
@@ -207,6 +181,85 @@ export const PriceValueForm2 = ({
               ? "DHL Paketschein kostenlos anfordern"
               : "Paketschein kostenlos anfordern"}
           </button>
+        </div>
+        <div className="row">
+          <div className="col-12 col-m-12 col-lg-6">
+            <div className="price_value_form2_last_line">
+              <div className="white-line" />
+              <p className="price_value_form2_last_txt">
+                Garantierte Sicherheit
+              </p>
+              <div className="white-line" />
+            </div>
+          </div>
+          <div className="col-12 col-m-12 col-lg-6 d-none d-md-block d-lg-block">
+            <div className="price_value_form2_bestellen_last_txt_wrapper">
+              <Image src={insuranceDHL} alt="" />
+              <p className="price_value_form2_bestellen_last_txt">
+                Die Versandtasche (DHL) ist bis 1.500 € versichert.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="price_value_form2_last_part">
+          <div className="d-flex align-items-center gap-2 trusted-shops">
+            <Image
+              className="trusted"
+              src={Ntv}
+              alt=""
+              width={abThousand ? "70" : "70"}
+              height={abThousand ? "70" : "70"}
+            />
+            <Image
+              className="trusted"
+              src={TrustedShops}
+              alt=""
+              width={abThousand ? "70" : "70"}
+              height={abThousand ? "70" : "70"}
+            />
+            <Image
+              className="trusted"
+              src={Trustami}
+              alt=""
+              width={abThousand ? "70" : "70"}
+              height={abThousand ? "70" : "70"}
+            />
+            <Image
+              className="trusted proven_expert"
+              src={provenExpert}
+              alt=""
+              width={"87"}
+              height={"69"}
+            />
+          </div>
+          <div className="d-block d-md-none d-lg-none">
+            <div className="price_value_form2_bestellen_last_txt_wrapper">
+              <Image src={insuranceDHL} alt="" />
+              <p className="price_value_form2_bestellen_last_txt">
+                Die Versandtasche (DHL) ist bis 1.500 € versichert.
+              </p>
+            </div>
+          </div>
+          <div
+            className={
+              bestellen
+                ? "price_value_form_bestellen_submit_btn d-none d-md-flex d-lg-flex"
+                : eigenes
+                ? "price_value_form_eigenes d-none d-md-flex d-lg-flex"
+                : "price_value_form2_submit_btn d-none d-md-flex d-lg-flex"
+            }
+          >
+            <button type="submit" className="btn-bg">
+              {abThousand
+                ? "Abholung kostenlos buchen"
+                : bestellen
+                ? "Versandtasche kostenlos anfordern"
+                : eigenes
+                ? "DHL Paketschein kostenlos anfordern"
+                : "Paketschein kostenlos anfordern"}
+            </button>
+          </div>
         </div>
       </div>
     </div>

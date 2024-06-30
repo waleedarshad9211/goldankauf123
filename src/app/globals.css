@@ -319,7 +319,7 @@ header .dropdown-menu.show li a.active {
   .nav_subheader_mob_bottom .div1 {
     color: #ffffff;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 11px;
   }
   .nav_subheader_mob_top .div2 {
     background-color: #c8e6e0;
@@ -1323,7 +1323,7 @@ header .dropdown-menu.show li a.active {
     height: 46px;
   }
   .mob-navigation ul li .nav-link {
-    padding: 5px 1px !important;
+    padding: 5px 7px !important;
     font-size: 10px !important;
     font-size: 10px;
   }
@@ -1350,6 +1350,16 @@ header .dropdown-menu.show li a.active {
     width: 70px !important;
     height: 70px !important;
   }
+  .price_value_form2_last_part .trusted-shops .proven_expert {
+    width: 83px !important;
+    height: 70px !important;
+  }
+  .price_value_form2_last_txt {
+    font-size: 13px !important;
+  }
+  .footer-logo {
+    width: 100%;
+  }
   .eigenes_versandmaterial_wrapper .kostenlos .star-clr {
     margin-top: -3px;
   }
@@ -1357,11 +1367,15 @@ header .dropdown-menu.show li a.active {
     font-size: 14px;
   }
   .footer_leftside_seal p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .footer_images img {
-    width: 76px;
-    height: 70px;
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .footer_images .footer_proven_expert {
+    width: 87px !important;
+    height: 70px !important;
   }
 }
 .auswahlen_img4 {
@@ -1499,11 +1513,12 @@ header .dropdown-menu.show li a.active {
     display: block;
   }
   .mob-navigation ul li .nav-link {
-    padding: 5px 1px !important;
+    padding: 5px 7px !important;
     font-size: 12px;
     color: #4a4a4a;
     margin-bottom: 10px;
   }
+
   .footer_rightside {
     margin-top: 15px;
   }
@@ -5698,12 +5713,12 @@ header .dropdown-menu.show li a.active {
 }
 .eigenes_versandmaterial_para {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
 }
 .eigenes_versandmaterial_service {
   background-color: #f2f2f2;
   border-radius: 15px;
-  margin-top: 11px;
+  margin-top: 15px;
   margin-bottom: 18px;
 }
 .eigenes_versandmaterial_h3 {
@@ -5715,9 +5730,15 @@ header .dropdown-menu.show li a.active {
   line-height: 40px;
   margin-bottom: 15px;
 }
+.eigenes_versandmaterial_service ul {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 .eigenes_versandmaterial_service ul li {
   display: flex;
-  margin-top: 7.5px;
+  margin-top: 8px;
+  align-items: baseline;
 }
 .eigenes_versandmaterial_service ul li p {
   font-size: 16px;
@@ -5728,7 +5749,20 @@ header .dropdown-menu.show li a.active {
 .eigenes_versandmaterial_service ul li img {
   margin-top: 4px;
 }
-
+.circle_versandtasche {
+  background-color: #c7e6e1;
+  width: 26px;
+  height: 15px;
+  border-radius: 100px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle_versandtasche span {
+  font-size: 11px;
+  margin-bottom: 1px;
+}
 .eigenes_versandmaterial_pricevalueform2 .price_value_form2_submit_btn {
   margin-top: 18px;
   margin-bottom: 7px;
@@ -5742,13 +5776,15 @@ header .dropdown-menu.show li a.active {
 }
 
 .eigenes_versandmaterial_bestsellen {
-  margin-top: -13px;
+  margin-top: -15px;
 }
 .price_value_form_bestellen_submit_btn {
-  margin-top: 9px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
+}
+.price_value_form_wrapepr {
+  margin-top: 20px;
 }
 .info_card_bestsellen_heading2 {
   font-size: 18px;
@@ -5781,6 +5817,7 @@ header .dropdown-menu.show li a.active {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 18px;
+  line-height: 26px;
   font-weight: 500;
 }
 .gesamtsieger_btn_txt {
@@ -5790,19 +5827,19 @@ header .dropdown-menu.show li a.active {
   color: #ffffff;
 }
 .eigenes_versandmaterial_garantee_price {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .price_value_form2 {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: #36a18b;
   border-radius: 10px;
-  padding: 10px 20px 10px 10px;
+  padding: 10px 20px 20px 20px;
 }
 .price_value_form2_form_left {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .price_value_form2_form_right {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 .price_value_form2-heading {
@@ -5846,24 +5883,54 @@ header .dropdown-menu.show li a.active {
   margin-top: 18px;
   margin-bottom: 15px;
 }
+.price_value_form2_last_line {
+  display: flex;
+  align-items: center;
+}
+.white-line {
+  width: 20%;
+  border: 1px solid #ffffff;
+  height: 1px;
+}
+.price_value_form2_last_txt {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px 10px;
+}
+.price_value_form2_bestellen_last_txt_wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.price_value_form2_bestellen_last_txt {
+  color: #ffffff;
+  font-size: 11px;
+  margin-left: 10px;
+}
+.price_value_form2_last_part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .price_value_form_eigenes {
   display: flex;
   justify-content: center;
   margin-top: 10px;
 }
 .price_value_form2 .btn-bg {
-  background-color: #019ba5;
-  color: #ffffff;
-  height: 28px;
+  background-color: #c8e6e0;
+  height: 35px;
   border: none;
-  width: 349.98px;
-  height: 40px;
-  font-size: 16.21px;
-  line-height: 20.27px;
-  font-weight: bold;
+  padding: 1px 20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
   border-radius: 10px;
 }
-
+.price_value_form2_form_left .f1 {
+  margin-bottom: 10px;
+}
 .price_value_form2 .garantierte {
   background-color: #3a3a3c;
   margin-bottom: -11px;
@@ -5874,17 +5941,6 @@ header .dropdown-menu.show li a.active {
   font-family: "Open Sans", sans-serif !important;
   font-weight: 400;
   margin-top: 0px;
-}
-
-.price_value_form2 .trusted-shops {
-  border: 4px solid #ffffff;
-  border-radius: 20px;
-  background-color: #f7f7f7;
-  padding: 10px;
-}
-.price_value_form2 .trusted-shops img {
-  width: 85px;
-  height: 85px;
 }
 .price_value_form2_text {
   font-weight: bold;
@@ -5910,7 +5966,8 @@ header .dropdown-menu.show li a.active {
 .price_value2_textarea textarea {
   background-color: #ffffff !important;
   border-radius: 10px;
-  font-size: 14.14px;
+  font-size: 14px;
+  padding-bottom: 14px;
   border: none;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
@@ -6119,6 +6176,7 @@ header .dropdown-menu.show li a.active {
   border-radius: 10px !important;
   height: 41px;
   font-size: 14.14px !important;
+  margin-bottom: 10px;
 
   border: none !important;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
@@ -6520,6 +6578,13 @@ header .dropdown-menu.show li a.active {
   }
   .customer_review2_heading {
     margin-bottom: 8px;
+  }
+  .price_value_form2_last_txt {
+    font-size: 14px;
+  }
+  .price_value_form2 .btn-bg {
+    padding: 1px 10px;
+    font-size: 13px;
   }
 }
 
@@ -8806,7 +8871,7 @@ table.hamburg_table {
     margin-bottom: 10px;
   }
   .eigenes_versandmaterial_bestsellen {
-    margin-top: 13px !important;
+    margin-top: 15px !important;
   }
   .gold_zuruck_garantie_kitco_gold_tab .e_trusted_shops_card {
     width: 350px;
@@ -8955,7 +9020,9 @@ table.hamburg_table {
   .gold_card_img_heading2 {
     max-width: max-content;
   }
-
+  .price_value_form2_bestellen_last_txt {
+    font-size: 10px;
+  }
   /* verkaufsanleitung css starts here */
   .verkaufsanleitung_wrapper .funktionierts_wrapper_auswahlen1,
   .verkaufsanleitung_wrapper .funktionierts_wrapper_auswahlen2 {
@@ -9026,8 +9093,15 @@ table.hamburg_table {
   .proven_expert_card {
     width: 100%;
   }
-  .eigenes_versandmaterial_service {
-    padding: 20px;
+  .price_value_form2_last_part {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .price_value_form_bestellen_submit_btn {
+    margin-top: 10px;
+  }
+  .price_value_form_bestellen_submit_btn button {
+    width: 100%;
   }
   .goldrechner_clock_analog {
     display: none;
@@ -10306,6 +10380,18 @@ table.hamburg_table {
   .verkaufsanleitung_wrapper .verkauf_etrusted_shop .e_trusted_shops_card {
     width: auto !important;
   }
+  .footer_images {
+    gap: 13px;
+  }
+  .price_value_form2 .sold_out {
+    font-size: 10px;
+    width: 231px;
+    height: 28px;
+    position: absolute;
+    right: -92px;
+    top: 9px;
+    transform: rotate(33deg);
+  }
 }
 @media screen and (min-width: 390px) and (max-width: 430px) {
   .offcanvas-start {
@@ -10395,12 +10481,13 @@ table.hamburg_table {
     font-size: 27px;
   }
   .price_value_form2 .sold_out {
-    font-size: 11px;
-    width: 190px;
-    height: 55px;
+    font-size: 10px;
+    width: 231px;
+    height: 28px;
     position: absolute;
-    right: -104px;
-    top: 4px;
+    right: -92px;
+    top: 9px;
+    transform: rotate(33deg);
   }
   .golden_fauf_card_bod2 .golden_fauf_card_inner,
   .golden_fauf_card_body4 .golden_fauf_card_inner {

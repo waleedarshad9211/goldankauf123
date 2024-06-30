@@ -20,7 +20,7 @@ const Footer = () => {
             <div className="row">
               <div className="col-12">
                 <Image
-                  className="mb-2"
+                  className="mb-2 footer-logo"
                   src={FooterLogo}
                   alt="footer-logo"
                   width={350}

@@ -33,9 +33,9 @@ const page = () => {
                 <li>
                   <Image src={tick} />
                   <p>
-                    <strong>Gold-zurück-Garantie:</strong> Wenn Ihnen unser
-                    Angebot nicht zusagt, bekommen Sie kostenlos ihre
-                    Edelmetalle zurückgeschickt.
+                    Kostenloser Rückversand ohne Risiko: Wenn Ihnen unser
+                    Angebot nicht zusagt, bekommen Sie kostenlos Ihre
+                    Edelmetalle zurückgeschickt
                   </p>
                 </li>
                 <li>
@@ -45,7 +45,7 @@ const page = () => {
                 <li>
                   <Image src={tick} />
                   <p>
-                    Die Versandtasche ist automatisch bis zu 1.000€ versichert!
+                    Die Versandtasche ist automatisch bis zu 1.500€ versichert
                   </p>
                 </li>
               </ul>
