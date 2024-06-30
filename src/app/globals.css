@@ -5715,6 +5715,9 @@ header .dropdown-menu.show li a.active {
   font-size: 16px;
   line-height: 26px;
 }
+.eigenes_versandmaterial_para_abthousand {
+  margin-bottom: 57px;
+}
 .eigenes_versandmaterial_service {
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -5768,7 +5771,7 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 7px;
 }
 .abThousand_pricevalue_form2 .price_value_form2 {
-  padding: 10px 25px 12px 20px;
+  padding: 10px 25px 16px 20px;
 }
 .abThousand_pricevalue_form2 .price_value_form2_submit_btn {
   margin-top: 5px;
@@ -5931,6 +5934,9 @@ header .dropdown-menu.show li a.active {
 .price_value_form2_form_left .f1 {
   margin-bottom: 10px;
 }
+.price_value_form2_form_left .ab_f1 {
+  margin-bottom: 10px;
+}
 .price_value_form2 .garantierte {
   background-color: #3a3a3c;
   margin-bottom: -11px;
@@ -5973,6 +5979,9 @@ header .dropdown-menu.show li a.active {
 }
 .eigenes_txt_area {
   padding-bottom: 9px !important;
+}
+.abthousand_txt_area {
+  padding-bottom: 23px !important;
 }
 .eigenes_versandmaterial_note {
   font-size: 11px;

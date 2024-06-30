@@ -85,6 +85,10 @@ export const PriceValueForm2 = ({
                 id="E-Mail"
                 placeholder="E-Mail*"
               />
+            </form>
+          </div>
+          <div className="col-12 col-md-6 col-lg-6">
+            <form className="price_value_form2_form_right">
               {abThousand && (
                 <div>
                   <select
@@ -106,10 +110,6 @@ export const PriceValueForm2 = ({
                   </select>
                 </div>
               )}
-            </form>
-          </div>
-          <div className="col-12 col-md-6 col-lg-6">
-            <form className="price_value_form2_form_right">
               {abThousand && (
                 <select
                   className={
@@ -153,7 +153,11 @@ export const PriceValueForm2 = ({
               <div className="price_value2_textarea">
                 <textarea
                   className={
-                    eigenes ? "form-control eigenes_txt_area" : "form-control"
+                    eigenes
+                      ? "form-control eigenes_txt_area"
+                      : abThousand
+                      ? "form-control abthousand_txt_area"
+                      : "form-control"
                   }
                   id="comment"
                   rows={eigenes ? "11" : abThousand ? "3" : "8"}
