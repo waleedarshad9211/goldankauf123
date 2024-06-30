@@ -5971,7 +5971,9 @@ header .dropdown-menu.show li a.active {
   border: none;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
-
+.eigenes_txt_area {
+  padding-bottom: 9px !important;
+}
 .eigenes_versandmaterial_note {
   font-size: 11px;
   margin-bottom: 30px;

@@ -152,9 +152,11 @@ export const PriceValueForm2 = ({
               )}
               <div className="price_value2_textarea">
                 <textarea
-                  className="form-control "
+                  className={
+                    eigenes ? "form-control eigenes_txt_area" : "form-control"
+                  }
                   id="comment"
-                  rows={eigenes ? "6" : abThousand ? "3" : "8"}
+                  rows={eigenes ? "11" : abThousand ? "3" : "8"}
                   placeholder={
                     "Hier können Sie unter anderem Beschreibungen über Ihre Sendung angeben."
                   }
@@ -192,7 +194,7 @@ export const PriceValueForm2 = ({
               <div className="white-line" />
             </div>
           </div>
-          <div className="col-12 col-m-12 col-lg-6 d-none d-md-block d-lg-block">
+          <div className="col-12 col-m-12 col-lg-6 d-none d-md-block d-lg-block eigenes_">
             <div className="price_value_form2_bestellen_last_txt_wrapper">
               <Image src={insuranceDHL} alt="" />
               <p className="price_value_form2_bestellen_last_txt">
