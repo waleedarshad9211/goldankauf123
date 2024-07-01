@@ -6563,6 +6563,11 @@ header .dropdown-menu.show li a.active {
   .videos_uber_zahngold_wrapper .info_car_wrapeer {
     margin-bottom: 25px;
   }
+  .funktionierts_wrapper_heading{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 767px) {

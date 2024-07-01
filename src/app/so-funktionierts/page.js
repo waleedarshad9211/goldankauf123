@@ -10,7 +10,7 @@ const page = () => {
     <section className="funktionierts_wrapper">
       <div className="container">
         <Breadcrumbs />
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-between funktionierts_wrapper_heading">
           <div className="funktionierts_wrapper_head_paras">
             <p className="funktionierts_wrapper_heading">So funktioniert's</p>
             <p className="funktionierts_wrapper_sub_head">
