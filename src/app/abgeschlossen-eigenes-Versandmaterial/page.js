@@ -92,7 +92,11 @@ const page = () => {
                 <div className="abgeschlossen_wertsendung_wrapper_auswahlen1 row">
                   <div className="col-12">
                     <div className="d-flex justify-content-center align-items-center">
-                      <Image src={Ausdrucken} alt="auswahlen" />
+                      <Image
+                        src={Ausdrucken}
+                        alt="auswahlen"
+                        className="auswahlen_img1"
+                      />
                     </div>
                   </div>
                   <div className="col-12">
@@ -139,7 +143,7 @@ const page = () => {
                 <div className="funktionierts_wrapper_triangle">
                   <Image src={downTriangle} className="down_triang" />
                 </div>
-                <div className="abgeschlossen_wertsendung_wrapper_auswahlen2 row">
+                <div className="abgeschlossen_wertsendung_wrapper_auswahlen2 row abgeschlossen_wertsendung_wrapper_auswahlen3">
                   <div className="col-12">
                     <div className="d-flex justify-content-center align-items-center">
                       <Image

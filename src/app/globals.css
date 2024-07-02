@@ -9039,8 +9039,28 @@ table.hamburg_table {
   }
   .abgeschlossen_wertsendung_wrapper_auswahlen1,
   .abgeschlossen_wertsendung_wrapper_auswahlen2 {
-    padding: 25px 10px 10px 10px;
+    padding: 25px 13px 13px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .abgeschlossen_wertsendung_wrapper_auswahlen3 {
+    padding: 25px 13px 13px;
+    margin-bottom: 0px;
+  }
+  .gesamtsieger_wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+  .abgeschlossen_material_wrapper {
     margin-bottom: 15px;
+  }
+  .abgeschlossen_wertsendung_wrapper .auswahlen_img1,
+  .abgeschlossen_wertsendung_wrapper .auswahlen_img2,
+  .abgeschlossen_wertsendung_wrapper .auswahlen_img3 {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
   }
   .gold_card2 {
     width: auto;
@@ -9395,8 +9415,9 @@ table.hamburg_table {
     border-radius: 10px;
   }
   .funktionierts_wrapper_auswahlen {
-    /* margin-left: 10px; */
+    margin-left: 10px;
     width: 100%;
+    margin-bottom: 0px;
   }
   .verkaufsanleitung_wrapper .funktionierts_wrapper_auswahlen {
     margin-bottom: 0px;
@@ -9827,7 +9848,7 @@ table.hamburg_table {
     font-size: 26px;
   }
   .breadcrumb {
-    font-size: 17px;
+    font-size: 15px;
   }
   .diamanten_uberblick_heading {
     font-size: 22px;
@@ -10093,7 +10114,7 @@ table.hamburg_table {
 /* BreadCrumb css starts here */
 .breadcrumb {
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   margin-bottom: 0px;
 }
