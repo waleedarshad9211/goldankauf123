@@ -1974,10 +1974,9 @@ header .dropdown-menu.show li a.active {
 }
 .hero_slide2 .card_img img {
   width: auto;
-  height: 105px;
+  height: 100px;
   margin-right: 0px;
-  margin-bottom: 15px;
-  flex: 1;
+  margin-bottom: 13px;
 }
 .hero_slide2 .card_img div {
   margin-right: 10px;
@@ -9807,6 +9806,7 @@ table.hamburg_table {
     font-size: 18px !important;
     margin: 15px 0px 0px 0px !important;
     padding: 3px 20px !important;
+    width: 80% !important;
   }
   .slide3_ankauf {
     font-size: 36px;
