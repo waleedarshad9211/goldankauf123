@@ -1,5 +1,5 @@
 import Image from "next/image";
-import StepcardArrow from "/public/assets/img/stepcard_arrow.png";
+import UnherfAnkaufTriangle from "/public/assets/img/unhreftriangle.png";
 
 const StepCard = ({
   heading,
@@ -10,7 +10,7 @@ const StepCard = ({
   marginBottom = "",
   borderRadius = "20px",
   height = "100%",
-  numSrc = "",
+  num = "",
   index = "",
 }) => {
   return (
@@ -24,18 +24,29 @@ const StepCard = ({
       }}
     >
       <div className="step_card_header">
-        <Image src={numSrc} alt={alt} />
-        <h2 className="step_card_heading">{heading}</h2>
+        {num}
+        <p className="step_card_heading">{heading}</p>
       </div>
       <div className="step_card_body">
         <Image src={src} alt={alt} className="step_card_body_img" />
-        <div className={`stepcard_arrow_wrapper${index}`}>
-          <div className="stepcard_arrow">
-            <Image src={StepcardArrow} alt="" />
-          </div>
-        </div>
+        {index === 0 ? (
+          ""
+        ) : (
+          <Image
+            src={UnherfAnkaufTriangle}
+            alt=""
+            style={{
+              position: "absolute",
+              left: "10px",
+              top: "50%",
+              transform: "translate(-45%, -50%)",
+              width: "53px",
+              height: "60px",
+            }}
+          />
+        )}
       </div>
-      <p className="text-center text-white">{para}</p>
+      <p className="text-center ">{para}</p>
     </div>
   );
 };

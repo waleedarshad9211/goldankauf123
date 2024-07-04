@@ -980,28 +980,28 @@ export const zahngoldkaufen2 = [
 
 export const stepCardArray = [
   {
-    numSrc: StepCard1,
+    num: "1.",
     src: StepCardformular,
     heading: "Formular ausfüllen",
-    para: "Fur eine schnelle und seriöse Bewertung füllen Sie bitte das Formular aus.",
+    para: "Nach bestem Wissen und Gewissen",
   },
   {
-    numSrc: StepCard2,
+    num: "2.",
     src: StepCardPreisermittlung,
     heading: "Angebot erhalten",
-    para: "Unkompliziert und fair ermitteln wir den aktuellen Wert lhrer Edelsteine.",
+    para: "Sie erhalten ein faires Angebot",
   },
   {
-    numSrc: StepCard3,
+    num: "3.",
     src: StepCardVersand,
-    heading: "Uhr versenden",
-    para: "Der Versand erfolgt kostenlos und versichert mit unserem Versandpartner.",
+    heading: "Abholung",
+    para: "Kostenlos und vollversichert",
   },
   {
-    numSrc: StepCard4,
+    num: "4.",
     src: StepCardZahlung,
     heading: "Zahlung erhalten",
-    para: "Nach Bestätigung unseres Angebots erfolgt die Auszahlung auf lhr Bankkonto.",
+    para: "Nach Prüfung der Uhr erhalten Sie die Zahlung",
   },
 ];
 export const stepCardDiamantenArray = [

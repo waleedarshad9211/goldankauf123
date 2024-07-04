@@ -3779,7 +3779,12 @@ header .dropdown-menu.show li a.active {
     margin-left: 20px;
   }
 }
-
+.navbar-logo {
+  flex: 1 !important;
+}
+.header_seal_column {
+  flex: 1 !important;
+}
 @media screen and (min-width: 1032px) and (max-width: 1090px) {
   .versandarten_card_body_card {
     padding-top: 16px;
@@ -6927,8 +6932,12 @@ header .dropdown-menu.show li a.active {
 .luxusuhren_wrapper_para2,
 .luxusuhren_wrapper_para3,
 .luxusuhren_wrapper_para4 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.luxusuhren_wrapper_img_desk {
+  display: flex;
+  justify-content: center;
 }
 .luxusuhren_wrapper_para1 {
   margin-top: 16px;
@@ -6955,23 +6964,26 @@ header .dropdown-menu.show li a.active {
 }
 .step_card {
   width: 255px;
-  min-height: 300px;
-  background-color: #019ba5;
-  padding: 10px 10px 20px 10px;
+  min-height: 260px;
+  background-color: #e8f1ed;
+  border-radius: 10px;
+  position: relative;
 }
 .step_card_header {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: #36a08a;
+  height: 39px;
+  border-radius: 10px;
+  color: #ffffff;
 }
 .step_card_heading {
-  font-size: 16px;
-  font-weight: bold;
-  line-height: 26px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
   color: #ffffff;
-  text-align: center;
-  margin-top: 8px;
+  margin-left: 5px;
 }
 .step_card_body {
   padding: 8px;
@@ -10437,6 +10449,9 @@ table.hamburg_table {
   }
   .versandarten_subheading_funktionierts {
     font-size: 16px;
+  }
+  .navbar-nav .nav-item {
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 767px) {
