@@ -84,7 +84,7 @@ const Header = () => {
     <header className="gold-header">
       <div className="container">
         <div className="row py-1 align-items-center header-top-wrapper">
-          <div className="col-2 col-md-3 d-block d-lg-none text-md-end">
+          <div className="col-2 col-md-1 d-block d-lg-none text-md-end">
             <button
               className={`navbar_btn navbar-toggler ${
                 isMenuOpen ? "active" : "inactive"

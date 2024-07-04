@@ -103,7 +103,7 @@ const UhrenAnkauf = () => {
             Vorab-Ankaufsangebot unterbreiten.
           </p>
         </div>
-        <div className="stepcard_wrapper_main row  ">
+        <div className="stepcard_wrapper_main row">
           {stepCardArray?.map((item, index) => {
             return (
               <div className="col-6 col-md-6 col-lg-3">
