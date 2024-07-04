@@ -39,85 +39,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className=" gold-prices">999er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">986er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">916er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">900er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">750er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">585er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">417er</div>
+                      <div className=" gold-prices">333er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -143,7 +65,85 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className=" gold-prices">333er</div>
+                      <div className=" gold-prices">417er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">585er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">750er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">900er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">916er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">986er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">999er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -168,7 +168,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className=" gold-prices">750er</div>
+                      <div className=" gold-prices">100er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -179,71 +179,6 @@ const Pricing = ({
                   </div>
                 </li>
                 <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">600er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">500er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">400er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">300er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className=" gold-prices">200er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
                       <div className=" gold-prices">150er</div>
@@ -256,10 +191,23 @@ const Pricing = ({
                     />
                   </div>
                 </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">200er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
                 <li className="li2">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className=" gold-prices">100er</div>
+                      <div className=" gold-prices">300er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -272,7 +220,59 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className=" gold-prices">50er</div>
+                      <div className=" gold-prices">400er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">500er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">600er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">750er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className=" gold-prices">800er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -296,7 +296,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">999er</div>
+                      <div className="gold-prices">333er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -309,59 +309,7 @@ const Pricing = ({
                 <li className="li2">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">925er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className="gold-prices">900er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className="gold-prices">835er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li1">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className="gold-prices">800er</div>
-                      <div className=" gram-price">(19,18 €/g)</div>
-                    </div>
-                    <input
-                      className="pricing-gramm form-control"
-                      type="text"
-                      placeholder="Gramm"
-                    />
-                  </div>
-                </li>
-                <li className="li2">
-                  <div className="d-flex justify-content-between align-items-center p-2">
-                    <div>
-                      <div className="gold-prices">700er</div>
+                      <div className="gold-prices">500er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -387,7 +335,7 @@ const Pricing = ({
                 <li className="li2">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">500er</div>
+                      <div className="gold-prices">700er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -400,7 +348,59 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">333er</div>
+                      <div className="gold-prices">800er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className="gold-prices">835er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className="gold-prices">900er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li2">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className="gold-prices">925er</div>
+                      <div className=" gram-price">(19,18 €/g)</div>
+                    </div>
+                    <input
+                      className="pricing-gramm form-control"
+                      type="text"
+                      placeholder="Gramm"
+                    />
+                  </div>
+                </li>
+                <li className="li1">
+                  <div className="d-flex justify-content-between align-items-center p-2">
+                    <div>
+                      <div className="gold-prices">999er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -424,7 +424,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">999er</div>
+                      <div className="gold-prices">500er </div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -450,7 +450,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">500er</div>
+                      <div className="gold-prices">999er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -470,7 +470,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">999er</div>
+                      <div className="gold-prices"> 500er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input
@@ -496,7 +496,7 @@ const Pricing = ({
                 <li className="li1">
                   <div className="d-flex justify-content-between align-items-center p-2">
                     <div>
-                      <div className="gold-prices">500er</div>
+                      <div className="gold-prices">999er</div>
                       <div className=" gram-price">(19,18 €/g)</div>
                     </div>
                     <input

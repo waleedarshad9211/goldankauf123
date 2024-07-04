@@ -119,6 +119,7 @@ h2 {
   .herobgsmall4,
   .herobgsmall5 {
     max-width: 375px;
+    width: 100%;
   }
 }
 /* header css */
@@ -4568,10 +4569,10 @@ header .dropdown-menu.show li a.active {
     line-height: 40px;
   }
   .herobgsmall1 .slide1-h2 {
-    text-align: center;
+    text-align: left;
   }
   .herobgsmall1_para1 {
-    text-align: center;
+    text-align: left;
   }
   .slide1-Warum {
     margin-bottom: 10px;
@@ -4983,7 +4984,7 @@ header .dropdown-menu.show li a.active {
     font-weight: 500;
   }
   .review2_slider2_card .review2_para p {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 17px;
   }
   .customer_review_section2_wrapper h2 {
