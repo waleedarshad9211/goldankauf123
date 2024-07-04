@@ -5406,7 +5406,7 @@ header .dropdown-menu.show li a.active {
     flex: 1;
   }
   .footer-line1,
-  .footer-line2{
+  .footer-line2 {
     flex: 1;
   }
 }
@@ -5783,9 +5783,6 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 10px;
   display: flex;
   justify-content: center;
-}
-.price_value_form_wrapepr {
-  margin-top: 20px;
 }
 .info_card_bestsellen_heading2 {
   font-size: 18px;
