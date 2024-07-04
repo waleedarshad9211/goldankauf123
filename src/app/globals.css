@@ -10356,6 +10356,11 @@ table.hamburg_table {
     justify-content: center;
     align-items: center;
   }
+  .nav-item.dropdown.accordion{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: baseline;
+  }
 }
 
 .e_trusted_shops_card_subcard2 {
