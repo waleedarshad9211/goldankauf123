@@ -18,7 +18,7 @@ const page = () => {
       <div className="container">
         <Breadcrumbs />
 
-        <div className="goldrechner_clock">
+        <div className="goldrechner_clock ">
           <div className="goldrechner_clock_analog">
             <div>
               <Clock timeZone="London" />

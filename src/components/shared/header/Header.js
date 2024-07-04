@@ -129,7 +129,7 @@ const Header = () => {
           </div>
           <div className="col-md-5 col-lg-3 col-4 d-flex align-items-center gap-md-3 header-imgs header_seal_column">
             <Image
-              className="Image-fluid header_fourth_img me-1"
+              className="Image-fluid  me-1"
               src={NTV}
               alt=""
               width="87"

@@ -193,26 +193,29 @@ ul.navbar-nav {
 }
 header .dropdown-item.active,
 .dropdown-item:active {
-  background-color: #019ba5;
+  background-color: #36a18b;
   color: #ffffff !important;
 }
 
 header .dropdown-menu.show li:hover {
-  background-color: #019ba5;
+  background-color: #36a18b;
   color: #ffffff !important;
 }
 header .dropdown-menu.show li a:hover {
-  background-color: #019ba5;
+  background-color: #36a18b;
   color: #ffffff !important;
 }
 header nav .collapse ul li a {
-  color: #4a4a4a;
-
-  font-weight: bold;
+  color: #121212;
+  font-weight: 600;
 }
 header .dropdown-menu.show li a.active {
-  background-color: #019ba5;
+  background-color: #36a18b !important;
   color: #ffffff !important;
+  border-radius: 0px !important;
+}
+.nav-link.dropdown-item.active {
+  background-color: #36a18b !important;
 }
 .hr-divider {
   width: 1px;
@@ -901,13 +904,13 @@ header .dropdown-menu.show li a.active {
     color: #121212;
     right: 0px !important;
   }
-  .unsere_section_wrapper .swiper-slide {
+  /* .unsere_section_wrapper .swiper-slide {
     width: 112px !important;
     margin-left: 10px;
-  }
+  } */
 }
 
-@media screen and (min-width: 390px) and (max-width: 420px) {
+/* @media screen and (min-width: 390px) and (max-width: 420px) {
   .unsere_section_wrapper .swiper-slide {
     width: 112px !important;
     margin-left: 7px;
@@ -918,7 +921,7 @@ header .dropdown-menu.show li a.active {
     width: 112px !important;
     margin-left: 5px;
   }
-}
+} */
 
 .current-value {
   margin-bottom: 30px;
@@ -1308,15 +1311,15 @@ header .dropdown-menu.show li a.active {
   }
   .navbar-brand img {
     max-width: 100% !important;
-    width: 137px;
+    width: 147px;
     height: auto;
+    margin-left: 1px;
   }
   .header-top-wrapper {
     padding-right: 25px;
   }
   span.navbar-toggler-icon {
     font-size: 18px;
-    margin-top: 10px;
   }
   .header-top-wrapper .header-imgs img {
     width: 47px;
@@ -3784,14 +3787,23 @@ header .dropdown-menu.show li a.active {
   .ablauf_info_list li {
     height: auto !important;
   }
+  .navbar-logo {
+    flex: 1 !important;
+  }
+  .header_seal_column {
+    flex: 1 !important;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1031px) {
   .versandarten_card_body_card {
     padding-top: 16px;
   }
-
+  .navbar-logo {
+    flex: 1 !important;
+  }
   .header_seal_column {
     justify-content: space-between !important;
+    flex: 1 !important;
   }
   .ablauf_info_list li {
     height: auto !important;
@@ -4093,7 +4105,9 @@ header .dropdown-menu.show li a.active {
   }
   .customer_review_section_wrapper {
     padding: 10px;
+    margin-top: 20px;
   }
+
   .ekomi_powered_by {
     height: 96px;
   }
@@ -4631,6 +4645,10 @@ header .dropdown-menu.show li a.active {
   }
   .golden_fauf_card {
     margin-right: 0px !important;
+    max-width: 180px;
+  }
+  .golden_fauf_card p {
+    font-size: 15px;
   }
   .GoldankaufKotenloser-heading2 {
     font-size: 30px;
@@ -4678,6 +4696,10 @@ header .dropdown-menu.show li a.active {
   }
   .customer_review_section_wrapper {
     padding: 10px;
+  }
+  .versandarten_wrapper_main .goldankauf_valuecalc {
+    margin-top: 0px !important;
+    margin-bottom: 10px;
   }
   .customer_review_section_wrapper h2 {
     text-align: left;
@@ -5383,6 +5405,10 @@ header .dropdown-menu.show li a.active {
     height: 75px;
     flex: 1;
   }
+  .footer-line1,
+  .footer-line2{
+    flex: 1;
+  }
 }
 @media screen and (min-width: 993px) and (max-width: 1180px) {
   .header_fourth_img {
@@ -5413,41 +5439,13 @@ header .dropdown-menu.show li a.active {
     height: auto;
   }
 }
-@media screen and (min-width: 701px) and (max-width: 767px) {
-  .hero_slider .swiper-button-prev {
-    left: 36%;
-  }
-  .hero_slider .swiper-button-next {
-    left: 60%;
-  }
-}
-@media screen and (min-width: 601px) and (max-width: 700px) {
-  .hero_slider .swiper-button-prev {
-    left: 34%;
-  }
-  .hero_slider .swiper-button-next {
-    left: 61.5%;
-  }
-}
-@media screen and (min-width: 501px) and (max-width: 600px) {
-  .hero_slider .swiper-button-prev {
-    left: 31%;
-  }
-  .hero_slider .swiper-button-next {
-    left: 64%;
-  }
-}
-@media screen and (min-width: 461px) and (max-width: 500px) {
-  .hero_slider .swiper-button-prev {
-    left: 29%;
-  }
-  .hero_slider .swiper-button-next {
-    left: 65%;
-  }
-}
+
 @media screen and (min-width: 400px) and (max-width: 460px) {
+  .mob-navigation ul li .nav-link {
+    font-size: 10px;
+  }
   .hero_slider .swiper-button-prev {
-    left: 26%;
+    left: 23%;
   }
   .hero_slider .swiper-button-next {
     left: 70%;
@@ -6688,6 +6686,12 @@ header .dropdown-menu.show li a.active {
   margin-left: 10px;
 }
 @media screen and (max-width: 992px) {
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+    display: none;
+  }
+  .navbar-toggler[aria-expanded="false"] .navbar-toggler-icon {
+    display: flex;
+  }
   .granted-price-card-wrapper {
     display: flex;
     flex-direction: column;
@@ -8586,7 +8590,7 @@ table.hamburg_table {
   }
   .goldrechner_clock_analog {
     position: absolute;
-    left: 27%;
+    left: 25%;
     top: -30px;
     display: flex;
     align-items: center;
@@ -8594,6 +8598,14 @@ table.hamburg_table {
   }
   .goldrechner_wrapper .gold_card2 {
     width: auto;
+  }
+  .clock-container {
+    width: 95px !important;
+    height: 98px !important;
+  }
+  .clock-content .background-numbers {
+    width: 86px !important;
+    height: 82px !important;
   }
   .info_card {
     width: auto;
@@ -8920,6 +8932,51 @@ table.hamburg_table {
     padding: 1px 10px !important;
     width: 215px !important;
   }
+  .goldrechner_clock_analog {
+    display: none !important;
+  }
+  .goldrechner_clock_analog_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+    margin-bottom: -80px;
+    position: relative;
+    z-index: 10;
+  }
+  .goldrechner_clock_analog_mobile .clock-container {
+    margin-right: 10px;
+  }
+  .goldrechner_clock_analog_mobile div:last-child .clock-container {
+    margin-right: 0px;
+  }
+  .goldrechner_clock_upper_div {
+    padding: 10px 0px 90px 0px;
+  }
+  .goldrechner_clock_lower_div {
+    position: relative;
+    padding: 80px 0px 10px 0px;
+    z-index: 1;
+  }
+  .goldrechner_clock_analog_mobile p {
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .goldrechner_clock_upper_div_wrap,
+  .goldrechner_clock_lower_div_wrap {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .goldrechner_clock_upper_div_wrap,
+  .goldrechner_clock_lower_div_wrap {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 992px) {
   .golden_fauf_card {
@@ -9142,7 +9199,10 @@ table.hamburg_table {
     width: auto;
     height: auto;
     max-width: 100%;
-    margin-top: 10px !important;
+    margin-top: 15px !important;
+  }
+  .abgeschlossen_wertsendung_wrapper .row {
+    padding-bottom: 0px;
   }
   .info_car_btn button {
     height: 33px;
@@ -9176,6 +9236,8 @@ table.hamburg_table {
     align-items: center;
     margin-top: -80px;
     margin-bottom: -80px;
+    position: relative;
+    z-index: 10;
   }
   .goldrechner_clock_analog_mobile .clock-container {
     margin-right: 10px;
@@ -9189,12 +9251,12 @@ table.hamburg_table {
   .goldrechner_clock_lower_div {
     position: relative;
     padding: 80px 0px 10px 0px;
-    z-index: -1;
+    z-index: 1;
   }
   .goldrechner_clock_analog_mobile p {
-    font-size: 15.91px;
+    font-size: 11px;
     line-height: 22px;
-    font-weight: bold;
+    font-weight: 400;
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -9415,7 +9477,7 @@ table.hamburg_table {
     border-radius: 10px;
   }
   .funktionierts_wrapper_auswahlen {
-    margin-left: 10px;
+    margin-left: 12px;
     width: 100%;
     margin-bottom: 0px;
   }
@@ -9667,7 +9729,6 @@ table.hamburg_table {
   .unsere_section_slide2_img {
     width: 106px;
     height: 106px;
-    margin-right: -31px;
   }
   .unsere_section_slide2_img div {
     width: 85px;
@@ -10061,33 +10122,23 @@ table.hamburg_table {
   .goldrechner_clock_analog .clock-container {
     margin-left: 15px;
   }
-  .clock-container {
-    width: 100px;
-  }
-  .clock-content .background-numbers {
-    width: 90px;
-    height: 90px;
-  }
 }
 @media screen and (min-width: 850px) and (max-width: 992px) {
   .goldrechner_clock_analog .clock-container {
     margin-left: 15px;
   }
-  .clock-container {
-    width: 100px;
-  }
-  .clock-content .background-numbers {
-    width: 90px;
-    height: 90px;
-  }
 }
 @media screen and (max-width: 767px) {
   .clock-container {
-    width: 100px;
+    width: 84px;
+    height: 84px;
+  }
+  .clock-container.styling {
+    min-width: auto;
   }
   .clock-content .background-numbers {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -10137,6 +10188,7 @@ table.hamburg_table {
   }
   .offcanvas-body .navbar-nav {
     margin-bottom: 20px !important;
+    align-items: flex-start;
   }
   .offcanvas-header {
     background-color: #ffffff !important;
@@ -10168,15 +10220,13 @@ table.hamburg_table {
     transition: transform 0.5s ease-in-out !important;
   }
   .offcanvas-body {
-    background-color: #ffffff !important;
+    background-color: #e9e9e9 !important;
     height: 100%;
   }
-  /* .offcanvas-body .active {
-    border-top: 2px dotted #019ba5 !important;
-    border-bottom: 2px dotted #019ba5 !important;
-  } */
+
   .offcanvas-body ul.navbar-nav li .nav-link {
     border-radius: 0px !important;
+    background-color: #e9e9e9;
     border: 0px;
     font-weight: 400;
   }
@@ -10188,10 +10238,12 @@ table.hamburg_table {
     font-weight: 600;
   }
   .offcanvas-body .navbar-nav .dropdown-menu {
-    background-color: #ffffff !important;
+    background-color: #e9e9e9 !important;
     border: 0px;
   }
-
+  .navbar {
+    background-color: #e9e9e9;
+  }
   .offcanvas-top.show.hiding
     .offcanvas-header
     .btn-close.cross-animation
@@ -10219,8 +10271,8 @@ table.hamburg_table {
     margin-left: 15px;
   }
   .offcanvas-header .navbar-brand img {
-    width: 65% !important;
-    height: auto !important;
+    width: auto;
+    height: auto;
   }
   .navbar_btn {
     background: transparent;
@@ -10228,8 +10280,8 @@ table.hamburg_table {
     outline: none;
   }
   .navbar-toggler-icon {
-    display: flex !important;
-    align-items: center !important;
+    display: flex;
+    align-items: center;
   }
   .navbar-toggler-icon-bar {
     margin-left: 5px;
@@ -10454,6 +10506,9 @@ table.hamburg_table {
     top: 9px;
     transform: rotate(33deg);
   }
+  .gesamtsieger_main_wrapper {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 390px) and (max-width: 430px) {
   .offcanvas-start {
@@ -10573,7 +10628,7 @@ table.hamburg_table {
     right: 3%;
   }
   .golden_fauf_card {
-    width: 165px;
+    width: 170px;
   }
   .golden_fauf_card p {
     font-size: 15px;
