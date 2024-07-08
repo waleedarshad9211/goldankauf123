@@ -87,17 +87,24 @@ const PriceValueForm = ({
           </button>
           <div className="line-text">
             <div className="white-line1 me-2"></div>
-            <div className=" me-2 text-white">Garantierte Sicherheit</div>
+            <div className=" me-2 text-white garantiert_txt">
+              Garantierte Sicherheit
+            </div>
             <div className="white-line2"></div>
           </div>
-          <div className="d-flex flex-wrap gap-2 justify-content-between price-value-form-images my-2">
+          <div className="d-flex flex-wrap justify-content-between price-value-form-images my-2">
             <Image src={NTV} width={65} height={65} />
             <Image src={TrustedShops} width={65} height={65} />
             <Image src={HeroTrustami} width={65} height={65} />
-            <Image src={ProvenExpert} width={82} height={65} />
+            <Image
+              src={ProvenExpert}
+              width={82}
+              height={65}
+              className="price-value-form-proven-img"
+            />
           </div>
           <div className="d-flex">
-            <Image src={insurance} className="me-1" />
+            <Image src={insurance} className="me-1 price_value_form_last_img" />
             <p className="text-center price_value_form_last_para">
               Die Versandtasche (DHL) ist bis 1.500 € versichert.
             </p>

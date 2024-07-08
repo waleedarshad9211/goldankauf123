@@ -138,6 +138,27 @@ const UhrenAnkauf = () => {
             );
           })}
         </div>
+        <div className="">
+          <p className="inhaltsverzeichnis_heading">Inhaltsverzeichnis</p>
+          <div className="row">
+            <div className="col-12 col-md-12 col-lg-6">
+              <div className="inhalt_left_side">» Luxusuhren Wert schätzen</div>
+              <div className="inhalt_left_side">
+                » Diskrete Bewertung der Luxusuhr garantiert
+              </div>
+              <div className="inhalt_left_side">
+                » Beispiele für Uhrenmarken
+              </div>
+              <div className="inhalt_left_side">
+                » Zustand und Nachfrage der Uhr sind ausschlaggenend
+              </div>
+              <div className="inhalt_left_side">
+                » Welche Faktoren werden für die Bewertung herangezogen?
+              </div>
+            </div>
+            <div className="col-12 col-md-12 col-lg-6"></div>
+          </div>
+        </div>
         <BietenSieForm
           heading="Bieten Sie uns lhre Uhr an!"
           luxusehren

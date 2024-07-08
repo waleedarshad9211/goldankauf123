@@ -1025,7 +1025,6 @@ header .dropdown-menu.show li a.active {
 .kostenlos .sold_out_wrapper {
   padding: 2px;
 }
-
 .kostenlos .sold_out {
   color: #fff;
   display: block;
@@ -1383,6 +1382,9 @@ header .dropdown-menu.show li a.active {
   .footer_images .footer_proven_expert {
     width: 87px !important;
     height: 70px !important;
+  }
+  .price_value_form_last_img {
+    width: 17px;
   }
 }
 .auswahlen_img4 {
@@ -3246,7 +3248,7 @@ header .dropdown-menu.show li a.active {
 }
 .wir_verkaufer_name {
   font-size: 18px;
-  font-weight: 500s;
+  font-weight: 500;
   margin-top: -4px;
   margin-left: 6px;
 }
@@ -4630,7 +4632,7 @@ header .dropdown-menu.show li a.active {
   }
 
   .golden-fauf {
-    padding-top: 10px;
+    padding-top: 0px;
   }
   .golden-fauf h2 {
     font-size: 26px;
@@ -4639,6 +4641,7 @@ header .dropdown-menu.show li a.active {
   }
   .golden-fauf .para {
     font-size: 16px;
+    margin-bottom: 10px;
   }
   .golden-kauf-img img {
     width: 160px;
@@ -4918,7 +4921,7 @@ header .dropdown-menu.show li a.active {
     margin-bottom: 5px;
   }
   .umweltschutz_wrapper {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   .umweltschutz_wrapper_mobile_img {
     display: flex;
@@ -5470,6 +5473,10 @@ header .dropdown-menu.show li a.active {
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
+  .white-line1,
+  .white-line2 {
+    flex: 1;
+  }
   .customer_review2_logo_img p {
     font-size: 14px;
   }
@@ -7037,6 +7044,20 @@ header .dropdown-menu.show li a.active {
 }
 .stepcard_wrapper:last-child .luxushrn_right_trianle {
   display: none;
+}
+.inhaltsverzeichnis_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-family: 500;
+}
+.inhalt_left_side {
+  border-radius: 20px;
+  background-color: #36a08a;
+  padding: 1px 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
 }
 .luxushrn_right_trianle {
   width: 0;
@@ -9829,7 +9850,13 @@ table.hamburg_table {
   .hero_slide2 .slide2_ankauf {
     font-size: 36px;
   }
-
+  .umweltschutz_wrapper_left {
+    padding: 20px 0px 25px 0px;
+  }
+  .umweltschutz_wrapper .gold_btn {
+    font-size: 15px !important;
+    width: 100% !important;
+  }
   .goldrechner_wrapper .gold_card2 {
     width: auto;
   }
@@ -9883,6 +9910,32 @@ table.hamburg_table {
   }
   .customer_review_section2_wrapper h2 {
     line-height: 30px;
+    font-size: 28px;
+  }
+  .customer_review_ekomi_powered_by {
+    margin-top: 25px;
+  }
+  .review2 i {
+    margin-right: 2px;
+    font-size: 14px !important;
+  }
+  .reviewStar2 .fa-star {
+    font-size: 11px !important;
+  }
+  .video-btn {
+    padding: 1px 10px !important;
+    font-size: 17px !important;
+    height: 45px !important;
+  }
+  .wir_verkaufer_name {
+    font-size: 12px;
+  }
+  .wir_verkaufer_text {
+    font-size: 11px;
+  }
+  .customer_review2_heading p {
+    width: 145px;
+    font-size: 11px;
   }
   .zahngold_list_para {
     font-size: 14px;
@@ -10585,10 +10638,6 @@ table.hamburg_table {
   .footer_proven_expert {
     width: 90px !important;
     height: 72px !important;
-  }
-  .unsere_section_wrapper .swiper-slide {
-    width: 112px !important;
-    margin-left: 0px;
   }
   .footer_leftside_second_img img {
     width: 73px;
