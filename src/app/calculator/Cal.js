@@ -4,6 +4,7 @@ import Breadcrumbs from "@/components/shared/breadcrumb/BreadcrumbsComponent";
 import Button from "@/components/shared/button/Button";
 import Pricing from "@/components/shared/pricing/Pricing";
 import RightTriangle from "/public/assets/img/right-triangle.png";
+import downTriangle from "/public/assets/img/down-triangle.png";
 import Image from "next/image";
 
 const Cal = () => {
@@ -115,7 +116,9 @@ const Cal = () => {
               <div className="d-none d-lg-block">
                 <Image src={RightTriangle} alt="" />
               </div>
-              <div className="triangle-down d-block d-lg-none"></div>
+              <div className="d-block d-lg-none">
+                <Image src={downTriangle} alt="" />
+              </div>
             </div>
             <div className="col-md-12 col-lg-4 kostenlos-wrapper">
               <div className="calculator-right-side">

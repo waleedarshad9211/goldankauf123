@@ -330,10 +330,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
@@ -343,10 +342,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
@@ -356,10 +354,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
@@ -369,10 +366,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
               </div>
@@ -393,10 +389,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
@@ -406,10 +401,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
@@ -419,10 +413,9 @@ const BietenSieForm = ({
                   />
                   <Button
                     btnText="Bild auswählen"
-                    height="34px"
+                    height="26px"
                     borderRadius="10px"
-                    margin="-5px 0px 0px 5px"
-                    backgroundColor="#019BA5"
+                    backgroundColor="#C8E6E0"
                   />
                 </div>
               </div>
@@ -452,11 +445,23 @@ const BietenSieForm = ({
           <div className="d-none d-lg-block col-lg-1"></div>
           <div className="col-12 col-md-6 col-lg-5">
             <h3 className="bieten_sie_form_heading5">{textareaHeading}</h3>
-            <div className="bieten_sie_form_label_input">
-              <textarea rows={6} placeholder="Nachricht" />
+            <div className="bieten_sie_form_label_input bieten_sie_form_last_input">
+              <textarea rows={5} placeholder="Nachricht" />
             </div>
           </div>
         </div>
+        {luxusehren && (
+          <div class="form-check bieten_sie_form_last_checkbox">
+            <input
+              className="form-check-input"
+              type="checkbox"
+              id="bieten_sie_form_checkbox"
+            />
+            <label className="form-check-label" for="bieten_sie_form_checkbox">
+              Ich habe die Datenschutzbestimmungen zur Kenntnis genommen.
+            </label>
+          </div>
+        )}
         <div className="d-flex justify-content-center bieten_sie_form_logos">
           <Image
             src={EkomiVector}
@@ -481,10 +486,12 @@ const BietenSieForm = ({
             btnText="Anfrage senden"
             height="38px"
             width="256px"
+            color="#121212"
             margin="25px 0px 10px 0px"
             padding="1px 10px"
             borderRadius="10px"
-            backgroundColor="#019BA5"
+            backgroundColor="#C8E6E0"
+            box-shadow="1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15)"
           />
         </div>
       </form>

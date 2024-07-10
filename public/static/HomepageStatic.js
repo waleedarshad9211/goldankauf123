@@ -834,91 +834,91 @@ export const uhrenmarken1 = [
     txt: "A. Lange & Söhne",
   },
   {
-    txt: "Heuer",
-  },
-  {
-    txt: "Omega",
-  },
-  {
-    txt: "Tissot",
-  },
-  {
-    txt: "Audemars Piguet",
-  },
-  {
-    txt: "Hublot",
-  },
-  {
-    txt: "Panerai",
-  },
-  {
-    txt: "Tudor",
-  },
-  {
-    txt: "Baume & Mercier",
-  },
-  {
     txt: "IWC",
-  },
-  {
-    txt: "Patek Philippe",
-  },
-  {
-    txt: "Tutima",
-  },
-  {
-    txt: "Blancpain",
-  },
-  {
-    txt: "Jaeger-LeCoultre",
-  },
-  {
-    txt: "Piaget",
-  },
-  {
-    txt: "Glashütte",
-  },
-  {
-    txt: "Breguet",
-  },
-  {
-    txt: "Junghans",
   },
   {
     txt: "Rolex",
   },
   {
-    txt: "Vacheron Constantin",
+    txt: "Audemars Piguet",
   },
   {
-    txt: "Breitling",
-  },
-  {
-    txt: "Longines",
+    txt: "Jaeger-LeCoultre",
   },
   {
     txt: "Sinn",
   },
   {
-    txt: "Zenith",
+    txt: "Baume & Mercier",
   },
   {
-    txt: "Certina",
-  },
-  {
-    txt: "Montblanc",
+    txt: "Junghans",
   },
   {
     txt: "TAG",
   },
   {
-    txt: "Ebel",
+    txt: "Blancpain",
+  },
+  {
+    txt: "Longines",
+  },
+  {
+    txt: "Heuer",
+  },
+  {
+    txt: "Breguet",
+  },
+  {
+    txt: "Montblanc",
+  },
+  {
+    txt: "Tissot",
+  },
+  {
+    txt: "Breitling",
   },
   {
     txt: "Nomos",
   },
   {
+    txt: "Tudor",
+  },
+  {
+    txt: "Certina",
+  },
+  {
+    txt: "Omega",
+  },
+  {
+    txt: "Tutima",
+  },
+  {
+    txt: "Ebel",
+  },
+  {
+    txt: "Panerai",
+  },
+  {
+    txt: "Glashütte",
+  },
+  {
     txt: "Heuer",
+  },
+  {
+    txt: "Patek Philippe",
+  },
+  {
+    txt: "Vacheron",
+  },
+  {
+    txt: "Hublot",
+  },
+  {
+    txt: "Piaget",
+  },
+  {
+    txt: "Constantin",
   },
 ];
 
