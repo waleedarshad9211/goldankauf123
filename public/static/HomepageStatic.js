@@ -206,64 +206,65 @@ export const navItemsArray = [
 export const accordionArray = [
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Welche Gegenstände kaufen wir an?",
+    tilte: "Was kaufen wir an? (Beispiele)",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Ab welcher Menge kaufen wir an?",
+    tilte: "Welche Mengen kaufen wir an?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Ist der Versand versichert?",
+    tilte: "Gibt es eine Versandversicherung?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Fallen Gebühren oder sonstige Kosten an?",
+    tilte: "Wie hoch sind Kosten und Gebühren?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Was passiert mit Edelsteinen?",
+    tilte: "Was geschieht mit den Edelsteinen?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Zahngold mit Zahn- oder Keramikreste",
+    tilte: "Akzeptieren wir Zahngold mit Zahn- oder Keramikresten?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
-    tilte: "Wie wird der Betrag errechnet?",
+    tilte: "Wie wird der Ankaufspreis ermittelt?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
-  },
-  {
-    img: <Image src={AccordionImage} alt="" />,
-    tilte: "Wann erhalte ich den Betrag per Banküberweisung/Scheck?",
-    description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
-  },
-  {
-    img: <Image src={AccordionImage} alt="" />,
-    tilte: "Wie lange dauert die Zusendung der Versandtasche?",
-    description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
   {
     img: <Image src={AccordionImage} alt="" />,
     tilte:
-      "Was passiert mit Gegenständen, die keinen Edelmetallgehalt aufweisen?",
+      "Wie lange dauert die Auszahlung des Ankaufspreises per Banküberweisung?",
     description:
-      "Wir bieten über unser Angebot die Möglichkeit an, Gold, Silber, Platin oder Palladium zu sehr guten Ankaufspreisen verkaufen zu können.",
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
+  },
+  {
+    img: <Image src={AccordionImage} alt="" />,
+    tilte: "Wann erhalte ich die Zusendung der Versandtasche?",
+    description:
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
+  },
+  {
+    img: <Image src={AccordionImage} alt="" />,
+    tilte:
+      "Was geschieht mit Schmuckstücken oder Gegenständen ohne Edelmetallgehalt?",
+    description:
+      "Edelmetalle aller Art wie beispielsweise Altgold, Bruchgold, Zahngold, Nuggets, Münzen, Barren, Altsilber, Silberbesteck, Tafelsilber, Platin, Palladium und Luxusuhren an.",
   },
 ];
 export const homePageVideoArray = [

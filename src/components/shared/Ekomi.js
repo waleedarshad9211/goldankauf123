@@ -67,11 +67,6 @@ const Ekomi = ({ marginTop, marginBottom }) => {
                 <p className="e_trusted_shops_card_subcard_innercard_para">
                   19.04.2023
                 </p>
-
-                <i
-                  className="fa fa-caret-down"
-                  style={{ fontSize: "13px" }}
-                ></i>
               </div>
             </div>
             <div className="review2_para ">

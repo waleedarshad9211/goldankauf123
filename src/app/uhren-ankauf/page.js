@@ -20,15 +20,20 @@ const UhrenAnkauf = () => {
             <h2 className="luxusuhren_wrapper_heading1">Uhrenankauf</h2>
           </div>
           <div className="col-12 d-block d-md-none d-lg-none">
-            <Image
-              src={LuxusuhrenImg}
-              alt="Luxushren watch"
-              className="d-block d-md-none d-lg-none"
-            />
             <div className="luxusuhren_wrapper_paras">
-              <p className="luxusuhren_wrapper_para1">
-                Uhrenankauf Sie besitzen eine Premium Uhr, welche Ihnen von der
-                Form oder von Stil her nicht mehr gefällt oder es liegen andere
+              <div className="d-flex luxusuhren_wrapper_paras_first">
+                <p className="luxusuhren_wrapper_para1">
+                  Uhrenankauf Sie besitzen eine Premium Uhr, welche Ihnen von
+                  der Form oder von Stil her nicht mehr gefällt oder es liegen
+                  andere
+                </p>
+                <Image
+                  src={LuxusuhrenImg}
+                  alt="Luxushren watch"
+                  className="d-block d-md-none d-lg-none"
+                />
+              </div>
+              <p>
                 Gründe vor, sich von einer oder gar mehreren Ihrer Luxus Uhren
                 zu trennen und diese zu einem höchstmöglichen Preis zu
                 verkaufen? Dann sind wir bei Goldankauf123.de der richtige und
@@ -112,7 +117,7 @@ const UhrenAnkauf = () => {
                     src={item?.src}
                     heading={item?.heading}
                     para={item?.para}
-                    marginTop="20px"
+                    marginTop="10px"
                     num={item?.num}
                     index={index}
                   />
@@ -130,7 +135,7 @@ const UhrenAnkauf = () => {
                   heading={item.heading}
                   heading1={item.heading1}
                   para={item.para}
-                  marginTop="20px"
+                  marginTop="10px"
                   numSrc={item.numSrc}
                   index={index}
                 />
@@ -231,7 +236,7 @@ const UhrenAnkauf = () => {
             Zustand und nachfrage der uhr sind Ausschlaggenend
           </h2>
           <div className="rolex_section_para2_wrapper">
-            <p className="rolex_section_para2">
+            <p className="rolex_section_para2 d-none d-lg-block">
               Weiterhin spielt das Modell und das Baujahr einer Uhr eine große
               Rolle. Ein besonders wichtiges Kriterium bei der Bewertung von
               gebrauchten Nobeluhren ist der Zustand. Denn nur bei Uhren, welche
@@ -245,6 +250,19 @@ const UhrenAnkauf = () => {
               Anspruch zu nehmen.
             </p>
             <Image src={brandLogo} alt="" />
+            <p className="rolex_section_para2 d-block d-lg-none">
+              Weiterhin spielt das Modell und das Baujahr einer Uhr eine große
+              Rolle. Ein besonders wichtiges Kriterium bei der Bewertung von
+              gebrauchten Nobeluhren ist der Zustand. Denn nur bei Uhren, welche
+              uns in einem guten Zustand eingesandt werden, können wir Ihnen ein
+              zufriedenstellendes Angebot unterbreiten. Hierbei können schon
+              minimale Kratzer am Armband oder der Lunette zu einer
+              Preisminderung führen, sogar dann wenn die Uhr schon einmal
+              aufbereitet wurde. Jedoch ist es immer lohnenswert,
+              Goldankauf123.de auch solche Uhren zum Ankauf anzubieten. Sie
+              haben jederzeit die Möglichkeit unsere Gold-zurück-Garantie in
+              Anspruch zu nehmen.
+            </p>
           </div>
           <p className="rolex_section_para2_2">
             Weiterhin spielt das Modell und das Baujahr einer Uhr eine große

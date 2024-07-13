@@ -5470,6 +5470,7 @@ header .dropdown-menu.show li a.active {
   }
   .step_card {
     width: auto;
+    min-height: 260px !important;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -5694,10 +5695,6 @@ header .dropdown-menu.show li a.active {
   }
   .uber_btn_line_section button {
     font-size: 13px !important;
-  }
-  .step_card {
-    width: 165px !important;
-    min-height: 330px !important;
   }
   .stepcard_arrow_wrapper0 {
     margin-right: -71px !important;
@@ -6093,16 +6090,14 @@ header .dropdown-menu.show li a.active {
   width: 100%;
   height: 110px;
 }
-
 .price_value_form2_rating i {
   margin-left: 6px;
   font-size: 18px;
 }
-
 .e_trusted_shops_card_subcard_innercard_para {
   font-size: 10.68px;
   line-height: 32.15px;
-  margin-right: 20px;
+  margin-right: 5px;
 }
 .e_trusted_shops_card_subcard_innercard_para2 {
   font-size: 11px;
@@ -6460,57 +6455,79 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 25px;
 }
 .haufig_fragen_wrapper_para {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
+  margin-bottom: 10px;
   color: #121212;
+  max-width: 730px;
 }
 .haufig_fragen_wrapper .accordion-item {
   margin-bottom: 5px !important;
   border-radius: 20px !important;
 }
 .haufig_fragen_wrapper .accordion-button {
-  background-color: #f7f7f7 !important;
+  background-color: #ffffff !important;
+  border-top: 1px solid #121212;
 }
 .haufig_fragen_wrapper
   .accordion-item:last-of-type
   .accordion-button.collapsed {
-  border-bottom-right-radius: 20px !important;
-  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top: 1px solid #121212;
 }
 .haufig_fragen_wrapper .accordion-item:first-of-type .accordion-button {
-  border-top-left-radius: 20px !important;
-  border-top-right-radius: 20px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
   padding-left: 10px !important;
   padding-right: 10px !important;
 }
 .haufig_fragen_wrapper .accordion-item:last-of-type .accordion-collapse {
-  border-bottom-right-radius: 20px !important;
-  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
 }
 .haufig_fragen_wrapper .accordion-item {
   border: none !important;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
 }
 .haufig_fragen_wrapper .accordion-body {
-  background-color: #f7f7f7;
-  border-bottom-right-radius: 20px !important;
-  border-bottom-left-radius: 20px !important;
+  background-color: #e8f3ed;
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
   padding-left: 50px;
+  border-bottom: 1px solid #121212;
 }
 .accordion_heading {
-  color: #019ba5;
+  color: #36a18b;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .accordion-button:not(.collapsed) {
   box-shadow: none !important;
+  border-top: 1px solid #121212;
 }
 .accordion-button:focus {
-  border-color: transparent !important;
   box-shadow: none !important;
+  border-top: 1px solid #121212;
 }
-
+.haufig_fragen_wrapper .accordion:last-child .accordion-body {
+  border-bottom: none;
+}
+.haufig_fragen_wrapper .accordion:last-child .accordion-body:not(.collapsed) {
+  border-bottom: 1px solid #121212;
+}
+.haufig_fragen_wrapper .accordion:last-child .accordion-button:focus {
+  border-bottom: 1px solid #121212;
+}
+.haufig_fragen_wrapper .accordion:last-child .accordion-button:not(.collapsed) {
+  border-bottom: none;
+}
+.haufig_fragen_wrapper
+  .accordion:last-child
+  .accordion-item:last-of-type
+  .accordion-button.collapsed {
+  border-bottom: 1px solid #121212;
+}
 /* videos section css starts here */
 .videos_uber_zahngold_wrapper_heading1 {
   font-size: 30px;
@@ -6746,8 +6763,8 @@ header .dropdown-menu.show li a.active {
 
 .gold_zuruck_garantie_wrapper_heading1 {
   font-size: 30px;
-  font-weight: bold;
-  margin-top: 25px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 .gold_zuruck_garantie_unverbindlich {
   display: flex;
@@ -6806,50 +6823,60 @@ header .dropdown-menu.show li a.active {
 }
 .gold_zuruck_garantie_row2_col1_heading2 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
   line-height: 32.87px;
   margin: 20px 0px;
 }
 
 /* Contact css starts from here */
 .contact_wrapper {
-  border: 1px solid #019ba5;
-  border-radius: 20px;
-  background-color: #f7f7f7;
+  border-radius: 10px;
+  background-color: #36a18b;
   margin: 20px 0px;
-  padding: 20px;
+  padding: 15px;
 }
 .contact_wrapper_heading1 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 500;
   line-height: 32.87px;
+  color: #ffffff;
 }
 .contact_wrapper_para1 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 15px;
+  color: #ffffff;
+}
+.contact_wrapper_para2 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
 .contact_wrapper_salute_radio {
   margin-top: 28px;
   display: flex;
   justify-content: space-between;
 }
+.contact_wrapper_salute_radio label {
+  color: #ffffff;
+}
 .contact_wrapper_salute {
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
 }
 .contact_form_input {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .contact_form_input input {
   background-color: #fff !important;
   border-radius: 10px;
-  height: 41px;
+  height: 35px;
   border: none;
+  color: #121212;
   margin-top: 8px;
-  font-size: 14.14px;
-  font-family: Open Sans, sans-serif;
+  font-size: 14px;
   box-shadow: 1.03px 1.714px 5px 0 rgba(35, 31, 32, 0.15);
 }
 .contact_form_input textarea {
@@ -6870,36 +6897,45 @@ header .dropdown-menu.show li a.active {
   font-size: 12px;
   line-height: 18px;
 }
+.contact_form_input_txt {
+  font-size: 10px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 10px;
+}
 .contact_form_submit_btn {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .contact_wrapper_card {
-  background-image: url(/assets/img/kontact_helpline_bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
+  background-color: #c8e5e0;
+  border-radius: 10px;
+  padding-top: 1px;
 }
 .contact_wrapper_card_upper_div {
   padding-bottom: 22px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  border-radius: 10px;
 }
 .contact_wrapper_card_upper_div_heading_wrapper {
   display: flex;
   justify-content: center;
-  margin-top: -21px;
 }
 .contact_wrapper_card_upper_div_heading {
   font-size: 22px;
-  line-height: 24.79px;
+  line-height: 24px;
   font-weight: bold;
   text-align: center;
-  background-color: #ffffff;
-  padding: 3px 20px;
-  cursor: pointer;
   border-radius: 30px;
-  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 @media screen and (min-width: 861px) and (max-width: 940px) {
   .contact_wrapper_card_upper_div_heading {
@@ -6913,17 +6949,19 @@ header .dropdown-menu.show li a.active {
     width: 200px;
   }
 }
+.contact_wrapper_card_upper_div_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .contact_wrapper_card_upper_div_img img {
-  width: 100%;
-  padding: 5px;
-  height: 244px;
-  object-fit: cover !important;
-  border-radius: 20px;
+  width: 162px;
+  height: 162px;
+  border-radius: 100px;
 }
 .contact_phone_fax {
   margin-top: 10px;
   text-align: center;
-  color: #ffffff;
 }
 
 .contact_wrapper_card_lower_div {
@@ -7056,7 +7094,7 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 10px;
 }
 .inhalt_left_side {
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: #36a08a;
   padding: 1px 10px;
   margin-bottom: 5px;
@@ -8826,9 +8864,7 @@ table.hamburg_table {
     margin-top: 5px;
   }
   /* Contact css starts from here */
-  .contact_wrapper {
-    padding: 15px;
-  }
+
   /* Sie form component css starts here */
   .bieten_sie_form_bilder_input {
     margin-left: unset;
@@ -8849,9 +8885,6 @@ table.hamburg_table {
     height: 120px;
     right: -127px;
     top: -44px;
-  }
-  .bieten_sie_form_kostenlos p {
-    font-size: 15px;
   }
   .bieten_sie_form_heading4 {
     margin-left: 0px;
@@ -9182,7 +9215,13 @@ table.hamburg_table {
     margin-bottom: 10px;
     border-radius: 10px;
   }
-
+  .rolex_section_heading1,
+  .rolex_section_heading2,
+  .rolex_section_heading3 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+  }
   .abgeschlossen_wertsendung_wrapper_auswahlen3 {
     padding: 25px 13px 13px;
     margin-bottom: 0px;
@@ -9468,36 +9507,41 @@ table.hamburg_table {
     font-size: 18px;
   }
   .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
-    width: 315px;
-    right: -124px;
-    top: -38px;
+    width: 300px;
+    right: -106px;
+    top: 19px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+  }
+  .bieten_sie_form_label_input label {
+    font-size: 14px;
   }
   .bieten_sie_form_kostenlos p {
-    font-size: 14px;
-    line-height: 19.89px;
-    font-weight: 900;
-    padding-bottom: 10px;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 500;
   }
   .bieten_sie_form_bilder_input {
     margin-left: 0px;
     width: 100%;
   }
   .bieten_sie_form_label_input select {
-    width: 60%;
+    width: 150px;
   }
   .bieten_sie_form_heading3 {
     text-align: center;
   }
   .bieten_sie_form_label_input input {
-    width: 60%;
+    width: 150px;
+    padding: 5px 0px 5px 10px;
   }
   .bieten_sie_form_bilder_input input {
     flex-basis: 63%;
     font-size: 13px;
   }
   .bieten_sie_form_bilder_input button {
-    padding: 1px 10px !important;
-    flex-basis: 37%;
+    padding: 1px 3px !important;
+    flex-basis: 50%;
     font-size: 13px;
   }
   .bieten_sie_form_heading4 {
@@ -9805,8 +9849,8 @@ table.hamburg_table {
     height: 58px;
   }
   .bieten_sie_form_logos img:last-child {
-    width: 68px;
-    height: 72px;
+    width: 73px;
+    height: 68px;
   }
   .unsere_section_slide2_img {
     width: 106px;
@@ -9816,6 +9860,31 @@ table.hamburg_table {
     width: 85px;
     height: 85px;
     border-radius: 3px;
+  }
+  .luxusuhren_wrapper_paras_first img {
+    width: auto;
+    height: 208px;
+  }
+  .luxusuhren_wrapper_para2 {
+    margin: 10px 0px;
+  }
+  .luxusuhr_garanteirt {
+    margin-top: 15px;
+  }
+  .luxusuhr_garanteirt_heading {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .rolex_section_heading3 {
+    margin-top: 15px;
+    font-size: 24px;
+  }
+  .rolex_section_heading1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  .rolex_section_heading_paras h2 {
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
@@ -9899,7 +9968,7 @@ table.hamburg_table {
   .hero_slide2 .slide2_ankauf {
     font-size: 36px;
   }
-  .zahngold_valuecalc_btn button{
+  .zahngold_valuecalc_btn button {
     flex-basis: 74% !important;
   }
   .umweltschutz_wrapper_left {
@@ -9932,16 +10001,14 @@ table.hamburg_table {
     width: 50%;
   }
   .bieten_sie_form_label_input select {
-    width: 50%;
     font-size: 13px;
+    padding: 5px 0px 5px 10px;
+  }
+  .bieten_sie_form_last_checkbox label {
+    font-size: 12px;
   }
   .bieten_sie_form_bilder_input input {
     flex-basis: 65%;
-    font-size: 12px;
-  }
-  .bieten_sie_form_bilder_input button {
-    padding: 1px 10px !important;
-    flex-basis: 35%;
     font-size: 12px;
   }
   .bieten_sie_form_checkbox_diamanten label,
@@ -10019,7 +10086,7 @@ table.hamburg_table {
     height: 54px;
   }
   .bieten_sie_form_logos img:last-child {
-    width: 64px;
+    width: 70px;
     height: 68px;
   }
   .bieten_sie_form_label_input input {
@@ -10034,6 +10101,18 @@ table.hamburg_table {
   }
   .diamanten_uberblick_heading {
     font-size: 22px;
+  }
+  .ablauf_info_list li {
+    font-size: 14px;
+    height: 22px;
+  }
+  .rolex_section_para2_wrapper img {
+    margin-top: -60px !important;
+    margin-bottom: -75px !important;
+  }
+  .step_card {
+    width: auto;
+    min-height: 265px;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 375px) {
@@ -10059,14 +10138,6 @@ table.hamburg_table {
     flex-basis: 20%;
     text-align: left;
     font-size: 14px;
-  }
-  .bieten_sie_form_label_input select {
-    width: 60%;
-    flex-basis: 60%;
-  }
-  .bieten_sie_form_label_input input {
-    width: 60%;
-    flex-basis: 60%;
   }
   .bieten_sie_form_checkbox_luxusuhren {
     display: flex;
@@ -10576,6 +10647,21 @@ table.hamburg_table {
   }
 }
 @media screen and (max-width: 767px) {
+  .rolex_section_para2_wrapper {
+    flex-direction: column;
+  }
+  .rolex_section_para2_wrapper img {
+    width: auto;
+    margin-top: -40px;
+    margin-bottom: -50px;
+  }
+  .granted-price-card {
+    width: 100%;
+  }
+  .luxury_watch_img img {
+    width: 100%;
+    height: auto;
+  }
   .navbar-brand {
     margin-left: 0px;
   }
@@ -10684,9 +10770,6 @@ table.hamburg_table {
   .bieten_sie_form .bieten_sie_form_kostenlos {
     width: 310px;
   }
-  .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
-    width: 310px;
-  }
 }
 @media screen and (min-width: 369px) and (max-width: 389px) {
   .footer_proven_expert {
@@ -10699,11 +10782,6 @@ table.hamburg_table {
   }
   .footer_leftside_second_img1 {
     flex-basis: 100%;
-  }
-  .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
-    width: 315px;
-    right: -124px;
-    top: -35px;
   }
   .footer_images {
     gap: 14px;

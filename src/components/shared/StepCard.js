@@ -8,7 +8,7 @@ const StepCard = ({
   para,
   marginTop = "",
   marginBottom = "",
-  borderRadius = "20px",
+  borderRadius = "10px",
   height = "100%",
   num = "",
   index = "",
@@ -24,7 +24,7 @@ const StepCard = ({
       }}
     >
       <div className="step_card_header">
-        {num}
+        <p>{num}</p>
         <p className="step_card_heading">{heading}</p>
       </div>
       <div className="step_card_body">
