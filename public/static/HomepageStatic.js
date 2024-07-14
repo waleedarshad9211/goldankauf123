@@ -11,6 +11,10 @@ import BankingCheck from "/public/assets/img/banking_check.png";
 import BankingCheck49 from "/public/assets/img/banking_check4-9.png";
 import Bewertungssiegel from "/public/assets/img/bewertun_go_yellow.png";
 import Ekomi from "/public/assets/img/ekomi-vektor.png";
+import transparent_echte from "/public/assets/img/transparent_echte.png";
+import datenvershul from "/public/assets/img/datenvershul.png";
+import voller from "/public/assets/img/voller.png";
+import hochsichret from "/public/assets/img/hochsichret.png";
 import Chemnitz from "/public/assets/img/Chemnitz.png";
 import Darmstadt from "/public/assets/img/Darmstadt.png";
 import Herne from "/public/assets/img/Herne.png";
@@ -111,8 +115,8 @@ import Mannheim from "/public/assets/img/Mannheim.png";
 import GoldbarrenGroben from "/public/assets/img/GoldbarrenGroben.png";
 import GaranteeImg from "/public/assets/img/homepage/100_ gurantee.png";
 import SicherheitVersicherungsschutz from "/public/assets/img/sicherheit-versicherungsschutz.png";
-import SicherheitTresor from "/public/assets/img/sicherheit-tresor.png";
-import SicherheitDatensicherhei from "/public/assets/img/sicherheit-datensicherhei.png";
+import satisfied_customer from "/public/assets/img/satisfied_customer.png";
+import videoburwach from "/public/assets/img/videoburwach.png";
 import Erfahrungen from "/public/assets/img/erfahrungen.png";
 import GeoTrust from "/public/assets/img/geo_trust.png";
 import Getestet from "/public/assets/img/getestet.png";
@@ -137,7 +141,7 @@ import ProvenExpert from "/public/assets/img/proven-expert.png";
 import RecyclingMonster from "/public/assets/img/recycling_mnster.png";
 import Rhodium from "/public/assets/img/rhodium_mg.png";
 import StepCardPreisermittlung from "/public/assets/img/step_card_preisermittlung2.png";
-import SicherheitDiskretion from "/public/assets/img/homepage/sicherheit-diskretion.png";
+import SicherheitDiskretion from "/public/assets/img/discretion.png";
 import StepCardVersand from "/public/assets/img/step_card_versand3.png";
 import StepCardZahlung from "/public/assets/img/step_card_zahlung4.png";
 import StepCardformular from "/public/assets/img/step_cardformular1.png";
@@ -1547,88 +1551,95 @@ export const uberVideoArray = [
 
 export const sicherheitArray = [
   {
-    src: Ekomi,
+    src: transparent_echte,
     width: 134,
     height: 134,
-    heading: "Transparente & echte Kundenbewertungen",
-    para: "Unsere Kunden haben die Möglichkeit eine Bewertung unseres Angebotes durch eKomi vorzunehmen. Die Bewertungen werden von eKomi unabhängig verwaltet und spiegeln gut die Meinungen unserer Kunden über Zahngold123.de wieder. Stolz sind wir auf das Qualitätssiegel in Gold, welches uns von eKomi verliehen wurde.",
+    heading: "WERTTRANSPORT ABHOLUNG",
+    para: "Auf Wunsch lassen wir Ihre Wertgegenstände kostenlos von einem diskreten Werttransport Unternehmen bei Ihnen zu Hause oder im Büro abholen. Für uns arbeiten drei voneinader unabhängige Unternehmen, die teils auch für Banken und Sparkassen tätig sind. Kleinere Sendungen bis zu einem Wert von 5.000 Euro werden vom Spezialservice der Deutschen Post abgeholt. Großsendungen mit einem Wert von über 5.000 Euro bis 1,5 Millionen Euro von der Firma Securelog oder einem anderen Werttransport oder Kurierdienst.",
   },
   {
-    src: TrustedShops,
+    src: datenvershul,
     width: 127,
     height: 127,
-    heading: "100% Sicherheit durch Trusted Shop",
-    para: "Die Bewertungen bei Trusted Shop können den jeweiligen Transaktionen zugeordnet werden, sodass nur eindeutige Kundenbewertungen Einfluss auf die Bewertung nehmen. Faktoren wie Echtheit, Sicherheit und Verlässlichkeit spielen hier eine übergeordnete Rolle.",
+    heading: "DATENVERSCHLÜSSELUNG",
+    para: "Ihre persönlichen Informationen werden mittels 2048-Bit-SSL-Technologie über das Internet sicher verschlüsselt und übertragen, indem wir die Dienste unseres Partners GeoTrust nutzen. Wir haben strenge technische und organisatorische Sicherheitsvorkehrungen getroffen, um sicherzustellen, dass die von uns verwalteten Daten vor zufälligen oder absichtlichen Manipulationen, Verlust, Zerstörung oder unberechtigtem Zugriff geschützt sind.",
   },
   {
-    src: SicherheitVersicherungsschutz,
+    src: voller,
     width: 132,
     height: 132,
-    heading: "Voller Versicherungsschutz",
-    para: "Ihre Sendung aus Edelmetallen wie Gold, Silber, Platin, Palladium und Zahngold ist während des Versandweges versichert. Wählen Sie hierbei die für Sie passende Versandart. Versandtaschen verfügen über einen Schutz von 1000,- Euro. Eine für Sie kostenlose Wertabholung via Sicherheitskurier kann sogar bis zu einer Höhe von 1,5 Millionen Euro versichert werden.",
+    heading: "VOLLER VERSICHERUNGSSCHUTZ",
+    para: "Sobald Sie Ihre Sendung dem Werttransport-Unternehmen übergeben oder bei der Post eingeliefert haben, genießen Sie vollen Versicherungsschutz bis zu einer Höhe von 1,5 Millionen Euro. Verschicken Sie Ihre Sendung selbst, gilt der Schutz nur, wenn Sie Ihre Sendung dem Wert entsprechend versichert versenden.",
   },
   {
-    src: GaranteeImg,
+    src: hochsichret,
     width: 131,
     height: 133,
-    heading: "Gold-Zurück-Garantie",
-    para: "Ein wichtiger Punkt ist unsere Gold-zurück-Garantie, welche immer dann greift, wenn Sie mit dem Ankaufspreis nicht zufrieden sein sollten. Für diesen Fall senden wir Ihnen Ihre Edelmetalle kostenfrei und versichert an Sie wieder zurück.",
+    heading: "HOCHSICHERHEITS TRESORE",
+    para: "Nachdem Ihre Goldsendung bewertet wurde, wird sie sicher in einem hochsicheren Tresor aufbewahrt. Nur zertifizierte Mitarbeiter haben Zugang dazu. Die Bewertung Ihrer Sendung erfolgt immer gleichzeitig von mindestens zwei Mitarbeitern. Wenn Sie möchten, können wir die Bewertung auf Video aufzeichnen und Ihnen zusenden. Bitte kontaktieren Sie uns vorab per E-Mail, um dies zu arrangieren.",
   },
   {
     src: SicherheitDiskretion,
     width: 115,
     height: 115,
-    heading: "Diskretion",
-    para: "Vertrauen Sie unserer Diskretion. Niemand wird etwas von Ihrem Edelmetallverkauf erfahren, wenn Sie dies nicht möchten. Die Abwicklung erfolgt absolut diskret über den Postweg und niemand kann Sie dabei beobachten, wie es beim Gang zum örtlichen Juwelier, Leihhaus oder Goldankäufer der Fall wäre.",
+    heading: "DISKRETION",
+    para: "Keine unberechtigte Person oder Firma erfährt von Ihrem Goldverkauf. Wünschen Sie, dass auch Ihre Bank nichts vom Verkauf erfährt, bieten wir sogar postalische Bargeldzustellung an. Nach Abschluss der Transaktion werden Ihre persönlichen Daten gelöscht und der Verkaufsakt wird abgelegt.",
   },
   {
-    src: SicherheitDatensicherhei,
+    src: videoburwach,
     width: 133,
     height: 133,
-    heading: "Datensicherheit",
-    para: "Datensicherheit spielt bei Zahngold123.de eine sehr große Rolle. Zusammen mit unserem Sicherheitspartner setze wir bei der Übertragung der Daten eine 128 BIT SSL Technologie zur Verschlüsselung der Datenübertragung ein. Sie können sich sicher sein, dass wir alles dafür tun, um Ihre Daten vor dem Zugriff Dritter zu schützen.",
+    heading: "VIDEOÜBERWACHUNG",
+    para: "Alle unsere Räumlichkeiten sind vollständig videoüberwacht. Jedes eingehende Paket wird dokumentiert und von 2 Mitarbeitern gemeinsam geöffnet. Jeder enthaltene Wertgegenstand wird erfasst, damit kein Milligramm Edelmetall verloren geht. Zuverlässig wie in einer Bank.",
   },
   {
-    src: SicherheitTresor,
-    width: 80,
-    height: 118,
-    heading: "Hochsicherheitstresor und Videoüberwachung",
-    para: "Ihre Edelmetalle werden bei uns im Labor in einem Hochsicherheitstresor gelagert. Die korrekte Analyse wird durch das Vier-Augen-Prinzip gewährleistet. Gerne lassen wir Ihnen auch ein Video der Analyse zukommen. Hierzu nehmen Sie bitte vor der Analyse Kontakt mit unserem Kundenservice auf.",
-  },
-  {
-    src: TopEmfehlung,
-    width: 120,
-    height: 120,
-    heading: "Voller Versicherungsschutz",
-    para: "Ihre Sendung aus Edelmetallen wie Gold, Silber, Platin, Palladium und Zahngold ist während des Versandweges versichert. Wählen Sie hierbei die für Sie passende Versandart. Versandtaschen verfügen über einen Schutz von 1000,- Euro. Eine für Sie kostenlose Wertabholung via Sicherheitskurier kann sogar bis zu einer Höhe von 1,5 Millionen Euro versichert werden.",
-  },
-  {
-    src: TopDienstleister,
-    width: 120,
-    height: 125,
-    heading: "Voller Versicherungsschutz",
-    para: "Ihre Sendung aus Edelmetallen wie Gold, Silber, Platin, Palladium und Zahngold ist während des Versandweges versichert. Wählen Sie hierbei die für Sie passende Versandart. Versandtaschen verfügen über einen Schutz von 1000,- Euro. Eine für Sie kostenlose Wertabholung via Sicherheitskurier kann sogar bis zu einer Höhe von 1,5 Millionen Euro versichert werden.",
-  },
-  {
-    src: BankingCheck49,
-    width: 120,
-    height: 120,
-    heading: "Voller Versicherungsschutz",
-    para: "Ihre Sendung aus Edelmetallen wie Gold, Silber, Platin, Palladium und Zahngold ist während des Versandweges versichert. Wählen Sie hierbei die für Sie passende Versandart. Versandtaschen verfügen über einen Schutz von 1000,- Euro. Eine für Sie kostenlose Wertabholung via Sicherheitskurier kann sogar bis zu einer Höhe von 1,5 Millionen Euro versichert werden.",
+    src: satisfied_customer,
+    width: 133,
+    height: 133,
+    heading: "SATISFIED CUSTOMERS",
+    para: "Alle unsere Räumlichkeiten sind vollständig videoüberwacht. Jedes eingehende Paket wird dokumentiert und von 2 Mitarbeitern gemeinsam geöffnet. Jeder enthaltene Wertgegenstand wird erfasst, damit kein Milligramm Edelmetall verloren geht. Zuverlässig wie in einer Bank.",
   },
   {
     src: Trustami1,
     width: 120,
     height: 120,
-    heading: "Voller Versicherungsschutz",
-    para: "Ihre Sendung aus Edelmetallen wie Gold, Silber, Platin, Palladium und Zahngold ist während des Versandweges versichert. Wählen Sie hierbei die für Sie passende Versandart. Versandtaschen verfügen über einen Schutz von 1000,- Euro. Eine für Sie kostenlose Wertabholung via Sicherheitskurier kann sogar bis zu einer Höhe von 1,5 Millionen Euro versichert werden.",
+    heading: "Trustami.",
+    para: "Alle unsere Räumlichkeiten sind vollständig videoüberwacht. Jedes eingehende Paket wird dokumentiert und von 2 Mitarbeitern gemeinsam geöffnet. Jeder enthaltene Wertgegenstand wird erfasst, damit kein Milligramm Edelmetall verloren geht. Zuverlässig wie in einer Bank.",
+  },
+  {
+    src: BankingCheck49,
+    width: 120,
+    height: 120,
+    heading: "Banking Check.de",
+    para: "Alle unsere Räumlichkeiten sind vollständig videoüberwacht. Jedes eingehende Paket wird dokumentiert und von 2 Mitarbeitern gemeinsam geöffnet. Jeder enthaltene Wertgegenstand wird erfasst, damit kein Milligramm Edelmetall verloren geht. Zuverlässig wie in einer Bank.",
   },
   {
     src: ProvenExpert,
     width: 140,
     height: 125,
-    heading: "Voller Versicherungsschutz",
-    para: "Ihre Sendung aus Edelmetallen wie Gold, Silber, Platin, Palladium und Zahngold ist während des Versandweges versichert. Wählen Sie hierbei die für Sie passende Versandart. Versandtaschen verfügen über einen Schutz von 1000,- Euro. Eine für Sie kostenlose Wertabholung via Sicherheitskurier kann sogar bis zu einer Höhe von 1,5 Millionen Euro versichert werden.",
+    heading: "proven expert",
+    para: "Alle unsere Räumlichkeiten sind vollständig videoüberwacht. Jedes eingehende Paket wird dokumentiert und von 2 Mitarbeitern gemeinsam geöffnet. Jeder enthaltene Wertgegenstand wird erfasst, damit kein Milligramm Edelmetall verloren geht. Zuverlässig wie in einer Bank.",
+  },
+  {
+    src: NTV,
+    width: 140,
+    height: 125,
+    heading: "NTV",
+    para: "Alle unsere Räumlichkeiten sind vollständig videoüberwacht. Jedes eingehende Paket wird dokumentiert und von 2 Mitarbeitern gemeinsam geöffnet. Jeder enthaltene Wertgegenstand wird erfasst, damit kein Milligramm Edelmetall verloren geht. Zuverlässig wie in einer Bank.",
+  },
+  {
+    src: Ekomi,
+    width: 120,
+    height: 120,
+    heading: "Transparenz durch Kundenbewertungen",
+    para: "Jeder Goldverkauf wird von unseren Kunden öffentlich einsehbar bewertet. Sie können sich also vorab ein Bild von unserer Arbeitsweise machen und sicherstellen, dass Sie es wirklich mit einem seriösen Unternehmen zu tun haben. Bitte lesen Sie jetzt alle Kundenbewertungen.",
+  },
+  {
+    src: TrustedShops,
+    width: 120,
+    height: 125,
+    heading: "Trusted Shops",
+    para: "Auf Wunsch lassen wir Ihre Wertgegenstände kostenlos von einem diskreten Werttransport Unternehmen bei Ihnen zu Hause oder im Büro abholen. Für uns arbeiten drei voneinader unabhängige Unternehmen, die teils auch für Banken und Sparkassen tätig sind. Kleinere Sendungen bis zu einem Wert von 5.000 Euro werden vom Spezialservice der Deutschen Post abgeholt. Großsendungen mit einem Wert von über 5.000 Euro bis 1,5 Millionen Euro von der Firma Securelog oder einem anderen Werttransport oder Kurierdienst.",
   },
 ];
 

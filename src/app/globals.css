@@ -6531,14 +6531,14 @@ header .dropdown-menu.show li a.active {
 /* videos section css starts here */
 .videos_uber_zahngold_wrapper_heading1 {
   font-size: 30px;
-  font-weight: bold;
-  line-height: 51px;
-  margin-top: 20px;
+  font-weight: 500;
+  line-height: 38px;
+  margin-top: 15px;
 }
 .videos_uber_zahngold_wrapper_para1 {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 10px;
-  line-height: 26px;
+  line-height: 24px;
   color: #121212;
 }
 .videos_uber_zahngold_wrapper_para2 {
@@ -8563,29 +8563,45 @@ table.hamburg_table {
 }
 
 /* sicherheit page css starts here */
+.sicherheit_wrapper_main {
+  border-top: 1px solid #121212;
+}
+.sicherheit_wrapper_main:last-child {
+  border-bottom: 1px solid #121212;
+}
 .sicherheit_wrapper_inner {
-  border: 1px solid #959595;
-  padding: 20px;
+  padding: 15px;
+  padding-left: 0px;
   border-radius: 10px;
   margin-bottom: 10px;
   display: flex;
 }
 .sicherheit_wrapper_column1 {
-  margin-left: 10px;
   margin-right: 25px;
-  min-width: 140px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 .sicherheit_wrapper_heading {
   font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
+  font-weight: 500;
+  line-height: 31px;
+  margin-top: 15px;
+}
+.sicherheit_wrapper_sub_heading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 31px;
 }
 .sicherheit_wrapper_para {
-  font-size: 18px;
-  line-height: 26px;
-  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.sicherheit_wrapper_para1 {
+  margin-right: 15px;
+}
+.sicherheit_wrapper_paras {
+  display: flex;
+  margin-top: 15px;
 }
 .pricevalue_form3_cards_mobile {
   display: none;
