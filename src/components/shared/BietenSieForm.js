@@ -423,7 +423,7 @@ const BietenSieForm = ({
           </div>
         )}
         <div className="row">
-          <div className="col-12 col-md-6 col-lg-5">
+          <div className="col-12 col-md-6 col-lg-6" style={{ flex: 1 }}>
             <h3 className=" bieten_sie_form_heading4">lhre Kontaktdaten</h3>
             <div className="bieten_sie_form_label_input">
               <label>Vorname</label>
@@ -442,8 +442,7 @@ const BietenSieForm = ({
               <input type="text" placeholder="Telefon" />
             </div>
           </div>
-          <div className="d-none d-lg-block col-lg-1"></div>
-          <div className="col-12 col-md-6 col-lg-5">
+          <div className="col-12 col-md-6 col-lg-6" style={{ flex: 1 }}>
             <h3 className="bieten_sie_form_heading5">{textareaHeading}</h3>
             <div className="bieten_sie_form_label_input bieten_sie_form_last_input">
               <textarea rows={5} placeholder="Nachricht" />

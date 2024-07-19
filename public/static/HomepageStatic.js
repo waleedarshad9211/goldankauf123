@@ -149,10 +149,6 @@ import TerenceTester from "/public/assets/img/terence_tester.png";
 import TrustedShops from "/public/assets/img/trusted-shops.png";
 import AccordionImage from "/public/assets/img/accordion_img.png";
 import DiamentenTick from "/public/assets/img/bestelen_tick.png";
-import StepCard1 from "/public/assets/img/stepcard_1.png";
-import StepCard2 from "/public/assets/img/stepcard_2.png";
-import StepCard3 from "/public/assets/img/stepcard_3.png";
-import StepCard4 from "/public/assets/img/stepcard_4.png";
 import tickIcon from "/public/assets/img/bestelen_tick.png";
 import Image from "next/image";
 import GoldrecnerGoldZuruck from "/public/assets/img/homepage/goldrecner-gold-zuruck.png";
@@ -161,6 +157,16 @@ import KeineGubuhren from "/public/assets/img/homepage/keine-gubuhren.png";
 import smallTick from "/public/assets/img/homepage/small-tick.png";
 import Markenschmuck from "/public/assets/img/homepage/Markenschmuck.png";
 import Diamantschmuck from "/public/assets/img/homepage/Diamantschmuck.png";
+import asscher_schliff from "/public/assets/img/asscher_schliff.png";
+import brilliant_rund from "/public/assets/img/brilliant_rund.png";
+import cushion_schliff from "/public/assets/img/cushion_schliff.png";
+import emrald_samargd from "/public/assets/img/emrald_samargd.png";
+import herz_schliff from "/public/assets/img/herz.png";
+import marquise_schliff from "/public/assets/img/marquise.png";
+import oval_schliff from "/public/assets/img/oval.png";
+import princess_schliff from "/public/assets/img/princess.png";
+import radiant_schliff from "/public/assets/img/radiant.png";
+import tropfen_schliff from "/public/assets/img/tropfen.png";
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
@@ -1011,45 +1017,78 @@ export const stepCardArray = [
 ];
 export const stepCardDiamantenArray = [
   {
-    numSrc: StepCard1,
     src: StepCardformular,
-    heading: "Formular ausfüllen",
+    heading: "1. Formular ausfüllen",
     para: "Fur eine schnelle und seriöse Bewertung füllen Sie bitte das Formular aus.",
   },
   {
-    numSrc: StepCard2,
     src: StepCardPreisermittlung,
-    heading: "Angebot erhalten",
+    heading: "2. Angebot erhalten",
     para: "Unkompliziert und fair ermitteln wir den aktuellen Wert lhrer Edelsteine.",
   },
   {
-    numSrc: StepCard3,
     src: StepCardVersand,
-    heading: "Diamant versenden",
+    heading: "3. Diamant versenden",
     heading1: "Uhr versenden",
     para: "Der Versand erfolgt kostenlos und versichert mit unserem Versandpartner.",
   },
   {
-    numSrc: StepCard4,
     src: StepCardZahlung,
-    heading: "Zahlung erhalten",
+    heading: "4. Zahlung erhalten",
     para: "Nach Bestätigung unseres Angebots erfolgt die Auszahlung auf lhr Bankkonto.",
   },
 ];
 
 export const DiamantenUberBlickArray = [
   {
-    tickIcon: <Image src={DiamentenTick} alt="" />,
-    listText: "Diamanten zu attraktiven Konditionen verkaufen",
+    src: asscher_schliff,
+    heading: "ASSCHER SCHLIFF",
+    para: "Diamanten, welche im Asscher Schliff geschliffen sind, weisen eine quadratische Form auf und sind an den Seiten rechteckig geschliffen. Der berühmte niederländische Diamantenschleifer Joseph Asscher hat im Jahre 1902 diesen Stein erstmalig geschliffen. Für einen Asscher Schliff sollten besonders reine Steine verwendet werden, weil bei diesem Schliff durch die große Oberfläche die Klarheit des Diamanten betont wird. Der Asscher Schliff besteht ebenso wie der Brillantschliff aus 57 Facetten. Rein optisch ist dieser Schliff auch mit dem Smaragdschliff zu vergleichen.",
   },
   {
-    tickIcon: <Image src={DiamentenTick} alt="" />,
-    listText:
-      "qualifizierte Gutachter ermitteln den Wert Ihres Diamantschmucks",
+    src: brilliant_rund,
+    heading: "BRILLANTSCHLIFF / DIAMANTSCHLIFF",
+    para: "Die gängigste Schliffart ist der runde Brillantschliff. Diese Art der Form und die Art des Schliffes erfreuen sich weltweit aufgrund der starken Brillanz der Steine stets großer Beliebtheit. Der Brillantschliff zeichnet sich durch 57 Facetten aus, welche eine optimale Lichtdurchbrechung gewährleisten und so dem Stein zu seinem Feuer verleiht.",
   },
   {
-    tickIcon: <Image src={DiamentenTick} alt="" />,
-    listText: "kostenloser Versand",
+    src: cushion_schliff,
+    heading: "CUSHION CUT / KISSENSCHLIFF",
+    para: "Beim Cushion Cut oder auch Kissenschliff handelt es sich um einen Schliff mit einer rechteckigen Form mit abgerundeten Ecken, welche dem Namen nach einem Kissen ähnlich ist. Der Kissenschliff hat in der Regel 58 Facetten.",
+  },
+  {
+    src: emrald_samargd,
+    heading: "SMARAGD SCHLIFF / EMERALD CUT",
+    para: "Wie der Name schon aussagt, wird der Smaragdschliff hauptsächlich für Smaragde verwendet. Bei einem Smaragdschliff sprechen wir von einem Treppenschliff. Aufgrund dieser Schliffart sollte bei der Qualität der Steine besonders auf die Reinheit und die Farbe geachtet werden, da bei diesem Schliff nicht die Brillanz des Steines im Vordergrund steht. Unreinheiten im Stein werden durch die große Tafel deutlicher zu sehen sein. Der Smaragdschliff besteht aus 57 Facetten.",
+  },
+  {
+    src: herz_schliff,
+    heading: "HERZSCHLIFF",
+    para: "Da es sich bei einem Herzschliff um einen sogenannten Fantasieschliff handelt, kann die Anzahl der Facetten bei einer solchen Schliffart variieren und zwischen 56 und 59 Facetten betragen. Obwohl das Herz seit mehreren Jahrhunderten als Liebessymbol zählt, sind Diamanten mit Herzschliff eher selten am Markt anzutreffen. Diese Schliffart erfordert große Genauigkeit und eine langjährige Erfahrung.",
+  },
+  {
+    src: marquise_schliff,
+    heading: "MARQUISE SCHLIFF / NAVETTE SCHLIFF",
+    para: "Der Marquise Schliff zeichnet sich durch seine Navettenform aus. Dies hat dem Schliff auch seinen weiteren Namen als Navette Schliff gegeben. Diese Schliffart läuft an den Enden spitz zueinander aus. Der Marquise Schliff hat in der Regel nur 55 Facetten. Seine Form lässt ihn optisch größer erscheinen, als er in Wirklichkeit ist. Auch der Marquise Schliff gehört zu den sogenannten Fantasieschliffen.",
+  },
+  {
+    src: oval_schliff,
+    heading: "OVAL SCHLIFF",
+    para: "Beim Ovalschliff handelt es sich ebenfalls uns eine seltenere Schiffform. Ähnlich aber wie beim Brillantschliff zeichnet sich der Ovalschliff durch eine hohe Brillanz aus. Durch seine ovale Form wirkt der Diamant optisch größer wirken. Der Ovalschliff verfügt in der Regel über 58 Facetten.",
+  },
+  {
+    src: princess_schliff,
+    heading: "PRINZESS SCHLIFF",
+    para: "Der Prinzess-Schliff zeichnet sich durch die Form eines Quadrates aus. In den letzten Jahren erfreuen sich Verlobungsringe mit Diamanten mit Prinzess-Schliff immer größerer Bedeutung mit ca. 30 % Marktanteil nach dem populären Brillant-Schliff mit einem Marktanteil von 50 %. Das Längen- und Breitenverhältnis sollte bei einem Prinzess-Schliff ausgewogen sein.",
+  },
+  {
+    src: radiant_schliff,
+    heading: "RADIANT SCHLIFF",
+    para: "Als Radiant Schliff bei einem Diamanten handelt es sich um eine Kombination zweier Schliffarten. Auf der Oberseite ist der Diamant mit dem Smaragd Schliff und auf der Unterseite mit dem Brillantschliff geschliffen. Durch diese Methode erhält der Stein auf der Unterseite einen höheren Lichteinbruch, was für eine höhere Strahlkraft sorgt. Die Form ist rechteckig und die Ecken von Diamanten mit Radiant Schliff sind in abgeschrägter Form.",
+  },
+  {
+    src: tropfen_schliff,
+    heading: "TROPFEN SCHLIFF",
+    para: "Bei Diamanten mit einem Tropfen-Schliff hat ebenfalls der die Formgebung Ausschlag auf die Namensgebung gegeben. Der Tropfen-Schliff zeichnet sich durch eine Spitze und einem abgerundeten Ende auch und wirkt dadurch wie ein Tropfen. Der Tropfenschliff ist ebenfalls der Gruppe der Fantasieschliffe zuzuordnen.",
   },
 ];
 export const ZahngoldBlickArray = [

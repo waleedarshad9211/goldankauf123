@@ -6745,6 +6745,12 @@ header .dropdown-menu.show li a.active {
   .blog_kategorian_wrapper {
     margin-bottom: 0px;
   }
+  .gold_zuruck_garantie_unverbindlich {
+    flex-direction: column;
+  }
+  .price_value_form_last_para {
+    margin: 7px 5px !important;
+  }
 }
 @media screen and (max-width: 767px) {
   .zahngolg_blog_wrapper_para1 {
@@ -6757,6 +6763,9 @@ header .dropdown-menu.show li a.active {
     object-fit: cover !important;
     width: 100%;
   }
+  .price_value_form_last_para {
+    font-size: 11px;
+  }
 }
 
 /* gold_zuruck_garantie starts from here*/
@@ -6766,17 +6775,22 @@ header .dropdown-menu.show li a.active {
   font-weight: 500;
   margin-top: 10px;
 }
+.gold_zuruck_garantie_wrapper_heading2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 25px;
+}
 .gold_zuruck_garantie_unverbindlich {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 10px;
 }
 .gold_zuruck_garantie_unverbindlich img {
   padding: 10px;
 }
 .gold_zuruck_garantie_unverbindlich p {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .gold_zuruck_garantie_unverbindlich_paras {
   margin-left: 10px;
@@ -6785,39 +6799,39 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 10px;
 }
 .gold_zuruck_garantie_row2_col1 {
-  background-color: #f7f7f7;
-  padding: 15px 10px 20px 15px;
   margin-top: 15px;
-  border-radius: 20px;
 }
 .gold_zuruck_garantie_row2_col1_heading {
   font-size: 30px;
-  font-weight: bold;
-  line-height: 32.87px;
+  font-weight: 500;
+  line-height: 32px;
   margin-bottom: 10px;
 }
 .gold_zuruck_garantie_row2_col1_item {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 3px 10px;
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
 .gold_zuruck_garantie_row2_col1_icon img {
-  width: 20px;
-  height: 20px;
+  width: 13px;
+  height: 13px;
 }
 .gold_zuruck_garantie_row2_col1_li_para {
   color: #121212;
   padding-left: 10px;
 }
 .gold_zuruck_garantie_row2_col1_para2 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 15px;
   padding: 0px 10px;
 }
 .gold_zuruck_garantie_row2_col1_para3 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
   padding: 0px 10px;
 }
@@ -6972,9 +6986,13 @@ header .dropdown-menu.show li a.active {
 /* Luxushren starts from here */
 .luxusuhren_wrapper_heading1 {
   font-size: 30px;
-  line-height: 32.87px;
-  font-weight: bold;
-  margin-top: 25px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 2px;
+}
+.diamentan_wrapper_img1 {
+  width: 100%;
+  height: 100%;
 }
 .luxusuhren_wrapper_para1,
 .luxusuhren_wrapper_para2,
@@ -7013,9 +7031,14 @@ header .dropdown-menu.show li a.active {
 .step_card {
   width: 255px;
   min-height: 260px;
+  padding-bottom: 10px;
   background-color: #e8f1ed;
   border-radius: 10px;
   position: relative;
+}
+.luxusuhren_wrapper .step_card {
+  width: 100%;
+  min-height: 290px;
 }
 .step_card_header {
   display: flex;
@@ -7043,6 +7066,14 @@ header .dropdown-menu.show li a.active {
   margin-top: 7px;
   margin-bottom: 18px;
   min-height: 80px;
+}
+.step_card_body_para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step_card_body_para p {
+  max-width: 230px;
 }
 .stepcard_arrow_wrapper0 {
   border-radius: 100%;
@@ -7123,23 +7154,19 @@ header .dropdown-menu.show li a.active {
   display: none;
 }
 .bieten_sie_form {
-  border: 1px solid #019ba5;
+  background-color: #36a18b;
   border-radius: 10px;
   margin-top: 20px;
-  padding: 20px 50px;
+  padding: 20px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/img/BietenSie_bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 .bieten_sie_form_luxusehren {
   border-radius: 12px;
   margin-top: 20px;
-  padding: 20px 50px;
+  padding: 20px 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7154,17 +7181,15 @@ header .dropdown-menu.show li a.active {
   align-items: flex-end;
   text-decoration: none;
   letter-spacing: inherit;
-  background-color: #019ba5;
+  background-color: #3fbca2;
   padding: unset;
-  font-size: 20px;
-
-  font-weight: 800;
-  transform: rotate(40deg);
-  width: 330px;
-  height: 121px;
+  transform: rotate(44deg);
+  width: 280px;
+  height: 50px;
   position: absolute;
-  right: -112px;
-  top: -23px;
+  right: -88px;
+  top: 22px;
+  padding: 7px;
   text-transform: uppercase;
 }
 .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
@@ -7182,14 +7207,19 @@ header .dropdown-menu.show li a.active {
   height: 50px;
   position: absolute;
   right: -88px;
-  top: 20px;
+  top: 22px;
+  padding: 7px;
   text-transform: uppercase;
 }
 .bieten_sie_form_kostenlos p {
   font-size: 12px;
   line-height: 14px;
   font-weight: 500;
-  padding-bottom: 10px;
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 .bieten_sie_form_heading1 {
   margin-bottom: 25px;
@@ -7377,44 +7407,93 @@ header .dropdown-menu.show li a.active {
 .rolex_section_heading3 {
   font-size: 30px;
   line-height: 32px;
-  font-weight: bold;
+  font-weight: 500;
 }
 .diamanten_expert_heading {
   font-size: 30px;
-  font-weight: bold;
-  line-height: 32.87px;
+  font-weight: 500;
+  line-height: 32px;
   margin-top: 25px;
 }
 .diamanten_expert_heading1 {
-  margin-top: 18px;
   font-size: 30px;
   line-height: 32px;
-  font-weight: bold;
+  font-weight: 500;
+  margin-top: 18px;
+}
+.diamanten_for_men_section {
+  background-color: #e8f2ee;
+  padding: 20px 0px;
+}
+.diamanten_for_men_section_para {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
 }
 .diamanten_middle_section_para1 {
   margin-top: 10px;
   margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.diamanten_for_men_section_cards {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.diamanten_for_men_section_cards:last-child {
+  margin-bottom: 0px;
+}
+.diamanten_for_men_section_cards_heading_paras {
+  margin-left: 25px;
+}
+.diamanten_for_men_section_cards_heading {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
 }
 .diamanten_expert_para {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
 }
 .diamanten_expert_para:last-child {
   margin-bottom: 20px;
 }
+.diamenten_wir_kaufen_section {
+  background-color: #e8f2ee;
+  padding: 20px 0px;
+  padding-bottom: 25px;
+}
+.diamenten_wir_kaufen_section_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.diamenten_wir_kaufen_section_card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+}
+.diamenten_wir_kaufen_section_card_body {
+  display: flex;
+  align-items: center;
+}
 .diamanten_uberblick {
-  background-color: #f7f7f7;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 20px 0px;
 }
 .diamanten_uberblick_heading {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-size: 30px;
-  line-height: 32.87px;
-  font-weight: bold;
+  line-height: 32px;
+  font-weight: 500;
+}
+.diamenten_wir_kaufen_section_para {
+  font-size: 15px;
+  line-height: 22px;
+  margin-left: 10px;
 }
 .diamanten_uberblick_lists {
   background-color: #199ba4;
@@ -7477,9 +7556,14 @@ header .dropdown-menu.show li a.active {
   height: 28px;
   color: #121212;
   font-size: 15px;
+  display: flex;
+  align-items: center;
   padding-left: 10px;
   margin-bottom: 5px;
   box-shadow: 0px 3px 6px 0px rgba(3, 3, 3, 0.07);
+}
+.ablauf_info_list_para {
+  margin-left: 5px;
 }
 .luxusuhren_wrapper {
   margin-bottom: 25px;
@@ -8602,6 +8686,13 @@ table.hamburg_table {
 .sicherheit_wrapper_paras {
   display: flex;
   margin-top: 15px;
+}
+.sicherheit_wrapper_last_heading {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 38px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 .pricevalue_form3_cards_mobile {
   display: none;
@@ -9993,6 +10084,9 @@ table.hamburg_table {
   .umweltschutz_wrapper .gold_btn {
     font-size: 15px !important;
     width: 100% !important;
+  }
+  .price_value_form_last_para {
+    font-size: 10px;
   }
   .uber_mio {
     font-size: 22px;

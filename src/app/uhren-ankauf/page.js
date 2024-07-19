@@ -215,7 +215,8 @@ const UhrenAnkauf = () => {
                   return (
                     <div className="col-6 col-md-6 col-lg-4 " key={index}>
                       <li>
-                        <span style={{ color: "#36A18B" }}>»</span> {item.txt}
+                        <p style={{ color: "#36A18B" }}>»</p>{" "}
+                        <p className="ablauf_info_list_para">{item.txt}</p>
                       </li>
                     </div>
                   );

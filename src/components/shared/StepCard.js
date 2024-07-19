@@ -46,7 +46,9 @@ const StepCard = ({
           />
         )}
       </div>
-      <p className="text-center ">{para}</p>
+      <div className="step_card_body_para">
+        <p className="text-center">{para}</p>
+      </div>
     </div>
   );
 };
