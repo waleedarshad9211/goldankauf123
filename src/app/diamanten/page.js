@@ -4,17 +4,17 @@ import StepCard from "@/components/shared/StepCard";
 import Breadcrumbs from "@/components/shared/breadcrumb/BreadcrumbsComponent";
 import {
   DiamantenUberBlickArray,
+  farbeArray1,
+  farbeArray2,
+  ReinheitArray,
+  schliffArray,
   stepCardDiamantenArray,
 } from "@/public/static/HomepageStatic";
 import Image from "next/image";
-import Asscher from "/public/assets/img/asscher.png";
-import Brilliant from "/public/assets/img/brilliant.png";
-import Cushion from "/public/assets/img/cushion.png";
 import DiamantenImg from "/public/assets/img/diamanten.png";
 import DiamondCheck from "/public/assets/img/diamond_check.png";
 import DiamondMicroscope from "/public/assets/img/diamond_microscope.png";
 import DiamondOnPaper from "/public/assets/img/diamond_paper.png";
-import Emerald from "/public/assets/img/emerald.png";
 import diamenten_caret from "/public/assets/img/diamenten_caret.png";
 import loseDiamenten from "/public/assets/img/lose_diamenten.png";
 import diamentenEdelsteinschmuck from "/public/assets/img/diamenten_edelsteinschmuck.png";
@@ -41,19 +41,20 @@ const Diamanten = () => {
             />
             <div className="luxusuhren_wrapper_paras">
               <p className="luxusuhren_wrapper_para1">
-                Als erfahrener und kompetenter Edelmetallhändler bieten wir
-                Ihnen einen komfortablen und vor allem sicheren
-                Diamanten-Ankauf. Die Experten von MoneyGold stehen Ihnen
-                jederzeit gerne zur Verfügung, wenn Sie Ihre Diamanten zu einem
-                attraktiven Preis verkaufen möchten.
+                Wenn Sie den Entschluss gefasst haben, Diamanten aus Ihrem
+                Besitz zu verkaufen, dann haben Sie mit Goldankauf123.de den
+                richtigen und vor allem vertrauenswürdigen Partner gefunden. Wir
+                sind besonders stolz darauf, neben unserer langjährigen
+                Expertise im Bereich des Edelmetallankaufs auch Diamanten in
+                allen Qualitätsstufen anzukaufen. Gefasste Diamanten werden von
+                uns jedoch erst ab einem Gewicht von 0,2 Karat angekauft.
               </p>
               <p className="luxusuhren_wrapper_para3">
-                Wenn Sie Rohdiamanten, geschliffene Steine und gefasste
-                Diamanten zu Geld machen möchten, können Sie auf uns zählen. Und
-                da wir auch Altgold, Zahngold, Palladium, Platin und andere
-                Edelmetalle ankaufen, können Sie auf diese Weise Ihre gesamten
-                ungeliebten Schmuckstücke bei uns einreichen und von unserem
-                Ankauf profitieren.
+                Wir als seriöser Partner im Bereich des Diamanten-Ankaufs legen
+                hohen Wert auf Seriosität und Transparenz des gesamten Ankaufs.
+                So haben unsere Kunden bereits im Vorfeld schon einmal die
+                Möglichkeit den Diamantenrechner zu nutzen, um den möglichen
+                Preis der Diamanten zu ermitteln.
               </p>
             </div>
           </div>
@@ -65,19 +66,20 @@ const Diamanten = () => {
             </h2>
             <div className="luxusuhren_wrapper_paras">
               <p className="luxusuhren_wrapper_para1">
-                Als erfahrener und kompetenter Edelmetallhändler bieten wir
-                Ihnen einen komfortablen und vor allem sicheren
-                Diamanten-Ankauf. Die Experten von MoneyGold stehen Ihnen
-                jederzeit gerne zur Verfügung, wenn Sie Ihre Diamanten zu einem
-                attraktiven Preis verkaufen möchten.
+                Wenn Sie den Entschluss gefasst haben, Diamanten aus Ihrem
+                Besitz zu verkaufen, dann haben Sie mit Goldankauf123.de den
+                richtigen und vor allem vertrauenswürdigen Partner gefunden. Wir
+                sind besonders stolz darauf, neben unserer langjährigen
+                Expertise im Bereich des Edelmetallankaufs auch Diamanten in
+                allen Qualitätsstufen anzukaufen. Gefasste Diamanten werden von
+                uns jedoch erst ab einem Gewicht von 0,2 Karat angekauft.
               </p>
               <p className="luxusuhren_wrapper_para2">
-                Wenn Sie Rohdiamanten, geschliffene Steine und gefasste
-                Diamanten zu Geld machen möchten, können Sie auf uns zählen. Und
-                da wir auch Altgold, Zahngold, Palladium, Platin und andere
-                Edelmetalle ankaufen, können Sie auf diese Weise Ihre gesamten
-                ungeliebten Schmuckstücke bei uns einreichen und von unserem
-                Ankauf profitieren.
+                Wir als seriöser Partner im Bereich des Diamanten-Ankaufs legen
+                hohen Wert auf Seriosität und Transparenz des gesamten Ankaufs.
+                So haben unsere Kunden bereits im Vorfeld schon einmal die
+                Möglichkeit den Diamantenrechner zu nutzen, um den möglichen
+                Preis der Diamanten zu ermitteln.
               </p>
             </div>
           </div>
@@ -264,64 +266,162 @@ const Diamanten = () => {
       <section className="diamanten_type">
         <div className="container">
           <div className="ablauf_info">
+            <h2>REINHEIT</h2>
+            <p className="mb-1">
+              Die meisten der Diamanten sind vom Ursprung her mit kleinen Spuren
+              versehen. Diese Spuren werden in der Diamantensprache als
+              Einschlüsse bezeichnet, welche natürlich im Stein vorkommen. In
+              der Regel gilt, dass je geringer Diamanten ohne sogenannte
+              Einschlüsse sind, desto höher liegt der Preis. Lupenreine
+              Diamanten können durch spezielle Mikroskope mit zehnfacher
+              Vergrößerung bestimmt werden.
+            </p>
+            <p className="mb-2">
+              Die internationale Bezeichnung für die Reinheit von Diamanten wird
+              wie folgt beschrieben:
+            </p>
+            <ul>
+              {ReinheitArray.map((item, index) => {
+                return (
+                  <li key={index}>
+                    <div className="gold_zuruck_garantie_row2_col1_item">
+                      <div className="gold_zuruck_garantie_row2_col1_icon">
+                        {item.tickIcon}
+                      </div>
+                      <div>
+                        <p className="gold_zuruck_garantie_row2_col1_li_para">
+                          {item.listText}
+                        </p>
+                        <p className="gold_zuruck_garantie_row2_col1_li_para">
+                          {item.listText2}
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+            <div className="farbe_wrapper">
+              <p className="farbe_wrapper_heading">FARBE</p>
+              <p className="farbe_wrapper_para">
+                Auch die Farbe spielt bei der Qualität von Diamanten eine große
+                Rolle. Diamantenfachleute qualifizieren Diamanten in
+                unterschiedliche Farbstufen von hochfeinem Weiß bis hin zum
+                getönten Weiß. Bei Diamanten gilt also, je farbloser ein
+                Diamant, umso höher ist sein Wert. Die internationale
+                Bezeichnung der Farben von Diamanten wird wie folgt beschrieben:
+              </p>
+              <div className="row">
+                {farbeArray1.map((item, index) => {
+                  return (
+                    <div key={index} className="col-12 col-md-6 col-lg-6">
+                      <div className="farbe_wrapper_row2_col1_item">
+                        <div className="farbe_wrapper_row2_col1_icon">
+                          {item.tickIcon}
+                        </div>
+                        <p className="farbe_wrapper_row2_col1_li_para">
+                          {item.listText}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+                {farbeArray2.map((item, index) => {
+                  return (
+                    <div key={index} className="col-12 col-md-6 col-lg-6">
+                      <div className="farbe_wrapper_row2_col1_item">
+                        <div className="farbe_wrapper_row2_col1_icon">
+                          {item.tickIcon}
+                        </div>
+                        <p className="farbe_wrapper_row2_col1_li_para">
+                          {item.listText}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
             <div className="row">
-              <div className="col-12 col-md-12 col-lg-4">
-                <h2>Reinheit</h2>
-                <p>
-                  Die Reinheit eines Diamanten ist ein weiterer Indikator dafür,
-                  um den Wert eines Steins zu bestimmen. Hier gibt es die
-                  Unterteilungen
-                </p>
-                <ul className="ablauf_info_list">
-                  <li>
-                    <span style={{ color: "#019BA5" }}>•</span>{" "}
-                    <strong>FL</strong> (perfekt lupenrein),
-                  </li>
-                  <li>
-                    <span style={{ color: "#019BA5" }}>•</span>{" "}
-                    <strong>IF</strong> (lupenrein),
-                  </li>
-                  <li>
-                    <span style={{ color: "#019BA5" }}>•</span>{" "}
-                    <strong> VVS1</strong> und <strong>VVS2</strong> (sehr sehr
-                    kleine Einschlüsse),
-                  </li>
-                  <li>
-                    <span style={{ color: "#019BA5" }}>•</span>{" "}
-                    <strong>VS1</strong> und <strong>VS2</strong> (sehr kleine
-                    Einschlüsse),
-                  </li>
-                  <li>
-                    <span style={{ color: "#019BA5" }}>•</span>{" "}
-                    <strong>SI1</strong> und <strong>SI2</strong> (kleine
-                    Einschlüsse).
-                  </li>
-                </ul>
-              </div>
               <div className="col-12 col-md-6 col-lg-4">
-                <h2>Farbe</h2>
-                <p>
-                  Um einen Diamanten professionell bewerten zu können, spielt
-                  auch die Farbe eine wichtige Rolle. Wenn ein Diamant auf einem
-                  weißen Blatt Papier verschwindet, wird er in der Farbskala
-                  unter dem Buchstaben D geführt. “D“ ist das Zeichen für
-                  hochfeines Weiß plus – der beste Grad für einen Diamanten. E
-                  steht dann für hochfeines Weiß, F für feines Weiß plus … und
-                  so weiter. Die Farben M bis Z haben die stärkste Tönung, wobei
-                  Z die schlechteste Färbung (Gelb) innehat.
+                <p className="schliff_heading">SCHLIFF</p>
+                <p className="schliff_para">
+                  Da der Schliff für die Brillanz, der Ausdruck und die
+                  Ausstrahlung des Diamanten verantwortlich sind, spielt auch er
+                  eine sehr große Rolle bei der Wertbestimmung. Jeder Rohdiamant
+                  hat eine andere Beschaffenheit und Eigenheit, sodass beim
+                  Schliff auf eine hohe Handwerkskunst und Präzision notwendig
+                  ist. Nur ein guter und exakter Schliff bringt die richtigen
+                  Proportionen des Diamanten zum Vorschein und lässt ihn zu
+                  seiner unverwechselbaren Strahlkraft erwecken. Die allgemeine
+                  Klassifizierung der Schliffarten lässt sich wie folgt
+                  unterteilen:
                 </p>
+                {schliffArray.map((item, index) => {
+                  return (
+                    <div key={index} className="col-12 col-md-6 col-lg-6">
+                      <div className="farbe_wrapper_row2_col1_item">
+                        <div className="farbe_wrapper_row2_col1_icon">
+                          {item.tickIcon}
+                        </div>
+                        <p className="farbe_wrapper_row2_col1_li_para">
+                          {item.listText}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
               </div>
-              <div className="col-12 col-md-6 col-lg-4">
-                <h2>Ablauf-Informationen</h2>
-                <p>
-                  Haben Sie noch Fragen zu unserem Diamanten-Ankauf? Gerne
-                  können Sie unseren Live-Chat auf der Website aktivieren oder
-                  uns einfach unter der Telefonnummer 040 / 76 11 85 01 anrufen.
-                  Wir sind für Sie da und erklären Ihnen den Verkaufsablauf,
-                  falls wir Ihre Diamanten ankaufen sollen!
+              <div className="col-12 col-md-6 col-lg-8">
+                <p className="zertifikat_heading">ZERTIFIKAT</p>
+                <p className="zertifikat_para1">
+                  Ein Zertifikat über einen Diamanten ist ein unabhängig
+                  erstelltes Zertifikat über die einzelnen Qualitätsmerkmale und
+                  die Beschaffenheit des Edelsteins. Ähnlich wie bei einem
+                  Schmuckpass für hochwertige Schmuckstücke werden alle
+                  relevanten Angaben über den Stein dort festgehalten. Dabei ist
+                  darauf zu achten, dass es sich um ein international
+                  anerkanntes Zertifikat handelt. Zertifikate des GIA
+                  (Gemological Insitute of America) werden international am
+                  häufigsten verwendet. Dieses Institut hat die Standards für
+                  Diamanten als Basis zur Bewertung in diesem Zertifikat
+                  festgelegt.
+                </p>
+                <p className="zertifikat_para2">
+                  Insbesondere nach den Richtlinien von Gewicht, Reinheit, Farbe
+                  und Schliff werden immer noch alle Diamanten weltweit
+                  klassifiziert. GIA hat die Einstufung der Farben bei Diamanten
+                  von D bis Z entwickelt, ebenso wie die Reinheitsstufen von FL
+                  bis I3.
+                </p>
+                <p className="zertifikat_para3">
+                  Im europäischen Raum kommt häufig das HRD Zertifikat (Hoge
+                  Raad Voor Diamant), welcher in der Diamantenstadt Antwerpen in
+                  Belgien ansässig ist, zur Anwendung. Ein international
+                  anerkanntes Zertifikat ist ebenso ein wichtiger
+                  Preisindikator. Bei den EGL Zertifikaten handelt es sich um
+                  ein Zertifikat der European Gemologial Laboratory, welche
+                  ebenfalls Zertifikate für Diamanten und andere Edelsteine
+                  erstellen. Ein IGI Zertifikat über Diamanten wird durch das
+                  Internationale Gemmologische Institut, welches im Jahre 1975
+                  gegründet wurde. Dieses Institut ist weltweit in den
+                  Metropolen des Diamantenhandels vertreten.
                 </p>
               </div>
             </div>
+            <p className="zertifikat_heading">
+              WARUM EIN DIAMANTEN ANKAUF MIT GOLDANKAUF123.DE?
+            </p>
+            <p>
+              Wir sind bereits seit vielen Jahren mit großem Erfolg mit unserem
+              Portal auf dem Markt und stehen für einen seriösen und
+              qualifizierten Ankauf von Edelmetallen, Diamanten und Edeluhren.
+              Wir von Goldankauf123.de garantieren Ihnen sehr hohe Ankaufspreise
+              und einen sicheren und transparenten Ablauf des kompletten
+              Ankaufs. Innerhalb von nur wenigen Werktagen ist bei uns ein
+              Ankauf sicher und fair abgewickelt und unsere Kunden können
+              unverzüglich ihr Geld auf ihrem Konto verbuchen.
+            </p>
           </div>
         </div>
       </section>

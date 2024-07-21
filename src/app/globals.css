@@ -3829,9 +3829,6 @@ header .dropdown-menu.show li a.active {
   padding-bottom: 25px;
 }
 @media screen and (max-width: 992px) {
-  .diamanten_uberblick_heading {
-    margin-top: 15px;
-  }
   .diamenten_logo_img {
     width: 50% !important;
   }
@@ -7471,6 +7468,7 @@ header .dropdown-menu.show li a.active {
   font-size: 30px;
   line-height: 38px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
 .diamenten_wir_kaufen_section_card {
   background-color: #ffffff;
@@ -7537,19 +7535,14 @@ header .dropdown-menu.show li a.active {
 .diamanten_type_asscher p {
   margin-top: 15px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
 }
 .ablauf_info h2 {
-  margin-top: 22px;
-  font-weight: bold;
+  margin-top: 5px;
+  font-weight: 500;
   font-size: 30px;
 }
-.ablauf_info p {
-  margin-top: 10px;
-  margin-bottom: 16px;
-  font-size: 18px;
-  line-height: 26px;
-}
+
 .ablauf_info_list li {
   border-radius: 10px;
   background-color: #f7f7f7;
@@ -7564,6 +7557,49 @@ header .dropdown-menu.show li a.active {
 }
 .ablauf_info_list_para {
   margin-left: 5px;
+}
+.farbe_wrapper_row2_col1_item {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.farbe_wrapper_row2_col1_icon img {
+  width: 13px;
+  height: 13px;
+}
+.farbe_wrapper_heading {
+  font-size: 30px !important;
+  font-weight: 500;
+  line-height: 38px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.farbe_wrapper_para {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.farbe_wrapper_row2_col1_li_para {
+  margin-left: 10px;
+}
+.schliff_heading,
+.zertifikat_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.schliff_para,
+.zertifikat_para1,
+.zertifikat_para2,
+.zertifikat_para3 {
+  margin-top: 10px;
+}
+.schliff_para {
+  margin-bottom: 10px;
 }
 .luxusuhren_wrapper {
   margin-bottom: 25px;
@@ -8979,13 +9015,7 @@ table.hamburg_table {
   .bieten_sie_form_bilder_input input {
     flex-basis: 80%;
   }
-  .bieten_sie_form .bieten_sie_form_kostenlos {
-    transform: rotate(36deg);
-    width: 332px;
-    height: 120px;
-    right: -127px;
-    top: -44px;
-  }
+
   .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
     transform: rotate(36deg);
     width: 332px;
@@ -9607,11 +9637,16 @@ table.hamburg_table {
     margin-top: 30px;
     padding: 20px 15px;
   }
+  .diamenten_wir_kaufen_section_card {
+    margin-bottom: 10px;
+  }
+  .diamenten_wir_kaufen_section {
+    padding: 15px 0px;
+    padding-bottom: 15px;
+  }
   .bieten_sie_form .bieten_sie_form_kostenlos {
-    width: 315px;
-    right: -124px;
-    top: -38px;
-    font-size: 18px;
+    right: -98px;
+    top: 16px;
   }
   .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
     width: 300px;
@@ -9627,6 +9662,7 @@ table.hamburg_table {
     font-size: 10px;
     line-height: 12px;
     font-weight: 500;
+    padding-bottom: 5px;
   }
   .bieten_sie_form_bilder_input {
     margin-left: 0px;
@@ -9677,11 +9713,16 @@ table.hamburg_table {
     height: 100%;
   }
   .diamenten_logo_img {
-    width: 65% !important;
+    width: 100% !important;
+    margin-top: 10px;
   }
-  .diamanten_uberblick_heading {
-    margin-bottom: 10px;
-    font-size: 26px;
+  .farbe_wrapper_heading {
+    margin-top: 15px;
+  }
+
+  .diamanten_for_men_section_cards_heading {
+    font-size: 19px;
+    line-height: 26px;
   }
   .diamanten_uberblick_lists_para {
     font-size: 16px;
@@ -10876,9 +10917,6 @@ table.hamburg_table {
     min-height: 150px;
     width: 152px;
     padding: 35px 10px 20px 10px;
-  }
-  .bieten_sie_form .bieten_sie_form_kostenlos {
-    width: 310px;
   }
 }
 @media screen and (min-width: 369px) and (max-width: 389px) {

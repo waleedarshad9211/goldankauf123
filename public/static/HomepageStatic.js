@@ -167,6 +167,7 @@ import oval_schliff from "/public/assets/img/oval.png";
 import princess_schliff from "/public/assets/img/princess.png";
 import radiant_schliff from "/public/assets/img/radiant.png";
 import tropfen_schliff from "/public/assets/img/tropfen.png";
+import ZuruckGaranteeTick from "/public/assets/img/bestelen_tick.png";
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
@@ -1089,6 +1090,105 @@ export const DiamantenUberBlickArray = [
     src: tropfen_schliff,
     heading: "TROPFEN SCHLIFF",
     para: "Bei Diamanten mit einem Tropfen-Schliff hat ebenfalls der die Formgebung Ausschlag auf die Namensgebung gegeben. Der Tropfen-Schliff zeichnet sich durch eine Spitze und einem abgerundeten Ende auch und wirkt dadurch wie ein Tropfen. Der Tropfenschliff ist ebenfalls der Gruppe der Fantasieschliffe zuzuordnen.",
+  },
+];
+export const ReinheitArray = [
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" width={26} height={26} />,
+    listText: "IF (Lr) Internally flawless / Lupenrein",
+    listText2:
+      "Selbst bei 10-facher mikroskopischer Vergrößerung keinerlei Einschlüsse erkennbar",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText:
+      "VVS1, VVS2 (VS) Very, very small inclusions / Sehr, sehr kleine Einschlüsse",
+    listText2:
+      "Sehr, sehr kleine Einschlüsse, fast nicht erkennbar bei 10-facher Vergrößerung",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "VS1, VS2 (VS) Very small inclusions / Sehr kleine Einschlüsse",
+    listText2:
+      "Sehr kleine Einschlüsse die bei 10-facher Vergrößerung schwer zu erkennen sind.",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "SI1, SI2 (SI) Small inclusions / Kleine Einschlüsse",
+    listText2:
+      "Kleine Einschlüsse, die bei 10-facher Vergrößerung leicht erkennbar sind.",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "I1 (PI) Pikee I / Deutliche Einschlüsse",
+    listText2:
+      "Bei 10-facher Vergrößerung sind Einschlüsse sofort erkennbar, Brillanz bleibt erhalten.",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "I2 (PII) Pikee II / Größere Einschlüsse",
+    listText2:
+      "Größere und / oder zahlreiche Einschlüsse, welche ohne Lupe oder Mikroskop erkennbar sind. Brillanz nur schwach gemindert.",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "I3 (PIII) Pikee III / Große Einschlüsse",
+    listText2:
+      "Große und / oder zahlreiche Einschlüsse, welche die Brillanz stark mindern. Mit dem bloßen Auge erkennbar",
+  },
+];
+export const farbeArray1 = [
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" width={26} height={26} />,
+    listText: "Hochfeines Weiß + (D)",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Weiß H / Leicht getöntes Weiß (TCR = Top Chrystal)",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Hochfeines Weiß + (E) / R = River",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Leicht getöntes Weiß I, J /Getöntes Weiß (CR = Chrystal) ",
+  },
+];
+export const farbeArray2 = [
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Feines Weiß + (F) / TW = Top Wesselton",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Getöntes Weiß K,L",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Feines Weiß G / W = Wesselton",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Getönt M - Z",
+  },
+];
+export const schliffArray = [
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Exzellent",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Sehr gut",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Gut",
+  },
+  {
+    tickIcon: <Image src={ZuruckGaranteeTick} alt="" />,
+    listText: "Mittel",
   },
 ];
 export const ZahngoldBlickArray = [
