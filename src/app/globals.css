@@ -2952,6 +2952,15 @@ header .dropdown-menu.show li a.active {
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.hamburger-heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.hamburg_para1_ {
+  font-size: 24px;
+  font-weight: 500;
+}
 .GoldankaufKotenloser-heading2 {
   margin-top: 20px;
   font-size: 35px;
@@ -6638,11 +6647,26 @@ header .dropdown-menu.show li a.active {
 
 /* zahngold blog css starts here */
 .zahngolg_blog_wrapper_para1 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 20px;
+  line-height: 32px;
+}
+.blog_row {
+  display: flex;
+  margin-top: 10px;
+}
+.zahngolg_blog_wrapper_box_inner1 {
+  flex: 1;
+}
+.zahngolg_blog_wrapper_box_inner2 {
+  flex: 4;
+}
+.blog_main_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
 }
 .zahngolg_blog_wrapper_para2 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   margin-top: 10px;
 }
@@ -6666,7 +6690,12 @@ header .dropdown-menu.show li a.active {
   font-size: 18px;
 }
 .blog_kategorian_wrapper_li span {
-  color: #019ba5;
+  color: #329480;
+}
+.blog_para_green {
+  font-size: 20px;
+  font-weight: 500;
+  color: #329480;
 }
 .zahngolg_blog_wrapper_upper {
   display: flex;
@@ -6679,34 +6708,35 @@ header .dropdown-menu.show li a.active {
   margin-right: 10px;
 }
 .zahngolg_blog_wrapper_box {
-  border: 1px solid #2e2e2e;
-  border-radius: 20px;
+  border-top: 1px solid #2e2e2e;
+  border-bottom: 1px solid #2e2e2e;
   margin-top: 20px;
   padding: 5px;
 }
 .zahngolg_blog_wrapper_box_inner_para1 {
   font-size: 24px;
+  font-weight: 500;
   line-height: 36px;
   margin-left: 10px;
   margin-right: 5px;
 }
 .zahngolg_blog_wrapper_box_inner_para2 {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 5px;
 }
 .zahngolg_blog_wrapper_box_inner_last_para {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 26px;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 5px;
 }
 .zahngolg_blog_wrapper_box_inner_para3 {
-  color: #009ba5;
-  font-weight: bold;
+  color: #329480;
+  font-weight: 500;
   cursor: pointer;
   margin-top: 10px;
   margin-left: 10px;
@@ -6762,6 +6792,10 @@ header .dropdown-menu.show li a.active {
   }
   .price_value_form_last_para {
     font-size: 11px;
+  }
+  .zahngolg_blog_wrapper_box_inner_para1 {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -8241,8 +8275,8 @@ header .dropdown-menu.show li a.active {
   margin-top: 15px;
 }
 .zahngold_img {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .garantie_price_container {
   margin-top: 75px;
