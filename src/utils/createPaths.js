@@ -16,6 +16,7 @@ export const createPaths = (currentPage) => {
     "/goldankauf-lexikon": ["goldankauf-lexikon"],
     "/hamburg": ["hamburg"],
     "/blog": ["blog"],
+    "/goldwissen": ["goldwissen"],
     "/goldrechner": ["goldrechner"],
     "/calculator": ["goldrechner", "calculator"],
     "/versandarten": ["versandarten"],

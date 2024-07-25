@@ -28,6 +28,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  line-height: 24px;
   color: #121212;
 }
 
@@ -2953,7 +2954,7 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 15px;
 }
 .hamburger-heading {
-  font-size: 30px;
+  font-size: 29px;
   line-height: 38px;
   font-weight: 500;
 }
@@ -5883,13 +5884,23 @@ header .dropdown-menu.show li a.active {
   top: 6px;
   text-transform: uppercase;
 }
-
+.hamburg_list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3px;
+  background-color: #f7f7f7;
+  padding: 1px 7px;
+  border-radius: 10px;
+}
+.hamburg_list_txt {
+  margin-left: 5px;
+  font-size: 16px;
+}
 .price_value_form2 input {
   background-color: #ffffff !important;
   border-radius: 10px;
-  height: 41px;
-  font-size: 14.14px;
-
+  height: 38px;
+  font-size: 14px;
   border: none;
   box-shadow: 1.03px 1.714px 5px 0px rgba(35, 31, 32, 0.15);
 }
@@ -5904,7 +5915,7 @@ header .dropdown-menu.show li a.active {
   align-items: center;
 }
 .white-line {
-  width: 20%;
+  flex: 1;
   border: 1px solid #ffffff;
   height: 1px;
 }
@@ -7576,7 +7587,15 @@ header .dropdown-menu.show li a.active {
   font-weight: 500;
   font-size: 30px;
 }
-
+.hamburg_ablauf_info_list {
+  margin-bottom: 3px;
+}
+.hamburger_para_subheading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-top: 10px;
+}
 .ablauf_info_list li {
   border-radius: 10px;
   background-color: #f7f7f7;
@@ -7587,7 +7606,6 @@ header .dropdown-menu.show li a.active {
   align-items: center;
   padding-left: 10px;
   margin-bottom: 5px;
-  box-shadow: 0px 3px 6px 0px rgba(3, 3, 3, 0.07);
 }
 .ablauf_info_list_para {
   margin-left: 5px;
@@ -8249,29 +8267,29 @@ header .dropdown-menu.show li a.active {
 }
 
 .zahngold_para3 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
 }
 .zahngold_para4 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-bottom: 32px;
 }
 .zahngold_para5 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 13px;
   margin-bottom: 10px;
 }
 .zahngold_para6 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-bottom: 20px;
 }
 .zahngold_para7 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 15px;
 }
 .zahngold_img {
@@ -8381,20 +8399,58 @@ header .dropdown-menu.show li a.active {
   margin-right: 10px;
 }
 .zahngold_last_heading {
-  font-size: 30px;
-  line-height: 40px;
-  margin-top: 25px;
-  margin-bottom: 15px;
-  font-weight: bold;
+  font-size: 29px;
+  line-height: 38px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.hamburg_paragraph {
+  margin-top: 5px;
+}
+.hamburg_valuecal .goldankauf_valuecalc {
+  padding: 10px 12px !important;
+}
+.hamburg_valuecal .goldankauf_valuecalc_heading {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+.hamburg_valuecal .goldankauf_valuecalc_form .value-calculate-input label {
+  font-weight: 400px;
+}
+.hamburg_valuecal .goldankauf_valuecalc_form .value-calculate-select select {
+  width: auto;
+  margin-right: 0px;
+}
+.hamburg_valuecal .value-calculate-select {
+  margin-left: 10px;
+}
+.hamburg_valuecal .goldankauf_valuecalc_form .value-calculate-input input {
+  width: 125px;
+}
+.hamburg_valuecal .zahngold_valuecalc_btn button {
+  width: auto !important;
+  padding: 1px 10px !important;
+  margin-left: 10px !important;
+  height: 38px !important;
+}
+.img_box_wrapepr {
+  display: flex;
+}
+.img_box {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img_box2 {
+  margin-left: 20px;
 }
 .zahngold_lastpara1 {
-  font-size: 18px;
-  line-height: 26px;
-  max-width: 433px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .zahngold_lastpara2 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
 }
 .zahn_moneygold_logo_section {
@@ -8405,20 +8461,47 @@ header .dropdown-menu.show li a.active {
   margin-bottom: 24px;
 }
 .hamburg_table_wrapper {
-  border: 1px solid #dcdcdc;
+  background-color: #cae7e1;
   border-radius: 10px !important;
   margin-bottom: 15px;
   margin-top: 15px;
+  padding: 15px 15px;
+  overflow: auto;
 }
-table.hamburg_table {
-  width: 100%;
+.hamburg_table_header {
+  background-color: #36a18b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 10px;
+  border-radius: 10px;
+  height: 40px;
 }
-.hamburg_table thead tr th {
-  padding: 10px 5px;
-  min-width: 100px;
+.hamburg_table_header p {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
 }
-.hamburg_table tbody tr td {
-  padding: 10px 5px;
+.hamburg_table {
+  background-color: #f7f7f7;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  padding: 1px 10px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hamburg_table p {
+  font-size: 18px;
+  width: 115px;
+}
+.hamburger_table_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .zahngold_goldrechner {
   font-size: 30px;
@@ -8428,31 +8511,25 @@ table.hamburg_table {
 }
 .zahngold123_sec_heading {
   font-size: 30px;
-  line-height: 40px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 .zahngold_list_wrapper {
-  padding: 15px 10px;
-  background-color: #f4f4f4;
-  border-radius: 10px;
+  margin-top: 10px;
 }
 .zahngold_list_wrapper li {
-  background-color: #019ba5;
+  background-color: #f7f7ff;
   border-radius: 10px;
   height: 38px;
+  padding: 1px 10px;
   display: flex;
   align-items: center;
   margin-bottom: 5px;
 }
-.zahngold_list_img {
-  margin-left: 10px;
-}
 .zahngold_list_para {
-  font-size: 18px;
-  line-height: 26px;
-  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
   margin-left: 10px;
 }
 .img_box {
@@ -8467,28 +8544,43 @@ table.hamburg_table {
 }
 .img_box .zahngold_last_img_wrapper {
   position: absolute;
-  left: 40px;
+  left: 22px;
   right: 40px;
-  background-color: #f7f7f7;
-  border-radius: 30px;
-  height: 50px;
+  background-color: #36a18b;
+  border-radius: 10px;
   bottom: -18px;
+  padding: 5px;
+  width: 303px;
+}
+.goldwissen_wrapper_box .img_box .zahngold_last_img_wrapper {
+  left: 20px;
+  bottom: -25px;
+  padding: 10px 5px;
+}
+.goldwissen_wrapper_box
+  .img_box
+  .zahngold_last_img_wrapper_body
+  .wir_verkaufer_btn {
+  width: 42px;
+  height: 42px;
 }
 .img_box .zahngold_last_img_wrapper_body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 3px;
 }
 .img_box .wir_verkaufer_name {
-  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
 }
 .img_box .zahngold_last_img_wrapper_body .wir_verkaufer_btn {
-  background-color: #65c2c9;
-  width: 42.42px;
-  height: 42.42px;
+  background-color: #dba25d;
+  width: 35px;
+  height: 35px;
   margin-top: 0px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .zahngold_wrapper .GoldankaufKotenloser-heading {
   margin-top: 25px;
@@ -8502,19 +8594,21 @@ table.hamburg_table {
 .zahngold_heading5 {
   font-size: 30px;
   line-height: 32px;
-  font-weight: bold;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .price_value_form3 {
-  background-color: #f7f7f7;
+  background-color: #36a18b;
+  border-radius: 10px;
 }
 .price_value_form3 .golden-fauf-wrapper {
   background-image: none;
 }
 .price_value_form3 .golden_fauf_card {
-  width: 152.53px;
-  min-height: 121.53px;
-  height: 121.53px;
-  padding: 15px 10px 20px 10px;
+  width: 170px;
+  min-height: auto;
+  margin-right: 5px;
 }
 .price_value_form3 .golden_fauf_card_body {
   align-items: flex-end;
@@ -8533,17 +8627,17 @@ table.hamburg_table {
   right: 0px;
   top: 10px;
 }
-.price_value_form3 .golden_fauf_card_inner {
-  margin-right: 40px;
-}
-.price_value_form3 .golden_fauf_card_inner_first {
-  margin-right: 45px;
-}
 .price_value_form3 .golden_fauf_card p {
-  font-size: 15.33px;
+  font-size: 14px;
   color: #121212;
-  line-height: 16.36px;
-  font-weight: 600;
+  line-height: 16px;
+  font-weight: 500;
+}
+.price_value_form3 .golden_fauf_card_col {
+  padding-left: 5px;
+}
+.price_value_form3 .golden_fauf_card_col:last-child {
+  padding-right: 0px;
 }
 .price_value_form3 .golden-kauf-img img {
   width: 100%;
@@ -8560,13 +8654,22 @@ table.hamburg_table {
 }
 .price_value_form3 .golden-fauf h2 {
   font-size: 30px;
+  line-height: 38px;
+  color: #ffffff;
   margin-bottom: 0px;
 }
+.price_value_form3 .para {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+.price_value_form3 .para span {
+  color: #ffffff;
+}
 .price_value_form3_heading {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: bold;
-  color: #121212;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -8574,6 +8677,19 @@ table.hamburg_table {
 .price_value_form3_btn_submit {
   display: flex;
   justify-content: center;
+}
+.hamberg_verkaufen_sie_gold_heading {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.hamberg_verkaufen_sie_gold_wrapper {
+  display: flex;
+}
+.price_value_form3 .btn-bg {
+  width: 329px;
 }
 .price_value_form3 .price_value_form2_submit_btn {
   display: flex;
@@ -8769,29 +8885,45 @@ table.hamburg_table {
 }
 
 /*  stadteankauf css starts here*/
+.verkaufsrelavantes_wissen_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .stadteankauf_wrapper {
   margin-bottom: 25px;
 }
 .stadteankauf_wrapper_main_heading {
   font-size: 30px;
-  line-height: 40px;
-  font-weight: bold;
-  margin-top: 25px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .stadteankauf_wrapper_para1 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
 }
 .stadteankauf_wrapper_para2 {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   margin-top: 10px;
   margin-bottom: 25px;
 }
 .stadteankauf_wrapper_box .wir_verkaufer_name {
   font-size: 16px;
   margin-top: 0px;
+}
+.stadteankauf_wrapper_box .img_box {
+  width: 340px;
+  height: 263px;
+}
+.stadteankauf_wrapper_box .img_box img {
+  width: 320px;
+  height: 240px;
+  border-radius: 30px;
 }
 .zahngold_last_img_wrapper {
   cursor: pointer;
@@ -8971,10 +9103,7 @@ table.hamburg_table {
     display: flex;
     justify-content: flex-end;
   }
-  .img_box_wrapepr {
-    display: flex;
-    justify-content: center;
-  }
+
   .wirkaufen_page_wrapper .wir_ankaufun_card_column:nth-child(2n + 1) {
     display: flex;
     justify-content: flex-end;
@@ -9433,6 +9562,38 @@ table.hamburg_table {
   .price_value_form2_bestellen_last_txt {
     font-size: 10px;
   }
+  .price_value_form3_last_line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .hamberg_verkaufen_sie_gold_wrapper {
+    flex-direction: column-reverse;
+  }
+  .hamberg_verkaufen_sie_gold_wrapper img {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+  }
+  .hamburg_valuecal .value-calculate-select {
+    margin-left: 0px;
+  }
+  .hamburg_table_header p {
+    font-size: 14px;
+  }
+  .hamburger_table_button button {
+    width: 100% !important;
+    font-size: 22px !important;
+    padding: 1px 10px !important;
+  }
+  .price_value_form3 .sold_out_text {
+    top: 0px;
+  }
+  .price_value_form3 .golden_fauf_card_col:nth-child(2) {
+    padding-right: 0px;
+  }
+  .price_value_form3 .golden_fauf_card {
+    width: auto !important;
+  }
   /* verkaufsanleitung css starts here */
   .verkaufsanleitung_wrapper .funktionierts_wrapper_auswahlen1,
   .verkaufsanleitung_wrapper .funktionierts_wrapper_auswahlen2 {
@@ -9863,6 +10024,18 @@ table.hamburg_table {
   .wir_ankaufun_page_wrapper .wir_verkaufer {
     padding: 10px;
   }
+  .img_box_wrapepr {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .img_box .zahngold_last_img_wrapper {
+    left: 40px;
+    width: auto;
+  }
+  .img_box2 {
+    margin-left: 0px;
+  }
+
   /* zahngold page css starts here */
   .zahngold_wrapper .GoldankaufKotenloser-heading {
     text-align: left;
@@ -9918,6 +10091,9 @@ table.hamburg_table {
   .zahngold_wrapper .e_trusted_shops_card.e_trusted_shops_card2 {
     margin-top: 15px !important;
     margin-bottom: 20px !important;
+  }
+  .hamburg_right_side .e_trusted_shops_card.e_trusted_shops_card2 {
+    margin-bottom: 10px !important;
   }
   .zahn_moneygold_logo_section {
     margin-top: 18px;
@@ -10015,9 +10191,20 @@ table.hamburg_table {
   .img_box {
     width: auto;
   }
+  .stadteankauf_wrapper_box .img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .stadteankauf_wrapper_box .img_box img,
   .img_box img {
     width: 100%;
     height: 100%;
+  }
+  .verkaufsrelavantes_wissen_heading {
+    text-align: center;
+  }
+  .stadteankauf_wrapper .e_trusted_shops_card.e_trusted_shops_card2 {
+    margin-bottom: 0px !important;
   }
   .price_value_form3_btn_submit button {
     font-size: 16px !important;
@@ -10913,6 +11100,9 @@ table.hamburg_table {
   .gesamtsieger_main_wrapper {
     width: 100%;
   }
+  .price_value_form3 .btn-bg {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 390px) and (max-width: 430px) {
   .offcanvas-start {
@@ -10949,8 +11139,9 @@ table.hamburg_table {
   }
   .price_value_form3 .golden_fauf_card {
     min-height: 150px;
-    width: 152px;
-    padding: 35px 10px 20px 10px;
+  }
+  .price_value_form3 .golden_fauf_card_body span {
+    margin-top: 5px;
   }
 }
 @media screen and (min-width: 369px) and (max-width: 389px) {

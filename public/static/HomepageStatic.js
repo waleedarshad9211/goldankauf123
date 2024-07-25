@@ -55,6 +55,7 @@ import Bochum from "/public/assets/img/Bochum.png";
 import Wuppertal from "/public/assets/img/Wuppertal.png";
 import Bielefeld from "/public/assets/img/Bielefeld.png";
 import Hamburg from "/public/assets/img/hamburg.png";
+import money_goldwissen from "/public/assets/img/money_goldwissen.png";
 import Altgold from "/public/assets/img/Altgold.png";
 import DentalgoldAnkauf from "/public/assets/img/DentalgoldAnkauf.png";
 import Augsburg from "/public/assets/img/Augsburg.png";
@@ -76,10 +77,12 @@ import Karlsruhe from "/public/assets/img/Karlsruhe.png";
 import GoldmunzenLexikon from "/public/assets/img/GoldmunzenLexikon.png";
 import Munster from "/public/assets/img/Munster.png";
 import frankfurt from "/public/assets/img/frankfurt.png";
+import calculator from "/public/assets/img/calculator.png";
 import GoldschmuckVerkaufen from "/public/assets/img/GoldschmuckVerkaufen.png";
 import duisburg from "/public/assets/img/duisburg.png";
 import GoldankaufTageskurs from "/public/assets/img/GoldankaufTageskurs.png";
 import leipzig from "/public/assets/img/leipzig.png";
+import jewelleryBook from "/public/assets/img/jewellery-book.png";
 import GoldschmuckRechner from "/public/assets/img/GoldschmuckRechner.png";
 import Goldinlay from "/public/assets/img/Goldinlay.png";
 import Zahngoldrechner from "/public/assets/img/Zahngoldrechner.png";
@@ -103,10 +106,14 @@ import SilberuhrenAnkauf from "/public/assets/img/SilberuhrenAnkauf.png";
 import bremen from "/public/assets/img/bremen.png";
 import Prufen from "/public/assets/img/Prufen.png";
 import stuttgart from "/public/assets/img/stuttgart.png";
+import eighteenk_gold from "/public/assets/img/18k_gold.png";
+import gold_coin from "/public/assets/img/gold_coin.png";
 import ProGramm from "/public/assets/img/ProGramm.png";
 import hannover from "/public/assets/img/hannover.png";
+import bookWithOpenedPages from "/public/assets/img/book-with-opened-pages.png";
 import Goldlegierungen from "/public/assets/img/Goldlegierungen.png";
 import koln from "/public/assets/img/koln.png";
+import punzen_klein from "/public/assets/img/punzen_klein.png";
 import Preise from "/public/assets/img/Preise.png";
 import Monchengladbach from "/public/assets/img/Monchengladbach.png";
 import GoldbarrenHersteller from "/public/assets/img/GoldbarrenHersteller.png";
@@ -168,6 +175,7 @@ import princess_schliff from "/public/assets/img/princess.png";
 import radiant_schliff from "/public/assets/img/radiant.png";
 import tropfen_schliff from "/public/assets/img/tropfen.png";
 import ZuruckGaranteeTick from "/public/assets/img/bestelen_tick.png";
+import printerPaper from "/public/assets/img/printer-paper-goldwissen.png";
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
@@ -933,7 +941,24 @@ export const uhrenmarken1 = [
     txt: "Constantin",
   },
 ];
-
+export const hamburgArray = [
+  {
+    src: tickIcon,
+    txt: "Verkaufen Sie an ein Unternehmen mit tausenden positiven Kundenbewertungen",
+  },
+  {
+    src: tickIcon,
+    txt: "Bekannt aus dem TV: ARD, WDR, ZDF, SAT1, PHÖNIX",
+  },
+  {
+    src: tickIcon,
+    txt: "live Goldrechner",
+  },
+  {
+    src: tickIcon,
+    txt: "kostenlose Abholung in ganz Hamburg und Umgebung",
+  },
+];
 export const zahngoldkaufen1 = [
   {
     txt: "Goldkette",
@@ -968,25 +993,32 @@ export const zahngoldkaufen1 = [
 ];
 export const zahngoldkaufen2 = [
   {
-    txt: "Hamburg-Mitte",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Hamburg-Mitte",
   },
   {
-    txt: "Wandsbek",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Wandsbek",
   },
   {
-    txt: "Altona",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Altona",
   },
   {
-    txt: "Bergedorf",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Bergedorf",
   },
   {
-    txt: "Eimsbüttel",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Eimsbüttel",
   },
   {
-    txt: "Harburg",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Harburg",
   },
   {
-    txt: "Hamburg-Nord",
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Hamburg-Nord",
   },
 ];
 
@@ -1191,33 +1223,33 @@ export const schliffArray = [
     listText: "Mittel",
   },
 ];
+export const hamburgerTableArray = [
+  { val1: "333 Gold", val2: "10 Gramm", val3: "228,90 €" },
+  { val1: "375 Gold", val2: "10 Gramm", val3: "250,00 €" },
+  { val1: "585 Gold", val2: "10 Gramm", val3: "402,60 €" },
+  { val1: "750 Gold", val2: "10 Gramm", val3: "513,10 €" },
+  { val1: "900 Gold", val2: "10 Gramm", val3: "611,30 €" },
+  { val1: "916 Gold", val2: "10 Gramm", val3: "625,10 €" },
+  { val1: "986 Gold", val2: "10 Gramm", val3: "673,70 €" },
+  { val1: "999 Gold", val2: "10 Gramm", val3: "676,70 €" },
+];
 export const ZahngoldBlickArray = [
   {
     tickIcon: <Image src={tickIcon} alt="" />,
-    listText:
-      "Zahngold123.de ist ein bundesweit tätiges Goldankauf-Unternehmen",
+    listText: "Krügerrand bzw. Krugerrand Ankauf",
+  },
+  {
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Goldvreneli bzw. 20 Franken Vreneli Gold Münze",
+  },
+  {
+    tickIcon: <Image src={tickIcon} alt="" />,
+    listText: "Wiener Philharmoniker, American Eagle, American Buffalo",
   },
   {
     tickIcon: <Image src={tickIcon} alt="" />,
     listText:
-      "Zahngold123.de hat seinen Geschäftssitz ausschließlich in Hamburg",
-  },
-  {
-    tickIcon: <Image src={tickIcon} alt="" />,
-    listText:
-      "Zahngold123.de hat in der oben genannten Stadt keine Niederlassung",
-  },
-  {
-    tickIcon: <Image src={tickIcon} alt="" />,
-    listText: "Hohe und transparente Ankaufpreise",
-  },
-  {
-    tickIcon: <Image src={tickIcon} alt="" />,
-    listText: "Kostenloser & versicherter Versandservice",
-  },
-  {
-    tickIcon: <Image src={tickIcon} alt="" />,
-    listText: "Hundertprozentige Gold-zurück-Garantie",
+      "Maple Leaf, 20 Mark Preussen, China Panda und viele Münzen mehr!",
   },
 ];
 export const suszeichnungenLogosArray = [
@@ -1782,6 +1814,46 @@ export const sicherheitArray = [
   },
 ];
 
+export const goldWissenfArray = [
+  {
+    src: money_goldwissen,
+    text: "Ankaufspreise",
+  },
+  {
+    src: printerPaper,
+    text: "Kostenlose Analyse",
+  },
+  {
+    src: GoldschmuckWir,
+    text: "Was wir kaufen",
+  },
+  {
+    src: calculator,
+    text: "Wertbestimmung",
+  },
+  {
+    src: jewelleryBook,
+    text: "Schmuckbuch",
+  },
+  {
+    src: bookWithOpenedPages,
+    text: "Wenig Goldwissen",
+  },
+];
+export const goldWissenfArray1 = [
+  {
+    src: punzen_klein,
+    text: "Punzen / Stempel",
+  },
+  {
+    src: eighteenk_gold,
+    text: "Fälschungen",
+  },
+  {
+    src: gold_coin,
+    text: "Münzarchiv",
+  },
+];
 export const stadteankaufArray = [
   {
     src: Hamburg,
@@ -2343,6 +2415,10 @@ export const routes = [
       {
         path: "/goldankauf-lexikon",
         pathName: "Goldankauf Lexikon",
+      },
+      {
+        path: "/goldwissen",
+        pathName: "Goldwissen",
       },
       {
         path: "/hamburg",

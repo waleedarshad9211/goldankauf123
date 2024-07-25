@@ -7,6 +7,8 @@ import PriceValueForm3 from "@/components/shared/PriceValueForm3";
 import Breadcrumbs from "@/components/shared/breadcrumb/BreadcrumbsComponent";
 import Button from "@/components/shared/button/Button";
 import {
+  hamburgArray,
+  hamburgerTableArray,
   ZahngoldBlickArray,
   zahngoldkaufen1,
   zahngoldkaufen2,
@@ -15,8 +17,14 @@ import Image from "next/image";
 import InformationCard from "@/components/shared/InformationCard";
 import HamburgMainImg from "/public/assets/img/hamburg_main_img.png";
 import HamburgLastImg from "/public/assets/img/hamburg_last_img.png";
+import HamburgLastImg1 from "/public/assets/img/hamburg_last_img1.png";
+import HamburgLastImg2 from "/public/assets/img/hamburg_main_img2.png";
 import BtnArrowMobile from "@/components/home/BtnArrowMobile";
 import BtnArrow from "@/components/home/BtnArrow";
+import hamberg_verkaufen_sie_gold from "/public/assets/img/hamberg_verkaufen_sie_gold.png";
+import bestelen_tick from "/public/assets/img/bestelen_tick.png";
+import ValueCalc from "@/components/shared/ValueCalc";
+import GarantedPrice from "@/components/shared/garantedPrice/GarantedPrice";
 
 const page = () => {
   return (
@@ -69,172 +77,147 @@ const page = () => {
                 Versicherungsschutz und wählen aus unseren drei Versandarten die
                 passende Versandart für sich aus.
               </p>
-              <h2 className="zahngold_heading5">
-                Ankaufspreise für Goldlegierungen in Euro
-              </h2>
-              <div className="hamburg_table_wrapper table-responsive">
-                <table class="hamburg_table">
-                  <thead>
-                    <tr>
-                      <th>Legierung</th>
-                      <th>1 Gramm</th>
-                      <th>5 Gramm</th>
-                      <th>20 Gramm</th>
-                      <th>50 Gramm</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>999 Gold</td>
-                      <td>56,90 €</td>
-                      <td>284,50 €</td>
-                      <td>284,50 €</td>
-                      <td>284,50 €</td>
-                    </tr>
-                    <tr style={{ backgroundColor: "#D1F6F9" }}>
-                      <td>900 Gold</td>
-                      <td>50,68 €</td>
-                      <td>253,40 €</td>
-                      <td>253,40 €</td>
-                      <td>253,40 €</td>
-                    </tr>
-                    <tr>
-                      <td>750 Gold</td>
-                      <td>42,65 €</td>
-                      <td>213,25 €</td>
-                      <td>213,25 €</td>
-                      <td>213,25 €</td>
-                    </tr>
-                    <tr style={{ backgroundColor: "#D1F6F9" }}>
-                      <td>585 Gold</td>
-                      <td>33,32 €</td>
-                      <td>166,60 €</td>
-                      <td>166,60 €</td>
-                      <td>166,60 €</td>
-                    </tr>
-                    <tr>
-                      <td>375 Gold</td>
-                      <td>20,77 €</td>
-                      <td>103,85 €</td>
-                      <td>103,85 €</td>
-                      <td>103,85 €</td>
-                    </tr>
-                    <tr style={{ backgroundColor: "#D1F6F9" }}>
-                      <td>333 Gold</td>
-                      <td>19,03 €</td>
-                      <td>95,15 €</td>
-                      <td>95,15 €</td>
-                      <td>95,15 €</td>
-                    </tr>
-                  </tbody>
-                </table>
+
+              <div className="hamburg_table_wrapper ">
+                <h2 className="zahngold_heading5">
+                  Aktuelle Ankaufspreise für Gold in Euro
+                </h2>
+                <div className="hamburg_table_header">
+                  <p>Goldlegierung</p>
+                  <p>Gewicht</p>
+                  <p>Preis im Ankauf</p>
+                </div>
+                {hamburgerTableArray.map((item, index) => {
+                  return (
+                    <div key={index} className="hamburg_table">
+                      <p>{item.val1}</p>
+                      <p>{item.val2}</p>
+                      <p>{item.val3}</p>
+                    </div>
+                  );
+                })}
+                <div className="hamburger_table_button">
+                  <Button
+                    btnText="JETZT wert berechnen"
+                    padding="1px 30px"
+                    height="43px"
+                    width="461px"
+                    fontSize="25px"
+                    fontWeight="500"
+                  />
+                </div>
               </div>
             </div>
             <div className="zahngold_pricevalue_form">
               <PriceValueForm3 />
             </div>
-            <h2 className="zahngold_goldrechner">Goldrechner</h2>
             <div className="zahngold_valuecalc">
-              <h2 className="zahngold_valuecalc_heading">
-                Berechnen Sie den Wert Ihrer Edelmetalle
-              </h2>
-              <form action="">
-                <div className="zahngold_valuecalc_form">
-                  <div className="d-flex align-items-center value-calculate-input">
-                    <label className="lbl">Gramm</label>
-                    <input className="form-control" name="gramm" type="text" />
-                  </div>
-                  <div className="d-flex align-items-center justify-content-center position-relative value-calculate-select">
-                    <label className="lbl">Karat</label>
-                    <select className="form-select mb-0">
-                      <option selected="">Bitte auswählen</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                  <div className="zahngold_valuecalc_btn">
-                    <Button
-                      btnText="Jetzt Wert berechnen"
-                      height="33px"
-                      borderRadius="100px"
-                      width="180px"
-                      fontSize="14px"
-                      margin="10px 0px"
-                      backgroundColor="#DBA12F"
-                    />
-                  </div>
-                </div>
-              </form>
+              <p className="hamberg_verkaufen_sie_gold_heading">
+                Verkaufen Sie Gold & Silber zu hohen Preisen!
+              </p>
+              <div className="hamberg_verkaufen_sie_gold_wrapper">
+                <p>
+                  Sollten Sie auf der Suche nach einem seriösen Goldankauf für
+                  Hamburg sein, haben Sie mit dem Angebot von Goldankauf123 den
+                  passenden Partner gefunden. Wir bieten Ihnen fundiertes Wissen
+                  rund um den Ankauf von Edelmetallen wie Gold, Platin, Gold
+                  oder Palladium! Ganz egal, ob Sie in Hamburg-Mitte, Altona,
+                  Eimsbüttel, Hamburg-Nord, Wandsbek, Bergedorf oder Harburg
+                  leben, wir erstellen Ihnen ganz unverbindlich eine Analyse und
+                  Bewertung Ihrer Edelmetalle.
+                </p>
+                <Image src={hamberg_verkaufen_sie_gold} alt="" />
+              </div>
             </div>
             <div className="">
-              <h2 className="zahngold_last_heading">
-                Wir kaufen an: (Beispiele)
-              </h2>
-              <div className="">
-                <ul className="ablauf_info_list row">
-                  {zahngoldkaufen1.map((item, index) => {
-                    return (
-                      <div className="col-6 col-md-6 col-lg-6 " key={index}>
-                        <li>
-                          <span style={{ color: "#019BA5" }}>•</span> {item.txt}
-                        </li>
+              <p className="zahngold_last_heading">
+                Service und Sicherheit auf einen Blick:
+              </p>
+              <div className="ablauf_info_list">
+                {hamburgArray.map((item, index) => {
+                  return (
+                    <div className="hamburg_list" key={index}>
+                      <div>
+                        <Image src={bestelen_tick} alt="" />
                       </div>
-                    );
-                  })}
-                </ul>
+                      <div className="hamburg_list_txt">{item.txt}</div>
+                    </div>
+                  );
+                })}
+              </div>
+              <p className="hamburg_paragraph">
+                Errechnen Sie doch einmal ganz einfach und schnell über unseren
+                online Goldrechner den Ankaufswert für Ihre Edelmetalle. Mit
+                unserem Goldankauf für Hamburg werden Sie die richtige Wahl
+                treffen!
+              </p>
+              <div className="hamburg_valuecal">
+                <ValueCalc padding="10px" />
               </div>
               <h2 className="zahngold_last_heading">
-                Ablauf Goldankauf Hamburg
-              </h2>
-              <p className="zahngold_lastpara1">
-                Wir haben viel Wert darauf gelegt, den Ablauf für einen
-                Goldankauf in Hamburg so einfach wie nur möglich für unsere
-                Kunden zu gestalten. Im ersten Schritt bestellen Sie bitte eine
-                kostenlose Versandtasche über unsere Webseite. Diese wird dann
-                umgehend verpackt und mit allen weiteren notwendigen Unterlagen
-                an Sie versendet. Sobald die Versandtasche bei Ihnen eingeht,
-                müssen Sie diese mit Ihrem Gold befüllen und bei der nächsten
-                Postfiliale abgeben.
-              </p>
-              <p className="zahngold_lastpara2">
-                Selbstverständlich entstehen Ihnen dafür keine Kosten und die
-                Sendung ist bis zu einem Wert von 1.000 Euro versichert. Sollten
-                Sie größere Werte verkaufen wollen, kommt entweder der
-                Wertversand oder die Abholung mit Werttransport infrage. Genaue
-                Informationen zum Thema liefert unsere Verkaufsanleitung oder
-                Sie nehmen direkt mit unserem Kundenservice Kontakt auf. Uns ist
-                es wichtig, dass der gesamte Goldankauf vertrauensvoll und zu
-                Ihrer vollsten Zufriedenheit verläuft.
-              </p>
-              <p className="zahngold_lastpara2">
-                Bei Fragen und Anregungen nehmen Sie bitte immer Kontakt zu uns
-                auf. Wir arbeiten dann gemeinsam an einer Lösung, sodass Sie
-                schnell den Ankaufsbetrag ausgezahlt bekommen und uns vielleicht
-                sogar in Ihrem Bekanntenkreis weiterempfehlen werden.
-              </p>
-            </div>
-            <div>
-              <h2 className="zahngold_last_heading">
-                Scheideanstalt für Hamburg
+                KOSTENLOSE WERTTRANSPORT-ABHOLUNG IN GANZ HAMBURG & UND
+                UMGEBUNG!
               </h2>
               <div className="">
                 <ul className="ablauf_info_list row">
                   {zahngoldkaufen2.map((item, index) => {
                     return (
-                      <div className="col-6 col-md-6 col-lg-6 " key={index}>
-                        <li>
-                          <span style={{ color: "#019BA5" }}>•</span> {item.txt}
+                      <div
+                        className="col-6 col-md-6 col-lg-6 hamburg_ablauf_info_list"
+                        key={index}
+                      >
+                        <li key={index}>
+                          <div className="zahngold_list_img">
+                            {item.tickIcon}
+                          </div>
+                          <p className="zahngold_list_para">{item.listText}</p>
                         </li>
                       </div>
                     );
                   })}
                 </ul>
               </div>
+              <h2 className="zahngold_last_heading">
+                VERKAUFEN SIE GOLD & SILBER ZU HOHEN PREISEN!
+              </h2>
+              <p className="zahngold_lastpara1">
+                Schauen Sie sich unbedingt einmal auf unserer Webseite genauer
+                um, wir bieten Ihnen zahlreiche Unterseiten, auf denen Sie sich
+                vor einem Goldankauf detailliert informieren können. Sehr zu
+                empfehlen ist unser Goldwissen mit vielen
+                Hintergrundinformationen zu Goldmünzen, Gold oder Edelmetallen
+                im Allgemeinen. Sollten Sie vielleicht noch etwas skeptisch
+                sein, hilft vielleicht ein Blick auf unser
+                Kundenbewertungsprofil, welches von der Firma ekomi
+                treuhänderisch verwaltet wird.
+              </p>
+              <p className="hamburger_para_subheading">
+                Gold Ankauf für Goldbarren, Zahngold, Silberbesteck, Altgold,
+                Goldmünzen und mehr!
+              </p>
+              <p className="zahngold_lastpara2">
+                Wir sind Ihr Gold & Edelmetall Experte für ganz Hamburg! Gold
+                Schmuck Ankauf sowie Silber, Platin Ankauf und Goldmünzenankauf.
+                Goldmünzen aus allen Ländern und aller Hersteller sowie
+                Goldbarren und Silberbarren Ankauf aller Größen und Gewichte!
+                Goldbarrenankauf und Silberbarrenankauf auch bei zerkratzten
+                oder beschädigten Gegenständen. Zahngold Ankauf und
+                Zahngoldankauf zu hohen Grammpreisen!
+              </p>
+              <p className="zahngold_lastpara2">
+                Sowie Silberbesteck und Schmuckankauf gegen Sofortzahlung.
+                Silberankauf und Platinankauf sowie Palladiumankauf Ankauf
+                bieten wir ebenfalls an. Silberbestecke und Tafelsilber aller
+                Hersteller sowie Bruchgold, Altgold Ankauf bzw. Bruchgoldankauf
+                und Altgoldankauf. Durchsuchen Sie noch heute Ihre Schubladen
+                und Sie werden sicher noch etwas Altgold finden, dass perfekt
+                für den Verkauf bei unserem Unternehmen geeignet ist.
+              </p>
             </div>
+            <div></div>
             <div className="zahngold123_section">
               <h2 className="zahngold123_sec_heading">
-                Zahngold123.de ist ein reiner Online Ankäufer
+                Service und Sicherheit auf einen Blick:
               </h2>
               <div className="zahngold_list_wrapper">
                 <ul>
@@ -247,11 +230,68 @@ const page = () => {
                     );
                   })}
                 </ul>
+                <p>
+                  Die Abwicklung eines entsprechenden Ankaufs von Edelmetallen
+                  in Hamburg können wir ganz nach Ihren Wünschen realisieren.
+                  Wir richten uns ganz nach Ihren Vorgaben und versuchen diese
+                  so gut es geht umzusetzen. Sobald Ihre Edelmetalle bei uns
+                  eingegangen sind, erhalten Sie per E-Mail oder Telefon eine
+                  Auswertung und den von uns errechneten Ankaufswert. Sollten
+                  Ihnen dieser Ankaufsbetrag zusagen, erhalten Sie Ihr Geld
+                  umgehend als Überweisung ausgezahlt. Möchten Sie Ihre
+                  Edelmetalle nicht für diesen Betrag verkaufen, ist es für uns
+                  selbstverständlich, dass wir Ihnen Ihr Gold zurücksenden.
+                </p>
+                <Button
+                  btnText="Jetzt Gold verkaufen"
+                  fontSize="25px"
+                  fontWeight="bold"
+                  width="361px"
+                  height="45px"
+                  margin="10px 0px 0px 0px"
+                />
+                <p className="zahngold123_sec_heading">
+                  GOLDANKAUF ABHOLUNGEN RUND UM HAMBURG – KOSTENLOS PER
+                  WERTKURIER:
+                </p>
+                <p>
+                  Goldankauf123 lässt Ihr Gold nicht nur in Hamburg Stadt
+                  kostenlos abholen. Auch rund um Hamburg (wie in Kaltenkirchen,
+                  Henstedt Ulzburg, Quickborn, Elmshorn, Glückstadt,
+                  Drochtersen, Uetersen, Norderstedt, Bargteheide, Ahrensburg,
+                  Rellingen, Pinneberg, Halstenbeck, Stade, Schenefeld, Wedel,
+                  Reinbek, Glinde, Schwarzenbek, Geesthacht, Lauenburg,
+                  Boizenburg, Winsen, Seevetal, Buchholz sowie in der ganzen
+                  Bundesrepublik gleichgültig ob in einer Stadt oder in einer
+                  Ortschaft.
+                </p>
+                <p className="mt-1">
+                  Dieser Goldankauf Abholservice wird Ihnen präsentiert von
+                  Goldankauf123! Gleichgültig ob Sie einen Silberankauf oder
+                  einen Goldankauf Hamburg suchen, Sie sollte nur eine
+                  Internetseite kennen: die von Goldankauf123.
+                </p>
               </div>
             </div>
             <div className="img_box_wrapepr">
               <div className="img_box">
                 <Image src={HamburgLastImg} alt="" />
+                <div className="zahngold_last_img_wrapper">
+                  <div className="zahngold_last_img_wrapper_body">
+                    <div>
+                      <p className="wir_verkaufer_name">Goldankauf Hamburg</p>
+                    </div>
+                    <div className="wir_verkaufer_btn">
+                      <div className="wir_verkaufer_btn_arrow">
+                        <BtnArrowMobile />
+                        <BtnArrow />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="img_box img_box2">
+                <Image src={HamburgLastImg1} alt="" />
                 <div className="zahngold_last_img_wrapper">
                   <div className="zahngold_last_img_wrapper_body">
                     <div>
@@ -267,11 +307,29 @@ const page = () => {
                 </div>
               </div>
             </div>
+            <div className="img_box_wrapepr">
+              <div className="img_box">
+                <Image src={HamburgLastImg2} alt="" />
+                <div className="zahngold_last_img_wrapper">
+                  <div className="zahngold_last_img_wrapper_body">
+                    <div>
+                      <p className="wir_verkaufer_name">Goldankauf München</p>
+                    </div>
+                    <div className="wir_verkaufer_btn">
+                      <div className="wir_verkaufer_btn_arrow">
+                        <BtnArrowMobile />
+                        <BtnArrow />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4">
-            <div className="">
+            <div className="hamburg_right_side">
               <div className="d-none d-lg-flex wirkaufen_page_price">
-                <PriceValueForm />
+                <PriceValueForm home />
               </div>
               <KitcoGoldTab />
               <EtrusredShop2 />
@@ -280,6 +338,12 @@ const page = () => {
             </div>
           </div>
         </div>
+        <section className=" garantie_price_container ">
+          <GarantedPrice />
+        </section>
+        <section className="mb-2 goldrechner-last-section">
+          <ValueCalc />
+        </section>
       </div>
     </section>
   );
