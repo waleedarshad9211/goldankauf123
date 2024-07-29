@@ -4448,9 +4448,7 @@ header .dropdown-menu.show li a.active {
   .value-calculate button {
     width: 210px;
   }
-  .header-top-wrapper {
-    padding-right: 25px;
-  }
+
   .customer_review2_column1 {
     padding-left: 10px !important;
     width: 41.66666667% !important;
@@ -6576,11 +6574,10 @@ header .dropdown-menu.show li a.active {
   color: #121212;
 }
 .videos_uber_zahngold_wrapper_video {
-  margin-top: 30px;
-  background-color: #f7f7f7;
+  margin-top: 10px;
   border-radius: 20px;
   padding: 15px;
-  width: 92%;
+  width: 100%;
 }
 .videos_uber_zahngold_wrapper_video .vedio_card iframe {
   margin-left: 3px;
@@ -6591,7 +6588,8 @@ header .dropdown-menu.show li a.active {
   left: -8px;
 }
 .videos_uber_zahngold_wrapper_video .bottom-right {
-  right: -5px;
+  right: -12px;
+  bottom: -6px;
 }
 .videos_uber_zahngold_wrapper_btn {
   display: flex;
@@ -8483,6 +8481,21 @@ header .dropdown-menu.show li a.active {
   line-height: 26px;
   font-weight: 500;
 }
+.stadteankauf_table_header {
+  background-color: #36a18b;
+  display: flex;
+  align-items: center;
+  padding: 1px 10px;
+  border-radius: 10px;
+  height: 40px;
+}
+.stadteankauf_table_header p {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  flex: 1;
+}
 .hamburg_table {
   background-color: #f7f7f7;
   margin-bottom: 2px;
@@ -8493,9 +8506,31 @@ header .dropdown-menu.show li a.active {
   justify-content: space-between;
   align-items: center;
 }
+.stadteankauf_table {
+  background-color: #f7f7f7;
+  margin-bottom: 2px;
+  border-radius: 10px;
+  padding: 1px 10px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
 .hamburg_table p {
   font-size: 18px;
   width: 115px;
+}
+.stadteankauf_table p {
+  font-size: 18px;
+  flex: 1;
+}
+.stadteankauf_table_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.stadteankauf_auch_fur_kunden_paras p {
+  margin-left: 10px;
 }
 .hamburger_table_button {
   display: flex;
@@ -8902,6 +8937,19 @@ header .dropdown-menu.show li a.active {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.stadteankauf_wrapper_second_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.stadteankauf_table_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
 .stadteankauf_wrapper_para1 {
   font-size: 16px;
   line-height: 24px;
@@ -8917,16 +8965,90 @@ header .dropdown-menu.show li a.active {
   margin-top: 0px;
 }
 .stadteankauf_wrapper_box .img_box {
+  width: 100%;
+  height: 194px;
+}
+.stadteankauf_wrapper_box .img_box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.goldwissen_wrapper_box .img_box {
   width: 340px;
   height: 263px;
 }
-.stadteankauf_wrapper_box .img_box img {
+.goldwissen_wrapper_box .img_box img {
   width: 320px;
   height: 240px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .zahngold_last_img_wrapper {
   cursor: pointer;
+}
+.ankaufspreise_wrapper_heading1 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.ankaufspreise_wrapper_para {
+  display: flex;
+}
+.ankaufspreise_wrapper_heading2 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.ankaufspreise_table_heading1 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ankaufspreise_table_heading2 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ankaufpreise_table_wrapper1 .hamburg_table_header,
+.ankaufpreise_table_wrapper1 .hamburg_table {
+  justify-content: flex-start;
+}
+.ankaufpreise_table_column1 {
+  width: 190px !important;
+}
+.ankaufpreise_table_column2 {
+  width: 100px !important;
+}
+.ankaufpreise_table_column3 {
+  width: 120px !important;
+}
+.ankaufpreise_table_column4 {
+  width: 130px !important;
+}
+.ankaufpreise_table_column5 {
+  width: 110px !important;
+}
+
+.ankaufpreise_table2_column1 {
+  width: 100px !important;
+}
+.ankaufpreise_table2_column2 {
+  width: 130px !important;
+}
+.ankaufpreise_table2_column3 {
+  width: 160px !important;
+}
+.ankaufpreise_table2_column4 {
+  width: 130px !important;
+}
+.ankaufpreise_table2_column5 {
+  width: 130px !important;
+}
+.mrt-10 {
+  margin-top: 10px;
 }
 /* goldankauf-lexikon  css starts here*/
 .goldankauf_lexikon_wrapper
@@ -9438,6 +9560,13 @@ header .dropdown-menu.show li a.active {
 }
 
 @media screen and (max-width: 767px) {
+  .stadteankauf_table_heading {
+    font-size: 28px;
+  }
+  .stadteankauf_table_header p,
+  .stadteankauf_table p {
+    font-size: 12px;
+  }
   .wir_ankaufun_swiper_wrapper .swiper-button-next:after,
   .wir_ankaufun_swiper_wrapper .swiper-button-prev:after {
     font-size: 35px;
@@ -9577,8 +9706,28 @@ header .dropdown-menu.show li a.active {
   .hamburg_valuecal .value-calculate-select {
     margin-left: 0px;
   }
+
   .hamburg_table_header p {
-    font-size: 14px;
+    font-size: 12px;
+    width: auto;
+    flex: 1;
+  }
+  .hamburg_table p {
+    font-size: 12px;
+    width: auto;
+    flex: 1;
+  }
+  .stadteankauf_table_button button {
+    width: 100% !important;
+    font-size: 19px !important;
+    padding: 1px 10px !important;
+  }
+  .stadteankauf_wrapper_main_heading {
+    font-size: 28px;
+  }
+  .stadteankauf_auch_fur_kunden_paras p {
+    margin-left: 5px;
+    font-size: 15px;
   }
   .hamburger_table_button button {
     width: 100% !important;
@@ -10313,7 +10462,16 @@ header .dropdown-menu.show li a.active {
   .hero_slider .swiper-button-prev {
     left: 23%;
   }
-
+  .hamburg_table_header p {
+    font-size: 9px;
+    width: auto;
+    flex: 1;
+  }
+  .hamburg_table p {
+    font-size: 9px;
+    width: auto;
+    flex: 1;
+  }
   .hero_slide2 button {
     font-size: 18px !important;
     margin: 15px 0px 0px 0px !important;
@@ -10853,6 +11011,11 @@ header .dropdown-menu.show li a.active {
   }
   .navbar-toggler-icon-bar {
     margin-left: 5px;
+  }
+  .ankaufspreise_wrapper_para {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
   }
 }
 

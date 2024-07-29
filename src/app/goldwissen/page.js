@@ -59,7 +59,7 @@ const Goldwissen = () => {
                 Verkaufsrelavantes wissen
               </p>
             </div>
-            <div className="stadteankauf_wrapper_box goldwissen_wrapper_box row d-none d-md-flex d-lg-flex">
+            <div className=" goldwissen_wrapper_box row d-none d-md-flex d-lg-flex">
               {goldWissenfArray.map((item, index) => {
                 return (
                   <div
@@ -91,7 +91,7 @@ const Goldwissen = () => {
             <p className="verkaufsrelavantes_wissen_heading d-none d-md-flex d-lg-flex">
               Detailwissen für Wissbegierige
             </p>
-            <div className="stadteankauf_wrapper_box goldwissen_wrapper_box row d-none d-md-flex d-lg-flex">
+            <div className=" goldwissen_wrapper_box row d-none d-md-flex d-lg-flex">
               {goldWissenfArray1.map((item, index) => {
                 return (
                   <div
