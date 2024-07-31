@@ -11150,6 +11150,122 @@ header .dropdown-menu.show li a.active {
 .zahngold_varsandarten1 img {
   width: 350px;
 }
+
+/* auszeichnungen page start here */
+.auszeichnungen_wrapper_main_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.auszeichnungen_wrapper_main_subheading {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.auszeichnungen_wrapper_second_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.auszeichnungen_wrapper_second_subheading {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.auszeichnungen_list {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 1px 10px;
+  margin-left: 30px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+}
+.auszeichnungen_list p {
+  margin-left: 5px;
+}
+.auszeichnungen_wrapper_card {
+  background-color: #e8f1ed;
+  padding: 15px;
+  border-radius: 10px;
+}
+.auszeichnungen_wrapper_card_body {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.auszeichnungen_wrapper_card_body:last-child {
+  margin-bottom: 0px;
+}
+.auszeichnungen_wrapper_card_body_para {
+  margin-left: 20px;
+}
+.auszeichnungen_wrapper_card_body_heading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.auszeichnungen_wrapper_card_middle_paras {
+  margin-bottom: 10px;
+}
+.auszeichnungen_wrapper .vedio_card {
+  margin-top: 15px;
+}
+.auszeichnungen_wrapper .vedio_card .bottom-right {
+  bottom: -2px;
+  right: -8px;
+}
+.auszeichnungen_wrapper .vedio_card .top-left {
+  top: -8px;
+  left: -8px;
+}
+.auszeichnungen_wrapper .black-corner-top,
+.auszeichnungen_wrapper .black-corner-bottom {
+  width: 60px;
+  height: 60px;
+  border-bottom-right-radius: 20px;
+}
+.ard_phenix {
+  background-color: #e8f2ee;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ard_phenix_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ard_phenix_last_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ard_phenix_para {
+  max-width: 600px;
+  margin-bottom: 15px;
+}
+.mrt-5 {
+  margin-top: 5px;
+}
+.mrt-20 {
+  margin-top: 20px;
+}
 @media screen and (min-width: 993px) and (max-width: 1180px) {
   .zahngold_wrapper .gold_card,
   .zahngold_wrapper .gold_card2,

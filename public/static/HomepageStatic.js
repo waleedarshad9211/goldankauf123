@@ -1,5 +1,4 @@
 "use client";
-
 import UberGoldIngots from "@/public/assets/img/homepage/uber_gold-ingots.png";
 import UberPayment from "@/public/assets/img/homepage/uber_payment.png";
 import UberQuality from "@/public/assets/img/homepage/uber_quality.png";
@@ -1780,7 +1779,147 @@ export const uberVideoArray2 = [
     text: "Michele bewertet moneyGold",
   },
 ];
-
+export const auszeichnungenArray1 = [
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: Getestet,
+    width: 120,
+    height: 39,
+    heading: "GETESTET.DE",
+    para: "Goldankauf123.de wurde von Getestet.de auf Herz und Nieren geprüft und hat sich im Wettbewerb gegen zahlreiche andere namhafte Anbieter durchsetzen können.",
+    para2:
+      'Getestet.de schrieb hierzu: "Ob eine Anleitung zur Bestimmung des Edelmetallgehalts oder ein Goldlexikon – hier.',
+  },
+  {
+    src: NTV2022,
+    width: 110,
+    height: 120,
+    heading: "DIGICERT PARTNER",
+    para: "Die Sicherheit Ihrer Daten ist uns wichtig, daher betreiben wir unsere Webseite mit einer 2048-Bit SSL-Verschlüsselung. Die DigiCert Inc. ist einer der führenden Anbieter von SSL-Webseitenverschlüssung und viele weitere namhafte Webseiten setzen auf diesen Service!",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Getestet",
+    para: "Wir wurden von Getestet.de mit fünf anderen Goldankauf-Portalen getestet und konnten als Testsieger abschließen. Insgesamt wurde unser Angebot von Getestet.de mit einer Note von 1,6 bewertet.",
+  },
+  {
+    src: NTV2022,
+    width: 121,
+    height: 121,
+    heading: "DEUTSCHLANDS BESTE",
+    para: "Wir haben am Wettbewerb Deutschlands beste Online-Portale teilgenommen und konnten mit den Qualitäten unseres Portals überzeugen.",
+  },
+  {
+    src: Ekomi,
+    width: 120,
+    height: 120,
+    heading: "eKomi",
+    para: "eKomi bietet unseren Kunden die Möglichkeit, unabhängig Bewertungen über Goldankauf123 verfassen zu können. Für Sie als Kunde bedeutet dies, dass Sie sich über Goldankauf123 unabhängig informieren können. Wir als Goldankauf haben durch Ihre Kundenmeinungen die Möglichkeit, die Qualität unserer Dienstleistung zu verbessern.",
+  },
+  {
+    src: ProvenExpert,
+    width: 120,
+    height: 92,
+    heading: "PROVEN EXPERT",
+    para: "Proven Expert ist ein Online-Bewertungsportal, das Goldankauf123 dabei unterstützt, das Vertrauen und die Glaubwürdigkeit bei unseren Kunden zu stärken. Das Portal bietet uns die Möglichkeit, Kundenbewertungen zu sammeln, zu verwalten und zu präsentieren. Für Sie als Kunde bietet Proven Expert eine gute unabhängige Sicht über unsere Arbeitsweise.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+];
+export const auszeichnungenArray2 = [
+  {
+    src: NTV2022,
+    width: 120,
+    height: 120,
+    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
+    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+  },
+  {
+    src: Getestet,
+    width: 120,
+    height: 39,
+    heading: "GETESTET.DE",
+    para: "Goldankauf123.de wurde von Getestet.de auf Herz und Nieren geprüft und hat sich im Wettbewerb gegen zahlreiche andere namhafte Anbieter durchsetzen können.",
+    para2:
+      'Getestet.de schrieb hierzu: "Ob eine Anleitung zur Bestimmung des Edelmetallgehalts oder ein Goldlexikon – hier.',
+  },
+  {
+    src: NTV2022,
+    width: 110,
+    height: 120,
+    heading: "DIGICERT PARTNER",
+    para: "Die Sicherheit Ihrer Daten ist uns wichtig, daher betreiben wir unsere Webseite mit einer 2048-Bit SSL-Verschlüsselung. Die DigiCert Inc. ist einer der führenden Anbieter von SSL-Webseitenverschlüssung und viele weitere namhafte Webseiten setzen auf diesen Service!",
+  },
+];
 export const sicherheitArray = [
   {
     src: transparent_echte,
@@ -2507,6 +2646,11 @@ export const routes = [
         parentPath: "/sicherheit",
         path: "/verkaufsanleitungen-wertsendung",
         pathName: "Verkaufsanleitungen",
+      },
+      {
+        parentPath: "/sicherheit",
+        path: "/auszeichnungen",
+        pathName: "Auszeichnungen",
       },
       {
         parentPath: "/sicherheit",
