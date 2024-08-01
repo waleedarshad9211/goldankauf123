@@ -101,26 +101,6 @@ const Cal = () => {
                         );
                       })}
                     </div>
-                    {/* <table className="table">
-                      <tbody>
-                        <tr className="">
-                          <td>20 Gramm</td>
-                          <td className="text-center">999er Feingold</td>
-                          <td className="text-end">zu 1.158,40 €</td>
-                        </tr>
-                        <tr className="">
-                          <td>40 Gramm</td>
-                          <td className="text-center">986er Gold</td>
-                          <td className="text-end">zu 2.280,40 €</td>
-                        </tr>
-                        <tr className="brdr-btm">
-                          <td colSpan="2" className="fw-bold">
-                            Ihr Auszahlungsbetrag
-                          </td>
-                          <td className="fw-bold text-end">2.656,000 €</td>
-                        </tr>
-                      </tbody>
-                    </table> */}
                   </div>
                 </div>
                 <div className="cal_table_para">

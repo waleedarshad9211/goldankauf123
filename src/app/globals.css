@@ -1272,7 +1272,7 @@ header .dropdown-menu.show li a.active {
     font-weight: 800;
   }
   .current-value .calc-table {
-    margin-top: 0px;
+    margin-top: 20px;
   }
   .current-value .calc-table table {
     font-size: 16px;

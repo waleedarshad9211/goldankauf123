@@ -7,7 +7,9 @@ import Clock from "@/components/shared/clock/Clock";
 import GarantedPrice from "@/components/shared/garantedPrice/GarantedPrice";
 import Pricing from "@/components/shared/pricing/Pricing";
 import RightTriangle from "/public/assets/img/right-triangle.png";
+import downTriangle from "/public/assets/img/down-triangle.png";
 import Image from "next/image";
+import { calculatorArray } from "@/public/static/HomepageStatic";
 
 const page = () => {
   const pricingParagraph = `
@@ -111,26 +113,23 @@ const page = () => {
                         <h5 className="text-center p-2">
                           Ihre Berechnung im Detail:
                         </h5>
-                        <table className="table">
-                          <tbody>
-                            <tr className="">
-                              <td>20 Gramm</td>
-                              <td className="text-center">999er Feingold</td>
-                              <td className="text-end">zu 1.158,40 €</td>
-                            </tr>
-                            <tr className="">
-                              <td>40 Gramm</td>
-                              <td className="text-center">986er Gold</td>
-                              <td className="text-end">zu 2.280,40 €</td>
-                            </tr>
-                            <tr className="brdr-btm">
-                              <td colSpan="2" className="fw-bold">
-                                Ihr Auszahlungsbetrag
-                              </td>
-                              <td className="fw-bold text-end">2.656,000 €</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                        <div className=" calculator_table_wrapper1">
+                          {calculatorArray.map((item, index) => {
+                            return (
+                              <div key={index} className="hamburg_table">
+                                <p className="ankaufpreise_table_column1">
+                                  {item.val1}
+                                </p>
+                                <p className="ankaufpreise_table_column2">
+                                  {item.val2}
+                                </p>
+                                <p className="ankaufpreise_table_column3">
+                                  {item.val3}
+                                </p>
+                              </div>
+                            );
+                          })}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -146,7 +145,9 @@ const page = () => {
                 <div className="d-none d-lg-block">
                   <Image src={RightTriangle} alt="" />
                 </div>
-                <div className="triangle-down d-block d-lg-none"></div>
+                <div className="d-block d-lg-none">
+                  <Image src={downTriangle} alt="" />
+                </div>
               </div>
               <div className="col-md-12 col-lg-4 kostenlos-wrapper">
                 <div className="calculator-right-side">
