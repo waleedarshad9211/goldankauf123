@@ -617,7 +617,7 @@ header .dropdown-menu.show li a.active {
   font-size: 25px;
   text-align: center;
   font-weight: 500;
-  padding: 1px 20px;
+  padding: 10px 20px;
   width: fit-content;
   color: #ffffff;
   cursor: pointer;
@@ -949,6 +949,7 @@ header .dropdown-menu.show li a.active {
   font-size: 35px;
   font-weight: bold;
   color: #36a18b;
+  margin-top: 10px;
 }
 .cal_table_para {
   margin-top: 55px;
@@ -8538,6 +8539,40 @@ header .dropdown-menu.show li a.active {
   align-items: center;
   margin-top: 20px;
 }
+.calculator_table_wrapper1 .hamburg_table {
+  justify-content: flex-start;
+}
+.calculator_table_wrapper1 .hamburg_table p {
+  flex: 1;
+  width: auto !important;
+}
+.calculator_table_wrapper1
+  .hamburg_table:first-child
+  .ankaufpreise_table_column3,
+.calculator_table_wrapper1
+  .hamburg_table:nth-child(2)
+  .ankaufpreise_table_column3 {
+  margin-left: 20px;
+}
+.calculator_table_wrapper1
+  .hamburg_table:last-child
+  .ankaufpreise_table_column1,
+.calculator_table_wrapper1
+  .hamburg_table:last-child
+  .ankaufpreise_table_column3 {
+  font-weight: 700;
+}
+.calculator_table_wrapper1
+  .hamburg_table:last-child
+  .ankaufpreise_table_column1 {
+  flex: 2;
+  width: auto !important;
+}
+.calculator_table_wrapper1
+  .hamburg_table:last-child
+  .ankaufpreise_table_column2 {
+  display: none;
+}
 .zahngold_goldrechner {
   font-size: 30px;
   line-height: 40px;
@@ -10643,6 +10678,29 @@ header .dropdown-menu.show li a.active {
   .step_card {
     width: auto;
     min-height: 265px;
+  }
+  .auszeichnungen_wrapper_main_heading {
+    font-size: 26px !important;
+    line-height: 32px;
+  }
+  .auszeichnungen_wrapper_main_subheading {
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 5px;
+  }
+  .auszeichnungen_wrapper_second_heading {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .auszeichnungen_wrapper_second_subheading {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .auszeichnungen_list_wrapper {
+    flex-direction: column !important;
+  }
+  .auszeichnungen_wrapper_card_body {
+    flex-wrap: wrap;
   }
 }
 @media screen and (min-width: 375px) and (max-width: 375px) {

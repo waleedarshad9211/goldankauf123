@@ -59,7 +59,7 @@ const page = () => {
               Sie eine Übersicht über eine Reihe von Bewertungsportalen sowie
               kurze Zusammenfassungen von TV-Beiträgen über unser Angebot.
             </p>
-            <p>
+            <p className="mrt-5">
               Die Kundenzufriedenheit ist uns sehr wichtig! Bei Fragen nehmen
               Sie bitte direkt Kontakt mit uns auf und wenden sich via E-Mail
               oder Telefon vertrauensvoll an unseren Kundenservice.
@@ -70,7 +70,7 @@ const page = () => {
             <p className="auszeichnungen_wrapper_second_subheading">
               100% Sicherheit durch echte Kundenbewertungen
             </p>
-            <div className="d-flex align-items-center mt-1">
+            <div className="d-flex align-items-center mt-1 auszeichnungen_list_wrapper">
               <Image src={EkomiVector} alt="" width={119} height={119} />
               <div>
                 {auszeichnungenArray.map((item, index) => {

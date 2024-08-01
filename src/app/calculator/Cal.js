@@ -1,3 +1,4 @@
+"use client";
 import PriceValueForm from "@/components/shared/PriceValueForm";
 import WeitereVersandartenCard from "@/components/shared/WeitereVersandartenCard";
 import Breadcrumbs from "@/components/shared/breadcrumb/BreadcrumbsComponent";
@@ -6,6 +7,7 @@ import Pricing from "@/components/shared/pricing/Pricing";
 import RightTriangle from "/public/assets/img/right-triangle.png";
 import downTriangle from "/public/assets/img/down-triangle.png";
 import Image from "next/image";
+import { calculatorArray } from "@/public/static/HomepageStatic";
 
 const Cal = () => {
   return (
@@ -82,7 +84,24 @@ const Cal = () => {
                     <h5 className="text-center p-2">
                       Ihre Berechnung im Detail:
                     </h5>
-                    <table className="table">
+                    <div className=" calculator_table_wrapper1">
+                      {calculatorArray.map((item, index) => {
+                        return (
+                          <div key={index} className="hamburg_table">
+                            <p className="ankaufpreise_table_column1">
+                              {item.val1}
+                            </p>
+                            <p className="ankaufpreise_table_column2">
+                              {item.val2}
+                            </p>
+                            <p className="ankaufpreise_table_column3">
+                              {item.val3}
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                    {/* <table className="table">
                       <tbody>
                         <tr className="">
                           <td>20 Gramm</td>
@@ -101,7 +120,7 @@ const Cal = () => {
                           <td className="fw-bold text-end">2.656,000 €</td>
                         </tr>
                       </tbody>
-                    </table>
+                    </table> */}
                   </div>
                 </div>
                 <div className="cal_table_para">

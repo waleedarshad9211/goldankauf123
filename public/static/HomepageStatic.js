@@ -1384,6 +1384,22 @@ export const ankaufpreiseArray6 = [
     val5: "356,00 €",
   },
 ];
+export const calculatorArray = [
+  {
+    val1: "20 Gramm",
+    val2: "999er Feingold",
+    val3: "zu 1.158,40 €",
+  },
+  {
+    val1: "40 Gramm",
+    val2: "986er Gold",
+    val3: "zu 2.280,40 €",
+  },
+  {
+    val1: "Ihr Auszahlungsbetrag",
+    val3: "2.656,000 €",
+  },
+];
 export const stadteankaufTableArray = [
   {
     val1: "999 Gold",
