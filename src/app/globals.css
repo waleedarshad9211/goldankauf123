@@ -8788,33 +8788,52 @@ header .dropdown-menu.show li a.active {
 /* verkaufsanleitung page css starts here */
 .verkaufsanleitung_wrapper_heading1 {
   font-size: 30px;
-  line-height: 32.87px;
-  font-weight: bold;
-  margin-top: 25px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.verkaufsanleitung_wrapper_list {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 1px 10px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+}
+.verkaufsanleitung_wrapper_heading2 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 .verkaufsanleitung_wrapper_para1 {
   font-size: 18px;
   line-height: 26px;
   margin-top: 15px;
-  margin-bottom: 22px;
+  margin-bottom: 10px;
+}
+.verkaufsanleitung_card_row {
+  margin-top: 15px;
 }
 .verkaufsanleitung_card1 {
-  background-color: #019ba5;
+  background-color: #eee4e3;
   border-radius: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 237.27px;
-  height: 269.03px;
+  width: 225px;
+  height: 236px;
+  padding: 10px;
 }
 .verkaufsanleitung_card2 {
-  background-color: #64c3c9;
+  background-color: #f2f2ff;
   border-radius: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 237.27px;
-  height: 269.03px;
+  width: 225px;
+  height: 236px;
+  padding: 10px;
 }
 .verkaufsanleitung_card1 img {
   margin-top: 20px;
@@ -8823,9 +8842,8 @@ header .dropdown-menu.show li a.active {
   margin-top: 20px;
 }
 .verkaufsanleitung_card1 p {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
 }
 .verkaufsanleitung_triangle-up {
   display: block;
@@ -8833,17 +8851,16 @@ header .dropdown-menu.show li a.active {
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 18px solid #ffffff;
+  border-bottom: 18px solid #c99e58;
+  margin-top: 20px;
 }
 .verkaufsanleitung_card2 p {
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
 }
 .verkaufsanleitung_card_column {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
-
 .verkaufsanleitung_Versandtasche_bestellen {
   padding: 30px 65px;
   background-color: #fff7da;
@@ -8855,7 +8872,8 @@ header .dropdown-menu.show li a.active {
 }
 .verkaufsanleitung_Versandtasche_bestellen_heading {
   font-size: 30px;
-  line-height: 32.87px;
+  font-weight: 500;
+  line-height: 32px;
 }
 .verkaufsanleitung_Versandtasche_bestellen_para1 {
   font-size: 18px;
@@ -8874,9 +8892,37 @@ header .dropdown-menu.show li a.active {
 }
 .verkaufsanleitung_auswahlen_heading {
   font-size: 30px;
-  line-height: 32.87px;
+  line-height: 32px;
   margin-bottom: 10px;
-  font-weight: bold;
+  font-weight: 500;
+}
+.verkaufsanleitung_wrapper_selbstversand {
+  background-color: #e8f1ed;
+  border-radius: 10px;
+  padding: 20px;
+}
+.verkaufsanleitung_wrapper_card {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+.verkaufsanleitung_wrapper_card_heading {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.verkaufsanleitung_wrapper_card_div {
+  margin-left: 20px;
+}
+.verkaufsanleitung_wrapper_card_triangle {
+  position: absolute;
+  top: -3px;
+  right: 50%;
 }
 .funktionierts_wrapper_auswahlen1 img,
 .funktionierts_wrapper_auswahlen2 img {
@@ -10431,6 +10477,19 @@ header .dropdown-menu.show li a.active {
   .rolex_section_heading_paras h2 {
     margin-top: 15px;
   }
+  .auszeichnungen_list_wrapper {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .auszeichnungen_list_wrapper img {
+    margin-bottom: 15px;
+  }
+  .auszeichnungen_list {
+    margin-left: 0px !important;
+  }
+  .auszeichnungen_wrapper_card_body {
+    align-items: flex-start !important;
+  }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
   .herobg1,
@@ -10676,22 +10735,30 @@ header .dropdown-menu.show li a.active {
     line-height: 32px;
   }
   .auszeichnungen_wrapper_main_subheading {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 22px !important;
+    line-height: 28px !important;
     margin-top: 5px;
   }
   .auszeichnungen_wrapper_second_heading {
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 28px !important;
+    line-height: 32px !important;
   }
   .auszeichnungen_wrapper_second_subheading {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 22px !important;
+    line-height: 28px !important;
   }
   .auszeichnungen_list_wrapper {
     flex-direction: column !important;
+    align-items: flex-start !important;
   }
-  .auszeichnungen_wrapper_card_body {
+  .auszeichnungen_list_wrapper img {
+    margin-bottom: 15px;
+  }
+  .auszeichnungen_list {
+    margin-left: 0px !important;
+  }
+  .auszeichnungen_wrapper_card_body_para {
+    display: flex;
     flex-wrap: wrap;
   }
 }
@@ -11284,6 +11351,7 @@ header .dropdown-menu.show li a.active {
   height: 60px;
   border-bottom-right-radius: 20px;
 }
+
 .ard_phenix {
   background-color: #e8f2ee;
   border-radius: 10px;

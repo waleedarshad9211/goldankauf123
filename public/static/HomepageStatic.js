@@ -174,6 +174,12 @@ import radiant_schliff from "/public/assets/img/radiant.png";
 import tropfen_schliff from "/public/assets/img/tropfen.png";
 import ZuruckGaranteeTick from "/public/assets/img/bestelen_tick.png";
 import printerPaper from "/public/assets/img/printer-paper-goldwissen.png";
+import downTriangle from "/public/assets/img/down-triangle_verkaufen.png";
+import VerkaufsanleitungImg1 from "/public/assets/img/verkaufsanleitung1.png";
+import VerkaufsanleitungImg2 from "/public/assets/img/verkaufsanleitung2.png";
+import VerkaufsanleitungImg3 from "/public/assets/img/verkaufsanleitung3.png";
+import VerkaufsanleitungImg4 from "/public/assets/img/verkaufsanleitung4.png";
+import VerkaufsanleitungImg5 from "/public/assets/img/verkaufsanleitung5.png";
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
@@ -1398,6 +1404,38 @@ export const calculatorArray = [
   {
     val1: "Ihr Auszahlungsbetrag",
     val3: "2.656,000 €",
+  },
+];
+export const verkaufsanleitungArray1 = [
+  {
+    src: VerkaufsanleitungImg1,
+    triangle: "",
+    heading: "DHL Paketschein anfordern",
+    para: "Bestellen Sie bitte im ersten Schritt einen kostenlosen DHL Paketschein. Jetzt Selbstversand Paketschein bestellen.",
+  },
+  {
+    src: VerkaufsanleitungImg2,
+    triangle: downTriangle,
+    heading: "Verpacken der Wertgegenstände",
+    para: "Verpacken Sie Ihre Wertgegenstände (Schmuck, Münzen, Zahngold, Silberbesteck etc.) in einem Karton oder eine Versandschachtel. Tipps zum Verpacken Ihrer Wertgegenstände erhalten Sie hier. Verkaufsbestätigung ausdrucken und beilegen. Nachdem Sie den Verkauf online eingeleitet haben, erhalten Sie unverzüglich eine Bestätigung per E-Mail. Dieses Schreiben legen Sie Ihrer Sendung bitte ausgedruckt und unterschrieben bei.",
+  },
+  {
+    src: VerkaufsanleitungImg3,
+    triangle: downTriangle,
+    heading: "Sendung verschicken",
+    para: "Jetzt brauchen Sie Ihre Sendung nur noch zu versenden. Bringen Sie Ihre Sendung gut verpackt zur nächsten Filiale der Deutschen Post. In der Regel kommt Ihre Sendung schon 24 Stunden später bei uns an und wird sofort bearbeitet.",
+  },
+  {
+    src: VerkaufsanleitungImg4,
+    triangle: downTriangle,
+    heading: "Sorgfältige Analyse vom Fachmann",
+    para: "Ihre Wertsachen werden nun professionell analysiert und bewertet. Nach Abschluss der Analyse, teilen wir lhnen unverzüglich den Auszahlungsbetrag per E-Mail mit..",
+  },
+  {
+    src: VerkaufsanleitungImg5,
+    triangle: downTriangle,
+    heading: "Umgehende Auszahlung des Ankaufspreises",
+    para: "Wenn Sie mit unserem Kaufangebot einverstanden sind, überweisen wir den Geldbetrag sofort auf Ihr Bankkonto.",
   },
 ];
 export const stadteankaufTableArray = [
