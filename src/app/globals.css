@@ -8784,7 +8784,31 @@ header .dropdown-menu.show li a.active {
 .zhangold_konstlon .trusted2 {
   margin-left: 20px;
 }
+/* nachhaltigkiet page css starts here */
 
+.nachhaltig_main_wrapper {
+  background-color: #36a18b;
+}
+.nachhaltig_main_wrapper_heading {
+  font-size: 40px;
+  line-height: 56px;
+  color: #ffffff;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.nachhaltig_main_wrapper_para1 {
+  color: #ffffff;
+  padding-bottom: 30px;
+  margin-top: 20px;
+  font-size: 22px;
+  line-height: 28px;
+}
+.nachhaltig_main_wrapper_column {
+  background-image: url("/assets/img/homepage/forestDesktop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* verkaufsanleitung page css starts here */
 .verkaufsanleitung_wrapper_heading1 {
   font-size: 30px;
@@ -8799,6 +8823,9 @@ header .dropdown-menu.show li a.active {
   padding: 1px 10px;
   margin-bottom: 3px;
   border-radius: 10px;
+}
+.verkaufsanleitung_wrapper_list p {
+  margin-left: 5px;
 }
 .verkaufsanleitung_wrapper_heading2 {
   font-size: 30px;
@@ -8923,6 +8950,15 @@ header .dropdown-menu.show li a.active {
   position: absolute;
   top: -3px;
   right: 50%;
+}
+.verkaufsanleitung_zusatzliche_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 15px;
+}
+.verkaufsanleitung_zusatzliche_para {
+  margin-bottom: 10px;
 }
 .funktionierts_wrapper_auswahlen1 img,
 .funktionierts_wrapper_auswahlen2 img {

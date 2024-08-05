@@ -10,26 +10,12 @@ import EtrusredShop2 from "@/components/shared/EtrusredShop2";
 import InformationCard from "@/components/shared/InformationCard";
 import tickIcon from "/public/assets/img/bestelen_tick.png";
 import downTriangle from "/public/assets/img/down-triangle_verkaufen.png";
-import { verkaufsanleitungArray1 } from "@/public/static/HomepageStatic";
-
-const auszeichnungenArray = [
-  {
-    src: tickIcon,
-    txt: "BEREITS ÜBER 100.000 KUNDEN",
-  },
-  {
-    src: tickIcon,
-    txt: "HOHE ANKAUFPREISE",
-  },
-  {
-    src: tickIcon,
-    txt: "KEINE GEBÜHREN UND ABZÜGE",
-  },
-  {
-    src: tickIcon,
-    txt: "KEINE VERSANDKOSTEN",
-  },
-];
+import {
+  verkaufsanleitung_wrapperArray,
+  verkaufsanleitung_wrapperArray1,
+  verkaufsanleitungArray1,
+  verkaufsanleitungArray2,
+} from "@/public/static/HomepageStatic";
 
 const Verkaufsanleitung = () => {
   return (
@@ -51,7 +37,7 @@ const Verkaufsanleitung = () => {
             <p className="verkaufsanleitung_wrapper_heading2">
               Allgemeine Verkaufsinformationen
             </p>
-            {auszeichnungenArray.map((item, index) => {
+            {verkaufsanleitung_wrapperArray.map((item, index) => {
               return (
                 <div className="verkaufsanleitung_wrapper_list " key={index}>
                   <Image src={item.src} />
@@ -132,18 +118,78 @@ const Verkaufsanleitung = () => {
                 })}
               </div>
             </div>
-            <div className="verkaufsanleitung_wrapper_btn">
-              <Button
-                btnText="Jetzt Edelmetalle verkaufen!"
-                borderRadius="10px"
-                fontSize="18px"
-                fontWeight="600"
-                width="auto"
-                padding="1px 20px"
-                margin="15px 0px"
-                height="38px"
-                backgroundColor="#019BA5"
-              />
+            <div className="funktionierts_wrapper_auswahlen verkaufsanleitung_auswahlen">
+              <p className="verkaufsanleitung_auswahlen_heading">
+                VERSANDTASCHE
+              </p>
+              <div className="verkaufsanleitung_wrapper_selbstversand">
+                {verkaufsanleitungArray2.map((item, index) => {
+                  return (
+                    <div className="verkaufsanleitung_wrapper_card" key={index}>
+                      <div className="verkaufsanleitung_wrapper_card_triangle">
+                        <Image
+                          src={downTriangle}
+                          alt=""
+                          className="verkaufsanleitung_wrapper_card_triangle_img"
+                        />
+                      </div>
+                      <Image src={item.src} alt="" />
+                      <div className="verkaufsanleitung_wrapper_card_div">
+                        <p className="verkaufsanleitung_wrapper_card_heading">
+                          {item.heading}
+                        </p>
+                        <p className="verkaufsanleitung_wrapper_card_para">
+                          {item.para}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="funktionierts_wrapper_auswahlen verkaufsanleitung_auswahlen">
+              <p className="verkaufsanleitung_auswahlen_heading">WERTVERSAND</p>
+              <div className="verkaufsanleitung_wrapper_selbstversand">
+                {verkaufsanleitungArray2.map((item, index) => {
+                  return (
+                    <div className="verkaufsanleitung_wrapper_card" key={index}>
+                      <div className="verkaufsanleitung_wrapper_card_triangle">
+                        <Image
+                          src={downTriangle}
+                          alt=""
+                          className="verkaufsanleitung_wrapper_card_triangle_img"
+                        />
+                      </div>
+                      <Image src={item.src} alt="" />
+                      <div className="verkaufsanleitung_wrapper_card_div">
+                        <p className="verkaufsanleitung_wrapper_card_heading">
+                          {item.heading}
+                        </p>
+                        <p className="verkaufsanleitung_wrapper_card_para">
+                          {item.para}
+                        </p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div>
+              <p className="verkaufsanleitung_zusatzliche_heading">
+                Zusätzliche Informationen
+              </p>
+              <p className="verkaufsanleitung_zusatzliche_para">
+                Zusätzlich Informationen zum Ankaufsablauf liefern folgende
+                Unterseiten:
+              </p>
+              {verkaufsanleitung_wrapperArray1.map((item, index) => {
+                return (
+                  <div className="verkaufsanleitung_wrapper_list " key={index}>
+                    <Image src={item.src} />
+                    <p>{item.txt}</p>
+                  </div>
+                );
+              })}
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4">

@@ -29,6 +29,7 @@ export const createPaths = (currentPage) => {
       "ankauf-abgeschlossen-versandtasche",
     ],
     "/sicherheit": ["sicherheit"],
+
     "/auszeichnungen": ["sicherheit", "auszeichnungen"],
     "/verkaufsanleitungen-wertsendung": [
       "sicherheit",
@@ -39,7 +40,7 @@ export const createPaths = (currentPage) => {
     "/gold-zuruck-garantie": ["sicherheit", "gold-zuruck-garantie"],
     "/uhren-ankauf": ["wir-kaufen", "uhren-ankauf"],
     "/diamanten": ["wir-kaufen", "diamanten"],
-    "/zahngold": ["wir-kaufen", "zahngold"],
+    "/nachhaltigkiet": ["wir-kaufen", "nachhaltigkiet"],
   };
   return path[currentPage];
 };

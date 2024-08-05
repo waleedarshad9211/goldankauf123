@@ -180,6 +180,8 @@ import VerkaufsanleitungImg2 from "/public/assets/img/verkaufsanleitung2.png";
 import VerkaufsanleitungImg3 from "/public/assets/img/verkaufsanleitung3.png";
 import VerkaufsanleitungImg4 from "/public/assets/img/verkaufsanleitung4.png";
 import VerkaufsanleitungImg5 from "/public/assets/img/verkaufsanleitung5.png";
+import Verkaufsanleitung3Img3 from "/public/assets/img/wertransport.png";
+import Verkaufsanleitung2Img2 from "/public/assets/img/versandtasche-befullen.png";
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
@@ -1438,6 +1440,102 @@ export const verkaufsanleitungArray1 = [
     para: "Wenn Sie mit unserem Kaufangebot einverstanden sind, überweisen wir den Geldbetrag sofort auf Ihr Bankkonto.",
   },
 ];
+export const verkaufsanleitungArray2 = [
+  {
+    src: VerkaufsanleitungImg1,
+    triangle: "",
+    heading: "Kostenlose Versandtasche bestellen",
+    para: "Bestellen Sie die kostenlose Versandtasche über unsere Webseite und erhalten die Tasche zur Befüllung Ihrer Edelmetalle innerhalb von wenigen Werktagen zugestellt.",
+  },
+  {
+    src: Verkaufsanleitung2Img2,
+    triangle: downTriangle,
+    heading: "Versandtasche befüllen",
+    para: "Füllen Sie bitte das der Tasche beiliegende Versandformular aus und befüllen die Tasche mit den den Edelmetallen",
+  },
+  {
+    src: VerkaufsanleitungImg3,
+    triangle: downTriangle,
+    heading: "Versandtasche versenden",
+    para: "Die Versandtasche ist bereits vorfrankiert und muss von Ihnen nurnoch bei der nächsten Postfiliale abgegeben werden. In vielen Fällen findet die Zustellung in unserem Labor meist schon am nächsten Werktag statt.",
+  },
+  {
+    src: VerkaufsanleitungImg4,
+    triangle: downTriangle,
+    heading: "Analyse und Auszahlung",
+    para: "Nach Eingang der Sendung nehmen unsere Experten die Analyse vor und teilen Ihnen den Ankaufspreis mit. Stimmen Sie dem Ankaufspreis zu, wird der Betrag durch unsere Buchhaltung an Sie angewiesen.",
+  },
+  {
+    src: VerkaufsanleitungImg5,
+    triangle: downTriangle,
+    heading: "Umgehende Auszahlung des Ankaufspreises",
+    para: "Wenn Sie mit unserem Kaufangebot einverstanden sind, überweisen wir den Geldbetrag sofort auf Ihr Bankkonto.",
+  },
+];
+export const verkaufsanleitungArray3 = [
+  {
+    src: VerkaufsanleitungImg1,
+    triangle: "",
+    heading: "DHL Paketschein anfordern",
+    para: "Bestellen Sie bitte im ersten Schritt einen kostenlosen DHL Paketschein. Jetzt Selbstversand Paketschein bestellen.",
+  },
+  {
+    src: VerkaufsanleitungImg2,
+    triangle: downTriangle,
+    heading: "Verpacken der Wertgegenstände",
+    para: "Verpacken Sie Ihre Wertgegenstände (Schmuck, Münzen, Zahngold, Silberbesteck etc.) in einem Karton oder eine Versandschachtel. Tipps zum Verpacken Ihrer Wertgegenstände erhalten Sie hier. Verkaufsbestätigung ausdrucken und beilegen. Nachdem Sie den Verkauf online eingeleitet haben, erhalten Sie unverzüglich eine Bestätigung per E-Mail. Dieses Schreiben legen Sie Ihrer Sendung bitte ausgedruckt und unterschrieben bei.",
+  },
+  {
+    src: Verkaufsanleitung3Img3,
+    triangle: downTriangle,
+    heading: "Sendung verschicken",
+    para: "Jetzt brauchen Sie Ihre Sendung nur noch zu versenden. Bringen Sie Ihre Sendung gut verpackt zur nächsten Filiale der Deutschen Post. In der Regel kommt Ihre Sendung schon 24 Stunden später bei uns an und wird sofort bearbeitet.",
+  },
+  {
+    src: VerkaufsanleitungImg4,
+    triangle: downTriangle,
+    heading: "Sorgfältige Analyse vom Fachmann",
+    para: "Ihre Wertsachen werden nun professionell analysiert und bewertet. Nach Abschluss der Analyse, teilen wir lhnen unverzüglich den Auszahlungsbetrag per E-Mail mit..",
+  },
+  {
+    src: VerkaufsanleitungImg5,
+    triangle: downTriangle,
+    heading: "Umgehende Auszahlung des Ankaufspreises",
+    para: "Wenn Sie mit unserem Kaufangebot einverstanden sind, überweisen wir den Geldbetrag sofort auf Ihr Bankkonto.",
+  },
+];
+export const verkaufsanleitung_wrapperArray = [
+  {
+    src: tickIcon,
+    txt: "BEREITS ÜBER 100.000 KUNDEN",
+  },
+  {
+    src: tickIcon,
+    txt: "HOHE ANKAUFPREISE",
+  },
+  {
+    src: tickIcon,
+    txt: "KEINE GEBÜHREN UND ABZÜGE",
+  },
+  {
+    src: tickIcon,
+    txt: "KEINE VERSANDKOSTEN",
+  },
+];
+export const verkaufsanleitung_wrapperArray1 = [
+  {
+    src: tickIcon,
+    txt: "Edelmetalle sicher verpacken mit unserer Verpackungsanleitung",
+  },
+  {
+    src: tickIcon,
+    txt: "Wertbestimmung für Laien",
+  },
+  {
+    src: tickIcon,
+    txt: "Keine Verkaufsverpflichtung",
+  },
+];
 export const stadteankaufTableArray = [
   {
     val1: "999 Gold",
@@ -2619,6 +2717,11 @@ export const routes = [
         parentPath: "/wir-kaufen",
         path: "/diamanten",
         pathName: "DIAMANTEN",
+      },
+      {
+        parentPath: "/wir-kaufen",
+        path: "/nachhaltigkiet",
+        pathName: "NACHHALTIGKIET",
       },
     ],
   },
