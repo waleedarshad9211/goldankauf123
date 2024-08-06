@@ -8809,6 +8809,157 @@ header .dropdown-menu.show li a.active {
   background-position: center;
   background-size: cover;
 }
+.co_neutrals {
+  padding: 10px 0px;
+}
+.co_neutrals_inner_wrapper {
+  background-color: #eee4e3;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.co_neutrals_inner_wrapper1 {
+  background-color: #eee4e3;
+  padding: 10px;
+  margin-top: 20px;
+}
+.co_neutrals_inner_wrapper .row {
+  justify-content: center;
+  align-items: center;
+}
+.co_neutrals_inner_wrapper1 .row {
+  justify-content: center;
+  align-items: center;
+}
+.co_neutrals_inner_wrapper_left_column {
+  display: flex;
+  justify-content: center;
+}
+.co_neutrals_inner_wrapper_left_side {
+  max-width: 534px;
+}
+.co_neutrals_inner_wrapper_heading {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.co_neutrals_inner_wrapper_para {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 10px;
+}
+.co_neutrals_inner_wrapper_column {
+  padding-right: 0px !important;
+}
+.co_neutrals_inner_wrapper_column_img img {
+  width: 100%;
+}
+.unser_nachhaltig {
+  padding: 10px 0px;
+}
+.unser_nachhaltig_heading {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.unser_nachhaltig_card_wrapper {
+  display: flex;
+  align-items: center;
+}
+.unser_nachhaltig_card1 {
+  border-radius: 10px;
+  background-color: #eee4e3;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unser_nachhaltig_card2 {
+  border-radius: 10px;
+  background-color: #c9d8de;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unser_nachhaltig_card3 {
+  border-radius: 10px;
+  background-color: #f2ece1;
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.unser_nachhaltig_card1 img,
+.unser_nachhaltig_card2 img,
+.unser_nachhaltig_card3 img {
+  margin-top: 10px;
+}
+.unser_nachhaltig_card_upper_heading {
+  font-size: 24px;
+  line-height: normal;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.unser_nachhaltig_card_lower {
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: 254px;
+}
+.unser_nachhaltig_card_lower p {
+  text-align: center;
+  padding: 20px 38px;
+}
+.neutral_right_triangle {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.nachhaltig_umfangr_emission_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.nachhaltig_umfangr_emission_para {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nachhaltig_goldabbau_wrapper {
+  background-image: url("/assets/img/goldabbau_scenic_bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px 0px;
+}
+.nachhaltig_goldabbau_wrapper_heading {
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.nachhaltig_goldabbau_sub_heading {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.nachhaltig_goldabbau_column {
+  background-image: url("/assets/img/goldabbau_scenic_pic.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /* verkaufsanleitung page css starts here */
 .verkaufsanleitung_wrapper_heading1 {
   font-size: 30px;
