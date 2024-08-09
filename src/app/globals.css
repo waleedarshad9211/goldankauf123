@@ -8785,7 +8785,6 @@ header .dropdown-menu.show li a.active {
   margin-left: 20px;
 }
 /* nachhaltigkiet page css starts here */
-
 .nachhaltig_main_wrapper {
   background-color: #36a18b;
 }
@@ -8853,6 +8852,19 @@ header .dropdown-menu.show li a.active {
 }
 .co_neutrals_inner_wrapper_column_img img {
   width: 100%;
+}
+.co_neutrals_inner_wrapper_column_img1 img {
+  object-fit: cover !important;
+}
+.co_neutrals_inner_wrapper2 {
+  padding: 0px;
+}
+.co_neutrals_inner_wrapper_para1 {
+  font-size: 16px;
+  line-height: 22px;
+}
+.co_neutrals_inner_wrapper_left_side1 {
+  max-width: 100%;
 }
 .unser_nachhaltig {
   padding: 10px 0px;
@@ -8960,6 +8972,151 @@ header .dropdown-menu.show li a.active {
   background-position: center;
   background-size: cover;
 }
+.nachhaltig_umfangr_emission {
+  margin-bottom: 10px;
+}
+.nachhaltig_umfangr_emission_card_wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.nachhaltig_umfangr_emission_card {
+  width: 350px;
+  margin-right: 20px;
+}
+.nachhaltig_umfangr_emission_card_header {
+  text-align: center;
+  background-color: #36a18b;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 39px;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+.nachhaltig_umfangr_emission_card_body {
+  background-color: #e8f1ed;
+  border-radius: 10px;
+  margin-top: -5px;
+  padding: 10px;
+  height: 200px;
+}
+.nachhaltig_umfangr_emission_para {
+  margin-bottom: 10px;
+}
+.nachhaltig_wrapper_gliederung_list {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-bottom: 3px;
+  padding: 2px 10px;
+  margin-top: 10px;
+}
+.nachhaltig_wrapper_gliederung_para {
+  margin-left: 5px;
+}
+.anteil_vom_recycling_table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.anteil_vom_recycling_table_wrapper {
+  max-width: 516px;
+  flex: 1;
+}
+.anteil_vom_recycling_wrapper {
+  background-color: #cce8e3;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin-top: 10px;
+}
+.anteil_vom_recycling_wrapper_heading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.anteil_vom_recycling_table_header {
+  background-color: #36a18b;
+  border-radius: 10px;
+  padding: 1px 30px;
+  height: 43px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.anteil_vom_recycling_table_body {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 1px 30px;
+  height: 43px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.das_konzept_wrapper {
+  padding: 10px 0px;
+}
+.das_konzept_heading {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+}
+.das_konzept_list {
+  display: flex;
+  margin-bottom: 10px;
+}
+.das_konzept_list p {
+  margin-left: 7px;
+}
+.das_konzept_list_wrapper {
+  margin-top: 10px;
+}
+.das_konzept_sub_heading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.goldforderung_nach {
+  background-color: #e0f1ed;
+  border-radius: 10px;
+  padding: 15px;
+}
+.goldforderung_nach_heading {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.anteil_vom_recycling_table_header1,
+.anteil_vom_recycling_table_body1 {
+  height: 37px;
+}
+.fuhrt_das_heading {
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 500;
+}
+.fuhrt_das {
+  background-color: #e8f3ef;
+  margin-top: 10px;
+}
+.fuhrt_das_row {
+  display: flex;
+  align-items: center;
+}
+.fazit {
+  background-color: #c9d8df;
+  margin-top: 10px;
+}
+
 /* verkaufsanleitung page css starts here */
 .verkaufsanleitung_wrapper_heading1 {
   font-size: 30px;
@@ -9774,6 +9931,9 @@ header .dropdown-menu.show li a.active {
     justify-content: center;
     text-align: center;
   }
+  .unser_nachhaltig_card_wrapper {
+    flex-direction: column;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 992px) {
   .golden_fauf_card {
@@ -9820,6 +9980,10 @@ header .dropdown-menu.show li a.active {
 }
 
 @media screen and (max-width: 767px) {
+  .unser_nachhaltig_card_wrapper,
+  .nachhaltig_umfangr_emission_card_header {
+    flex-direction: column;
+  }
   .stadteankauf_table_heading {
     font-size: 28px;
   }

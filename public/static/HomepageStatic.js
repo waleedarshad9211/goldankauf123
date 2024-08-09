@@ -2636,7 +2636,36 @@ export const goldankaufLexikonUhrenAnkaufArray = [
     text: "Silberuhren Ankauf",
   },
 ];
-
+export const gliederungArray = [
+  {
+    tickIcon: DiamentenTick,
+    txt: "Bedeutung von Gold",
+  },
+  {
+    tickIcon: DiamentenTick,
+    txt: "Das Konzept der Nachhaltigkeit",
+  },
+  {
+    tickIcon: DiamentenTick,
+    txt: "Goldabbau führt zu Umweltzerstörungen",
+  },
+  {
+    tickIcon: DiamentenTick,
+    txt: "Ansätze von Nachhaltigkeit für den Goldsektor",
+  },
+  {
+    tickIcon: DiamentenTick,
+    txt: "Führt das Recycling von Gold zu Wertverlust?",
+  },
+  {
+    tickIcon: DiamentenTick,
+    txt: "Kann durch Recycling von Gold der Abbau von Gold reduziert werden?",
+  },
+  {
+    tickIcon: DiamentenTick,
+    txt: "Fazit",
+  },
+];
 export const goldrechnerArray = [
   {
     imageSrc: GoldrecnerGoldZuruck,
@@ -2825,5 +2854,95 @@ export const routes = [
         pathName: "GOLD ZURUCK GARANTIE",
       },
     ],
+  },
+];
+export const anteilVomArray = [
+  {
+    year: 2018,
+    percentage: "23,7%",
+  },
+  {
+    year: 2019,
+    percentage: "26,1%",
+  },
+  {
+    year: 2020,
+    percentage: "27,4%",
+  },
+  {
+    year: 2021,
+    percentage: "24,6%",
+  },
+  {
+    year: 2022,
+    percentage: "24,0%",
+  },
+];
+export const anteilVomArray1 = [
+  {
+    year: 2013,
+    percentage: "27,6%",
+  },
+  {
+    year: 2014,
+    percentage: "25,2%",
+  },
+  {
+    year: 2015,
+    percentage: "24,0%",
+  },
+  {
+    year: 2016,
+    percentage: "25,8%",
+  },
+  {
+    year: 2017,
+    percentage: "23,8%",
+  },
+];
+export const anteilVomArray2 = [
+  {
+    year: "China",
+    percentage: "380t",
+  },
+  {
+    year: "Russland",
+    percentage: "310t",
+  },
+  {
+    year: "Australien",
+    percentage: "310t",
+  },
+  {
+    year: "Kanada",
+    percentage: "200t",
+  },
+  {
+    year: "USA",
+    percentage: "170t",
+  },
+  {
+    year: "Mexiko",
+    percentage: "120t",
+  },
+  {
+    year: "Indonesien",
+    percentage: "110t",
+  },
+  {
+    year: "Kasachstan",
+    percentage: "110t",
+  },
+  {
+    year: "Sündafrika",
+    percentage: "100t",
+  },
+  {
+    year: "Usbekistan",
+    percentage: "100t",
+  },
+  {
+    year: "Peru",
+    percentage: "90t",
   },
 ];
