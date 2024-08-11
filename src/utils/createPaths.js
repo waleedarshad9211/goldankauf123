@@ -13,7 +13,6 @@ export const createPaths = (currentPage) => {
     ],
     "/kontakt": ["kontakt"],
     "/stadteankauf": ["stadteankauf"],
-    "/goldankauf-lexikon": ["goldankauf-lexikon"],
     "/hamburg": ["hamburg"],
     "/blog": ["blog"],
     "/goldwissen": ["goldwissen"],

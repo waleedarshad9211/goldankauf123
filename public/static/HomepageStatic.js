@@ -2799,10 +2799,6 @@ export const routes = [
         pathName: "Städteankauf",
       },
       {
-        path: "/goldankauf-lexikon",
-        pathName: "Goldankauf Lexikon",
-      },
-      {
         path: "/goldwissen",
         pathName: "Goldwissen",
       },

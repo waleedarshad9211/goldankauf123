@@ -17,6 +17,7 @@ import ansatze_von_nachaltig from "/public/assets/img/ansatze_von_nachaltig.png"
 import wertverlust_fuhrt_das from "/public/assets/img/wertverlust_fuhrt_das.png";
 import fazit from "/public/assets/img/fazit.png";
 import neutral_right_triangle from "/public/assets/img/neutral_right_triangle.png";
+import last_down_triangle from "/public/assets/img/last_down_triangle.png";
 import {
   anteilVomArray,
   anteilVomArray1,
@@ -33,8 +34,8 @@ const page = () => {
       </div>
       <section className="nachhaltig_main_wrapper">
         <div className="container">
-          <div className="row">
-            <div className="col-12 col-md-6">
+          <div className="row main_section_row">
+            <div className="col-12 col-md-12 col-lg-6">
               <p className="nachhaltig_main_wrapper_heading">
                 Wir schützen die Umwelt mit unserer Nachhaltigkeitsstrategie
               </p>
@@ -45,7 +46,7 @@ const page = () => {
                 Schmelzvorgang CO₂-neutrales Goldes entsteht.
               </p>
             </div>
-            <div className="col-12 col-md-6 nachhaltig_main_wrapper_column"></div>
+            <div className="col-12 col-md-12 col-lg-6 nachhaltig_main_wrapper_column"></div>
           </div>
         </div>
       </section>
@@ -61,7 +62,7 @@ const page = () => {
           </p>
           <div className="co_neutrals_inner_wrapper">
             <div className="row">
-              <div className="col-12 col-md-6 col-lg-7 co_neutrals_inner_wrapper_left_column">
+              <div className="col-12 col-md-12 col-lg-7 co_neutrals_inner_wrapper_left_column">
                 <div className="co_neutrals_inner_wrapper_left_side">
                   <p className="co_neutrals_inner_wrapper_heading">
                     CO2-NEUTRALES RECYCLING
@@ -75,9 +76,12 @@ const page = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-12 col-md-6 col-lg-5 co_neutrals_inner_wrapper_column">
+              <div className="col-12 col-md-12 col-lg-5 co_neutrals_inner_wrapper_column">
                 <div className="co_neutrals_inner_wrapper_column_img">
-                  <Image src={neutral_recycling} />
+                  <Image
+                    src={neutral_recycling}
+                    className="co_neutrals_inner_wrapper_column_img_d "
+                  />
                 </div>
               </div>
             </div>
@@ -129,11 +133,20 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <Image
-              src={neutral_right_triangle}
-              alt=""
-              className="neutral_right_triangle"
-            />
+            <div className="d-none d-md-none d-lg-flex">
+              <Image
+                src={neutral_right_triangle}
+                alt=""
+                className="neutral_right_triangle"
+              />
+            </div>
+            <div className="d-flex d-md-flex d-lg-none mrt-10">
+              <Image
+                src={last_down_triangle}
+                alt=""
+                className="neutral_right_triangle"
+              />
+            </div>
             <div className="unser_nachhaltig_card2">
               <Image src={neutral_2} alt="" />
               <p className="unser_nachhaltig_card_upper_heading">
@@ -147,11 +160,20 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <Image
-              src={neutral_right_triangle}
-              alt=""
-              className="neutral_right_triangle"
-            />
+            <div className="d-none d-md-none d-lg-flex">
+              <Image
+                src={neutral_right_triangle}
+                alt=""
+                className="neutral_right_triangle"
+              />
+            </div>
+            <div className="d-flex d-md-flex d-lg-none mrt-10">
+              <Image
+                src={last_down_triangle}
+                alt=""
+                className="neutral_right_triangle"
+              />
+            </div>
             <div className="unser_nachhaltig_card3">
               <Image src={neutral_3} alt="" />
               <p className="unser_nachhaltig_card_upper_heading">
@@ -269,7 +291,7 @@ const page = () => {
                 );
               })}
             </div>
-            <div className="anteil_vom_recycling_table_wrapper">
+            <div className="anteil_vom_recycling_table_wrapper anteil_vom_recycling_table_wrapper2">
               <div className="anteil_vom_recycling_table_header">
                 <div>Jahr</div>
                 <div>%-Anteil</div>
@@ -377,7 +399,11 @@ const page = () => {
               </p>
             </div>
             <div className="col-12 col-md-6 col-lg-5 ">
-              <Image src={das_konzept_relevanz} alt="" />
+              <Image
+                src={das_konzept_relevanz}
+                alt=""
+                className="last_page_img"
+              />
             </div>
           </div>
           <p className="mrt-10">
@@ -546,7 +572,11 @@ const page = () => {
               </p>
             </div>
             <div className="col-12 col-md-6 col-lg-5 ">
-              <Image src={ansatze_von_nachaltig} alt="" />
+              <Image
+                src={ansatze_von_nachaltig}
+                alt=""
+                className="last_page_img"
+              />
             </div>
           </div>
           <p className="mrt-10">
@@ -643,7 +673,11 @@ const page = () => {
             </div>
             <div className="col-12 col-md-6 col-lg-6 co_neutrals_inner_wrapper_column">
               <div className="co_neutrals_inner_wrapper_column_img co_neutrals_inner_wrapper_column_img1">
-                <Image src={wertverlust_fuhrt_das} alt="" />
+                <Image
+                  src={wertverlust_fuhrt_das}
+                  alt=""
+                  className="fuhrt_das_img"
+                />
               </div>
             </div>
           </div>
@@ -680,7 +714,7 @@ const page = () => {
               </p>
             </div>
             <div className="col-12 col-md-6 col-lg-5 ">
-              <Image src={gold_last_img} alt="" />
+              <Image src={gold_last_img} alt="" className="last_page_img" />
             </div>
           </div>
           <p className="mrt-10">

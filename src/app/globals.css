@@ -9030,6 +9030,9 @@ header .dropdown-menu.show li a.active {
   max-width: 516px;
   flex: 1;
 }
+.anteil_vom_recycling_table_wrapper2 {
+  margin-left: 20px;
+}
 .anteil_vom_recycling_wrapper {
   background-color: #cce8e3;
   border-radius: 10px;
@@ -9654,13 +9657,6 @@ header .dropdown-menu.show li a.active {
   .zahngold_right_side .e_trusted_shops_card {
     width: 385px;
   }
-  /* .bieten_sie_form_label_input input,
-  .bieten_sie_form_bilder_input input {
-    width: 256px;
-  }
-  .bieten_sie_form_label_input select {
-    width: 256px;
-  } */
   .funktionierts_wrapper .kostenlos {
     margin-top: 0px;
     width: 350px;
@@ -9978,11 +9974,128 @@ header .dropdown-menu.show li a.active {
     height: 35px;
   }
 }
-
+@media screen and (max-width: 850px) {
+  .nachhaltig_umfangr_emission_card_body {
+    margin-top: -15px;
+    padding: 10px;
+    padding-top: 20px;
+    height: 215px;
+    font-size: 14px;
+  }
+}
+.last_page_img {
+  width: 100%;
+  height: auto;
+}
 @media screen and (max-width: 767px) {
+  .nachhaltig_main_wrapper_heading {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 10px;
+  }
+  .co_neutrals_inner_wrapper_column_img_d {
+    width: 98% !important;
+    margin-right: 12px;
+    margin-top: -15px;
+  }
+  .co_neutrals_inner_wrapper_left_side .co_neutrals_inner_wrapper_heading {
+    margin-top: 0px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .unser_nachhaltig_card1,
+  .unser_nachhaltig_card2,
+  .unser_nachhaltig_card3 {
+    padding: 15px;
+  }
+  .nachhaltig_main_wrapper_para1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .unser_nachhaltig_card_wrapper,
-  .nachhaltig_umfangr_emission_card_header {
+  .nachhaltig_umfangr_emission_card_wrapper {
     flex-direction: column;
+  }
+  .nachhaltig_umfangr_emission_card {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .anteil_vom_recycling_table {
+    flex-direction: column;
+  }
+  .anteil_vom_recycling_table_wrapper {
+    width: 100%;
+  }
+  .co_neutrals_inner_wrapper2 .row {
+    flex-direction: column-reverse !important;
+  }
+  .das_konzept_wrapper .row {
+    flex-direction: column-reverse !important;
+  }
+  .das_konzept_wrapper img {
+    margin-bottom: 10px;
+  }
+  .nachhaltig_goldabbau_column {
+    height: 205px;
+  }
+  .nachhaltig_main_wrapper .main_section_row {
+    flex-direction: column-reverse;
+  }
+  .nachhaltig_main_wrapper_column {
+    height: 205px;
+    margin-left: 13px;
+    margin-right: 13px;
+    width: auto;
+  }
+  .unser_nachhaltig_card_lower {
+    height: 215px;
+  }
+  .nachhaltig_umfangr_emission_card_body {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+    height: 185px;
+  }
+  .co_neutrals_inner_wrapper_column_img1 img {
+    width: 97%;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+  .das_konzept_list {
+    align-items: center;
+  }
+  .fuhrt_das_row {
+    flex-direction: column-reverse;
+  }
+  .fuhrt_das_img {
+    height: 317px;
+  }
+  .fazit .co_neutrals_inner_wrapper_para1 {
+    margin-bottom: 20px;
+  }
+  .nachhaltig_main_wrapper {
+    margin-top: 10px;
+  }
+  .sicherheit_wrapper_paras {
+    flex-direction: column-reverse;
+  }
+  .sicherheit_wrapper_paras img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .last_page_img {
+    width: 98%;
+  }
+  .fuhrt_das_heading {
+    margin-top: 10px;
+  }
+  .anteil_vom_recycling_table_wrapper2 {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .nachhaltig_umfangr_emission_card_header {
+    margin-top: 10px;
   }
   .stadteankauf_table_heading {
     font-size: 28px;
@@ -12014,4 +12127,23 @@ header .dropdown-menu.show li a.active {
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu {
   z-index: 1002;
+}
+
+@media screen and (max-width: 992px) {
+  .co_neutrals_inner_wrapper .row {
+    flex-direction: column-reverse;
+  }
+  .co_neutrals_inner_wrapper_heading {
+    margin-top: 10px;
+  }
+  .co_neutrals_inner_wrapper_column_img {
+    display: flex;
+    justify-content: center;
+  }
+  .co_neutrals_inner_wrapper_left_side {
+    max-width: 425px;
+  }
+  .co_neutrals_inner_wrapper1 .row {
+    flex-direction: column;
+  }
 }
