@@ -155,14 +155,17 @@ const page = () => {
             <div className="auszeichnungen_wrapper_card">
               {auszeichnungenArray2.map((item, index) => {
                 return (
-                  <div className="auszeichnungen_wrapper_card_body" key={index}>
+                  <div
+                    className="auszeichnungen_wrapper_card_body auszeichnungen_wrapper_card_body1"
+                    key={index}
+                  >
                     <Image
                       src={item.src}
                       alt=""
                       width={item.width}
                       height={item.height}
                     />
-                    <div className="auszeichnungen_wrapper_card_body_para">
+                    <div className="auszeichnungen_wrapper_card_body_para auszeichnungen_wrapper_card_body_para1">
                       <p className="auszeichnungen_wrapper_card_body_heading">
                         {item.heading}
                       </p>

@@ -57,7 +57,7 @@ import Hamburg from "/public/assets/img/hamburg.png";
 import money_goldwissen from "/public/assets/img/money_goldwissen.png";
 import Altgold from "/public/assets/img/Altgold.png";
 import DentalgoldAnkauf from "/public/assets/img/DentalgoldAnkauf.png";
-import Augsburg from "/public/assets/img/Augsburg.png";
+import Aachen from "/public/assets/img/Aachen.png";
 import Farbgold from "/public/assets/img/Farbgold.png";
 import EdelmetallAnkaufspreise from "/public/assets/img/EdelmetallAnkaufspreise.png";
 import Kiel from "/public/assets/img/Kiel.png";
@@ -119,7 +119,8 @@ import GoldbarrenHersteller from "/public/assets/img/GoldbarrenHersteller.png";
 import GoldbarrenHerstellung from "/public/assets/img/GoldbarrenHerstellung.png";
 import Mannheim from "/public/assets/img/Mannheim.png";
 import GoldbarrenGroben from "/public/assets/img/GoldbarrenGroben.png";
-import GaranteeImg from "/public/assets/img/homepage/100_ gurantee.png";
+import akte_sat from "/public/assets/img/akte_sat.png";
+import drehscheibe_zdf from "/public/assets/img/drehscheibe_zdf.png";
 import satisfied_customer from "/public/assets/img/satisfied_customer.png";
 import videoburwach from "/public/assets/img/videoburwach.png";
 import Erfahrungen from "/public/assets/img/erfahrungen.png";
@@ -140,6 +141,7 @@ import Zahngold from "/public/assets/img/homepage/wir_ankaufun_zahngold.png";
 import Industriescheidegut from "/public/assets/img/industriescheidegut_mg.png";
 import NTV from "/public/assets/img/ntv_vektor.png";
 import NTV2022 from "/public/assets/img/ntv_vektor_2022.png";
+import heir_und_heutr from "/public/assets/img/heir_und_heutr.png";
 import Palladium from "/public/assets/img/palladium_mg.png";
 import PlatinRing from "/public/assets/img/platin_ring.png";
 import ProvenExpert from "/public/assets/img/proven-expert.png";
@@ -155,6 +157,14 @@ import TrustedShops from "/public/assets/img/trusted-shops.png";
 import AccordionImage from "/public/assets/img/accordion_img.png";
 import DiamentenTick from "/public/assets/img/bestelen_tick.png";
 import tickIcon from "/public/assets/img/bestelen_tick.png";
+import digicert from "/public/assets/img/digicert.png";
+import getestet_testsieger from "/public/assets/img/getestet_testsieger.png";
+import top_dienstleister from "/public/assets/img/homepage/top-dienstleister.png";
+import top_empfehlung from "/public/assets/img/homepage/top-empfehlung.png";
+import goldankauf_net from "/public/assets/img/goldankauf_net.png";
+import datensich_ssl from "/public/assets/img/datensich_ssl.png";
+import gold_zuruck_garanty from "/public/assets/img/gold_zuruck_garanty.png";
+import kostenloser_versand from "/public/assets/img/kostenloser_versand.png";
 import Image from "next/image";
 import GoldrecnerGoldZuruck from "/public/assets/img/homepage/goldrecner-gold-zuruck.png";
 import SchnelleAuszahlung from "/public/assets/img/homepage/schnelle-auszahlung.png";
@@ -1949,14 +1959,14 @@ export const auszeichnungenArray1 = [
       'Getestet.de schrieb hierzu: "Ob eine Anleitung zur Bestimmung des Edelmetallgehalts oder ein Goldlexikon – hier.',
   },
   {
-    src: NTV2022,
+    src: digicert,
     width: 110,
     height: 120,
     heading: "DIGICERT PARTNER",
     para: "Die Sicherheit Ihrer Daten ist uns wichtig, daher betreiben wir unsere Webseite mit einer 2048-Bit SSL-Verschlüsselung. Die DigiCert Inc. ist einer der führenden Anbieter von SSL-Webseitenverschlüssung und viele weitere namhafte Webseiten setzen auf diesen Service!",
   },
   {
-    src: NTV2022,
+    src: getestet_testsieger,
     width: 120,
     height: 120,
     heading: "Getestet",
@@ -1984,92 +1994,84 @@ export const auszeichnungenArray1 = [
     para: "Proven Expert ist ein Online-Bewertungsportal, das Goldankauf123 dabei unterstützt, das Vertrauen und die Glaubwürdigkeit bei unseren Kunden zu stärken. Das Portal bietet uns die Möglichkeit, Kundenbewertungen zu sammeln, zu verwalten und zu präsentieren. Für Sie als Kunde bietet Proven Expert eine gute unabhängige Sicht über unsere Arbeitsweise.",
   },
   {
-    src: NTV2022,
+    src: top_dienstleister,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "Top-Dienstleister 2024",
+    para: "Stolz sind wir auf die Top-Dienstleister Auszeichnung von Proven Expert. Diese Auszeichnung berücksichtigt die Kundenmeinungen der letzten 12 Monate und bestätigt unsere seriöse Arbeitsweise.",
   },
   {
-    src: NTV2022,
+    src: top_empfehlung,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "Top-Empfehlung 2024",
+    para: "Stolz sind wir auf die Top-Dienstleister Auszeichnung von Proven Expert. Diese Auszeichnung berücksichtigt die Kundenmeinungen der letzten 12 Monate und bestätigt unsere seriöse Arbeitsweise.",
   },
   {
-    src: NTV2022,
+    src: goldankauf_net,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "Goldankauf.net",
+    para: "Wir wurden von Goldankauf.net getestet und haben ausgezeichnet abgeschnitten. Sowohl beim Kaufpreis, der Beratung und der Freundlichkeit haben wir überdurchschnittlich abgeschnitten.",
   },
   {
-    src: NTV2022,
+    src: BankingCheck49,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "bankingcheck",
   },
   {
-    src: NTV2022,
+    src: TrustedShops,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "Trustedshops",
   },
   {
-    src: NTV2022,
+    src: Trustami1,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "Trustami",
   },
   {
-    src: NTV2022,
+    src: datensich_ssl,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "SSL",
   },
   {
-    src: NTV2022,
+    src: gold_zuruck_garanty,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "Gold zurück Garantie",
   },
   {
-    src: NTV2022,
+    src: kostenloser_versand,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "kostenloser Versand",
   },
 ];
 export const auszeichnungenArray2 = [
   {
-    src: NTV2022,
+    src: heir_und_heutr,
     width: 120,
     height: 120,
-    heading: "Goldankauf123 Testsieger unter 13 Anbietern!",
-    para: "Wir sind stolz, den ersten Platz im Goldankauf-Portal Test des Deutschen Institut für Service-Qualität im Jahr 2022 belegt zu haben. Wir ruhen uns jetzt aber nicht auf den Lorbeeren aus, sondern arbeiten weiterhin hart daran, dass Sie einen diskreten, schnellen und sicheren Online-Goldankauf über unser Portal durchführen können.",
+    heading: "HIER UND HEUTE - WDR",
+    para: "hier und heute ist eine reichenweiten stärksten Sendungen im Nachmittagsprogramm des WDR. Ein Team des Sender hat uns begleitet und den Alltag mit unseren Kunden aufschlussreich verfilmt.Video leider nicht mehr abrufbar!",
   },
   {
-    src: Getestet,
+    src: drehscheibe_zdf,
     width: 120,
     height: 39,
-    heading: "GETESTET.DE",
-    para: "Goldankauf123.de wurde von Getestet.de auf Herz und Nieren geprüft und hat sich im Wettbewerb gegen zahlreiche andere namhafte Anbieter durchsetzen können.",
-    para2:
-      'Getestet.de schrieb hierzu: "Ob eine Anleitung zur Bestimmung des Edelmetallgehalts oder ein Goldlexikon – hier.',
+    heading: "DREHSCHEIBE - ZDF",
+    para: "Auch für einen Beitrag der drehscheibe im ZDF wurde einer einer unserer Mitarbeiter einen ganzen Tag begleitet. Dieser Beitrag lieferte gute Eindrücke aus dem Alltag eines Goldankäufers und hat viele Kunden von unserer seriösen Arbeitsweise überzeugt. Video leider nicht mehr abrufbar!",
   },
   {
-    src: NTV2022,
+    src: akte_sat,
     width: 110,
     height: 120,
-    heading: "DIGICERT PARTNER",
-    para: "Die Sicherheit Ihrer Daten ist uns wichtig, daher betreiben wir unsere Webseite mit einer 2048-Bit SSL-Verschlüsselung. Die DigiCert Inc. ist einer der führenden Anbieter von SSL-Webseitenverschlüssung und viele weitere namhafte Webseiten setzen auf diesen Service!",
+    heading: "AKTE - SAT1",
+    para: "Die Akte Redaktion hat uns besucht und unseren Service unter die Lupe genommen. Zusätzlich haben wir den Zuschauern der Sendung Tipps an die Hand gegeben, wie sicher und schnell Gold verkauft werden kann.",
   },
 ];
 export const sicherheitArray = [
@@ -2212,40 +2214,56 @@ export const stadteankaufArray = [
     text: "Goldankauf Hamburg",
   },
   {
-    src: Munchen,
-    text: "Goldankauf München",
-  },
-  {
     src: Berlin,
     text: "Goldankauf Berlin",
   },
   {
-    src: frankfurt,
-    text: "Goldankauf Frankfurt",
-  },
-  {
-    src: leipzig,
-    text: "Goldankauf Leipzig",
-  },
-  {
-    src: hannover,
-    text: "Goldankauf Hannover",
-  },
-  {
-    src: koln,
-    text: "Goldankauf Köln",
+    src: Munchen,
+    text: "Goldankauf München",
   },
   {
     src: stuttgart,
     text: "Goldankauf Stuttgart",
   },
   {
-    src: bremen,
-    text: "Goldankauf Bremen",
+    src: frankfurt,
+    text: "Goldankauf Frankfurt",
+  },
+  {
+    src: Dusseldorf,
+    text: "Goldankauf Düsseldorf",
+  },
+  {
+    src: leipzig,
+    text: "Goldankauf Leipzig",
+  },
+  {
+    src: Dortmund,
+    text: "Goldankauf Dortmund",
+  },
+  {
+    src: Dresden,
+    text: "Goldankauf Dresden",
+  },
+  {
+    src: hannover,
+    text: "Goldankauf Hannover",
+  },
+  {
+    src: Nurnberg,
+    text: "Goldankauf Nürnberg",
   },
   {
     src: duisburg,
     text: "Goldankauf Duisburg",
+  },
+  {
+    src: Wuppertal,
+    text: "Goldankauf Wuppertal",
+  },
+  {
+    src: Bielefeld,
+    text: "Goldankauf Bielefeld",
   },
   {
     src: Munster,
@@ -2260,24 +2278,16 @@ export const stadteankaufArray = [
     text: "Goldankauf Mannheim",
   },
   {
-    src: Augsburg,
-    text: "Goldankauf Augsburg",
-  },
-  {
-    src: Wiesbaden,
-    text: "Goldankauf Wiesbaden",
-  },
-  {
-    src: Monchengladbach,
-    text: "Goldankauf Mönchengladbach",
-  },
-  {
     src: Gelsenkirchen,
     text: "Goldankauf Gelsenkirchen",
   },
   {
-    src: Bonn,
-    text: "Goldankauf Bonn",
+    src: Braunschweig,
+    text: "Goldankauf Braunschweig",
+  },
+  {
+    src: Aachen,
+    text: "Goldankauf Aachen",
   },
   {
     src: Kiel,
@@ -2287,6 +2297,31 @@ export const stadteankaufArray = [
     src: Chemnitz,
     text: "Goldankauf Chemnitz",
   },
+
+  {
+    src: koln,
+    text: "Goldankauf Köln",
+  },
+
+  {
+    src: bremen,
+    text: "Goldankauf Bremen",
+  },
+
+  {
+    src: Wiesbaden,
+    text: "Goldankauf Wiesbaden",
+  },
+  {
+    src: Monchengladbach,
+    text: "Goldankauf Mönchengladbach",
+  },
+
+  {
+    src: Bonn,
+    text: "Goldankauf Bonn",
+  },
+
   {
     src: Darmstadt,
     text: "Goldankauf Darmstadt",
@@ -2299,10 +2334,7 @@ export const stadteankaufArray = [
     src: Osnabruck,
     text: "Goldankauf Osnabruck",
   },
-  {
-    src: Braunschweig,
-    text: "Goldankauf Braunschweig",
-  },
+
   {
     src: Saale,
     text: "Goldankauf Halle / Saale",
@@ -2407,37 +2439,15 @@ export const stadteankaufArray = [
     src: Freiburg,
     text: "Goldankauf Freiburg",
   },
-  {
-    src: Dortmund,
-    text: "Goldankauf Dortmund",
-  },
-  {
-    src: Dusseldorf,
-    text: "Goldankauf Düsseldorf",
-  },
-  {
-    src: Dresden,
-    text: "Goldankauf Dresden",
-  },
+
   {
     src: Essen,
     text: "Goldankauf Essen",
   },
-  {
-    src: Nurnberg,
-    text: "Goldankauf Nürnberg",
-  },
+
   {
     src: Bochum,
     text: "Goldankauf Bochum",
-  },
-  {
-    src: Wuppertal,
-    text: "Goldankauf Wuppertal",
-  },
-  {
-    src: Bielefeld,
-    text: "Goldankauf Bielefeld",
   },
 ];
 
@@ -2826,7 +2836,7 @@ export const routes = [
     submenu: [
       {
         parentPath: "/sicherheit",
-        path: "/verkaufsanleitungen-wertsendung",
+        path: "/verkaufsanleitung",
         pathName: "Verkaufsanleitungen",
       },
       {

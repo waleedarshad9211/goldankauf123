@@ -78,32 +78,6 @@ const page = () => {
                 );
               })}
             </div>
-            {/* <div className="stadteankauf_wrapper_box row d-flex d-md-none d-lg-none">
-              {stadteankaufArrayMobile.map((item, index) => {
-                return (
-                  <div className="col-12 col-md-12" key={index}>
-                    <div className="img_box_wrapepr">
-                      <div className="img_box">
-                        <Image src={item.src} alt="" />
-                        <div className="zahngold_last_img_wrapper">
-                          <div className="zahngold_last_img_wrapper_body">
-                            <div>
-                              <p className="wir_verkaufer_name">{item.text}</p>
-                            </div>
-                            <div className="wir_verkaufer_btn">
-                              <div className="wir_verkaufer_btn_arrow">
-                                <BtnArrowMobile />
-                                <BtnArrow />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                );
-              })}
-            </div> */}
             <div className="hamburg_table_wrapper ankaufpreise_table_wrapper1">
               <p className="stadteankauf_table_heading">
                 Aktuelle Goldankauf Preise in Euro

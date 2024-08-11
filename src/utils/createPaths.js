@@ -30,10 +30,7 @@ export const createPaths = (currentPage) => {
     "/sicherheit": ["sicherheit"],
 
     "/auszeichnungen": ["sicherheit", "auszeichnungen"],
-    "/verkaufsanleitungen-wertsendung": [
-      "sicherheit",
-      "verkaufsanleitungen-wertsendung",
-    ],
+    "/verkaufsanleitung": ["sicherheit", "verkaufsanleitung"],
     "/videos-uber-goldankauf": ["sicherheit", "videos-uber-goldankauf"],
     "/haufige-fragen": ["sicherheit", "haufige-fragen"],
     "/gold-zuruck-garantie": ["sicherheit", "gold-zuruck-garantie"],
