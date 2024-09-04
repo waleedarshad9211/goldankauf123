@@ -24,7 +24,7 @@ const GoldenKauf = () => {
                   style={{
                     fontSize: "30px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "0px",
                     left: "0px",
                   }}
                 >
@@ -49,7 +49,7 @@ const GoldenKauf = () => {
                   style={{
                     fontSize: "30px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "0px",
                     left: "0px",
                   }}
                 >
@@ -87,7 +87,7 @@ const GoldenKauf = () => {
                   style={{
                     fontSize: "30px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "0px",
                     left: "0px",
                   }}
                 >
@@ -125,7 +125,7 @@ const GoldenKauf = () => {
                   style={{
                     fontSize: "30px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "0px",
                     left: "0px",
                   }}
                 >

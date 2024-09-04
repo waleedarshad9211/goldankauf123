@@ -1398,6 +1398,9 @@ header .dropdown-menu.show li a.active {
   }
 }
 @media screen and (min-width: 993px) and (max-width: 1100px) {
+  .img_box .zahngold_last_img_wrapper {
+    width: 280px;
+  }
   .kostenlos {
     width: auto;
   }
@@ -5883,6 +5886,9 @@ header .dropdown-menu.show li a.active {
   top: 6px;
   text-transform: uppercase;
 }
+.price_value_form3 .sold_out {
+  transform: rotate(40deg);
+}
 .hamburg_list {
   display: flex;
   align-items: center;
@@ -8413,7 +8419,7 @@ header .dropdown-menu.show li a.active {
 .hamburg_valuecal .goldankauf_valuecalc_heading {
   font-size: 24px;
   line-height: 28px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 .hamburg_valuecal .goldankauf_valuecalc_form .value-calculate-input label {
   font-weight: 400px;
@@ -8428,10 +8434,10 @@ header .dropdown-menu.show li a.active {
 .hamburg_valuecal .goldankauf_valuecalc_form .value-calculate-input input {
   width: 125px;
 }
-.hamburg_valuecal .zahngold_valuecalc_btn button {
+.hamburg_valuecal button {
   width: auto !important;
   padding: 1px 10px !important;
-  margin-left: 10px !important;
+  margin-left: 0px !important;
   height: 38px !important;
 }
 .img_box_wrapepr {
@@ -9416,7 +9422,7 @@ header .dropdown-menu.show li a.active {
 .ankaufspreise_wrapper_para p {
   max-width: 500px;
 }
-.ankaufspreise_wrapper_para img { 
+.ankaufspreise_wrapper_para img {
   width: 210px;
   height: 143px;
 }
@@ -9551,14 +9557,31 @@ header .dropdown-menu.show li a.active {
     justify-content: center;
   }
 }
-@media screen and (min-width: 1101px) and (max-width: 1200px) {
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
   .stepcard_wrapper_main {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
-
+@media screen and (min-width: 1101px) and (max-width: 1140px) {
+  .price_value_form3 .golden_fauf_card {
+    width: 160px;
+  }
+}
 @media screen and (min-width: 993px) and (max-width: 1100px) {
+  .price_value_form3 .golden_fauf_card_body .golden_fauf_card_inner {
+    margin-right: 0px;
+  }
+  .price_value_form3 .golden_fauf_card_body .golden_fauf_card_inner img {
+    width: 90px;
+    height: 90px;
+  }
+  .price_value_form3 .btn-bg {
+    width: auto;
+  }
+  .price_value_form3 .golden_fauf_card p {
+    font-size: 13px;
+  }
   .navbar-expand-lg .navbar-nav {
     flex-wrap: wrap;
   }
@@ -9647,7 +9670,19 @@ header .dropdown-menu.show li a.active {
     width: auto;
   }
 }
+.price_value_form3 .sold_out_text {
+  top: 1px;
+}
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  .price_value_form3 .sold_out_text {
+    top: 1px;
+  }
+  .price_value_form3 .golden_fauf_card {
+    width: 100%;
+  }
+  .stadteankauf_wrapper_box .img_box {
+    width: 350px;
+  }
   .golden_fauf_card_col:nth-child(2n + 1) {
     display: flex;
     justify-content: flex-end;
@@ -11976,6 +12011,7 @@ header .dropdown-menu.show li a.active {
     top: 9px;
     transform: rotate(33deg);
   }
+
   .gesamtsieger_main_wrapper {
     width: 100%;
   }

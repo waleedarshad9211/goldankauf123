@@ -39,7 +39,7 @@ const PriceValueForm3 = () => {
                   style={{
                     fontSize: "18px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "-5px",
                     left: "0px",
                   }}
                 >
@@ -64,7 +64,7 @@ const PriceValueForm3 = () => {
                   style={{
                     fontSize: "18px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "-5px",
                     left: "0px",
                   }}
                 >
@@ -102,7 +102,7 @@ const PriceValueForm3 = () => {
                   style={{
                     fontSize: "18px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "-5px",
                     left: "0px",
                   }}
                 >
@@ -140,7 +140,7 @@ const PriceValueForm3 = () => {
                   style={{
                     fontSize: "18px",
                     position: "absolute",
-                    top: "-10px",
+                    top: "-5px",
                     left: "0px",
                   }}
                 >
