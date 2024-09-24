@@ -191,6 +191,17 @@ ul.navbar-nav {
   align-items: center;
 }
 
+.gold_btn:hover {
+  color: #cbe4e0 !important;
+}
+.price_value_form_wrapepr button:hover {
+  color: #36a18b !important;
+}
+
+.goldankauf_valuecalc_form .gold_btn:hover {
+  color: #448f83 !important;
+}
+
 .navbar-nav .nav-link.active,
 .nav-link:hover,
 .nav-link:focus,
@@ -199,29 +210,33 @@ ul.navbar-nav {
 }
 header .dropdown-item.active,
 .dropdown-item:active {
-  background-color: #36a18b;
-  color: #ffffff !important;
+  background-color: transparent;
+  color: #36a18b !important;
 }
 
 header .dropdown-menu.show li:hover {
-  background-color: #36a18b;
-  color: #ffffff !important;
+  background-color: transparent;
+  color: #36a18b;
 }
 header .dropdown-menu.show li a:hover {
-  background-color: #36a18b;
-  color: #ffffff !important;
+  background-color: transparent;
+  color: #36a18b;
 }
 header nav .collapse ul li a {
   color: #121212;
   font-weight: 600;
 }
 header .dropdown-menu.show li a.active {
-  background-color: #36a18b !important;
-  color: #ffffff !important;
+  background-color: #ffffff !important;
+  color: #36a18b !important;
   border-radius: 0px !important;
 }
 .nav-link.dropdown-item.active {
-  background-color: #36a18b !important;
+  background-color: #ffffff !important;
+  color: #36a18b !important;
+}
+.nav-link.dropdown-item:hover {
+  color: #36a18b !important;
 }
 .hr-divider {
   width: 1px;
@@ -825,7 +840,7 @@ header .dropdown-menu.show li a.active {
 }
 .pricing .palladium-gradiant h4,
 .rhodium-gradiant h4 {
-  font-weight: bold;
+  font-weight: 500;
   color: #ffffff;
   text-align: center;
 }
@@ -892,14 +907,15 @@ header .dropdown-menu.show li a.active {
   .pricing .platin-gradiant {
     font-size: 19px;
     line-height: 32px;
-    height: auto;
-    margin-bottom: 8px;
+    height: 45px;
   }
   .pricing .palladium-gradiant {
     font-size: 19px;
     line-height: 32px;
-    height: auto;
-    margin-bottom: 8px;
+    height: 42px;
+  }
+  .rhodium-gradiant {
+    height: 43px;
   }
   .pricing li {
     height: 53px;
@@ -912,25 +928,7 @@ header .dropdown-menu.show li a.active {
     color: #121212;
     right: 0px !important;
   }
-  /* .unsere_section_wrapper .swiper-slide {
-    width: 112px !important;
-    margin-left: 10px;
-  } */
 }
-
-/* @media screen and (min-width: 390px) and (max-width: 420px) {
-  .unsere_section_wrapper .swiper-slide {
-    width: 112px !important;
-    margin-left: 7px;
-  }
-}
-@media screen and (min-width: 390px) and (max-width: 400px) {
-  .unsere_section_wrapper .swiper-slide {
-    width: 112px !important;
-    margin-left: 5px;
-  }
-} */
-
 .current-value {
   margin-bottom: 30px;
 }
@@ -4419,6 +4417,7 @@ header .dropdown-menu.show li a.active {
   }
   .review_card .p2 p {
     font-size: 10px;
+    line-height: 11px;
   }
   .reviewNum,
   .reviewStar2Text {
@@ -4725,12 +4724,33 @@ header .dropdown-menu.show li a.active {
     padding: 1px 10px !important;
     width: 96% !important;
   }
+  .umwelts_btn {
+    margin: 15px 0px 0px 0px;
+  }
+  .umweltschutz_heading {
+    margin-bottom: 5px;
+  }
   .umweltschutz_wrapper_left_p1 {
     font-size: 14px;
     line-height: 24px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
   }
   .umweltschutz_wrapper_left {
     padding: 20px 0px 25px 12px;
+  }
+  .wirkaufen_page_wrapper .granted-price-card {
+    margin-top: 30px;
+    margin-bottom: 30px !important;
+  }
+  .wirkaufen_page_wrapper .granted-price-card-wrapper {
+    margin-top: 35px;
+  }
+  .sicherheit_wrapper .info_card {
+    margin-bottom: 0px !important;
+  }
+  .sicherheit_wrapper .e_trusted_shops_card.e_trusted_shops_card2 {
+    margin-bottom: 5px !important;
   }
   .customer_review_section_wrapper {
     padding: 10px;
@@ -4861,6 +4881,7 @@ header .dropdown-menu.show li a.active {
   }
   .review_card .p2 p {
     font-size: 12px;
+    line-height: 12px;
     text-align: center;
   }
   .percentage-bar {
@@ -5509,8 +5530,8 @@ header .dropdown-menu.show li a.active {
     font-size: 14px;
   }
   .hero_slide2 .card_img img {
-    width: 80px;
-    height: 60px;
+    width: 85px;
+    height: 75px;
   }
   .slide4_h2_mehr {
     font-size: 45px;
@@ -5542,6 +5563,7 @@ header .dropdown-menu.show li a.active {
   }
   .review_card .p2 p {
     font-size: 10px;
+    line-height: 11px;
   }
   .Bewertung {
     justify-content: space-between !important;
@@ -5552,8 +5574,18 @@ header .dropdown-menu.show li a.active {
     margin-top: 6px;
   }
   .review_slider_card .review_para p {
-    font-size: 10px;
+    font-size: 9px;
+    line-height: 14px;
     width: auto;
+  }
+  .review_positiv {
+    margin-top: 5px;
+  }
+  .review_card_heading {
+    font-size: 9px;
+  }
+  .das_konzept_heading {
+    margin-top: 10px;
   }
   .review_slider_card {
     padding: 10px 10px;
@@ -5627,7 +5659,8 @@ header .dropdown-menu.show li a.active {
     font-size: 16px;
   }
   .umweltschutz_wrapper_left_p1 {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .review_slider2_column .swiper-button-prev {
     left: -5px !important;
@@ -5733,7 +5766,14 @@ header .dropdown-menu.show li a.active {
   }
   .step_card p,
   .step_card_heading {
-    font-size: 14px !important;
+    font-size: 12px !important;
+  }
+  .diamanten_for_men_section_cards_heading {
+    font-size: 17px !important;
+  }
+  .schliff_heading,
+  .zertifikat_heading {
+    font-size: 25px !important;
   }
 }
 
@@ -5962,6 +6002,11 @@ header .dropdown-menu.show li a.active {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+.price_value_form2_last_part_wertsendung {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .price_value_form_eigenes {
   display: flex;
@@ -7702,7 +7747,7 @@ header .dropdown-menu.show li a.active {
   font-weight: bold;
 }
 .luxury_watch_img img {
-  width: auto;
+  width: 100%;
   height: 325px;
 }
 .rolex_section_para2_wrapper {
@@ -9198,8 +9243,20 @@ header .dropdown-menu.show li a.active {
   height: 236px;
   padding: 10px;
 }
+.verkaufsanleitung_card3 {
+  background-color: #e9eef2;
+}
 .verkaufsanleitung_card1 img {
   margin-top: 20px;
+}
+.verkaufsanleitung_wrapper_selbstversand1 {
+  background-color: #eee4e3 !important;
+}
+.verkaufsanleitung_wrapper_selbstversand2 {
+  background-color: #f2f2f2 !important;
+}
+.verkaufsanleitung_wrapper_selbstversande3 {
+  background-color: #e9eef2 !important;
 }
 .verkaufsanleitung_card2 img {
   margin-top: 20px;
@@ -9272,6 +9329,9 @@ header .dropdown-menu.show li a.active {
   position: relative;
   display: flex;
   align-items: flex-start;
+}
+.verkaufsanleitung_wrapper_card:last-child {
+  margin-bottom: 0px;
 }
 .verkaufsanleitung_wrapper_card_heading {
   font-size: 22px;
@@ -10634,7 +10694,7 @@ header .dropdown-menu.show li a.active {
   .bieten_sie_form_bilder_input button {
     padding: 1px 3px !important;
     flex-basis: 50%;
-    font-size: 13px;
+    font-size: 13px !important;
   }
   .bieten_sie_form_heading4 {
     margin-left: unset;
@@ -11124,6 +11184,12 @@ header .dropdown-menu.show li a.active {
     font-size: 15px !important;
     width: 100% !important;
   }
+  .golden-fauf-wrapper .golden_fauf_card_col:nth-child(2n) {
+    padding-left: 5px !important;
+  }
+  .wir_ankaufun_wrapper .wir_ankaufun_card_column:nth-child(2n + 1) {
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
+  }
   .price_value_form_last_para {
     font-size: 10px;
   }
@@ -11144,6 +11210,21 @@ header .dropdown-menu.show li a.active {
   }
   .contact_wrapper_heading1 {
     font-size: 26px;
+  }
+  .bieten_sie_form_logos img:first-child {
+    margin-left: 10px;
+  }
+  .price_value_form3 .golden_fauf_card_col:nth-child(2n) {
+    padding-left: 3px !important;
+  }
+  .price_value_form3 .golden_fauf_card_col:nth-child(2n + 1) {
+    padding-left: 8px !important;
+  }
+  .price_value_form3 .golden_fauf_card {
+    width: 165px !important;
+  }
+  .nachhaltig_umfangr_emission_heading {
+    font-size: 28px;
   }
   .bieten_sie_form_label_input label {
     max-width: 100%;
@@ -11181,7 +11262,7 @@ header .dropdown-menu.show li a.active {
   }
   .customer_review_section2_wrapper h2 {
     line-height: 30px;
-    font-size: 28px;
+    font-size: 28px !important;
   }
   .customer_review_ekomi_powered_by {
     margin-top: 25px;
@@ -11294,10 +11375,44 @@ header .dropdown-menu.show li a.active {
     display: flex;
     flex-wrap: wrap;
   }
+  .bieten_sie_form_bilder_input button {
+    font-size: 12px !important;
+  }
 }
 @media screen and (min-width: 375px) and (max-width: 375px) {
   .zahngold_valuecalc_btn button {
     flex-basis: 74%;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1010px) {
+  .nachhaltig_main_wrapper_heading {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 1011px) and (max-width: 1048px) {
+  .nachhaltig_main_wrapper_heading {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 1048px) and (max-width: 1120px) {
+  .nachhaltig_main_wrapper_heading {
+    font-size: 38px;
+  }
+}
+.price_value_form2_submit_btn {
+  flex: 1;
+  margin-left: 30px;
+}
+@media screen and (min-width: 993px) and (max-width: 1080px) {
+  .price_value_form2_submit_btn {
+    flex: 1;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .price_value_form2_submit_btn {
+    flex: 1;
+    margin-left: 0px;
   }
 }
 @media screen and (min-width: 280px) and (max-width: 370px) {
@@ -11610,7 +11725,8 @@ header .dropdown-menu.show li a.active {
     font-weight: 400;
   }
   .offcanvas-body .navbar-nav .dropdown-menu li .nav-link.active {
-    color: #ffffff !important;
+    color: #36a18b !important;
+    background-color: #e8f3ed !important;
     font-weight: 600;
   }
   .offcanvas-body .navbar-nav .dropdown-menu {
@@ -11666,6 +11782,9 @@ header .dropdown-menu.show li a.active {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+  }
+  .wertsendung_gold_etrusted {
+    margin-top: 20px;
   }
 }
 
@@ -12034,6 +12153,9 @@ header .dropdown-menu.show li a.active {
   .gesamtsieger_main_wrapper {
     width: 100%;
   }
+  .wertsendung_gold_etrusted {
+    margin-top: 20px;
+  }
   .price_value_form3 .btn-bg {
     width: 100%;
   }
@@ -12254,4 +12376,18 @@ header .dropdown-menu.show li a.active {
   .auszeichnungen_wrapper_card_body img {
     margin-bottom: 10px;
   }
+}
+/* keyboard component css here */
+.keyboard-btn {
+  width: 36px;
+  height: 36px;
+}
+.munzen-btn {
+  width: 124px;
+}
+.num-btn {
+  width: 80px;
+}
+.wertsendung-wrapper {
+  display: none;
 }

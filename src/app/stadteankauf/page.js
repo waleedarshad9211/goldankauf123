@@ -98,7 +98,7 @@ const page = () => {
               })}
               <div className="stadteankauf_table_button">
                 <Button
-                  btnText="JETZT wert berechnen"
+                  btnText="Jetzt wert berechnen"
                   fontSize="25px"
                   fontWeight="bold"
                   padding="1px 30px"

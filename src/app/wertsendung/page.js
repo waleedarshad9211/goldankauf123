@@ -45,7 +45,11 @@ const page = () => {
               </ul>
             </div>
             <div className="abThousand_pricevalue_form2">
-              <PriceValueForm2 abThousand={true} topHeading="Abholung buchen" />
+              <PriceValueForm2
+                abThousand={true}
+                topHeading="Abholung buchen"
+                wertsendung
+              />
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-4 gold_and_etrustedshpw_wrapper">

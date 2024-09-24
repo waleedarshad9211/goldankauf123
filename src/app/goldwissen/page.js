@@ -18,6 +18,7 @@ import Munzen_keypad_mobile from "/public/assets/img/Munzen_keypad_mobile.png";
 import Image from "next/image";
 import GarantedPrice from "@/components/shared/garantedPrice/GarantedPrice";
 import ValueCalc from "@/components/shared/ValueCalc";
+import Keyboard from "@/components/shared/Keyboard";
 
 const Goldwissen = () => {
   return (
@@ -44,7 +45,8 @@ const Goldwissen = () => {
               verbessern wollen. Wir wünschen Ihnen viel Spaß mit unserem
               Goldwissen und hoffen Sie als Stammleser gewinnen zu können.
             </p>
-            <Image
+            <Keyboard />
+            {/* <Image
               src={Munzen_keypad}
               alt=""
               className="d-none d-md-block d-lg-block"
@@ -53,7 +55,7 @@ const Goldwissen = () => {
               src={Munzen_keypad_mobile}
               alt=""
               className="d-block d-md-none d-lg-none"
-            />
+            /> */}
             <div>
               <p className="verkaufsrelavantes_wissen_heading ">
                 Verkaufsrelavantes wissen

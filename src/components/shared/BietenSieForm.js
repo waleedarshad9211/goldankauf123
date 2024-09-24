@@ -449,7 +449,7 @@ const BietenSieForm = ({
             </div>
           </div>
         </div>
-        {luxusehren && (
+        {/* {luxusehren && (
           <div class="form-check bieten_sie_form_last_checkbox">
             <input
               className="form-check-input"
@@ -460,7 +460,7 @@ const BietenSieForm = ({
               Ich habe die Datenschutzbestimmungen zur Kenntnis genommen.
             </label>
           </div>
-        )}
+        )} */}
         <div className="d-flex justify-content-center bieten_sie_form_logos">
           <Image
             src={EkomiVector}

@@ -282,7 +282,7 @@ const page = () => {
                 <div>Jahr</div>
                 <div>%-Anteil</div>
               </div>
-              {anteilVomArray.map((item, index) => {
+              {anteilVomArray1.map((item, index) => {
                 return (
                   <div className="anteil_vom_recycling_table_body" key={index}>
                     <div>{item.year}</div>
@@ -296,7 +296,7 @@ const page = () => {
                 <div>Jahr</div>
                 <div>%-Anteil</div>
               </div>
-              {anteilVomArray1.map((item, index) => {
+              {anteilVomArray.map((item, index) => {
                 return (
                   <div className="anteil_vom_recycling_table_body" key={index}>
                     <div>{item.year}</div>

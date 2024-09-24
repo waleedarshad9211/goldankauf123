@@ -76,7 +76,7 @@ const Verkaufsanleitung = () => {
                 </div>
               </div>
               <div className="col-12 col-md-4 col-lg-4 verkaufsanleitung_card_column">
-                <div className="verkaufsanleitung_card2">
+                <div className="verkaufsanleitung_card2 verkaufsanleitung_card3">
                   <p className="text-center">WERTTRANSPORT</p>
                   <div className="">
                     <Image
@@ -93,7 +93,7 @@ const Verkaufsanleitung = () => {
               <p className="verkaufsanleitung_auswahlen_heading">
                 SELBSTVERSAND
               </p>
-              <div className="verkaufsanleitung_wrapper_selbstversand">
+              <div className="verkaufsanleitung_wrapper_selbstversand verkaufsanleitung_wrapper_selbstversand1">
                 {verkaufsanleitungArray1.map((item, index) => {
                   return (
                     <div className="verkaufsanleitung_wrapper_card" key={index}>
@@ -122,7 +122,7 @@ const Verkaufsanleitung = () => {
               <p className="verkaufsanleitung_auswahlen_heading">
                 VERSANDTASCHE
               </p>
-              <div className="verkaufsanleitung_wrapper_selbstversand">
+              <div className="verkaufsanleitung_wrapper_selbstversand verkaufsanleitung_wrapper_selbstversand2">
                 {verkaufsanleitungArray2.map((item, index) => {
                   return (
                     <div className="verkaufsanleitung_wrapper_card" key={index}>
@@ -149,7 +149,7 @@ const Verkaufsanleitung = () => {
             </div>
             <div className="funktionierts_wrapper_auswahlen verkaufsanleitung_auswahlen">
               <p className="verkaufsanleitung_auswahlen_heading">WERTVERSAND</p>
-              <div className="verkaufsanleitung_wrapper_selbstversand">
+              <div className="verkaufsanleitung_wrapper_selbstversand verkaufsanleitung_wrapper_selbstversand3">
                 {verkaufsanleitungArray2.map((item, index) => {
                   return (
                     <div className="verkaufsanleitung_wrapper_card" key={index}>

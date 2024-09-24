@@ -9,6 +9,7 @@ export const PriceValueForm2 = ({
   bestellen = false,
   abThousand = false,
   eigenes = false,
+  wertsendung = false,
   topHeading = "Versandtasche anfordern ",
   btnText = "",
 }) => {
@@ -199,7 +200,13 @@ export const PriceValueForm2 = ({
             </div>
           </div>
           <div className="col-12 col-m-12 col-lg-6 d-none d-md-block d-lg-block eigenes_">
-            <div className="price_value_form2_bestellen_last_txt_wrapper">
+            <div
+              className={
+                wertsendung
+                  ? "d-none"
+                  : "price_value_form2_bestellen_last_txt_wrapper"
+              }
+            >
               <Image src={insuranceDHL} alt="" />
               <p className="price_value_form2_bestellen_last_txt">
                 Der Versand mit der DHL ist bis 1.500 € versichert.
@@ -208,7 +215,13 @@ export const PriceValueForm2 = ({
           </div>
         </div>
 
-        <div className="price_value_form2_last_part">
+        <div
+          className={
+            wertsendung
+              ? "price_value_form2_last_part_wertsendung"
+              : "price_value_form2_last_part"
+          }
+        >
           <div className="d-flex align-items-center gap-2 trusted-shops">
             <Image
               className="trusted"
@@ -240,7 +253,13 @@ export const PriceValueForm2 = ({
             />
           </div>
           <div className="d-block d-md-none d-lg-none">
-            <div className="price_value_form2_bestellen_last_txt_wrapper">
+            <div
+              className={
+                wertsendung
+                  ? "d-none"
+                  : "price_value_form2_bestellen_last_txt_wrapper"
+              }
+            >
               <Image src={insuranceDHL} alt="" />
               <p className="price_value_form2_bestellen_last_txt">
                 Die Versandtasche (DHL) ist bis 1.500 € versichert.
@@ -250,9 +269,9 @@ export const PriceValueForm2 = ({
           <div
             className={
               bestellen
-                ? "price_value_form_bestellen_submit_btn d-none d-md-flex d-lg-flex"
+                ? "price_value_form_bestellen_submit_btn d-none d-md-flex d-lg-flex price_value_form2_submit_btn"
                 : eigenes
-                ? "price_value_form_eigenes d-none d-md-flex d-lg-flex"
+                ? "price_value_form_eigenes d-none d-md-flex d-lg-flex price_value_form2_submit_btn"
                 : "price_value_form2_submit_btn d-none d-md-flex d-lg-flex"
             }
           >

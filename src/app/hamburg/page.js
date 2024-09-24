@@ -98,7 +98,7 @@ const page = () => {
                 })}
                 <div className="hamburger_table_button">
                   <Button
-                    btnText="JETZT wert berechnen"
+                    btnText="Jetzt wert berechnen"
                     padding="1px 30px"
                     height="43px"
                     width="461px"
