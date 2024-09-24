@@ -288,6 +288,14 @@ header .dropdown-menu.show li a.active {
 .slider5_text {
   font-size: 15px;
 }
+
+.offcanvas-header .btn-close {
+  position: absolute;
+  left: 5px;
+}
+.offcanvas-header .navbar-brand {
+  margin-left: 30px;
+}
 @media only screen and (min-width: 994px) and (max-width: 1010px) {
   .nav_subheader_right {
     padding: 5px 0px 5px 40px;
@@ -5497,7 +5505,7 @@ header .dropdown-menu.show li a.active {
   .header_fourth_img {
     display: none;
   }
-  .golden_fauf_card {
+  .golden_fauf_card .offcanvas-header .btn-close {
     width: 225px;
   }
   .umweltschutz_wrapper_img img {
@@ -11645,6 +11653,19 @@ header .dropdown-menu.show li a.active {
   .hero_section_row {
     justify-content: center;
   }
+  .rolex_section_para2_wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .rolex_section_para2_wrapper img {
+    width: 100%;
+  }
+  .luxury_watch_img img {
+    margin-top: 10px;
+  }
+  .bieten_sie_form_label_input input {
+    width: 174px;
+  }
 }
 @media screen and (min-width: 800px) and (max-width: 849px) {
   .goldrechner_clock_analog .clock-container {
@@ -11680,10 +11701,6 @@ header .dropdown-menu.show li a.active {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 800px) {
-  /* .bieten_sie_form_label_input input,
-  .bieten_sie_form_bilder_input input {
-    width: 170px !important;
-  } */
   .bieten_sie_form_label_input select {
     flex: 1 1;
   }
@@ -12401,6 +12418,9 @@ header .dropdown-menu.show li a.active {
     max-width: 425px;
   }
   .co_neutrals_inner_wrapper1 .row {
+    flex-direction: column;
+  }
+  .rolex_section_para2_wrapper {
     flex-direction: column;
   }
 }
