@@ -25,7 +25,7 @@ const page = () => {
             </p>
             <div className="eigenes_versandmaterial_service">
               <h3 className="eigenes_versandmaterial_h3">
-                Ihre Sicherheiten bei Zahngold123.de:
+                Ihre Sicherheiten bei Goldankauf123.de:
               </h3>
               <ul>
                 <li>

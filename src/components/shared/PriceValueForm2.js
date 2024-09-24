@@ -202,7 +202,7 @@ export const PriceValueForm2 = ({
             <div className="price_value_form2_bestellen_last_txt_wrapper">
               <Image src={insuranceDHL} alt="" />
               <p className="price_value_form2_bestellen_last_txt">
-                Die Versandtasche (DHL) ist bis 1.500 € versichert.
+                Der Versand mit der DHL ist bis 1.500 € versichert.
               </p>
             </div>
           </div>

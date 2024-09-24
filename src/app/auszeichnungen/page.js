@@ -71,8 +71,14 @@ const page = () => {
               100% Sicherheit durch echte Kundenbewertungen
             </p>
             <div className="d-flex align-items-center mt-1 auszeichnungen_list_wrapper">
-              <Image src={EkomiVector} alt="" width={119} height={119} />
-              <div>
+              <Image
+                src={EkomiVector}
+                alt=""
+                width={119}
+                height={119}
+                className="auszeichnungen_list_logo_img"
+              />
+              <div style={{ flex: 1, marginRight: "10px", width: "100%" }}>
                 {auszeichnungenArray.map((item, index) => {
                   return (
                     <div className="auszeichnungen_list" key={index}>

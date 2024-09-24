@@ -394,7 +394,7 @@ export const KitcoGoldTabArrayGold = [
   {
     quantity: "999er Feingold",
     price: "56,19 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "986er Gold",
@@ -404,7 +404,7 @@ export const KitcoGoldTabArrayGold = [
   {
     quantity: "916er Gold",
     price: "51,53 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "900er Gold",
@@ -414,7 +414,7 @@ export const KitcoGoldTabArrayGold = [
   {
     quantity: "750er Gold",
     price: "42,12 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "585er Gold",
@@ -424,7 +424,7 @@ export const KitcoGoldTabArrayGold = [
   {
     quantity: "375er Gold",
     price: "20,51 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "333er Gold",
@@ -436,7 +436,7 @@ export const KitcoGoldTabArrayZahngold = [
   {
     quantity: "999er Feingold",
     price: "57,28 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "986er Gold",
@@ -446,7 +446,7 @@ export const KitcoGoldTabArrayZahngold = [
   {
     quantity: "916er Gold",
     price: "52,53 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "900er Gold",
@@ -456,7 +456,7 @@ export const KitcoGoldTabArrayZahngold = [
   {
     quantity: "750er Gold",
     price: "42,94 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "585er Gold",
@@ -466,7 +466,7 @@ export const KitcoGoldTabArrayZahngold = [
   {
     quantity: "375er Gold",
     price: "20,91 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "333er Gold",
@@ -478,7 +478,7 @@ export const KitcoGoldTabArraySilber = [
   {
     quantity: "999er Feingold",
     price: "57,28 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "986er Gold",
@@ -488,7 +488,7 @@ export const KitcoGoldTabArraySilber = [
   {
     quantity: "916er Gold",
     price: "52,53 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "900er Gold",
@@ -498,7 +498,7 @@ export const KitcoGoldTabArraySilber = [
   {
     quantity: "750er Gold",
     price: "42,94 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "585er Gold",
@@ -508,7 +508,7 @@ export const KitcoGoldTabArraySilber = [
   {
     quantity: "375er Gold",
     price: "20,91 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "333er Gold",
@@ -520,7 +520,7 @@ export const KitcoGoldTabArrayPlatin = [
   {
     quantity: "999er Feingold",
     price: "56,28 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "986er Gold",
@@ -530,7 +530,7 @@ export const KitcoGoldTabArrayPlatin = [
   {
     quantity: "916er Gold",
     price: "54,53 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "900er Gold",
@@ -540,7 +540,7 @@ export const KitcoGoldTabArrayPlatin = [
   {
     quantity: "750er Gold",
     price: "44,94 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "585er Gold",
@@ -550,7 +550,7 @@ export const KitcoGoldTabArrayPlatin = [
   {
     quantity: "375er Gold",
     price: "26,91 €/g",
-    backgroundColor: "#D1F6F9",
+    backgroundColor: "#D1F0EA",
   },
   {
     quantity: "333er Gold",

@@ -150,7 +150,8 @@ h2 {
   margin-top: 5px;
   letter-spacing: 1px;
   height: 35px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
 }
 .call-btn svg {
   margin-bottom: 1px;
@@ -268,6 +269,9 @@ header .dropdown-menu.show li a.active {
   font-weight: 500;
   cursor: pointer;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.slider5_text {
+  font-size: 15px;
 }
 @media only screen and (min-width: 994px) and (max-width: 1010px) {
   .nav_subheader_right {
@@ -823,7 +827,6 @@ header .dropdown-menu.show li a.active {
 .rhodium-gradiant h4 {
   font-weight: bold;
   color: #ffffff;
-  margin-bottom: 7px;
   text-align: center;
 }
 .pricing li {
@@ -858,7 +861,7 @@ header .dropdown-menu.show li a.active {
     align-items: flex-end;
   }
   .eigenes_versandmaterial_goldcard_etrusted {
-    margin-top: 0px !important;
+    margin-top: 15px !important;
   }
   .info_card {
     margin-top: 20px !important;
@@ -1050,8 +1053,8 @@ header .dropdown-menu.show li a.active {
 }
 .sold_out_text {
   position: absolute;
-  top: 5px;
-  left: 64px;
+  top: 1px;
+  left: 66px;
   font-size: 11px;
   font-weight: 700;
 }
@@ -1399,7 +1402,11 @@ header .dropdown-menu.show li a.active {
 }
 @media screen and (min-width: 993px) and (max-width: 1100px) {
   .img_box .zahngold_last_img_wrapper {
-    width: 280px;
+    width: auto !important;
+    right: 30px !important;
+  }
+  .stadteankauf_wrapper_box .wir_verkaufer_name {
+    font-size: 15px !important;
   }
   .kostenlos {
     width: auto;
@@ -1605,7 +1612,7 @@ header .dropdown-menu.show li a.active {
   padding-right: 0px;
 }
 .herobgsmall1_para1 {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 23px;
   color: #121212;
 }
@@ -1635,7 +1642,7 @@ header .dropdown-menu.show li a.active {
 .smallslide2-h2 {
   font-size: 30px;
   font-weight: 500;
-  margin-bottom: 3px;
+  margin-bottom: 8px;
 }
 .herobgsmall3 {
   background-image: url("/assets/img/homepage/hero-bg-smaal-3.png");
@@ -1656,6 +1663,7 @@ header .dropdown-menu.show li a.active {
 }
 .herobgsmall3_para1 {
   font-size: 15px;
+  margin-top: 10px;
 }
 .herobgsmall3-b {
   background-image: url("/assets/img/homepage/hero-bg-smaal-3-b.png");
@@ -1685,7 +1693,7 @@ header .dropdown-menu.show li a.active {
   font-size: 26px;
 }
 .herobgsmall4_para1 {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 10px;
 }
 .herobgsmall5 {
@@ -1700,11 +1708,12 @@ header .dropdown-menu.show li a.active {
   height: 520px;
 }
 .herobg4 {
-  background-image: url("/assets/img/homepage/Slider-4-Big-1.png");
+  background-image: url("/assets/img/homepage/Slider-4-Big.png");
   background-repeat: no-repeat;
   background-position: left;
   background-size: cover;
   border: 2px solid #ffffff;
+  padding: 20px;
   border-radius: 10px;
   height: 520px;
 }
@@ -1713,6 +1722,11 @@ header .dropdown-menu.show li a.active {
   background-position: left;
   border-radius: 10px;
   max-height: 517px;
+}
+
+.slider4-logo-img img {
+  width: 100%;
+  height: auto;
 }
 .herobg5 {
   background-image: url("/assets/img/homepage/Slider-5-Big.png");
@@ -1770,6 +1784,10 @@ header .dropdown-menu.show li a.active {
   width: 100%;
   margin-top: 12px;
 }
+.slider_4_sicherheit {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .slider_5_line_1 {
   flex-grow: 1;
   border: 1px solid #36a18b;
@@ -1789,7 +1807,7 @@ header .dropdown-menu.show li a.active {
   font-size: 30px;
   line-height: 38px;
   font-weight: 500;
-  color: #36a18b;
+  margin-bottom: 10px;
 }
 .slide2-heading2 {
   font-size: 30px;
@@ -5430,7 +5448,7 @@ header .dropdown-menu.show li a.active {
     flex: 1;
   }
 }
-@media screen and (min-width: 993px) and (max-width: 1180px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
   .header_fourth_img {
     display: none;
   }
@@ -5954,6 +5972,7 @@ header .dropdown-menu.show li a.active {
   background-color: #c8e6e0;
   height: 35px;
   border: none;
+  flex: 1;
   padding: 1px 20px;
   font-size: 14px;
   line-height: 18px;
@@ -9170,7 +9189,7 @@ header .dropdown-menu.show li a.active {
   padding: 10px;
 }
 .verkaufsanleitung_card2 {
-  background-color: #f2f2ff;
+  background-color: #f2f2f2;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -10995,7 +11014,7 @@ header .dropdown-menu.show li a.active {
     flex-direction: column !important;
     align-items: flex-start !important;
   }
-  .auszeichnungen_list_wrapper img {
+  .auszeichnungen_list_wrapper .auszeichnungen_list_logo_img {
     margin-bottom: 15px;
   }
   .auszeichnungen_list {
@@ -11265,7 +11284,7 @@ header .dropdown-menu.show li a.active {
     flex-direction: column !important;
     align-items: flex-start !important;
   }
-  .auszeichnungen_list_wrapper img {
+  .auszeichnungen_list_wrapper .auszeichnungen_list_logo_img {
     margin-bottom: 15px;
   }
   .auszeichnungen_list {

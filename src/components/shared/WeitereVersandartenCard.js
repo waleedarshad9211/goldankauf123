@@ -23,7 +23,7 @@ const WeitereVersandartenCard = () => {
                 <Image src={ZahngoldProfile} alt="" />
               </div>
               <div className="zahngold_varsandarten_body_div2">
-                Wertsendung ab 1.000 €
+                Wertsendung ab 1.500 €
               </div>
             </li>
           </ul>

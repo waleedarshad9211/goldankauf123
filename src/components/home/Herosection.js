@@ -25,7 +25,7 @@ import Pladium from "/public/assets/img/homepage/slider2_pladium.png";
 import Rhodium from "/public/assets/img/homepage/slider2_rhodium.png";
 import Slider3Tick from "/public/assets/img/homepage/small-tick.png";
 import slider5Ntv from "/public/assets/img/homepage/slider-5-ntv.png";
-import slider4 from "/public/assets/img/homepage/herobg4.png";
+import logoSlid4 from "/public/assets/img/homepage/logo-slid4.png";
 
 const Herosection = () => {
   return (
@@ -122,7 +122,7 @@ const Herosection = () => {
                   <div className="slider1-left">
                     <h2 className="slide2-h2">
                       Ankauf von <br />
-                      Zahngold und <br />
+                      Zahngold & <br />
                       Dentalgold
                     </h2>
 
@@ -199,14 +199,14 @@ const Herosection = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <div className="herobg4">
-                  <Image src={slider4} alt="" className="slider4_img" />
-                  {/* <div className="hero_slide3">
+                  {/* <Image src={slider4} alt="" className="slider4_img" /> */}
+                  <div className="hero_slide3">
                     <h2 className="slide5_ankauf">
                       Edelmetalle <br></br> verkaufen ist
                       <br />
                       Vertrauenssache
                     </h2>
-                    <div className="d-flex align-items-center">
+                    <div className="d-flex align-items-center mt-3">
                       <div>
                         <Image
                           src={Slider3Tick}
@@ -227,7 +227,7 @@ const Herosection = () => {
                         />
                       </div>
                       <div className="slider5_text">
-                        KKostenlos & unverbindlich
+                        Kostenlos & unverbindlich
                       </div>
                     </div>
                     <div className="d-flex align-items-center">
@@ -264,26 +264,17 @@ const Herosection = () => {
                         Sehr hohe Ankaufspreise
                       </div>
                     </div>
-                    <div className="slider_5_sicherheit">
+                    <div className="slider_5_sicherheit slider_4_sicherheit">
                       <div className="slider_5_line_1"></div>
                       <div className="slider_5_btn1">BEKANNT AUS DEM TV</div>
                       <div className="slider_5_line_1"></div>
                     </div>
-                    <div className="slider1-garanty">
-                      <div className="d-flex garanty-img">
-                        <Image src={NTV} alt="" />
-                        <Image src={TrustedShops} alt="" />
-                        <Image src={TrustAmi} alt="" />
-                        <Image
-                          src={ProvenExpert}
-                          alt=""
-                          className="hero-proven"
-                        />
-                        <Image src={TopDienstleister} alt="" />
-                        <Image src={TopEmpfehlung} alt="" />
+                    <div className="slider4-logo-img">
+                      <div className="d-flex">
+                        <Image src={logoSlid4} alt="" />
                       </div>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide>
@@ -529,4 +520,3 @@ const Herosection = () => {
 };
 
 export default Herosection;
-//
