@@ -3715,13 +3715,17 @@ header .dropdown-menu.show li a.active {
   }
   .customer_review_ekomi_powered_by .customer_review_ekomi_powered_by_img {
     width: 130px;
-    left: 32px;
+    left: 18px;
   }
   .ekomi_powered_by {
     height: 100px;
   }
   .ekomi_powered_by ul li {
-    font-size: 18px;
+    font-size: 16px;
+  }
+  .ekomi_powered_by img {
+    width: 175px;
+    height: 53px;
   }
   .pwered_by p {
     line-height: 20px;
@@ -3751,7 +3755,7 @@ header .dropdown-menu.show li a.active {
     margin-top: 3px;
   }
   .ekomi_powered_by ul {
-    margin-left: 135px;
+    margin-left: 116px;
   }
   .customer_review_text p {
     font-size: 17px;
@@ -5615,7 +5619,7 @@ header .dropdown-menu.show li a.active {
   }
   .review_card .review_date {
     font-size: 9px;
-    margin-top: 6px;
+    margin-top: 0px;
   }
   .review_slider_card .review_para p {
     font-size: 9px;
