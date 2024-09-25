@@ -9882,9 +9882,9 @@ header .dropdown-menu.show li a.active {
   .bieten_sie_form_luxusehren .bieten_sie_form_kostenlos {
     transform: rotate(36deg);
     width: 332px;
-    height: 120px;
-    right: -127px;
-    top: -44px;
+    height: 49px;
+    right: -106px;
+    top: 17px;
   }
   .bieten_sie_form_heading4 {
     margin-left: 0px;
@@ -11665,6 +11665,7 @@ header .dropdown-menu.show li a.active {
   }
   .bieten_sie_form_label_input input {
     width: 174px;
+    max-width: 188px;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 849px) {
@@ -11672,6 +11673,36 @@ header .dropdown-menu.show li a.active {
     margin-left: 15px;
   }
 }
+@media screen and (min-width: 800px) and (max-width: 820px) {
+  .goldankauf_valuecalc_form .value-calculate-select select {
+    margin-right: 0px !important;
+    margin-left: 15px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 799px) {
+  .hamburg_valuecal .value-calculate-select {
+    margin-left: 0px;
+  }
+  .goldankauf_valuecalc_form .value-calculate-select select {
+    width: 300px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+  }
+  .goldankauf_valuecalc_form .value-calculate-input input {
+    margin-bottom: 10px;
+    width: 300px !important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 767px) {
+  .goldankauf_valuecalc_form {
+    flex-direction: column;
+  }
+  .goldankauf_valuecalc_form .value-calculate-input input {
+    margin-bottom: 10px;
+    width: 300px !important;
+  }
+}
+
 @media screen and (min-width: 850px) and (max-width: 992px) {
   .goldrechner_clock_analog .clock-container {
     margin-left: 15px;
