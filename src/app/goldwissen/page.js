@@ -45,17 +45,9 @@ const Goldwissen = () => {
               verbessern wollen. Wir wünschen Ihnen viel Spaß mit unserem
               Goldwissen und hoffen Sie als Stammleser gewinnen zu können.
             </p>
-            <Keyboard />
-            {/* <Image
-              src={Munzen_keypad}
-              alt=""
-              className="d-none d-md-block d-lg-block"
-            />
-            <Image
-              src={Munzen_keypad_mobile}
-              alt=""
-              className="d-block d-md-none d-lg-none"
-            /> */}
+            <div className="goldwissen_keyboard_wrapper">
+              <Keyboard />
+            </div>
             <div>
               <p className="verkaufsrelavantes_wissen_heading ">
                 Verkaufsrelavantes wissen

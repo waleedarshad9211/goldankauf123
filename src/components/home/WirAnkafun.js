@@ -117,7 +117,11 @@ const WirAnkafun = () => {
                         <div className="wir_verkaufer_bottom_wrapper wir_verkaufer_bottom_wrapper2">
                           <div className="wir_verkaufer">
                             <div>
-                              <p className="wir_verkaufer_name">{item.name}</p>
+                              <p
+                                className={`wir_verkaufer_name wir_verkaufer_name${index}`}
+                              >
+                                {item.name}
+                              </p>
                               <p className="wir_verkaufer_text">{item.text}</p>
                             </div>
                             <div className="wir_verkaufer_btn">

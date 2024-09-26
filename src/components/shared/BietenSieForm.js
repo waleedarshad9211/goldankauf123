@@ -324,10 +324,7 @@ const BietenSieForm = ({
               <div className="bieten_sie_form_bilder">
                 <h3 className="bieten_sie_form_heading3">Bilder der Uhr</h3>
                 <div className="bieten_sie_form_bilder_input">
-                  <input
-                    type="text"
-                    placeholder="Bisher keine Bilder ausgewählt"
-                  />
+                  <input type="text" placeholder="Keine Bilder ausgewählt" />
                   <Button
                     btnText="Bild auswählen"
                     height="26px"
@@ -336,10 +333,7 @@ const BietenSieForm = ({
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
-                  <input
-                    type="text"
-                    placeholder="Bisher keine Bilder ausgewählt"
-                  />
+                  <input type="text" placeholder="Keine Bilder ausgewählt" />
                   <Button
                     btnText="Bild auswählen"
                     height="26px"
@@ -348,10 +342,7 @@ const BietenSieForm = ({
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
-                  <input
-                    type="text"
-                    placeholder="Bisher keine Bilder ausgewählt"
-                  />
+                  <input type="text" placeholder="Keine Bilder ausgewählt" />
                   <Button
                     btnText="Bild auswählen"
                     height="26px"
@@ -360,10 +351,7 @@ const BietenSieForm = ({
                   />
                 </div>
                 <div className="bieten_sie_form_bilder_input">
-                  <input
-                    type="text"
-                    placeholder="Bisher keine Bilder ausgewählt"
-                  />
+                  <input type="text" placeholder="Keine Bilder ausgewählt" />
                   <Button
                     btnText="Bild auswählen"
                     height="26px"

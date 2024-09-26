@@ -231,7 +231,9 @@ const Header = () => {
               {routes.map((item, index) => (
                 <li
                   key={index}
-                  className={`nav-item dropdown`}
+                  className={`nav-item dropdown ${
+                    isDropdownOpen && item.pathName === pathName ? "shown" : ""
+                  } ${activeUrl == item.path ? "active" : "inactive"}`}
                   onMouseEnter={() => {
                     setIsDropdownOpen(true);
                     setPathName(item.pathName);
