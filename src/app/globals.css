@@ -306,8 +306,15 @@ header .dropdown-menu.show li a.active {
 .navbar-nav .nav-item {
   height: 50px;
 }
+
+.offcanvas-body .navbar-nav .nav-item {
+  height: auto;
+}
 .navbar-nav .nav-item .nav-link {
   margin-top: 7px;
+}
+.navbar-nav .nav-item .nav-link.dropdown-toggle::after {
+  margin-top: 10px;
 }
 .navbar-nav .nav-item .nav-link.active {
   margin-top: 12px;
