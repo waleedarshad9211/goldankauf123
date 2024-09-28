@@ -224,7 +224,7 @@ const Header = () => {
         </ul>
       </div>
       <MobileHeader isMenuOpen={isMenuOpen} />
-      <nav className="navbar navbar-expand-lg py-0 py-lg-2">
+      <nav className="navbar navbar-expand-lg py-0 ">
         <div className="container">
           <div className="navbar-collapse collapse" id="navbarText">
             <ul className="navbar-nav mb-2 mb-lg-0 w-100 justify-content-between">

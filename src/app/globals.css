@@ -297,30 +297,21 @@ header .dropdown-menu.show li a.active {
   margin-left: 30px;
 }
 
-/* .nav-item.shown .dropdown-menu.sh {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(0);
-  transition: opacity 3s ease, transform 3s ease;
-}
-.offcanvas-body .dropdown-menu.sh {
-  opacity: 0;
-  visibility: visible;
-  transform: translateY(0);
-}
 .nav-item.shown.active .dropdown-menu.sh.show {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(14px);
-  transition: opacity 3s ease, transform 3s ease;
+  transform: translateY(10px);
 }
 .nav-item.shown.inactive .dropdown-menu.sh.show {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(6px);
-  transition: opacity 3s ease, transform 3s ease;
-} */
-
+  transform: translateY(2px);
+}
+.navbar-nav .nav-item {
+  height: 50px;
+}
+.navbar-nav .nav-item .nav-link {
+  margin-top: 7px;
+}
+.navbar-nav .nav-item .nav-link.active {
+  margin-top: 12px;
+}
 @media only screen and (min-width: 994px) and (max-width: 1010px) {
   .nav_subheader_right {
     padding: 5px 0px 5px 40px;
@@ -1490,6 +1481,18 @@ header .dropdown-menu.show li a.active {
   .Kitco_gold_tab_wrapper {
     width: auto !important;
   }
+  .reviewStar i {
+    font-size: 11px !important;
+  }
+  .reviewNum {
+    font-size: 12px !important;
+  }
+  .reviewDate {
+    font-size: 11px !important;
+  }
+  .customer_review_text p {
+    font-size: 15px !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -2610,9 +2613,7 @@ header .dropdown-menu.show li a.active {
   justify-content: space-between;
   padding: 5px 10px 5px 10px;
 }
-.review_card .Bewertung {
-  margin-bottom: 5px;
-}
+
 .review_bottom_wrapper {
   padding: 0px 15px 15px;
 }
@@ -2635,7 +2636,8 @@ header .dropdown-menu.show li a.active {
   display: flex;
 }
 .review_card .Bewertung h2 {
-  font-size: 35px;
+  font-size: 32px;
+  line-height: 32px;
   color: #ffbf00;
 }
 .review_card .Bewertung p {
@@ -2658,10 +2660,10 @@ header .dropdown-menu.show li a.active {
   background-color: #e8f2ee;
 }
 .review_card .p2 p {
-  font-size: 11px;
+  font-size: 10px;
   color: #2e3133;
-  padding: 5px;
-  margin: 3px 0px;
+  padding: 2px;
+  margin: 0px 0px 3px 0px;
   letter-spacing: -0.3px;
   text-align: center;
 }
@@ -2674,8 +2676,9 @@ header .dropdown-menu.show li a.active {
 }
 .review_card .review_date {
   font-size: 8.35px;
+  line-height: 10px;
   color: #ffffff;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 .review_slider_row {
   align-items: flex-end;
@@ -2841,14 +2844,13 @@ header .dropdown-menu.show li a.active {
 .review2_card_rating {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .review2_card_rating h2 {
   color: #efba0b;
-  font-size: 35px;
+  font-size: 32px;
   line-height: normal;
   font-weight: bold;
-  margin-left: 13px;
 }
 .reviewDate2 {
   font-size: 11px;
@@ -2882,6 +2884,10 @@ header .dropdown-menu.show li a.active {
 .review2_percenage {
   width: 165px;
 }
+.review2_percenage > div {
+  height: 12px;
+  margin-bottom: 5px;
+}
 .review2_gut {
   font-size: 17px;
   font-weight: bold;
@@ -2892,8 +2898,12 @@ header .dropdown-menu.show li a.active {
   font-size: 10px;
   line-height: 12px;
   background-color: #e9eef2;
-  padding: 4px 5px;
+  padding: 1px 5px;
   margin-bottom: 10px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .review2_card .Bewertung2 h2 {
   font-size: 34.84px;
@@ -2902,7 +2912,8 @@ header .dropdown-menu.show li a.active {
   font-weight: bold;
 }
 .review2_card .Bewertung2 p {
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 17px;
   font-weight: 500;
   color: #ffffff;
   text-align: center;
@@ -2928,11 +2939,12 @@ header .dropdown-menu.show li a.active {
 .review2_card .positive {
   color: #ffffff;
   font-size: 10.01px;
-  line-height: 17px;
+  line-height: 12px;
   width: 30px;
 }
 .review2_card .review2_date {
   font-size: 8.35px;
+  line-height: 9px;
   color: #ffffff;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -3788,7 +3800,7 @@ header .dropdown-menu.show li a.active {
     margin-left: 116px;
   }
   .customer_review_text p {
-    font-size: 17px;
+    font-size: 16px;
   }
   .versadarten-dhl-para {
     font-size: 15px !important;
@@ -3801,7 +3813,11 @@ header .dropdown-menu.show li a.active {
     padding: 20px 13px 40px 13px;
   }
   .review2_uber {
-    line-height: 18px;
+    font-size: 9px;
+    padding: 1px 2px;
+  }
+  .reviewStar2 i {
+    font-size: 9px !important;
   }
   .review_slider2_column .swiper-button-next {
     right: -2px;
@@ -4544,6 +4560,15 @@ header .dropdown-menu.show li a.active {
   .bieten_sie_form_bilder_input input {
     width: 210px !important;
   }
+  .bieten_sie_form_label_input input {
+    max-width: 146px !important;
+  }
+  .bieten_sie_form_label_input label {
+    margin-right: 5px;
+  }
+  .bieten_sie_form_label_input label {
+    font-size: 10px;
+  }
   .goldankauf_valuecalc_form {
     display: flex;
     justify-content: flex-start;
@@ -4595,7 +4620,30 @@ header .dropdown-menu.show li a.active {
     margin-top: 15px;
   }
 }
-
+@media screen and (min-width: 850px) and (max-width: 900px) {
+  .bieten_sie_form_label_input input {
+    width: 162px;
+    max-width: 162px;
+  }
+}
+@media screen and (min-width: 901px) and (max-width: 950px) {
+  .bieten_sie_form_label_input input {
+    width: 175px;
+    max-width: 175px;
+  }
+}
+@media screen and (min-width: 951px) and (max-width: 993px) {
+  .bieten_sie_form_label_input input {
+    width: 190px;
+    max-width: 190px;
+  }
+}
+@media screen and (min-width: 994px) and (max-width: 1030px) {
+  .bieten_sie_form_label_input input {
+    width: 203px;
+    max-width: 203px;
+  }
+}
 @media screen and (max-width: 767px) {
   .kostenlos {
     max-width: 375px;
@@ -5067,7 +5115,7 @@ header .dropdown-menu.show li a.active {
     margin-top: 10px;
   }
   .review2_card .Bewertung2 p {
-    font-size: 13px;
+    font-size: 12px;
   }
   .customer_review_section2_wrapper {
     padding: 10px;
