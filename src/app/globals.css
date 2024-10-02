@@ -9911,8 +9911,14 @@ header .dropdown-menu.show li a.active {
     flex-wrap: wrap;
   }
   .hero_slide2 .card_img img {
-    width: 160px;
+    width: 155px;
     height: 105px;
+  }
+  .hero_slide2 .card_img div {
+    margin-right: 0px;
+  }
+  .slider3btn  {
+    bottom: 40px;
   }
   .goldrechner_clock_analog {
     position: absolute;
