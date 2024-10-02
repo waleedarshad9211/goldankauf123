@@ -193,6 +193,8 @@ import VerkaufsanleitungImg5 from "/public/assets/img/verkaufsanleitung5.png";
 import Verkaufsanleitung3Img3 from "/public/assets/img/wertransport.png";
 import Verkaufsanleitung2Img2 from "/public/assets/img/versandtasche-befullen.png";
 
+export const slider3imgArray = [{ text: "Goldschmuck", src: GoldschmuckWir }];
+
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
   { src: smallTick, para: "Dental - sowie Gusslegierungen" },

@@ -13,7 +13,7 @@ import TopEmpfehlung from "/public/assets/img/homepage/top-empfehlung.png";
 import ProvenExpert from "/public/assets/img/proven-expert.png";
 import TrustedShops from "/public/assets/img/trusted-shops.png";
 import Button from "../shared/button/Button";
-import { slider2Arr } from "@/public/static/HomepageStatic";
+import { slider2Arr, slider3imgArray } from "@/public/static/HomepageStatic";
 import GoldShmchk from "/public/assets/img/homepage/GOLDSCHMUCK.png";
 import Silber from "/public/assets/img/homepage/slider2silber.png";
 import Zahngold from "/public/assets/img/homepage/slider2_zahngold.png";
@@ -154,34 +154,36 @@ const Herosection = () => {
                     <h2 className="slide2_h2_mehr">
                       Gold, Silber, Platin, Zahngold etc.
                     </h2>
-                    <div className="card_img ">
+                    <div className="card_img d-none d-md-flex d-lg-flex">
                       <div>
                         <Image src={GoldShmchk} alt="" />
-
                         <Image src={Silber} alt="" />
-
-                        {/* <Image src={TafelSilber} alt="" /> */}
-
                         <Image src={Zahngold} alt="" />
                       </div>
-
-                      {/* <Image src={Diamond} alt="" /> */}
-
-                      {/* <Image src={Luxury} alt="" /> */}
                       <div>
                         <Image src={GoldBar} alt="" className="" />
-
                         <Image src={Goldmunzen} alt="" className="" />
-
                         <Image src={Industries} alt="" className="" />
                       </div>
                       <div>
                         <Image src={Platin} alt="" className="" />
-
                         <Image src={Pladium} alt="" className="" />
-
                         <Image src={Rhodium} alt="" className="" />
                       </div>
+                    </div>
+                    <div className="card_img_mobile d-sm-flex d-none">
+                      {slider3imgArray?.map((item, index) => {
+                        return (
+                          <div className="slider3card" key={index}>
+                            <div className="slider3card-img">
+                              <img src={item?.src} alt="" />
+                            </div>
+                            <div className="slider3card-btn">
+                              <p>{item?.text}</p>
+                            </div>
+                          </div>
+                        );
+                      })}
                     </div>
                     <div className="slider2-btn">
                       <Button
