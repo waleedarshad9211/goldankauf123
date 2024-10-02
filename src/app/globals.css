@@ -4693,11 +4693,13 @@ header .dropdown-menu.show li a.active {
     line-height: 17px;
     text-align: center;
   }
-  .slider3card-btn:nth-child(6) {
+  .slider3card:nth-child(6) .slider3card-btn {
     width: 100%;
+    padding: 1px;
+    left: 1px;
   }
-  .slider3card-btn p:nth-child(6) {
-    font-size: 7px;
+  .slider3card:nth-child(6) .slider3card-btn p {
+    font-size: 8px;
     line-height: 17px;
   }
   .slider3btn {
@@ -5712,6 +5714,23 @@ header .dropdown-menu.show li a.active {
   }
 }
 @media screen and (min-width: 280px) and (max-width: 399px) {
+  .slider3card {
+    margin-top: 13px;
+  }
+  .slider3card {
+    width: 95px;
+    height: 75px;
+  }
+  .slider3card-img img {
+    width: 84px;
+    height: 65px;
+  }
+  .slider3btn {
+    bottom: 35px;
+  }
+  .slider3card:nth-child(6) .slider3card-btn p {
+    font-size: 7px !important;
+  }
   .white-line1,
   .white-line2 {
     flex: 1;
