@@ -171,12 +171,12 @@ const Herosection = () => {
                         <Image src={Rhodium} alt="" className="" />
                       </div>
                     </div>
-                    <div className="card_img_mobile d-sm-flex d-none">
+                    <div className="card_img_mobile d-flex flex-wrap d-md-none d-lg-none">
                       {slider3imgArray?.map((item, index) => {
                         return (
                           <div className="slider3card" key={index}>
                             <div className="slider3card-img">
-                              <img src={item?.src} alt="" />
+                              <Image src={item?.src} alt="" />
                             </div>
                             <div className="slider3card-btn">
                               <p>{item?.text}</p>
@@ -185,7 +185,7 @@ const Herosection = () => {
                         );
                       })}
                     </div>
-                    <div className="slider2-btn">
+                    <div className="slider2-btn slider3btn">
                       <Button
                         btnText="Jetzt Verkauf starten"
                         fontSize="18px"

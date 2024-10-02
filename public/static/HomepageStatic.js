@@ -193,7 +193,17 @@ import VerkaufsanleitungImg5 from "/public/assets/img/verkaufsanleitung5.png";
 import Verkaufsanleitung3Img3 from "/public/assets/img/wertransport.png";
 import Verkaufsanleitung2Img2 from "/public/assets/img/versandtasche-befullen.png";
 
-export const slider3imgArray = [{ text: "Goldschmuck", src: GoldschmuckWir }];
+export const slider3imgArray = [
+  { src: GoldschmuckWir, text: "Goldschmuck" },
+  { src: Silber, text: "Silber" },
+  { src: Zahngold, text: "Zahngold" },
+  { src: GoldBarren, text: "Goldbarren" },
+  { src: Goldmuenzen, text: "Goldmünzen" },
+  { src: Industriescheidegut, text: "Industriescheidegut" },
+  { src: PlatinRing, text: "Platin" },
+  { src: Palladium, text: "Palladium" },
+  { src: Rhodium, text: "Rhodium" },
+];
 
 export const slider2Arr = [
   { src: smallTick, para: "Zahngold gelb-und silberfarbig" },
